@@ -2,12 +2,12 @@
 
 TODO:
 
-- check if chunga's butts are still unarmored
-- check Pestilence/Vile ticks affected by OOCD and DTA
-- complete the Tips/tricks section with bits from #knowledge-sharing
-- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the/, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)
-- test syscor medkit versus fragile armor stacks
-- write the True Sons section
+\- check if chunga's butts are still unarmored  
+\- check Pestilence/Vile ticks affected by OOCD and DTA  
+\- complete the Tips/tricks section with bits from #knowledge-sharing  
+\- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the/, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
+\- test syscor medkit versus fragile armor stacks  
+\- write the True Sons section
 
 I'm going to make a video series about how to become good at shooters because I've noticed a vast number of players don't spend the time to study how game mechanics work or learn from their mistakes. It doesn't take a genius to be a decent player so I'm just gonna lay things out there so that everyone can understand how games work and what it takes to become better.
 
@@ -321,20 +321,20 @@ The Division 2:
     + has no armor bar, but you have to destroy its armor plate before damaging its health
     + elites have the added bonus of firing on the move
     + 3 variants with different weak points, causing them to stop working for a few seconds when destroyed:
-      > Sniper warhound
-        >> has its weak point exposed in the form of a little red cartridge on the right of the gun when it fires (TODO: verify if still bugged for elites)
-        >> elites fires in 3-round bursts with the sniper turret when stationary
-        >> shooting its butt also bypasses its armor
-        >> when destroyed, creates an EMP explosion, disrupting agents in close range and everything else in medium range (TODO: check if the EMP range is bigger on elites)
-      > Minigun warhound
-        >> has weak points located at the top of its legs (can only be triggered twice, TODO: verify count)
-        >> elites can stop and after a short charge up time, fire their minigun in a devastating 360° spin
-        >> when destroyed, explodes with fragmentation inflicting damage and causing everything nearby to bleed
-      > Grenadier warhound
-        >> has weak points behind its cannon and at the top of its back (TODO: check for other weak points)
-        >> elites fire 3 shock grenades in a salvo and try harder to flank
-        >> when destroyed, explodes with an electrical charge, causing everything nearby to be shocked
-        >> shooting the hinge next to its cannon bypasses armor
+      - Sniper warhound
+        * has its weak point exposed in the form of a little red cartridge on the right of the gun when it fires (TODO: verify if still bugged for elites)
+        * elites fires in 3-round bursts with the sniper turret when stationary
+        * shooting its butt also bypasses its armor
+        * when destroyed, creates an EMP explosion, disrupting agents in close range and everything else in medium range (TODO: check if the EMP range is bigger on elites)
+      - Minigun warhound
+        * has weak points located at the top of its legs (can only be triggered twice, TODO: verify count)
+        * elites can stop and after a short charge up time, fire their minigun in a devastating 360° spin
+        * when destroyed, explodes with fragmentation inflicting damage and causing everything nearby to bleed
+      - Grenadier warhound
+        * has weak points behind its cannon and at the top of its back (TODO: check for other weak points)
+        * elites fire 3 shock grenades in a salvo and try harder to flank
+        * when destroyed, explodes with an electrical charge, causing everything nearby to be shocked
+        * shooting the hinge next to its cannon bypasses armor
     + although warhounds don't have a head, shooting their red eye counts as a headshot, proccing headshot-related talents like Perpetuation (TODO: verify this information)
     + the survivalist crossbow completely breaks its armor plate (unless you aim for the legs)
     + dealing explosive damage or using disrupting skills such as the jammer pulse, EMP sticky bomb and EMP grenade bypasses the warhound's armor plating and does damage directly to the warhound's health bar
@@ -679,7 +679,6 @@ The Division 2:
   * Chem Launcher
     + a direct hit from a Reinforcer/Firestarter will cause minimal damage, but will also consume Headhunter stacks (even on a headshot) and benefit from them, thus allowing you to kill a mob with it
     + penetrates cover (except Riot Foam)
-
     + Firestarter:
       - double tapping the button will remotely detonate gas clouds
       - initial damage and ticks affected by DTA
@@ -705,14 +704,12 @@ The Division 2:
     + double-tapping will throw it in the direction you're aiming and auto target the nearest mob
     + its cooldown is based on the number of targets hit
     + you can proc In-Sync by not targeting any mob with it (double-tap it)
-
     + Blinder: has an area of effect and will blind multiple mobs if they're close to each other
     + Burster: affected by DTA
 
   * Hive
     + deploying it is a good way to proc In-Sync and Feedback Loop from the Hardwired gear set
     + drone speed based on skill tier
-
     + Artificer:
       - doesn't need to be deployed to affect your other skill
       - protects you and nearby allies from disruption when deployed (like any other deployed skill as long as you're within 5m and using Technician)
@@ -729,7 +726,6 @@ The Division 2:
 
   * Seeker Mine
     + tanks will destroy them when targeted if they're not distracted
-
     + Airburst: has the longest status effect damage and burn duration in the game
     + Cluster: it's better to throw them near mobs than to deploy them at your feet otherwise they'll most likely dodge them
     + Explosive: explosive damage and bleed ticks affected by DTA
@@ -740,7 +736,6 @@ The Division 2:
     + protects your armor from explosions if aimed towards the impact
     + double tapping Escape or the Inventory button allows you to instantly unequip and reequip a shield to proc Vanguard instead of waiting for the 1s cooldown
     + TODO: check if incoming repairs affects artificer hive skill repair https://www.reddit.com/r/thedivision/comments/lzwtbl/does_explosive_resistance_actually_reduce_the/gq58siv
-
     + Crusader/Firewall shield
       - deploying it will automatically switch to a weapon that can be used with shields (secondary weapon otherwise)
       - increases your character's hitbox and therefore makes it harder to navigate through doorways and around props
@@ -756,14 +751,12 @@ The Division 2:
   * Trap
     + good to hold choke points
     + cooldown starts as soon as deploying them
-
     + Shock: deploys in a rough circular area, can shock friendlies (TODO: wasn't this fixed?)
     + Healing: deploys in a rough arc/line shape
     + Shrapnel: deploys in a straight line (unconfirmed)
 
   * Turret
     + good to draw aggro
-
     + Artillery:
       - double tapping will lock/unlock it to a specific location (only works if you're within 10m of the turret)
       - explosive damage and bleed ticks affected by DTA
