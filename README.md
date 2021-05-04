@@ -1028,12 +1028,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the stinger hive temporarily stops working when he's disrupted (TODO: check if it's the same when shocked)
 
 #### Thrower
-- same as the Black Tusk variant, except he fires his airburst launchers in volleys of 3 to make dodging harder
+- same as the Black Tusk variant, except he fires his airburst launcher in volleys of 3 to make dodging harder
 
 ## Credits
 
-- MMR clan (especially swift4010 and Ting)
-- r/thedivision members
+- MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010) and [Ting](https://www.reddit.com/user/booleanbug))
+- [r/thedivision](https://www.reddit.com/r/thedivision) members
 - wiki contributors
 
 ## Contact information
