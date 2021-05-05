@@ -66,8 +66,8 @@ TODO:
       * [4.3.10 Thrower](#thrower)
       * [4.3.11 Warhounds](#warhounds)
          * [4.3.11.1 Sniper Warhound](#sniper-warhound)
-         * [4.3.11.1 Minigun Warhound](#minigun-warhound)
-         * [4.3.11.1 Grenadier Warhound](#grenadier-warhound)
+         * [4.3.11.2 Minigun Warhound](#minigun-warhound)
+         * [4.3.11.3 Grenadier Warhound](#grenadier-warhound)
    * [4.4 Cleaners](#cleaners)
       * [4.4.1 Assault](#assault)
       * [4.4.2 Controller](#controller)
@@ -143,7 +143,7 @@ TODO:
          * [4.22.7.1 Airburst](#airburst)
          * [4.22.7.2 Cluster](#cluster)
          * [4.22.7.3 Explosive](#explosive)
-         * [4.22.7.3 Mender](#mender)
+         * [4.22.7.4 Mender](#mender)
       * [4.22.8 Shield](#shield)
          * [4.22.8.1 Crusader/firewall Shield](#crusaderfirewall-shield	)
       * [4.22.9 Sticky Bomb](#sticky-bomb)
@@ -155,7 +155,7 @@ TODO:
          * [4.22.11.1 Artillery](#artillery)
          * [4.22.11.2 Assault](#assault)
          * [4.22.11.3 Incinerator](#incinerator)
-         * [4.22.11.3 Sniper](#sniper)		
+         * [4.22.11.4 Sniper](#sniper)		
    * [4.23 Status effects](#status-effects)
    * [4.24 Summit](#summit)
    * [4.25 Tips/tricks](#tipstricks)
@@ -401,7 +401,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - they try to melee you when you're in close range
 
 ### Black Tusks
-- reference: https://thedivision.fandom.com/wiki/Black_Tusk#Archetypes
+\- reference: https://thedivision.fandom.com/wiki/Black_Tusk#Archetypes
 
 #### Assault
 - fights from cover and moves from cover to cover
@@ -507,7 +507,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - shooting the hinge next to its cannon bypasses armor
 
 ### Cleaners
-- reference: https://thedivision.fandom.com/wiki/Cleaners#Archetypes
+\- reference: https://thedivision.fandom.com/wiki/Cleaners#Archetypes
 
 #### Assault
 - equipped with a flamethrower
@@ -581,7 +581,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - your team should have an average kill dependency <= 2.5
 
 ### Hyenas
-- reference: https://thedivision.fandom.com/wiki/Hyenas#Archetypes
+\- reference: https://thedivision.fandom.com/wiki/Hyenas#Archetypes
 
 #### Assault
 - fights from cover and moves cover to cover to avoid enemy fire
@@ -640,7 +640,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can share any cache with whoever was in your group the moment you obtained (not opened) the cache
 
 ### Outcasts
-- reference: https://thedivision.fandom.com/wiki/Outcasts#Archetypes
+\- reference: https://thedivision.fandom.com/wiki/Outcasts#Archetypes
 
 #### Assault
 - more aggressive than True Sons Assaults, who are more cautious
@@ -789,7 +789,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - sometimes it's better to go through the rest of the engagement without reviving someone because it would make you at risk
 
 ### Rikers
-- reference: https://thedivision.fandom.com/wiki/Rikers#Archetypes
+\- reference: https://thedivision.fandom.com/wiki/Rikers#Archetypes
 
 #### Assault
 - takes cover and is not that dangerous, but can be in larger numbers
@@ -1005,10 +1005,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - when your health is depleted, you have a 1-2s buffer to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage (TODO: test the cooldown duration)
 
 ### True Sons
-- reference: https://thedivision.fandom.com/wiki/True_Sons#Archetype
+\- reference: https://thedivision.fandom.com/wiki/True_Sons#Archetype
 
 ### White Tusks
-- reference: https://thedivision.fandom.com/wiki/White_Tusk#Archetypes
+\- reference: https://thedivision.fandom.com/wiki/White_Tusk#Archetypes
 
 #### Drone Operator
 - same as the Black Tusk variant, except the speed and health of the suicide drones are increased, they're deployed more often and instantly distance themselves from the operator to prevent collateral damage
