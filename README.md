@@ -7,7 +7,8 @@ TODO:
 \- complete the Tips/tricks section with bits from #knowledge-sharing  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the/, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test syscor medkit versus fragile armor stacks  
-\- write the True Sons section
+\- write the Talents section  
+\- write the True Sons section  
 
 ## Table of Contents
 
@@ -145,7 +146,9 @@ TODO:
          * [4.22.7.3 Explosive](#explosive)
          * [4.22.7.4 Mender](#mender)
       * [4.22.8 Shield](#shield)
-         * [4.22.8.1 Crusader/firewall Shield](#crusaderfirewall-shield	)
+         * [4.22.8.1 Bulwark Shield](#bulwark-shield)
+         * [4.22.8.2 Crusader/firewall Shield](#crusaderfirewall-shield)
+         * [4.22.8.3 Deflector Shield](#deflector-shield)
       * [4.22.9 Sticky Bomb](#sticky-bomb)
       * [4.22.10 Trap](#trap)
          * [4.22.10.1 Shock](#shock)
@@ -158,15 +161,16 @@ TODO:
          * [4.22.11.4 Sniper](#sniper)		
    * [4.23 Status effects](#status-effects)
    * [4.24 Summit](#summit)
-   * [4.25 Tips/tricks](#tipstricks)
-   * [4.26 True Sons](#true-sons)
-   * [4.27 White Tusks](#white-tusks)
-      * [4.27.1 Drone Operator](#drone-operator)
-      * [4.27.2 Mini-tank](#mini-tank)
-      * [4.27.3 Rusher](#rusher)
-      * [4.27.4 Sniper](#sniper)
-      * [4.27.5 Tank](#tank)
-      * [4.27.6 Thrower](#thrower)
+   * [4.25 Talents](#talents)
+   * [4.26 Tips/tricks](#tipstricks)
+   * [4.27 True Sons](#true-sons)
+   * [4.28 White Tusks](#white-tusks)
+      * [4.28.1 Drone Operator](#drone-operator)
+      * [4.28.2 Mini-tank](#mini-tank)
+      * [4.28.3 Rusher](#rusher)
+      * [4.28.4 Sniper](#sniper)
+      * [4.28.5 Tank](#tank)
+      * [4.28.6 Thrower](#thrower)
 * [5.0 Credits](#credits)
 * [6.0 Contact information](#contact-information)
 
@@ -701,7 +705,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Playing ARs
 - main attribute: health damage
 - effective against anything that doesn't have an armor bar: red mobs, robotics and tanks
-- pairs well with the crusader shield for a free 1.3m extra armor every 18s
+- pairs well with the crusader shield
 - good way to use it is to burst targets down to trigger the knockback animation
 - Negotiator's Dilemma is the best gear set for it
 
@@ -744,7 +748,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Playing rifler
 - secondary attributes: critical hit chance and damage
 - effective against all types of mobs thanks to critical hits
-- pairs well with the crusader shield, especially when using a scope (camera is offset)
+- pairs well with the crusader shield, especially when using a scope
 - should go for headshots to maximize damage and/or knock enemies back
 
 ### Playing offensive skill builds
@@ -754,12 +758,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### AFK
 - typical combo is striker drone and assault/sniper turret
 - good for taking aggro off you and your teammates
-- not meant to deal lots of damage on its own (except when running several with an artificer hive) or quickly burst down mobs
-- bad against groups
+- not meant to deal lots of damage on its own (except when running several with an artificer hive)
+- bad for quickly bursting down mobs and against groups
 #### Explosive
 - typical combo is mortar and explosive sticky bomb/cluster seekers
 - very good damage output
-- good for clearing groups of enemies, spawn closets and flushing targets out of cover
+- good for clearing groups of enemies, spawn closets, flushing targets out of cover and against robotics
 - bad against moving targets and tanks
 
 ### Playing sniper
@@ -833,7 +837,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - has a weak point on the back of her waist that causes explosive damage to her when destroyed
 
 ### Skills
-- reference: https://thedivision.fandom.com/wiki/Skills/Tom_Clancy%27s_The_Division_2
+\- reference: https://thedivision.fandom.com/wiki/Skills/Tom_Clancy%27s_The_Division_2
 
 #### Chem Launcher
 - a direct hit from a Reinforcer/Firestarter will cause minimal damage, but will also consume Headhunter stacks (even on a headshot) and benefit from them, thus allowing you to kill a mob with it
@@ -862,7 +866,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - flushes mobs out of cover
 
 #### Firefly
-- double-tapping will throw it in the direction you're aiming and auto target the nearest mob
+- double-tapping will throw it in the direction you're aiming and automatically target the nearest mob
 - its cooldown is based on the number of targets hit
 - you can proc In-Sync by not targeting any mob with it (double-tap it)
 ##### Blinder
@@ -906,10 +910,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - protects your armor from explosions if aimed towards the impact
 - double tapping Escape or the Inventory button allows you to instantly unequip and reequip a shield to proc Vanguard instead of waiting for the 1s cooldown
 - TODO: check if incoming repairs affects artificer hive skill repair https://www.reddit.com/r/thedivision/comments/lzwtbl/does_explosive_resistance_actually_reduce_the/gq58siv
+##### Bulwark shield
+- while behind cover, peeking from the left allows you to have only your hand sticking out, therefore minimizing exposure
 ##### Crusader/Firewall shield
 - deploying it will automatically switch to a weapon that can be used with shields (secondary weapon otherwise)
 - increases your character's hitbox and therefore makes it harder to navigate through doorways and around props
-- using a weapon with a scope will shift the camera to the right, allowing you to shoot from cover
+- using a weapon with a scope will shift the camera to the right, allowing you to shoot from cover when peeking from the left
+##### Deflector shield
+- deflected damage scales with skill damage
 
 #### Sticky Bomb
 - applies status effect on impact
@@ -932,6 +940,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - good to draw aggro
 ##### Artillery
 - double tapping will lock/unlock it to a specific location (only works if you're within 10m of the turret)
+- rounds can bounce off walls and ceilings if there is an accessible area
 - explosive damage and bleed ticks affected by DTA
 ##### Assault
 - always targets the chest
@@ -975,6 +984,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - when no mobs are in a room, it's a drone ambush
 - when stuck between a door and a wall, fast travel to another player
 - you can open locked doors by shooting the lock with a chem launcher, it allows you to not alert enemies
+
+### Talents
 
 ### Tips/tricks
 - armor on kill (including Preservation) works with skill kills
