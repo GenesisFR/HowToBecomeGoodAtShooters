@@ -3,9 +3,10 @@
 TODO:
 
 \- check if chunga's butts are still unarmored  
+\- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
 \- check Pestilence/Vile ticks affected by OOCD and DTA  
 \- complete the Tips/tricks section with bits from #knowledge-sharing  
-\- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the/, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
+\- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test syscor medkit versus fragile armor stacks  
 \- write the Talents section  
 \- write the True Sons section  
@@ -783,7 +784,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - must draw aggro on you by shooting mobs, maintaining proximity and line of sight
 - must stay within range of your teammates
 - pay close attention to your radar to avoid getting flanked
-- reference: https://www.reddit.com/r/thedivision/comments/hr0gxr/how_to_take_a_beating_a_guide_to_shield_tanks/ and https://www.reddit.com/r/thedivision/comments/jg4brb/whats_the_point_of_tank_builds/g9op8nb
+- reference: https://www.reddit.com/r/thedivision/comments/hr0gxr/how_to_take_a_beating_a_guide_to_shield_tanks and https://www.reddit.com/r/thedivision/comments/jg4brb/whats_the_point_of_tank_builds/g9op8nb
 
 ### Reviving
 - always revive from or behind cover to avoid getting shot
