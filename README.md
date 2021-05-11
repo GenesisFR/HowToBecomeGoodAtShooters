@@ -448,6 +448,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Rusher
 - tries to get close to use his deadly shotgun
+- ignores grenades and stinger hives
 - elites will throw a flashbang grenade when getting close
 - has the lowest amount of HP of all archetypes
 
@@ -460,7 +461,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - doesn't have as much HP as the other archetypes
 
 #### Support
-- places a support station down healing nearby allies and attempts to repair it when damaged
+- places a support station down healing nearby allies and attempts to repair it when damaged (TODO: verify the repair bit)
 - destroying the station on his back prevents him from deploying it
 - elite support stations grant overheal to nearby allies
 - support stations can be disrupted, temporarily stopping their healing ability
@@ -482,7 +483,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Thrower
 - uses an airburst grenade launcher to hit targets behind cover
-- destroying the grenade pouch on their back causes an explosion that hurts him
+- destroying the grenade pouch on his back causes an explosion that hurts him
 - grenades can be destroyed when shot mid-air, causing an explosion
 - elites fire their airburst launcher in volleys of 3 to make dodging harder
 - unable to shoot grenades when disrupted
