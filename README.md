@@ -995,10 +995,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - armor on kill (including Preservation) works with skill kills
 - avoid sharing items near loot piles as it's common for someone to deconstruct a whole pile
 - crossbow bolts apply localized damage, for instance headshots remove helmets
+- double-clicking a cache instantly opens it
 - Finisher can be proc'ed by destroying enemy skills
 - Ground Control from the Future Initiative gear set is applied when someone has full armor, not when the FI user has full armor
 - health doesn't regen when disrupted
 - mobs can block shots and take damage from another mob, turning a mob right in front of you as a bullet shield
+- opening an ammo box will automatically reload your current weapon
 - shooting the foam on an ensnared teammate or hip-firing at your feet breaks it
 - skill damage boosts deflector shield damage (making Percussive Maintenance BiS)
 - swapping any armor piece while out of combat restores all of your armor
