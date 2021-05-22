@@ -5,7 +5,7 @@ TODO:
 \- check if chunga's butts are still unarmored  
 \- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
 \- check how the demolisher firefly interacts with warhounds (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
-\- check Pestilence/Vile ticks affected by OOCD and DTA  
+\- check Pestilence ticks affected by OOCD and DTA  
 \- complete the Tips/tricks section with bits from #knowledge-sharing  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test syscor medkit versus fragile armor stacks  
@@ -322,13 +322,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - forces your opponents to aim in multiple directions
 
 ### Double peeking
-- definition: having 2 people peek an enemy at the same time
+- definition: having 2 people peek an opponent at the same time
 - creates a 2v1
 - can be from the same angle (short + wide swing) or different angles
 - relies on voice communication
 
 ### Flanking
-- definition: attacking the enemy from the side while he's focused on the front
+- definition: attacking the enemy from a side while they're focused on another side
 - make sure your teammates are focused by the enemy
 - call out you're flanking so that your teammates keep fighting the enemies from the same location
 
@@ -368,13 +368,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Off-angle
 - definition: a spot where the enemy is not expecting you
-- used to surprise your enemy, only works on a single opponent
+- used to surprise your enemy, usually only works on a single opponent
 - buys you some time to get the kill while your opponents adjusts his aim
 - must be used sparingly otherwise your opponent will catch up
 - reference: https://www.youtube.com/watch?v=Nm5o26Cqi6U
 
 ### Rotating
-- definition: moving players from a part of the map to another, usually to play an objective
+- definition: moving from a part of the map to another, usually to play an objective
 - on the attacking side, can be used to catch the enemy team off-guard (must sell a fake push beforehand)
 - on the defending side, helps you slow down an enemy push
 
@@ -394,7 +394,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - dodge roll: done to avoid explosions (grenades, mortar, seekers) or after getting shot
 - knockback: after inflicting a certain amount of damage, gives you time to line up your next shot or get the kill
 - quick peek: done from cover on Heroic difficulty or lower by tank operators and medics, wait for it to get headshots with a (sniper) rifle
-- strafe: used after spotting a player, use it to adjust your crosshair when sniping/rifling
+- strafe: used after spotting a player, take your time to adjust your crosshair when sniping/rifling
 - status effects: see the section below
 
 ### AI behavior
@@ -489,7 +489,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - unable to shoot grenades when disrupted
 
 #### Warhounds
-- heavily armored quadruped that attempts to position itself with clear line of sight to enemies and use a powerful sniper type armament, a grenade launcher or a minigun to dispatch its foes
+- heavily armored quadruped that attempts to position itself with clear line of sight to enemies and uses a powerful sniper type armament, a grenade launcher or a minigun to dispatch its foes
 - has no armor bar, but you have to destroy its armor plate before damaging its health
 - elites have the added bonus of firing on the move
 - although warhounds don't have a head, shooting their red eye counts as a headshot, proccing headshot-related talents like Perpetuation (TODO: verify this information)
@@ -822,10 +822,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - has the lowest amount of HP of all archetypes
 
 #### Sniper
-- has a circular riot shield that she crouches behind while shooting at long-range (TODO: verify if that's a she)
+- has a circular riot shield that he crouches behind while shooting at long-range
 - has a taser gun at close range that shocks the target, used if the player gets too close
 - usually crouches, but the shield can be destroyed with enough concentrated fire
-- if her shield is destroyed, she will seek cover and fire from that position
+- if his shield is destroyed, he will seek cover and fire from that position
 - doesn't have as much HP as the other archetypes 
 
 #### Tank
@@ -1012,14 +1012,15 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the flamethrower's stream bypasses warhounds' health, it's not efficient on higher difficulties though as it requires burning a lot of fuel to kill a single one of them
 - the Scavenged Skills directive can be bypassed with the Rigger backpack
 - the survivalist medkit acts as a sphere, just like the Jammer pulse, so you can heal people above/below you
+- Vile ticks are affected by Perpetuation, OOCD, DTA and DTH
+- when medkitting with the fragile armor directive, use Perfectly Efficient
+- when reviving a downed teammate, you can use them as bullet shield
+- when your health is depleted, you have a 1-2s buffer to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage (TODO: test the cooldown duration)
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
 - you can kill enemies stuck behind doors with the Oxidizer
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: firefly)
 - you can skip real-time cutscenes by dodge rolling or aiming
-- when medkitting with the fragile armor directive, use Perfectly Efficient
-- when reviving a downed teammate, you can use them as bullet shield
-- when your health is depleted, you have a 1-2s buffer to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage (TODO: test the cooldown duration)
 
 ### True Sons
 \- reference: https://thedivision.fandom.com/wiki/True_Sons#Archetypes
@@ -1057,5 +1058,5 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 - Discord: Genesis#2418
 - Reddit: https://www.reddit.com/user/genesis_tv
-- Steam: https://steamcommunity.com/id/genesis_tv/
-- Twitch: https://www.twitch.tv/genesis_tv_
+- Steam: https://steamcommunity.com/id/genesis_tv
+- Twitch: <https://www.twitch.tv/genesis_tv_>
