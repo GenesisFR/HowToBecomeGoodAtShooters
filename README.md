@@ -4,7 +4,7 @@ TODO:
 
 \- check if chunga's butts are still unarmored  
 \- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
-\- check how the demolisher firefly interacts with warhounds (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
+\- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)
 \- check Pestilence ticks affected by OOCD and DTA  
 \- complete the Tips/tricks section with bits from #knowledge-sharing  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
@@ -454,6 +454,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Sniper
 - takes cover at long range while attempting to eliminate targets and sets up decoy lenses that can be confused for her real position
+- retreats if a player gets too close to her
 - deploys a taser drone that seeks out hostiles and stuns them, granting her a clear shot
 - destroying her lens pouch prevents her from deploying the countermeasures
 - destroying the drone on her back prevents it from being deployed
@@ -483,26 +484,30 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Thrower
 - uses an airburst grenade launcher to hit targets behind cover
+- shoots his grenades based on the last visible location of a player
 - destroying the grenade pouch on his back causes an explosion that hurts him
 - grenades can be destroyed when shot mid-air, causing an explosion
 - elites fire their airburst launcher in volleys of 3 to make dodging harder
 - unable to shoot grenades when disrupted
 
 #### Warhounds
-- heavily armored quadruped that attempts to position itself with clear line of sight to enemies and uses a powerful sniper type armament, a grenade launcher or a minigun to dispatch its foes
-- has no armor bar, but you have to destroy its armor plate before damaging its health
+- heavily armored quadrupeds that attempt to position themselves with clear line of sight to enemies and use a powerful sniper type armament, a grenade launcher or a minigun to dispatch their foes
+- have no armor bar, but you have to destroy their armor plate before damaging its health
 - elites have the added bonus of firing on the move
 - although warhounds don't have a head, shooting their red eye counts as a headshot, proccing headshot-related talents like Perpetuation (TODO: verify this information)
-- the survivalist crossbow completely breaks its armor plate (unless you aim for the legs)
-- dealing explosive damage or using disrupting skills such as the jammer pulse, EMP sticky bomb and EMP grenade bypasses the warhound's armor plating and does damage directly to the warhound's health bar
-- critical hits (or a headhunter shot) on its legs bypasses its armor (and may prevent it from firing, TODO: test this further)
+- their legs have a 90% damage reduction
+- the survivalist crossbow completely breaks their armor plate (unless you aim for the legs)
+- explosive damage and disruptive skills (jammer pulse, EMP sticky bomb and EMP grenade) bypasses their armor plating and does damage directly to their health
+- critical hit damage and headhunter stacks on their legs isn't affected by the damage reduction and therefore bypasses their armor
 - Hostile Negotiations from the Negotiator’s Dilemma gear set bypasses their armor
 - Pestilence ticks bypasses their armor
+- using a demolisher firefly while they're disrupted bypasses their armor
 - 3 variants with different weak points, causing them to stop working for a few seconds when destroyed:
 ##### Sniper warhound
 - has its weak point exposed in the form of a little red cartridge on the right of the gun when it fires (TODO: verify if still bugged for elites)
 - elites fire in 3-round bursts with the sniper turret when stationary
-- shooting its butt also bypasses its armor
+- dealing enough damage to its legs staggers it and prevents it from firing (or at least delays its next shot)
+- shooting its butt bypasses its armor
 - when destroyed, creates an EMP explosion, disrupting agents in close range and everything else in medium range (TODO: check if the EMP range is bigger on elites)
 ##### Minigun warhound
 - has weak points located at the top of its legs
@@ -766,6 +771,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - bad for quickly bursting down mobs and against groups
 #### Explosive
 - typical combo is mortar and explosive sticky bomb/cluster seekers
+- Demolitionist is a must for the multiplicative explosive damage
 - very good damage output
 - good for clearing groups of enemies, spawn closets, flushing targets out of cover and against robotics
 - bad against moving targets and tanks
@@ -845,7 +851,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Chem Launcher
 - a direct hit from a Reinforcer/Firestarter will cause minimal damage, but will also consume Headhunter stacks (even on a headshot) and benefit from them, thus allowing you to kill a mob with it
-- penetrates cover (except Riot Foam)
+- penetrates cover (except the Riot Foam variant)
 ##### Firestarter
 - double tapping the button will remotely detonate gas clouds
 - initial damage and ticks affected by DTA
@@ -860,6 +866,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - used to pull aggro off you and your group
 - can be meleed, shot or damaged by explosions
 - should be deployed at elevated but visible positions (better if unreachable)
+- its duration can be greatly extended with an artificer hive
 
 #### Drone
 ##### Bombardier
@@ -886,7 +893,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - protects you and nearby allies from disruption when deployed (like any other deployed skill as long as you're within 5m and using Technician)
 - heals nearby deployed shields while holstered (TODO: verify this information)
 ##### Stinger
-- efficient against explosive drones due to their low HP
+- efficient against drones due to their low HP
 - counts as explosive damage
 - initial damage and ticks affected by DTA
 
@@ -935,10 +942,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - cooldown starts as soon as deploying them
 ##### Shock
 - deploys in a rough circular area, can shock friendlies (TODO: wasn't this fixed?)
+- very efficient against drones
 ##### Healing
 - deploys in a rough arc/line shape
 ##### Shrapnel
-- deploys in a straight line (unconfirmed)
+- deploys in a straight line (TODO: verify this information)
 
 #### Turret
 - good to draw aggro
@@ -1029,7 +1037,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 \- reference: https://thedivision.fandom.com/wiki/White_Tusk#Archetypes
 
 #### Drone Operator
-- same as the Black Tusk variant, except the speed and health of the suicide drones are increased, they're deployed more often and instantly distance themselves from the operator to prevent collateral damage (TODO: verify if distance speed is affected by veterancy)
+- same as the Black Tusk variant, except the speed and health of the suicide drones are increased, they're deployed more often and instantly distance themselves from the operator to prevent collateral damage
+- distance speed is affected by veterancy
 
 #### Mini tank
 - same as the Black Tusk variant, except it can still target you after killing its controller
@@ -1038,7 +1047,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - same as the Black Tusk variant, except he throws shock grenades
 
 #### Sniper
-- same as the Black Tusk variant, except she only needs 1-2s to acquire a target before shooting
+- same as the Black Tusk variant, except she only needs 2s to acquire a target before shooting
 
 #### Tank
 - same as the Black Tusk variant, except the support station is replaced with a variant of the SHD Stinger Hive which deals heavy damage to those within 15m and causes them to bleed
@@ -1046,7 +1055,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the stinger hive temporarily stops working when he's disrupted (TODO: check if it's the same when shocked)
 
 #### Thrower
-- same as the Black Tusk elite variant, except he fires his airburst launcher much faster
+- same as the Black Tusk elite variant, except he always fires his airburst launcher in volleys of 3
+- the time between grenade shots is affected by veterancy
 
 ## Credits
 
