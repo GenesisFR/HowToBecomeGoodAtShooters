@@ -6,7 +6,6 @@ TODO:
 \- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
 \- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)
 \- check Pestilence ticks affected by OOCD and DTA  
-\- complete the Tips/tricks section with bits from #knowledge-sharing  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test syscor medkit versus fragile armor stacks  
 \- write the Talents section  
@@ -1040,22 +1039,22 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - same as the Black Tusk variant, except the speed and health of the suicide drones are increased, they're deployed more often and instantly distance themselves from the operator to prevent collateral damage
 - distance speed is affected by veterancy
 
-#### Mini tank
-- same as the Black Tusk variant, except it can still target you after killing its controller
+#### Mini-tank
+- same as the Black Tusk [variant](#mini-tank), except it can still target you after killing its controller and elites don't fire incendiary grenades
 
 #### Rusher
-- same as the Black Tusk variant, except he throws shock grenades
+- same as the Black Tusk [variant](#rusher), except he throws shock grenades
 
 #### Sniper
-- same as the Black Tusk variant, except she only needs 2s to acquire a target before shooting
+- same as the Black Tusk [variant](#sniper), except she only needs 2s to acquire a target before shooting
 
 #### Tank
-- same as the Black Tusk variant, except the support station is replaced with a variant of the SHD Stinger Hive which deals heavy damage to those within 15m and causes them to bleed
+- same as the Black Tusk [variant](#tank), except the support station is replaced with a variant of the SHD Stinger Hive which deals heavy damage to those within 15m and causes them to bleed
 - tries to get close because of his stinger hive
 - the stinger hive temporarily stops working when he's disrupted (TODO: check if it's the same when shocked)
 
 #### Thrower
-- same as the Black Tusk elite variant, except he always fires his airburst launcher in volleys of 3
+- same as the Black Tusk [variant](#thrower), except he always fires his airburst launcher in volleys of 3
 - the time between grenade shots is affected by veterancy
 
 ## Credits
