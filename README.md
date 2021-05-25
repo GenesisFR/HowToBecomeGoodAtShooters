@@ -1036,7 +1036,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 \- reference: https://thedivision.fandom.com/wiki/White_Tusk#Archetypes
 
 #### Drone Operator
-- same as the Black Tusk variant, except the speed and health of the suicide drones are increased, they're deployed more often and instantly distance themselves from the operator to prevent collateral damage
+- same as the Black Tusk [variant](#drone-operator), except the speed and health of the suicide drones are increased, they're deployed more often and instantly distance themselves from the operator to prevent collateral damage
 - distance speed is affected by veterancy
 
 #### Mini-tank
