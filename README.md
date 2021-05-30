@@ -4,10 +4,10 @@ TODO:
 
 \- check if chunga's butts are still unarmored  
 \- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
-\- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)
-\- check Pestilence ticks affected by OOCD and DTA  
+\- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)   
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test syscor medkit versus fragile armor stacks  
+\- write the Minimap/radar section  
 \- write the Talents section  
 \- write the True Sons section  
 
@@ -25,16 +25,17 @@ TODO:
    * [2.8 Elevation](#elevation)
    * [2.9 Environmental damage](#environmental-damage)
    * [2.10 Falling back](#falling-back)
-   * [2.11 Movement](#movement)
-   * [2.12 Peeking](#peeking)
-   * [2.13 Perspective](#perspective)
-   * [2.14 Playing your build/class](#playing-your-buildclass)
-   * [2.15 Relocation](#relocation)
-   * [2.16 Starting engagements](#starting-engagements)
-   * [2.17 Target prioritization](#target-prioritization)
-   * [2.18 Weak points](#weak-points)
-   * [2.19 Weapon recoil](#weapon-recoil)
-   * [2.20 Weapon selection](#weapon-selection)
+   * [2.11 Minimap/radar](#minimapradar)
+   * [2.12 Movement](#movement)
+   * [2.13 Peeking](#peeking)
+   * [2.14 Perspective](#perspective)
+   * [2.15 Playing your build/class](#playing-your-buildclass)
+   * [2.16 Relocation](#relocation)
+   * [2.17 Starting engagements](#starting-engagements)
+   * [2.18 Target prioritization](#target-prioritization)
+   * [2.19 Weak points](#weak-points)
+   * [2.20 Weapon recoil](#weapon-recoil)
+   * [2.21 Weapon selection](#weapon-selection)
 * [3.0 PVP concepts](#pvp-concepts)
    * [3.1 Baiting](#baiting)
    * [3.2 Callouts](#callouts)
@@ -239,6 +240,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Falling back
 - always have a backup location before an engagement, if things were to go south
 - prevents the AI from cornering you, thus putting more pressure on you
+
+### Minimap/radar
+
 
 ### Movement
 - always move from cover to cover to minimize exposure and incoming damage
@@ -1008,6 +1012,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - health doesn't regen when disrupted
 - mobs can block shots and take damage from another mob, turning a mob right in front of you as a bullet shield
 - opening an ammo box will automatically reload your current weapon
+- Pestilence ticks affected by weapon damage, OOCD, DTA and DTH
 - shooting the foam on an ensnared teammate or hip-firing at your feet breaks it
 - skill damage boosts deflector shield damage (making Percussive Maintenance BiS)
 - swapping any armor piece while out of combat restores all of your armor
