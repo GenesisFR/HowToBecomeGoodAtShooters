@@ -133,7 +133,8 @@ TODO:
       * [4.22.2 Decoy](#decoy)
       * [4.22.3 Drone](#drone)
          * [4.22.3.1 Bombardier](#bombardier)
-         * [4.22.3.2 Striker](#striker)
+         * [4.22.3.2 Defender](#defender)
+         * [4.22.3.3 Striker](#striker)
       * [4.22.4 Firefly](#firefly)
       * [4.22.5 Hive](#hive)
          * [4.22.5.1 Artificer](#artificer)
@@ -874,6 +875,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Drone
 ##### Bombardier
 - affected by DTA
+##### Defender
+- its damage reduction isn't additive with protection from elites
+- its duration can be greatly extended with an artificer hive
 ##### Striker
 - always targets the chest
 - used to pull aggro off you and your group
