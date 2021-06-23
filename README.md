@@ -4,7 +4,8 @@ TODO:
 
 \- check if chunga's butts are still unarmored  
 \- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
-\- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)   
+\- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
+\- check if the Firestarter shotgun allows you to put mini-tanks and marauders on fire but also bypass the armor plates of warhounds  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test syscor medkit versus fragile armor stacks  
 \- write the Minimap/radar section  
@@ -506,6 +507,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Hostile Negotiations from the Negotiator’s Dilemma gear set bypasses their armor
 - Pestilence ticks bypasses their armor
 - using a demolisher firefly while they're disrupted bypasses their armor
+- the Firestarter shotgun (from the Firewall specialization) allows you to put them on fire by lowering their fire resistance
 - 3 variants with different weak points, causing them to stop working for a few seconds when destroyed:
 ##### Sniper warhound
 - has its weak point exposed in the form of a little red cartridge on the right of the gun when it fires (TODO: verify if still bugged for elites)
@@ -993,10 +995,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Contagion from the Eclipse Protocol gear set can destroy at least 2 waves of drones if one spawns shortly after the previous one
 - foaming a hunter stops him from medkitting
 - going down or dying on an objective keeps capturing it
-- Hostile Negotiations from the Negotiator’s Dilemma gear set can destroy the immune reviver drone even though the drone doesn't get visually marked
 - hunters stand up when deploying most of their skills, giving you time to land a few shots
 - hunters will still be able to melee you when performing cover to cover or running past them, you have to roll to avoid being hit (they also seem to have a 2m melee range)
 - killing marked targets with Negotiator’s Dilemma counts as skill kills (useful for the Cool Skills Challenge)
+- the immune reviver drone can be disrupted but also destroyed by Hostile Negotiations from the Negotiator’s Dilemma gear set even though no icons will be displayed above the drone
 - try to leave 1 or 2 mobs alive so you can complete objectives early (reinforcements don't spawn until clearing most mobs in a wave)
 - wait for your teammates before entering a room to allow them to get ready and prevent objectives from triggering early
 - when capturing objectives, don't peek unless you have to, completing objectives is more important than clearing mobs
