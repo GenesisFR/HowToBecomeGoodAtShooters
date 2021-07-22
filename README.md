@@ -1,4 +1,4 @@
-# How to become good at shooters (summary)
+# How to become good at shooters
 
 TODO:
 
@@ -7,7 +7,7 @@ TODO:
 \- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
 \- check if the Firestarter shotgun allows you to put mini-tanks and marauders on fire but also bypass the armor plates of warhounds  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
-\- test seeker rigger trick (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v)  
+\- test cluster seekers rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v)  
 \- test syscor medkit versus fragile armor stacks  
 \- write the Talents section  
 
@@ -297,10 +297,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - study AI routes if applicable (ex: Hitman)
 
 ### Sweeping
-- definition: clearing the room from one side to the other
-- allows you to keep track on which side enemies are at any given time
-- when new enemies spawn in a cleared area, restart the sweepà
-- if the next enemy isn't peeking or is out of your line of sight, skip to the next one
+- definition: clearing an area from one side to the other, one enemy at a time
+- allows you to keep track of which side enemies are at any given time
+- when new enemies spawn in a cleared area, restart the sweep
+- if your current enemy isn't peeking or is out of your line of sight, skip to the next one
 
 ### Target prioritization
 - closest first: preferred strategy if no dangerous enemies are around
