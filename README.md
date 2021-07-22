@@ -7,10 +7,9 @@ TODO:
 \- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
 \- check if the Firestarter shotgun allows you to put mini-tanks and marauders on fire but also bypass the armor plates of warhounds  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
+\- test seeker rigger trick (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v)  
 \- test syscor medkit versus fragile armor stacks  
-\- write the Minimap/radar section  
 \- write the Talents section  
-\- write the True Sons section  
 
 ## Table of Contents
 
@@ -22,21 +21,23 @@ TODO:
    * [2.4 Angle isolation](#angle-isolation)
    * [2.5 Clearing angles](#clearing-angles)
    * [2.6 Crosshair placement](#crosshair-placement)
-   * [2.7 Difficulty](#difficulty)
-   * [2.8 Elevation](#elevation)
-   * [2.9 Environmental damage](#environmental-damage)
-   * [2.10 Falling back](#falling-back)
-   * [2.11 Minimap/radar](#minimapradar)
-   * [2.12 Movement](#movement)
-   * [2.13 Peeking](#peeking)
-   * [2.14 Perspective](#perspective)
-   * [2.15 Playing your build/class](#playing-your-buildclass)
-   * [2.16 Relocation](#relocation)
-   * [2.17 Starting engagements](#starting-engagements)
-   * [2.18 Target prioritization](#target-prioritization)
-   * [2.19 Weak points](#weak-points)
-   * [2.20 Weapon recoil](#weapon-recoil)
-   * [2.21 Weapon selection](#weapon-selection)
+   * [2.7 Damage indicator](#damage-indicator)
+   * [2.8 Difficulty](#difficulty)
+   * [2.9 Elevation](#elevation)
+   * [2.10 Environmental damage](#environmental-damage)
+   * [2.11 Falling back](#falling-back)
+   * [2.12 Minimap/radar](#minimapradar)
+   * [2.13 Movement](#movement)
+   * [2.14 Peeking](#peeking)
+   * [2.15 Perspective](#perspective)
+   * [2.16 Playing your build/class](#playing-your-buildclass)
+   * [2.17 Relocation](#relocation)
+   * [2.18 Starting engagements](#starting-engagements)
+   * [2.19 Sweeping](#sweeping)
+   * [2.20 Target prioritization](#target-prioritization)
+   * [2.21 Weak points](#weak-points)
+   * [2.22 Weapon recoil](#weapon-recoil)
+   * [2.23 Weapon selection](#weapon-selection)
 * [3.0 PVP concepts](#pvp-concepts)
    * [3.1 Baiting](#baiting)
    * [3.2 Callouts](#callouts)
@@ -168,13 +169,23 @@ TODO:
    * [4.25 Talents](#talents)
    * [4.26 Tips/tricks](#tipstricks)
    * [4.27 True Sons](#true-sons)
+      * [4.27.1 Assault](#assault-6)
+      * [4.27.2 Engineer](#engineer-2)
+      * [4.27.3 Heavy Weapons](#heavy-weapons-2)
+      * [4.27.4 Immobilizer](#immobilizer)
+      * [4.27.5 Medic](#medic-2)
+      * [4.27.6 RPG](#rpg)
+      * [4.27.7 Rusher](#rusher-5)
+      * [4.27.8 Sniper](#sniper-5)
+      * [4.27.9 Tank](#tank-5)
+      * [4.27.10 Thrower](#thrower-5)
    * [4.28 White Tusks](#white-tusks)
       * [4.28.1 Drone Operator](#drone-operator-1)
       * [4.28.2 Mini-tank](#mini-tank-1)
-      * [4.28.3 Rusher](#rusher-5)
-      * [4.28.4 Sniper](#sniper-5)
-      * [4.28.5 Tank](#tank-5)
-      * [4.28.6 Thrower](#thrower-5)
+      * [4.28.3 Rusher](#rusher-6)
+      * [4.28.4 Sniper](#sniper-6)
+      * [4.28.5 Tank](#tank-6)
+      * [4.28.6 Thrower](#thrower-6)
 * [5.0 Credits](#credits)
 * [6.0 Contact information](#contact-information)
 
@@ -222,6 +233,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - reduces how much you have to move your mouse before being on your target
 - reference: https://www.youtube.com/watch?v=U9mvXfnY8wU
 
+### Damage indicator
+- definition: UI elements indicating when the player is taking damage, where the damage is coming from and whether you're low HP or not (if the game has no health bar)
+- allows you to quickly pinpoint where the attacker is
+- allows you to decide whether to engage or take cover based on your HP
+- reference: https://medium.com/@jasper.stephenson/a-ux-analysis-of-first-person-shooter-damage-indicators-59ac9d41caf8
+
 ### Difficulty
 - always play on hardest
 - forces you to be smart
@@ -244,7 +261,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - prevents the AI from cornering you, thus putting more pressure on you
 
 ### Minimap/radar
-
+- allows you to see incoming threats
+- can reveal the location of various useful items (like ammo crates)
 
 ### Movement
 - always move from cover to cover to minimize exposure and incoming damage
@@ -258,9 +276,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - can peek for longer or even switch targets if AI animations allow it (ex: AI stumbling when shot) and you know they're unlikely to hit you
 
 ### Perspective
-- definition: using the environment/utility to isolate enemies
-- creates a series of 1v1s
-- less of your body is exposed the further away you are from a wall
+- definition: how much of your body is seen by enemies
+- the less of your body is exposed the further away you are from a wall
 - reference: https://www.youtube.com/watch?v=5e8HZqF3cyk
 
 ### Playing your build/class
@@ -278,6 +295,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - prioritize your targets
 - set up traps if the game allows it
 - study AI routes if applicable (ex: Hitman)
+
+### Sweeping
+- definition: clearing the room from one side to the other
+- allows you to keep track on which side enemies are at any given time
+- when new enemies spawn in a cleared area, restart the sweepà
+- if the next enemy isn't peeking or is out of your line of sight, skip to the next one
 
 ### Target prioritization
 - closest first: preferred strategy if no dangerous enemies are around
@@ -338,11 +361,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - call out you're flanking so that your teammates keep fighting the enemies from the same location
 
 ### Focus management
-- split your attention between several locations
+- definition: splitting your attention between several locations
 - prevents you from getting flanked
+- allows you to maintain map control
 
 ### Getting information
-- consists of knowing the enemy's location, count and destination
+- definition: knowing the enemy's location, count and destination
 - always make callouts to let your teammates know about new information
 - allows you to take rational decisions to give you the upper hand
 
@@ -415,7 +439,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 \- reference: https://thedivision.fandom.com/wiki/Black_Tusk#Archetype
 
 #### Assault
-- fights from cover and moves from cover to cover
+- fights from cover and moves cover to cover to avoid enemy fire
 - equipped with EMP grenades
 - no weak point
 
@@ -542,7 +566,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Engineer
 - armed with an incendiary artillery turret
-- his turret inflict ensnares and burns its targets
+- his turret can ensnare and burn its targets
 - if its target is hit, he will shoot at the ensnared target
 - shooting the red spot on the turret will cause it to burn and ensnare everyone around it (TODO: verify if the turret is still operational afterwards)
 
@@ -561,7 +585,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Tank
 - armed with a flamethrower and molotov cocktails
 - shooting the fuel tank on his back will temporarily cripple him and make him remove his helmet, thus making him vulnerable to headshots
-- shooting his gas tank on the left leg will disable his flamethrower and force him to use a fire axe
+- shooting the gas tank on his left leg will disable his flamethrower and force him to use a fire axe
 - shooting the bag on his right leg will disable his ability to throw molotov cocktails
 - bounty tanks are armed with DC-62 grenades and do not have a fuel tank (TODO: verify this information)
 
@@ -1042,6 +1066,61 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### True Sons
 \- reference: https://thedivision.fandom.com/wiki/True_Sons#Archetypes
+
+#### Assault
+- fights from cover and moves cover to cover to avoid enemy fire
+- no weak point
+
+#### Engineer
+- sets up a turret to lay down supporting fire
+- damaging the turret can cause him to expose himself to fire while repairing it
+- can move his turret as needed, preferring to place it on low pieces of cover
+- destroying the turret on his back or after it's deployed will cause him to fight like the assault archetype
+
+#### Heavy Weapons
+- prefers to lay down covering fire from behind cover
+- his head is frequently exposed, but is also heavily armored
+- destroying the ammo pack on his back will cause an explosion
+
+#### Immobilizer
+- shoots a close range sticky foam that stops his target from moving
+- once his target has been ensnared, he'll switch to another weapon and shoot them
+- destroying his backpack causes him and everyone nearby to be ensnared
+
+#### Medic
+- prefers to stay behind the front lines and revive downed allies
+- in close quarters combat, he can use his shock paddles to lethal effect
+- destroying the medical pack on his back will prevent him from reviving allies and shock everyone nearby
+- elites will revive fallen enemies faster and provide the revived target with an overheal along with some armor should they revive a Veteran, Elite or Named enemy
+
+#### RPG
+- unleashes rocket propelled grenades at enemies
+- tends to keep his distance from any agent, so playing aggressively tends to work with RPGs
+- if forced into CQC, he will resort to using a pistol
+Destroying their rocket-filled backpack results in an explosion that is always fatal to them.
+- destroying his rocket-filled backpack results in an explosion that is always fatal to him
+
+#### Rusher
+- prefers to engage opponents at short range, often charging without regard for his own safety if it allows for a good shot
+- has the lowest amount of HP of all archetypes
+- no weak point
+
+#### Sniper
+- fights from range and deals significant damage with high accuracy
+- avoids close quarters fighting whenever possible
+- makes effective use of cover
+- doesn't have as much HP as the other archetypes
+
+#### Tank
+- prefers to launch grenades, periodically stopping to reload
+- well armored, and can take significant damage before the armor breaks
+- destroying the ammo pack on his back will cause an explosion that will destroy the armor plate on his chest and force him to use a shotgun
+- bounty tanks will keep using the grenade launcher despite destroying his ammo pack
+
+#### Thrower
+- prefers to toss grenades at opponents from a safe distance
+- avoids direct engagement and fight from range while other allies distract opponents
+- destroying the grenade pouch on their thigh will cause an explosion
 
 ### White Tusks
 \- reference: https://thedivision.fandom.com/wiki/White_Tusk#Archetypes
