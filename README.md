@@ -759,7 +759,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - spreads status effects on kill
 - preferred skills are riot foam/firestarter and airburst seeker/burn sticky bomb
 - bigger cooldowns
-#### high-end:
+#### High-end:
 - great for legendaries, as long as you can manage your cooldowns (use Tag Team)
 - preferred skills are blinder firefly and jammer pulse
 - lower cooldowns
@@ -819,8 +819,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Playing tank
 - main attribute: armor cores
 - bulwark shield, artificer hive and Liberty (to heal the shield) are mandatory
-- must be able to self-sustain damage and not depend on anyone
+- must be able to self-sustain incoming damage and not depend on anyone
 - must draw aggro on you by shooting mobs, maintaining proximity and line of sight
+- must force mobs out of cover
+- must provide more survivability to the group
 - must stay within range of your teammates
 - pay close attention to your radar to avoid getting flanked
 - reference: https://www.reddit.com/r/thedivision/comments/hr0gxr/how_to_take_a_beating_a_guide_to_shield_tanks and https://www.reddit.com/r/thedivision/comments/jg4brb/whats_the_point_of_tank_builds/g9op8nb
