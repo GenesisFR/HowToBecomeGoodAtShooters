@@ -276,8 +276,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - can peek for longer or even switch targets if AI animations allow it (ex: AI stumbling when shot) and you know they're unlikely to hit you
 
 ### Perspective
-- definition: how much of your body is seen by enemies
+- definition: how characters are perceived in the game world
 - the less of your body is exposed the further away you are from a wall
+- when you're further away from a corner than your enemy, you'll see them before they see you
+- in some games, the AI can't see you until you see their head (ex: Half-Life)
 - reference: https://www.youtube.com/watch?v=5e8HZqF3cyk
 
 ### Playing your build/class
@@ -402,6 +404,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - must be used sparingly otherwise your opponent will catch up
 - reference: https://www.youtube.com/watch?v=Nm5o26Cqi6U
 
+### Perspective
+- same points as in pve
+- you have to be mindful of the direction you're looking at, your gun may stick out and reveal your location
+- you have to be mindful of your shadow, it may reveal your location
+- reference: https://www.youtube.com/watch?v=5e8HZqF3cyk
+- 
 ### Rotating
 - definition: moving from a part of the map to another, usually to play an objective
 - on the attacking side, can be used to catch the enemy team off-guard (must sell a fake push beforehand)
@@ -1023,8 +1031,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - going down or dying on an objective keeps capturing it
 - hunters stand up when deploying most of their skills, giving you time to land a few shots
 - hunters will still be able to melee you when performing cover to cover or running past them, you have to roll to avoid being hit (they also seem to have a 2m melee range)
+- immune reviver drones and warhounds can be disrupted but also destroyed by Hostile Negotiations from the Negotiator’s Dilemma gear set even though no icons will be displayed above them (TODO: verify if warhounds can actually be destroyed)
 - killing marked targets with Negotiator’s Dilemma counts as skill kills (useful for the Cool Skills Challenge)
-- the immune reviver drone can be disrupted but also destroyed by Hostile Negotiations from the Negotiator’s Dilemma gear set even though no icons will be displayed above the drone
 - try to leave 1 or 2 mobs alive so you can complete objectives early (reinforcements don't spawn until clearing most mobs in a wave)
 - wait for your teammates before entering a room to allow them to get ready and prevent objectives from triggering early
 - when capturing objectives, don't peek unless you have to, completing objectives is more important than clearing mobs
