@@ -3,13 +3,14 @@
 TODO:
 
 \- check if chunga's butts are still unarmored  
+\- check if the Banshee skill pulses enemies (https://www.reddit.com/r/thedivision/comments/oiuhf2/fyi_banshee_pulse_disorients_and_pulses_enemys)  
 \- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
 \- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
 \- check if the Firestarter shotgun allows you to put mini-tanks and marauders on fire but also bypass the armor plates of warhounds  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test cluster seekers rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v)  
 \- test syscor medkit versus fragile armor stacks  
-\- write the Talents section  
+\- write the Talents gear subsection  
 
 ## Table of Contents
 
@@ -167,6 +168,9 @@ TODO:
    * [4.23 Status effects](#status-effects)
    * [4.24 Summit](#summit)
    * [4.25 Talents](#talents)
+      * [4.25.1 Exotics](#exotics)
+      * [4.25.2 Gear](#gear)
+      * [4.25.3 Weapons](#weapons)
    * [4.26 Tips/tricks](#tipstricks)
    * [4.27 True Sons](#true-sons)
       * [4.27.1 Assault](#assault-6)
@@ -1042,29 +1046,64 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Talents
 
+#### Exotics
+
+- Binary Trigger (Merciless): not affected by explosive damage
+- Electromagnetic Accelerator (Nemesis): shots are also fired when swapping weapons
+- In Plain Sight (Mantis): the headshot damage boost is always active in PVP
+- Incessant Chatter (Chatterbox): doesn't expire after dying (as long as you don't switch weapons)
+- Pack Instincts (Coyote’s Mask): buffs can be individually proc'ed by 3 players using it and can therefore all be active at the same time 
+- Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD, DTA and DTH. In PVP, the player who applied the debuff must die for the ticks to stop
+- Quick Draw (Dodge City Gunslinger's Holster): the shot consuming the buff will heavily boost Headhunter stacks for the next shot
+- Regicide (Regulus): also affected by explosive damage
+- Sandman (Sweet Dreams): doesn't work on warhounds
+- Septic Shock (Scorpio): venom stacks are added to each other when applied by different players
+- Tenacity (Eagle Bearer): provides an important reload speed bonus in PVP
+- Toxic Delivery (Vile): ticks are also affected by Perpetuation, OOCD, DTA and DTH
+
+#### Gear
+
+- Bloodsucker: 
+- Creeping Death: 
+- Focus: 
+- Headhunter: 
+- Intimidate: 
+- Kinetic Momentum: 
+- Tag Team: 
+- Trauma: 
+- Vigilance: 
+
+#### Weapons
+
+- Finisher: procs when destroying enemy skills
+- Future Perfect: being at skill tier 3 is enough to overcharge
+- In-sync: procs when deploying a shield
+- Measured: the second half is total weapon damage unlike the first half
+- Naked: procs when killing armored targets with a single shot
+- Optimist: boosts Headhunter stacks
+- Preservation: procs on skill kills
+- Pummel: procs when destroying enemy skills
+- Ranger: multiplicative damage that doesn't boost Headhunter
+
 ### Tips/tricks
-- armor on kill (including Preservation) works with skill kills
-- avoid sharing items near loot piles as it's common for someone to deconstruct a whole pile
+- any type of armor on kill works with skill kills
+- avoid sharing items near loot piles as it's common for someone to deconstruct an entire pile
 - crossbow bolts apply localized damage, for instance headshots remove helmets
 - double-clicking a cache instantly opens it
-- Finisher can be proc'ed by destroying enemy skills
 - Ground Control from the Future Initiative gear set is applied when someone has full armor, not when the FI user has full armor
 - health doesn't regen when disrupted
 - mobs can block shots and take damage from another mob, turning a mob right in front of you as a bullet shield
 - opening an ammo box will automatically reload your current weapon
-- Pestilence ticks affected by weapon damage, OOCD, DTA and DTH
 - shooting the foam on an ensnared teammate or hip-firing at your feet breaks it
 - skill damage boosts deflector shield damage (making Percussive Maintenance BiS)
 - swapping any armor piece while out of combat restores all of your armor
 - swapping to a loadout with a different specialization refills grenades
 - swapping to another weapon after a reload is halfway done will still reload the weapon
-- swapping to your pistol then to your other primary is faster than swapping between primaries
-- the Chatterbox buff doesn't expire when wiping (as long as you don't switch weapons)
+- swapping to your pistol then to your other primary weapon is faster than swapping between primary weapons
 - the Cool Skills directive doesn't affect deployed skills
 - the flamethrower's stream bypasses warhounds' health, it's not efficient on higher difficulties though as it requires burning a lot of fuel to kill a single one of them
 - the Scavenged Skills directive can be bypassed with the Rigger backpack
 - the survivalist medkit acts as a sphere, just like the Jammer pulse, so you can heal people above/below you
-- Vile ticks are affected by Perpetuation, OOCD, DTA and DTH
 - when medkitting with the fragile armor directive, use Perfectly Efficient
 - when reviving a downed teammate, you can use them as bullet shield
 - when your health is depleted, you have a 1-2s buffer to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage (TODO: test the cooldown duration)
@@ -1167,5 +1206,4 @@ Destroying their rocket-filled backpack results in an explosion that is always f
 
 - Discord: Genesis#2418
 - Reddit: https://www.reddit.com/user/genesis_tv
-- Steam: https://steamcommunity.com/id/genesis_tv
 - Twitch: <https://www.twitch.tv/genesis_tv_>
