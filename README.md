@@ -3,6 +3,7 @@
 TODO:
 
 \- check if chunga's butts are still unarmored  
+\- check if dying refills your ammo after being (manually) revived by another player  
 \- check if the Banshee skill pulses enemies (https://www.reddit.com/r/thedivision/comments/oiuhf2/fyi_banshee_pulse_disorients_and_pulses_enemys)  
 \- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
 \- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
@@ -10,7 +11,6 @@ TODO:
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test cluster seekers rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v)  
 \- test syscor medkit versus fragile armor stacks  
-\- write the Talents gear subsection  
 
 ## Table of Contents
 
@@ -169,8 +169,9 @@ TODO:
    * [4.24 Summit](#summit)
    * [4.25 Talents](#talents)
       * [4.25.1 Exotics](#exotics)
-      * [4.25.2 Gear](#gear)
-      * [4.25.3 Weapons](#weapons)
+      * [4.25.2 Gear sets](#gear-sets)
+      * [4.25.3 High-end](#high-end-1)
+      * [4.25.4 Weapons](#weapons)
    * [4.26 Tips/tricks](#tipstricks)
    * [4.27 True Sons](#true-sons)
       * [4.27.1 Assault](#assault-6)
@@ -766,12 +767,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Scorpio is a must as it's another form of CC
 - Survivalist is a must for the additional damage to affected targets
 - 2 types of CC builds:
-#### Eclipse:
+
+#### Eclipse
 - good for Heroic content and CP4s, only useful in legendaries if your group focuses affected targets
 - spreads status effects on kill
 - preferred skills are riot foam/firestarter and airburst seeker/burn sticky bomb
 - bigger cooldowns
-#### High-end:
+
+#### High-end
 - great for legendaries, as long as you can manage your cooldowns (use Tag Team)
 - preferred skills are blinder firefly and jammer pulse
 - lower cooldowns
@@ -926,14 +929,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Firefly
 - double-tapping will throw it in the direction you're aiming and automatically target the nearest mob
 - its cooldown is based on the number of targets hit
-- you can proc In-Sync by not targeting any mob with it (double-tap it)
+- you can proc In Sync by not targeting any mob with it (double-tap it)
 ##### Blinder
 - has an area of effect and will blind multiple mobs if they're close to each other
 ##### Burster
 - affected by DTA
 
 ##### Hive
-- deploying it is a good way to proc In-Sync and Feedback Loop from the Hardwired gear set
+- deploying it is a good way to proc Feedback Loop from the Hardwired gear set
 - drone speed based on skill tier
 ##### Artificer
 - doesn't need to be deployed to affect your other skill
@@ -964,7 +967,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - automatically targets nearby friendlies that require healing
 
 #### Shield
-- deploying it is a good way to proc In-Sync and Feedback Loop from the Hardwired gear set
+- deploying it is a good way to proc In Sync and Feedback Loop from the Hardwired gear set
 - protects your armor from explosions if aimed towards the impact
 - double tapping Escape or the Inventory button allows you to instantly unequip and reequip a shield to proc Vanguard instead of waiting for the 1s cooldown
 - TODO: check if incoming repairs affects artificer hive skill repair https://www.reddit.com/r/thedivision/comments/lzwtbl/does_explosive_resistance_actually_reduce_the/gq58siv
@@ -979,21 +982,22 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Sticky Bomb
 - applies status effect on impact
-- double tapping the button will quickly shoot them (can be done from cover)
+- double tapping the button will quickly shoot them with perfect accuracy (can be done from cover)
 - explodes on impact when hitting drones
-- not detonating a Burn/EMP sticky on a target will automatically reapply the corresponding status effect upon expiration if the status effect duration is less than the skill duration (like on legendary elites (except robotics) and Heroic named)
-- you can proc In-Sync by shooting it at the sky (double-tap it)
+- not detonating a Burn/EMP sticky on a target will automatically reapply the corresponding status effect upon expiration if the status effect expires before the sticky duration (subsequent statuses will be about 33% shorter than the previous status, based on the initial status duration)
+- you can proc In Sync by shooting it at a distance further than 100m like the sky (double-tap it)
 
 #### Trap
 - good to hold choke points
 - cooldown starts as soon as deploying them
 ##### Shock
-- deploys in a rough circular area, can shock friendlies (TODO: wasn't this fixed?)
+- deploys in a rough circular area
 - very efficient against drones
+- you can shock yourself if nearby when an enemy triggers it
 ##### Healing
 - deploys in a rough arc/line shape
 ##### Shrapnel
-- deploys in a straight line (TODO: verify this information)
+- deploys in a rough circular area
 
 #### Turret
 - good to draw aggro
@@ -1053,31 +1057,36 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - In Plain Sight (Mantis): the headshot damage boost is always active in PVP
 - Incessant Chatter (Chatterbox): doesn't expire after dying (as long as you don't switch weapons)
 - Pack Instincts (Coyote’s Mask): buffs can be individually proc'ed by 3 players using it and can therefore all be active at the same time 
-- Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD, DTA and DTH. In PVP, the player who applied the debuff must die for the ticks to stop
+- Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD, DTA and DTH. in PVP, the player who applied the debuff must die for the ticks to stop
 - Quick Draw (Dodge City Gunslinger's Holster): the shot consuming the buff will heavily boost Headhunter stacks for the next shot
 - Regicide (Regulus): also affected by explosive damage
 - Sandman (Sweet Dreams): doesn't work on warhounds
 - Septic Shock (Scorpio): venom stacks are added to each other when applied by different players
-- Tenacity (Eagle Bearer): provides an important reload speed bonus in PVP
+- Tenacity (Eagle Bearer): in PVP, provides an important reload speed bonus
 - Toxic Delivery (Vile): ticks are also affected by Perpetuation, OOCD, DTA and DTH
 
-#### Gear
+#### Gear sets
 
-- Bloodsucker: 
-- Creeping Death: 
-- Focus: 
-- Headhunter: 
-- Intimidate: 
-- Kinetic Momentum: 
-- Tag Team: 
-- Trauma: 
-- Vigilance: 
+- Ground Control (Future Initiative): procs when someone is at full armor, not when the FI user is at full armor
+
+#### High-end
+
+- Bloodsucker: procs on skill kills. all stacks are refreshed upon killing an enemy
+- Creeping Death: mobs on which it procs remain affected by their natural status resistance
+- Empathic Resolve: refreshed every time you heal a player
+- Focus: stays proc'ed when reloading or unscoping for less than a second. doesn't proc with the Big Horn, Capacitor or TAC-50 as these are variable scopes
+- Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage and DTA
+- Intimidate: proc'ed by the bonus armor when taking cover while using Sharpshooter
+- Kinetic Momentum: half of the stacks are lost upon using a chem launcher at full charges and it won't start rebuilding these stacks until it's back at full charges
+- Tag Team: proc'ed by the Jammer pulse and the Deflector shield (the latter can also consume the mark)
+- Trauma: boosted by status effects. blind and bleed have separate cooldowns
+- Vigilance: stays proc'ed when an enemy is damaging your shield or bonus armor
 
 #### Weapons
 
 - Finisher: procs when destroying enemy skills
 - Future Perfect: being at skill tier 3 is enough to overcharge
-- In-sync: procs when deploying a shield
+- In Sync: procs when deploying a shield
 - Measured: the second half is total weapon damage unlike the first half
 - Naked: procs when killing armored targets with a single shot
 - Optimist: boosts Headhunter stacks
@@ -1090,10 +1099,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - avoid sharing items near loot piles as it's common for someone to deconstruct an entire pile
 - crossbow bolts apply localized damage, for instance headshots remove helmets
 - double-clicking a cache instantly opens it
-- Ground Control from the Future Initiative gear set is applied when someone has full armor, not when the FI user has full armor
 - health doesn't regen when disrupted
 - mobs can block shots and take damage from another mob, turning a mob right in front of you as a bullet shield
 - opening an ammo box will automatically reload your current weapon
+- picking up a disrupted skill and redeploying it will cleanse it from disruption
 - shooting the foam on an ensnared teammate or hip-firing at your feet breaks it
 - skill damage boosts deflector shield damage (making Percussive Maintenance BiS)
 - swapping any armor piece while out of combat restores all of your armor
@@ -1105,12 +1114,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the Scavenged Skills directive can be bypassed with the Rigger backpack
 - the survivalist medkit acts as a sphere, just like the Jammer pulse, so you can heal people above/below you
 - when medkitting with the fragile armor directive, use Perfectly Efficient
-- when reviving a downed teammate, you can use them as bullet shield
+- when reviving a downed teammate, you can use them as bullet shield (since they become immune to damage)
 - when your health is depleted, you have a 1-2s buffer to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage (TODO: test the cooldown duration)
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
 - you can kill enemies stuck behind doors with the Oxidizer
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: firefly)
+- you can revive teammates without being next to them by moving over and away from their body (TODO: test if it's affected by downed/dead state and walking/running)
 - you can skip real-time cutscenes by dodge rolling or aiming
 
 ### True Sons
