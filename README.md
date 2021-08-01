@@ -11,6 +11,7 @@ TODO:
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test cluster seekers rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v)  
 \- test syscor medkit versus fragile armor stacks  
+\- write the Links section
 
 ## Table of Contents
 
@@ -191,8 +192,9 @@ TODO:
       * [4.28.4 Sniper](#sniper-7)
       * [4.28.5 Tank](#tank-6)
       * [4.28.6 Thrower](#thrower-6)
-* [5.0 Credits](#credits)
-* [6.0 Contact information](#contact-information)
+* [5.0 Links](#links)
+* [6.0 Credits](#credits)
+* [7.0 Contact information](#contact-information)
 
 ## Introduction
 
@@ -1074,13 +1076,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Bloodsucker: procs on skill kills. all stacks are refreshed upon killing an enemy
 - Creeping Death: mobs on which it procs remain affected by their natural status resistance
 - Empathic Resolve: refreshed every time you heal a player
-- Focus: stays proc'ed when reloading or unscoping for less than a second. doesn't proc with the Big Horn, Capacitor or TAC-50 as these are variable scopes
+- Focus: stays proc'ed when reloading or unscoping for less than a second. doesn't proc with the Big Horn, Capacitor or TAC-50 as these have variable scopes
 - Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage and DTA
-- Intimidate: proc'ed by the bonus armor when taking cover while using Sharpshooter
+- Intimidate: proc'ed by the bonus armor provided by the "My Home Is My Castle" perk from the Sharpshooter specialization
 - Kinetic Momentum: half of the stacks are lost upon using a chem launcher at full charges and it won't start rebuilding these stacks until it's back at full charges
 - Tag Team: proc'ed by the Jammer pulse and the Deflector shield (the latter can also consume the mark)
 - Trauma: boosted by status effects. blind and bleed have separate cooldowns
-- Vigilance: stays proc'ed when an enemy is damaging your shield or bonus armor
+- Vigilance: stays proc'ed when your base armor remains untouched (like with a shield or bonus armor)
 
 #### Weapons
 
@@ -1205,6 +1207,10 @@ Destroying their rocket-filled backpack results in an explosion that is always f
 #### Thrower
 - same as the Black Tusk [variant](#thrower), except he always fires his airburst launcher in volleys of 3
 - the time between grenade shots is affected by veterancy
+
+## Links
+
+
 
 ## Credits
 
