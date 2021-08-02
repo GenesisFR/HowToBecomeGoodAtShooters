@@ -4,6 +4,7 @@ TODO:
 
 \- check if chunga's butts are still unarmored  
 \- check if dying refills your ammo after being (manually) revived by another player  
+\- check if rushers have less HP than snipers  
 \- check if the Banshee skill pulses enemies (https://www.reddit.com/r/thedivision/comments/oiuhf2/fyi_banshee_pulse_disorients_and_pulses_enemys)  
 \- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
 \- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
@@ -613,9 +614,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Cover
 - prefer vertical cover to low cover (unless you're sniping or don't have aggro)
-- maximizes how long you can peek before being shot at and minimizes incoming explosions
-- peeking from a vertical cover exposes you from less angles at the same time
-- shooting from a vertical cover at a 30-75° angle allows you to shoot mobs without them shooting back
+- vertical cover maximizes how long you can peek before being shot at and minimizes incoming explosions
+- peeking from vertical cover exposes you from less angles at the same time
+- shooting from vertical cover at a 30-75° angle allows you to shoot mobs without them shooting back
 
 ### Cover to cover
 - reduces enemy accuracy on you, thus drastically reducing incoming damage
