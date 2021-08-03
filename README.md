@@ -271,6 +271,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Minimap/radar
 - allows you to see incoming threats
 - can reveal the location of various useful items (like ammo crates)
+- prevents you from getting flanked
 
 ### Movement
 - always move from cover to cover to minimize exposure and incoming damage
@@ -440,13 +441,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - knockback: after inflicting a certain amount of damage, gives you time to line up your next shot or get the kill
 - quick peek: done from cover on Heroic difficulty or lower by tank operators and medics, wait for it to get headshots with a (sniper) rifle
 - strafe: used after spotting a player, take your time to adjust your crosshair when sniping/rifling
-- status effects: see the section below
+- status effects: see this [section](#status-effects)
 
 ### AI behavior
 - dictated by positioning and playstyle
 - being aggressive makes them stay back or in cover
 - being passive makes them go in the open and push
-- legendary tanks tend to retreat after breaking their bag
 - they always try to flank
 - they become aggressive when you're low HP
 - they try to melee you when you're in close range
@@ -614,18 +614,21 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Cover
 - prefer vertical cover to low cover (unless you're sniping or don't have aggro)
 - vertical cover maximizes how long you can peek before being shot at and minimizes incoming explosions
-- peeking from vertical cover exposes you from less angles at the same time
+- peeking from vertical cover exposes you to less angles at the same time
 - shooting from vertical cover at a 30-75° angle allows you to shoot mobs without them shooting back
+- covers cannot be shared between teammates so you should let dps players have them when possible
 
 ### Cover to cover
-- reduces enemy accuracy on you, thus drastically reducing incoming damage
+- reduces the enemy's accuracy on you, thus drastically reducing incoming damage
 - faster than running
 - allows you to reload without reducing speed
-- doesn't prevent explosions from hurting you or lowers explosion damage
+- try to end up with a dodge roll to cover if the destination will leave you exposed as the enemy's accuracy will be instantly back to normal as soon as the cover to cover stops
+- doesn't prevent explosions from staggering and hurting you
+- explosions will cancel the cover to cover, sometimes leaving you extremely vulnerable (especially when there's no cover nearby)
 
 ### Dancing
 - definition: moving across/around an NPC to force them to melee/chase you
-- baits for your teammates to get the kill (weak point explosions can kill you)
+- baits for your teammates to get the kill (however, weak point explosions can kill you)
 - buys you time to relocate or get the kill before the NPC recovers from his animation
 - best used when it's the last mob of a wave or an isolated mob
 
@@ -633,7 +636,6 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - definition: the different builds the group is made of
 - you want the right balance of offense, defense and utility
 - you should focus on offense first, then defense/utility
-- skill selection for skill users depends on whether you're fighting Black Tusks (equip the jammer pulse) or not
 - you want to create synergy between builds, some builds/skills don't work well together (ex: fire/blind with snipers)
 - some examples of good synergy are 3 dps + 1 healer/cc, 3 afk skill builds and 1 skill support build
 
@@ -642,7 +644,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
    - 4: your life depends on it (ex: bloodsucker/hunter's fury frontliner)
    - 3: your effectiveness depends on it (ex: headhunter sniper)
    - 2: it helps but is not essential (ex: tech support skill user)
-   - 1: it doesn't matter, (ex: medic)
+   - 1: it doesn't matter (ex: medic)
 - your team should have an average kill dependency <= 2.5
 
 ### Hyenas
@@ -700,9 +702,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - elites fire multiple concussion grenades in succession
 
 ### Looting
-- deconstructing gear set pieces grant blue materials
-- looting is proximity based, so wait for others to be close before opening crates
-- you can share any cache with whoever was in your group the moment you obtained (not opened) the cache
+- deconstructing gear set pieces gives blue materials
+- looting is proximity based, so wait for others to be close (when you can see their name plate) before opening crates
+- you can share any cache with whoever was in your group when you obtained (not opened) the cache
+- avoid sharing items near loot piles as it's common for someone to deconstruct an entire pile
 
 ### Outcasts
 \- reference: https://thedivision.fandom.com/wiki/Outcasts#Archetypes
@@ -764,65 +767,81 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - elites will throw incendiary grenades that detonate after a short fuse and a wider radius
 
 ### Playing ARs
-- main attribute: health damage
-- effective against anything that doesn't have an armor bar: red mobs, robotics and tanks
+- main attributes: weapon damage and critical hit chance/damage
+- effective against anything that doesn't have an armor bar: red mobs, robotics, tanks and summit objectives
 - pairs well with the crusader shield
-- good way to use it is to burst targets down to trigger the knockback animation
+- should focus on weak points and burst enemies down to knock them back
 - Negotiator's Dilemma is the best gear set for it
 
 ### Playing crowd control
+- main attributes: status effects and skill haste
 - prevents the AI from shooting back or using their abilities
 - Creeping Death is a must as it spreads status effects on hit
 - Scorpio is a must as it's another form of CC
-- Survivalist is a must for the additional damage to affected targets
+- any AR with Future Perfect and a pistol with Perpetuation are a must
+- Survivalist is a must for the additional damage to affected targets and the fire grenade as another form of CC
+- CC'ed enemies must be within line of sight of your teammates to be efficient
+- status selection is going to vary based on content and group composition
+- try to get as close as possible to spawn closets to maximize effectiveness (the more the AI spreads out, the less effective a CC becomes)
+- there's often no need to expose yourself to enemies to apply statuses
 - 2 types of CC builds:
 
 #### Eclipse
-- good for Heroic content and CP4s, only useful in legendaries if your group focuses affected targets
-- spreads status effects on kill
-- preferred skills are riot foam/firestarter and airburst seeker/burn sticky bomb
+- good for Heroic content and CP4s, only useful in legendaries if your group focuses affected targets and has enough damage to kill them quickly
+- spreads status effects on kill, therefore, the Eclipse chest is a must
+- preferred skills are riot foam/firestarter, airburst seeker and burn/emp sticky bomb
 - bigger cooldowns
 
 #### High-end
-- great for legendaries, as long as you can manage your cooldowns (use Tag Team)
+- great for legendaries, as long as you can manage your cooldowns
+- Tag Team is a must as it lowers skill cooldowns
 - preferred skills are blinder firefly and jammer pulse
 - lower cooldowns
-- CC'ed enemies must be within sight of your teammates to be efficient
 
 ### Playing LMGs
-- secondary attribute: out of cover damage
+- main attributes: weapon damage and critical hit chance/damage
 - effective against out of cover targets (robotics and tanks are always out of cover)
 - can suppress enemies in cover (must only be used to go for a flank and allow teammates to push or revive someone in the open)
 - suppressed enemies will not peek and may blind fire, preventing most of your group from killing them
 
 ### Playing medic
-- allows your teammates to sustain damage
+- main attributes: repair skills and skill haste
+- allows your teammates to sustain incoming damage
 - BTSU gloves and Sweet Dreams/Scorpio are a must
-- Survivalist is a must for the multiplicative outgoing healing
-- use the crossbow on tanks and warhounds
+- Survivalist is a must for the multiplicative outgoing healing and the fire grenade as a form of CC
+- use the crossbow on tanks/warhounds and fire grenades on spawn closets
 - preferred skills are reinforcer chem launcher and restorer hive
 - stick with your group, monitor their health, avoid dying and manage your cooldowns by picking up your hive when not in use
-- if a red/purple gets close or you see an opportunity to kill one, melee with Sweet Dreams (doesn't work against robotics)
+- if a red/purple mob gets close or you see an opportunity to kill one, melee with Sweet Dreams or use Scorpio to make it easier for your teammates to focus them
 - refresh skill cooldowns between engagements (or after one or more teammates used a reviver hive)
-- your restorer hive must be within sight of your teammates to heal them, therefore, its placement is important
-- may be useful to do preemptive heals with the chem launcher, especially for shield users (it heals their shield)
+- the restorer hive must not be obstructed by a wall to heal your teammates, but will also heal deployed skills after they take damage, you may not want the latter to prevent your charges from draining too fast, therefore, its placement is important
+- useful to do preemptive heals with the chem launcher, especially for crusader shield users (their shield is their main source of survivability)
+- there's often no need to expose yourself to enemies to deploy your hive or heal your teammates
+- > 900k chem heals are overkill as most of the playerbase is sitting around 700k armor
 - reference: https://www.reddit.com/r/thedivision/comments/ko4ds5/please_try_a_healing_build/ghqvfx1
 
 ### Playing rifler
-- secondary attributes: critical hit chance and damage
+- main attributes: weapon damage and critical hit chance/damage
 - effective against all types of mobs thanks to critical hits
 - pairs well with the crusader shield, especially when using a scope
-- should go for headshots to maximize damage and/or knock enemies back
+- should go for weak points and headshots to maximize damage and/or knock enemies back
 
 ### Playing offensive skill builds
-- skill placement is important, try not to put it too close to you or a teammate as it will draw aggro
+- main attributes: skill damage and skill haste
+- skill placement is important, try not to put them in an elevated location, but not too close to you or a teammate as it will draw aggro
 - Harmony/Test Subject and Capacitor are a must
+- there's often no need to expose yourself to enemies to deploy your skills
+- there's no need to be constantly peeking to maintain your buffs
+- not as mobile as other builds
 - 2 types of offensive skill builds:
+
 #### AFK
 - typical combo is striker drone and assault/sniper turret
-- good for taking aggro off you and your teammates
+- try to focus both of your skills on the same target to maximize single target dps
 - not meant to deal lots of damage on its own (except when running several with an artificer hive)
+- good for taking aggro off you, your teammates and for tracking moving targets
 - bad for quickly bursting down mobs and against groups
+
 #### Explosive
 - typical combo is mortar and explosive sticky bomb/cluster seekers
 - Demolitionist is a must for the multiplicative explosive damage
@@ -831,32 +850,40 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - bad against moving targets and tanks
 
 ### Playing sniper
-- main attribute: headshot damage
+- main attributes: weapon damage and headshot damage
 - effective against targets that have a head and no helmet
 - for stationary targets, put your crosshair on them, at head level (or where it's going to be), before peeking
 - for moving targets, put your crosshair on their trajectory and take the shot when they come across it
 - for Nemesis, don't use the cover system but charge from behind cover, jiggle peek to acquire your target, peek again to release the trigger then hide
 - you can stand in the open to force a target behind cover to peek you (preferably exposing yourself only from that target), just release the trigger at head level when they peek
-- peek, take the shot and immediately take cover to minimize incoming damage
+- peek, take the shot and immediately take cover to minimize incoming damage (by strafing or pop shooting)
 - can one shot dogs with the headhunter buff by shooting their legs
+- Tip of the Spear is the best gear set for it
 
 ### Playing tank
-- main attribute: armor cores
-- bulwark shield, artificer hive and Liberty (to heal the shield) are mandatory
+- main attributes: armor cores and repair skills
+- bulwark shield, artificer hive and Liberty/TDI Kard Custom are a must
 - must be able to self-sustain incoming damage and not depend on anyone
 - must draw aggro on you by shooting mobs, maintaining proximity and line of sight
 - must force mobs out of cover
+- must not block shots from your teammates
 - must provide more survivability to the group
 - must stay within range of your teammates
+- it's best to stay on the edges of a room or have a wall behind you to avoid getting shot from the side
 - pay close attention to your radar to avoid getting flanked
+- Foundry Bulwark is the best gear set for it
 - reference: https://www.reddit.com/r/thedivision/comments/hr0gxr/how_to_take_a_beating_a_guide_to_shield_tanks and https://www.reddit.com/r/thedivision/comments/jg4brb/whats_the_point_of_tank_builds/g9op8nb
 
 ### Reviving
 - always revive from or behind cover to avoid getting shot
-- avoid reviving before making sure the area is clear and you're not gonna get rushed
+- avoid reviving before making sure the nearby area is clear and you're not gonna get rushed
 - you should always provide cover to the one reviving by either killing, CC'ing, aggro'ing or suppressing mobs
 - downed players must get near cover without blocking it for alive players and avoid crawling in the open otherwise it'll make things harder for the reviver if they die
-- sometimes it's better to go through the rest of the engagement without reviving someone because it would make you at risk
+- it's a good idea to throw a flashbang/fire grenade before reviving if there are enemies nearby to prevent them from pushing, especially near choke points
+- it's sometimes better to go through the rest of the engagement without reviving someone because it would make you at risk
+- if your reviver hive is at Tier 5 or lower and has full charges, you can switch to the TDI Kard Custom before deploying it to get an additional charge without making it go on cooldown
+- you can revive teammates without being next to them by moving over and away from their body (TODO: test if it's affected by downed/dead state and walking/running)
+- when reviving a downed teammate, you can use them as bullet shield (since they become immune to damage)
 
 ### Rikers
 \- reference: https://thedivision.fandom.com/wiki/Rikers#Tom_Clancy.27s_The_Division_2
@@ -893,7 +920,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Tank
 - heavily armored Riker armed with a Dazzler rigged riot shield and a nail gun that does bleed damage on contact
 - has an air tank weak point that if shot, will make him switch to a pistol
-- his shield can be destroyed with enough concentrated fire and so can his dazzler lasers
+- his shield can be destroyed with enough concentrated fire and so can his dazzlers
 - the dazzlers are arranged in an inverted triangle just beneath the window in the shield
 - if the shield is destroyed, he will then use his Nail Gun
  
@@ -981,11 +1008,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - double tapping Escape or the Inventory button allows you to instantly unequip and reequip a shield to proc Vanguard instead of waiting for the 1s cooldown
 - TODO: check if incoming repairs affects artificer hive skill repair https://www.reddit.com/r/thedivision/comments/lzwtbl/does_explosive_resistance_actually_reduce_the/gq58siv
 ##### Bulwark shield
-- while behind cover, peeking from the left allows you to have only your hand sticking out, therefore minimizing exposure
+- while behind vertical cover, peeking from the left allows you to have only your hand sticking out, therefore minimizing exposure
 ##### Crusader/Firewall shield
 - deploying it will automatically switch to a weapon that can be used with shields (secondary weapon otherwise)
 - increases your character's hitbox and therefore makes it harder to navigate through doorways and around props
-- using a weapon with a scope will shift the camera to the right, allowing you to shoot from cover when peeking from the left
+- using a weapon with a scope will shift the camera to the right, allowing you to shoot from vertical cover when peeking from the left
 ##### Deflector shield
 - deflected damage scales with skill damage
 
@@ -1044,17 +1071,22 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Summit
 - completing objectives early limits the number of additional enemy waves
 - Contagion from the Eclipse Protocol gear set can destroy at least 2 waves of drones if one spawns shortly after the previous one
-- foaming a hunter stops him from medkitting
+- equip the jammer pulse for drone rooms
+- foaming a rogue/hunter stops them from medkitting
 - going down or dying on an objective keeps capturing it
 - hunters stand up when deploying most of their skills, giving you time to land a few shots
 - hunters will still be able to melee you when performing cover to cover or running past them, you have to roll to avoid being hit (they also seem to have a 2m melee range)
-- immune reviver drones and warhounds can be disrupted but also destroyed by Hostile Negotiations from the Negotiator’s Dilemma gear set even though no icons will be displayed above them (TODO: verify if warhounds can actually be destroyed)
+- immune reviver drones and warhounds can be destroyed by Hostile Negotiations from the Negotiator’s Dilemma gear set even though no icons will be displayed above them (TODO: verify if warhounds can actually be destroyed)
+- immune reviver drones, turrets and warhounds can be disrupted
 - killing marked targets with Negotiator’s Dilemma counts as skill kills (useful for the Cool Skills Challenge)
+- try to complete multiple objectives at the same time
+- try to complete the hardest objective first (ex: destroying a server in the back of a room)
 - try to leave 1 or 2 mobs alive so you can complete objectives early (reinforcements don't spawn until clearing most mobs in a wave)
 - wait for your teammates before entering a room to allow them to get ready and prevent objectives from triggering early
 - when capturing objectives, don't peek unless you have to, completing objectives is more important than clearing mobs
-- when no mobs are in a room, it's a drone ambush
+- when no mobs are in a room, don't go too far from the door as it's a drone ambush
 - when stuck between a door and a wall, fast travel to another player
+- you can build Scorpio stacks on a rotating jammer before it's 
 - you can open locked doors by shooting the lock with a chem launcher, it allows you to not alert enemies
 
 ### Talents
@@ -1069,7 +1101,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD, DTA and DTH. in PVP, the player who applied the debuff must die for the ticks to stop
 - Quick Draw (Dodge City Gunslinger's Holster): the shot consuming the buff will heavily boost Headhunter stacks for the next shot
 - Regicide (Regulus): also affected by explosive damage
-- Sandman (Sweet Dreams): doesn't work on warhounds
+- Sandman (Sweet Dreams): doesn't work on robotics
 - Septic Shock (Scorpio): venom stacks are added to each other when applied by different players
 - Tenacity (Eagle Bearer): in PVP, provides an important reload speed bonus
 - Toxic Delivery (Vile): ticks are also affected by Perpetuation, OOCD, DTA and DTH
@@ -1105,31 +1137,27 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Tips/tricks
 - any type of armor on kill works with skill kills
-- avoid sharing items near loot piles as it's common for someone to deconstruct an entire pile
 - crossbow bolts apply localized damage, for instance headshots remove helmets
-- double-clicking a cache instantly opens it
-- health doesn't regen when disrupted
+- double-clicking on a cache instantly opens it
+- health doesn't regen when disrupted (TODO: check if it's the same when your shield is taking damage)
 - mobs can block shots and take damage from another mob, turning a mob right in front of you as a bullet shield
 - opening an ammo box will automatically reload your current weapon
 - picking up a disrupted skill and redeploying it will cleanse it from disruption
 - shooting the foam on an ensnared teammate or hip-firing at your feet breaks it
-- skill damage boosts deflector shield damage (making Percussive Maintenance BiS)
 - swapping any armor piece while out of combat restores all of your armor
 - swapping to a loadout with a different specialization refills grenades
 - swapping to another weapon after a reload is halfway done will still reload the weapon
 - swapping to your pistol then to your other primary weapon is faster than swapping between primary weapons
 - the Cool Skills directive doesn't affect deployed skills
-- the flamethrower's stream bypasses warhounds' health, it's not efficient on higher difficulties though as it requires burning a lot of fuel to kill a single one of them
+- the flamethrower's stream bypasses warhounds' health, it's not efficient on higher difficulties though as it requires burning a lot of fuel to kill a single warhound
 - the Scavenged Skills directive can be bypassed with the Rigger backpack
 - the survivalist medkit acts as a sphere, just like the Jammer pulse, so you can heal people above/below you
 - when medkitting with the fragile armor directive, use Perfectly Efficient
-- when reviving a downed teammate, you can use them as bullet shield (since they become immune to damage)
 - when your health is depleted, you have a 1-2s buffer to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage (TODO: test the cooldown duration)
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
 - you can kill enemies stuck behind doors with the Oxidizer
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: firefly)
-- you can revive teammates without being next to them by moving over and away from their body (TODO: test if it's affected by downed/dead state and walking/running)
 - you can skip real-time cutscenes by dodge rolling or aiming
 
 ### True Sons
@@ -1210,6 +1238,7 @@ Destroying their rocket-filled backpack results in an explosion that is always f
 - same as the Black Tusk [variant](#tank), except the support station is replaced with a variant of the SHD Stinger Hive which deals heavy damage to those within 15m and causes them to bleed
 - tries to get close because of his stinger hive
 - the stinger hive temporarily stops working when he's disrupted (TODO: check if it's the same when shocked)
+- tends to retreat after breaking his bag
 
 #### Thrower
 - same as the Black Tusk [variant](#thrower), except he always fires his airburst launcher in volleys of 3
