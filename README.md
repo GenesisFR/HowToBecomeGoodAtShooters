@@ -12,7 +12,6 @@ TODO:
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test cluster seekers rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v)  
 \- test syscor medkit versus fragile armor stacks  
-\- write the Links section
 
 ## Table of Contents
 
@@ -1218,13 +1217,25 @@ Destroying their rocket-filled backpack results in an explosion that is always f
 
 ## Links
 
-
+- [Builds tool](https://mxswat.github.io/mx-division-builds)
+- [Burst and Sustain Tables](https://drive.google.com/drive/folders/1dBD1oKXzJB1E3bMJtfRNxRHoDCtkkZy8)
+- [Community Resources](https://www.reddit.com/r/thedivision/wiki/thedivision2/communityresources)
+- [Gear Attribute Sheet](https://docs.google.com/spreadsheets/d/1REi6cA7oSzT7h0O9YD6uxAbnCTmE-YKMDctsKogzXC8)
+- [Gear Spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJEX5DerCvOj3a_m36TRy1gPBAUvrduOIdmXI9j1Y0MpQk1wIXaZ9KOcPa7HzXzp_N5qGmjDj6yEfL/pubhtml) ([alternative](https://docs.google.com/spreadsheets/d/1nrPBmOrtpkEW1j5fbcRT7L-AXgsGOqMqxXoVtopsiGM))
+- [Hazard Protection and Status Effects Immunity Thresholds](https://www.reddit.com/r/thedivision/comments/hdac4x/tu10_hazard_protection_and_status_effects)
+- [Guide to blowing things up - Explosive Skill Damage Build](https://www.reddit.com/r/thedivision/comments/gbrbvm/guide_to_blowing_things_up_explosive_skill_damage)
+- [Guide to Shield Tanks - How to take a beating](https://www.reddit.com/r/thedivision/comments/hr0gxr/how_to_take_a_beating_a_guide_to_shield_tanks)
+- [Interactive Map](https://division2map.com)
+- [NPC Health Pools](https://docs.google.com/spreadsheets/d/1OP0r0A81wroX9v9iZ1u-jYNndTjugaB8e1MxS3FWCsk)
+- [Weapon Damage 101: Bullet Damage](https://www.reddit.com/r/thedivision/comments/gi0uel/weapon_damage_101_bullet_damage)
+- [Weapon DPS Database](https://onedrive.live.com/view.aspx?resid=FCC78BAD7A71FF1C!263)
+- [Weekly vendor reset](https://rubenalamina.mx/the-division-weekly-vendor-reset)
 
 ## Credits
 
-- MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010) and [Ting](https://www.reddit.com/user/booleanbug))
-- [r/thedivision](https://www.reddit.com/r/thedivision) members
-- wiki contributors
+- MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998)
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/DrawingWeak4034, u/iKia, u/kestononline, u/Masenku, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45)
+- [wiki](https://thedivision.fandom.com) contributors
 
 ## Contact information
 
