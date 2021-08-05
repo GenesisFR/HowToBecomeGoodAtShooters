@@ -1275,9 +1275,19 @@ Destroying their rocket-filled backpack results in an explosion that is always f
 
 ## Credits
 
+- [adreN](https://www.youtube.com/channel/UCauWzM4ElgQCuwymc3sV42g)
+- [BreezyGamingTV](https://www.youtube.com/channel/UCWtBHE2zTID1XTPQrpf8MyA)
+- [JoshNissan](https://www.youtube.com/channel/UCkFeaDgFURxNOoRoezRl7aQ)
+- [luckySkillFaker](https://www.youtube.com/channel/UCS6fU1w749zdEwIhJCxAc3g)
+- [Lunar](https://www.youtube.com/channel/UC28EeQoLgCVERhAj20R1qLg)
+- [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
 - MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998)
+- [OfficialA2K](https://www.youtube.com/channel/UC_LCy84M7DHHNteE0-OjwEQ)
 - [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/DrawingWeak4034, u/iKia, u/kestononline, u/Masenku, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45)
-- [wiki](https://thedivision.fandom.com) contributors
+- [The Division wiki](https://thedivision.fandom.com) contributors
+- [TheWarOwl](https://www.youtube.com/channel/UCpFcHE36IoySjYj1Rytxyog)
+- [voo CSGO](https://www.youtube.com/channel/UC2vjGuOTH-KcRCLSm5F3oUA)
+- [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
 
 ## Contact information
 
