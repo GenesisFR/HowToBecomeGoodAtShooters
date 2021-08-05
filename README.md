@@ -1060,9 +1060,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Spawn camping
 
 - definition: attacking mobs while they're still inside (or as soon as they come out) of their spawn closet
-- greatly reduces incoming damage and the time it takes to clear content
-- faster to switch between targets as they're all close to each other
-- mobs can't shoot back while they're still inside their spawn closet
+- requires that you already know the AI spawn locations combined with an aggressive playstyle
+- greatly reduces incoming damage as mobs can't shoot back while they're still inside their spawn closet (and if they do come out, they'll usually walk for a few meters or wait for a few seconds before shooting)
+- faster to switch between targets as they're all close to each other, leading to less time needed to clear content
 - only possible with some form of CC (Eclipse, Hunter's Fury, fire grenades)
 - deadly when combined with the firewall shield, a shotgun with Pummel or Negotiator’s Dilemma
 - try to make your way to spawn closets before the current enemy wave is cleared
