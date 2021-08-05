@@ -4,6 +4,7 @@ TODO:
 
 \- check if chunga's butts are still unarmored  
 \- check if dying refills your ammo after being (manually) revived by another player  
+\- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
 \- check if rushers have less HP than snipers  
 \- check if the Banshee skill pulses enemies (https://www.reddit.com/r/thedivision/comments/oiuhf2/fyi_banshee_pulse_disorients_and_pulses_enemys)  
 \- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
@@ -167,32 +168,33 @@ TODO:
          * [4.23.11.2 Assault](#assault-5)
          * [4.23.11.3 Incinerator](#incinerator)
          * [4.23.11.4 Sniper](#sniper-5)
-   * [4.24 Status effects](#status-effects)
-   * [4.25 Summit](#summit)
-   * [4.26 Talents](#talents)
-      * [4.26.1 Exotics](#exotics)
-      * [4.26.2 Gear sets](#gear-sets)
-      * [4.26.3 High-end](#high-end-1)
-      * [4.26.4 Weapons](#weapons)
-   * [4.27 Tips/tricks](#tipstricks)
-   * [4.28 True Sons](#true-sons)
-      * [4.28.1 Assault](#assault-6)
-      * [4.28.2 Engineer](#engineer-2)
-      * [4.28.3 Heavy Weapons](#heavy-weapons-2)
-      * [4.28.4 Immobilizer](#immobilizer)
-      * [4.28.5 Medic](#medic-2)
-      * [4.28.6 RPG](#rpg)
-      * [4.28.7 Rusher](#rusher-5)
-      * [4.28.8 Sniper](#sniper-6)
-      * [4.28.9 Tank](#tank-5)
-      * [4.28.10 Thrower](#thrower-5)
-   * [4.29 White Tusks](#white-tusks)
-      * [4.29.1 Drone Operator](#drone-operator-1)
-      * [4.29.2 Mini-tank](#mini-tank-1)
-      * [4.29.3 Rusher](#rusher-6)
-      * [4.29.4 Sniper](#sniper-7)
-      * [4.29.5 Tank](#tank-6)
-      * [4.29.6 Thrower](#thrower-6)
+   * [4.24 Spawn camping](#spawn-camping)
+   * [4.25 Status effects](#status-effects)
+   * [4.26 Summit](#summit)
+   * [4.27 Talents](#talents)
+      * [4.27.1 Exotics](#exotics)
+      * [4.27.2 Gear sets](#gear-sets)
+      * [4.27.3 High-end](#high-end-1)
+      * [4.27.4 Weapons](#weapons)
+   * [4.28 Tips/tricks](#tipstricks)
+   * [4.29 True Sons](#true-sons)
+      * [4.29.1 Assault](#assault-6)
+      * [4.29.2 Engineer](#engineer-2)
+      * [4.29.3 Heavy Weapons](#heavy-weapons-2)
+      * [4.29.4 Immobilizer](#immobilizer)
+      * [4.29.5 Medic](#medic-2)
+      * [4.29.6 RPG](#rpg)
+      * [4.29.7 Rusher](#rusher-5)
+      * [4.29.8 Sniper](#sniper-6)
+      * [4.29.9 Tank](#tank-5)
+      * [4.29.10 Thrower](#thrower-5)
+   * [4.30 White Tusks](#white-tusks)
+      * [4.30.1 Drone Operator](#drone-operator-1)
+      * [4.30.2 Mini-tank](#mini-tank-1)
+      * [4.30.3 Rusher](#rusher-6)
+      * [4.30.4 Sniper](#sniper-7)
+      * [4.30.5 Tank](#tank-6)
+      * [4.30.6 Thrower](#thrower-6)
 * [5.0 Links](#links)
 * [6.0 Credits](#credits)
 * [7.0 Contact information](#contact-information)
@@ -267,6 +269,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Falling back
 - always have a backup location before an engagement, if things were to go south
 - prevents the AI from cornering you, thus putting more pressure on you
+- when there are too many enemies around you and you know you're not gonna be able to stand your ground, immediately fall back
 
 ### Minimap/radar
 - allows you to see incoming threats
@@ -782,7 +785,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Survivalist is a must for the additional damage to affected targets and the fire grenade as another form of CC
 - CC'ed enemies must be within line of sight of your teammates to be efficient
 - status selection is going to vary based on content and group composition
-- try to get as close as possible to spawn closets to maximize effectiveness (the more the AI spreads out, the less effective a CC becomes)
+- try to get as close as possible to spawn closets to maximize effectiveness because the more the AI spreads out, the less effective a CC becomes as you'll be putting less mobs under status effects at the same time
 - there's often no need to expose yourself to enemies to apply statuses
 - 2 types of CC builds:
 
@@ -1053,6 +1056,16 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - targets the chest by default
 - you have to ADS with your gun to switch to manual aim, which allows you to land a headshot, which deals more damage
 - doesn't scale with headshot damage
+
+### Spawn camping
+
+- definition: attacking mobs while they're still inside (or as soon as they come out) of their spawn closet
+- greatly reduces incoming damage and the time it takes to clear content
+- faster to switch between targets as they're all close to each other
+- mobs can't shoot back while they're still inside their spawn closet
+- only possible with some form of CC (Eclipse, Hunter's Fury, fire grenades)
+- deadly when combined with the firewall shield, a shotgun with Pummel or Negotiator’s Dilemma
+- try to make your way to spawn closets before the current enemy wave is cleared
 
 ### Status effects
 - AI status effect resistance is based on difficulty, veterancy and skill used
