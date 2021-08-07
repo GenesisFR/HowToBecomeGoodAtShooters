@@ -1088,6 +1088,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - equip the jammer pulse for drone rooms
 - foaming a rogue/hunter stops them from medkitting
 - going down or dying on an objective keeps capturing it
+- hunters can hack any deployed skill (except traps) based on line of sight 
+- hunters can heal up to 3 times
 - hunters stand up when deploying most of their skills, giving you time to land a few shots
 - hunters will still be able to melee you when performing cover to cover or running past them, you have to roll to avoid being hit (they also seem to have a 2m melee range)
 - immune reviver drones and warhounds can be destroyed by Hostile Negotiations from the Negotiator’s Dilemma gear set even though no icons will be displayed above them (TODO: verify if warhounds can actually be destroyed)
@@ -1278,7 +1280,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ## Credits
 
 - [adreN](https://www.youtube.com/channel/UCauWzM4ElgQCuwymc3sV42g), [BreezyGamingTV](https://www.youtube.com/channel/UCWtBHE2zTID1XTPQrpf8MyA), [JoshNissan](https://www.youtube.com/channel/UCkFeaDgFURxNOoRoezRl7aQ), [luckySkillFaker](https://www.youtube.com/channel/UCS6fU1w749zdEwIhJCxAc3g), [Lunar](https://www.youtube.com/channel/UC28EeQoLgCVERhAj20R1qLg), [OfficialA2K](https://www.youtube.com/channel/UC_LCy84M7DHHNteE0-OjwEQ), [TheWarOwl](https://www.youtube.com/channel/UCpFcHE36IoySjYj1Rytxyog) and [voo CSGO](https://www.youtube.com/channel/UC2vjGuOTH-KcRCLSm5F3oUA) for the videos about PVP concepts
-- D-Y-N-4-M-O for general feedback
+- D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
 - MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998) for general information and feedback
 - [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/DrawingWeak4034, u/iKia, u/kestononline, u/Masenku, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45) for general information
