@@ -698,7 +698,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - relentlessly moves towards enemies, fearless behind a bulwark of heavy armor
 - destroying his ammo belt forces him to manually reload his machinegun (TODO: check if his LMG even requires a reload)
 - deploying a turret or a hive will make him immediately go to it and kick it to destroy it
- 
+- foaming him during the reload animation (up until he stands up after reloading) forces him to redo the entire reload animation
+
 #### Thrower
 - fires a grenade launcher equipped with tear gas grenades from range
 - destroying his ammo pouch on the back waist will cause an explosion, killing or damaging him
@@ -1122,6 +1123,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Gear sets
 
 - Ground Control (Future Initiative): procs when someone is at full armor, not when the FI user is at full armor
+- Makeshift Repairs (Foundry Bulwark): explosive damage isn't taken into account
 
 #### High-end
 
@@ -1206,7 +1208,6 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - unleashes rocket propelled grenades at enemies
 - tends to keep his distance from any agent, so playing aggressively tends to work with RPGs
 - if forced into CQC, he will resort to using a pistol
-Destroying their rocket-filled backpack results in an explosion that is always fatal to them.
 - destroying his rocket-filled backpack results in an explosion that is always fatal to him
 
 #### Rusher
@@ -1236,7 +1237,7 @@ Destroying their rocket-filled backpack results in an explosion that is always f
 
 #### Drone Operator
 - same as the Black Tusk [variant](#drone-operator), except the speed and health of the suicide drones are increased, they're deployed more often and instantly distance themselves from the operator to prevent collateral damage
-- distance speed is affected by veterancy
+- drone initial distance speed is affected by veterancy
 
 #### Mini-tank
 - same as the Black Tusk [variant](#mini-tank), except it can still target you after killing its controller and elites don't fire incendiary grenades
@@ -1248,10 +1249,10 @@ Destroying their rocket-filled backpack results in an explosion that is always f
 - same as the Black Tusk [variant](#sniper), except she only needs 2s to acquire a target before shooting
 
 #### Tank
-- same as the Black Tusk [variant](#tank), except the support station is replaced with a variant of the SHD Stinger Hive which deals heavy damage to those within 15m and causes them to bleed
+- same as the Black Tusk [variant](#tank), except the support station on his back is replaced with a variant of the SHD Stinger Hive which deals heavy damage to those within 15m and causes them to bleed
 - tries to get close because of his stinger hive
 - the stinger hive temporarily stops working when he's disrupted (TODO: check if it's the same when shocked)
-- tends to retreat after breaking his bag
+- tends to retreat after breaking his backpack
 
 #### Thrower
 - same as the Black Tusk [variant](#thrower), except he always fires his airburst launcher in volleys of 3
@@ -1272,23 +1273,18 @@ Destroying their rocket-filled backpack results in an explosion that is always f
 - [Weapon Damage 101: Bullet Damage](https://www.reddit.com/r/thedivision/comments/gi0uel/weapon_damage_101_bullet_damage)
 - [Weapon DPS Database](https://onedrive.live.com/view.aspx?resid=FCC78BAD7A71FF1C!263)
 - [Weekly vendor reset](https://rubenalamina.mx/the-division-weekly-vendor-reset)
+- (Youtube playlist for the videos)[https://youtube.com/playlist?list=PL21pn9mLCSJpWyzNG7AA--lUMK0ZBQoQv] (empty for now)
 
 ## Credits
 
-- [adreN](https://www.youtube.com/channel/UCauWzM4ElgQCuwymc3sV42g)
-- [BreezyGamingTV](https://www.youtube.com/channel/UCWtBHE2zTID1XTPQrpf8MyA)
-- [JoshNissan](https://www.youtube.com/channel/UCkFeaDgFURxNOoRoezRl7aQ)
-- [luckySkillFaker](https://www.youtube.com/channel/UCS6fU1w749zdEwIhJCxAc3g)
-- [Lunar](https://www.youtube.com/channel/UC28EeQoLgCVERhAj20R1qLg)
+- [adreN](https://www.youtube.com/channel/UCauWzM4ElgQCuwymc3sV42g), [BreezyGamingTV](https://www.youtube.com/channel/UCWtBHE2zTID1XTPQrpf8MyA), [JoshNissan](https://www.youtube.com/channel/UCkFeaDgFURxNOoRoezRl7aQ), [luckySkillFaker](https://www.youtube.com/channel/UCS6fU1w749zdEwIhJCxAc3g), [Lunar](https://www.youtube.com/channel/UC28EeQoLgCVERhAj20R1qLg), [OfficialA2K](https://www.youtube.com/channel/UC_LCy84M7DHHNteE0-OjwEQ), [TheWarOwl](https://www.youtube.com/channel/UCpFcHE36IoySjYj1Rytxyog) and [voo CSGO](https://www.youtube.com/channel/UC2vjGuOTH-KcRCLSm5F3oUA) for the videos about PVP concepts
+- D-Y-N-4-M-O for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
-- MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998)
-- [OfficialA2K](https://www.youtube.com/channel/UC_LCy84M7DHHNteE0-OjwEQ)
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/DrawingWeak4034, u/iKia, u/kestononline, u/Masenku, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45)
-- [The Division wiki](https://thedivision.fandom.com) contributors
-- [TheWarOwl](https://www.youtube.com/channel/UCpFcHE36IoySjYj1Rytxyog)
-- [voo CSGO](https://www.youtube.com/channel/UC2vjGuOTH-KcRCLSm5F3oUA)
+- MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998) for general information and feedback
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/DrawingWeak4034, u/iKia, u/kestononline, u/Masenku, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45) for general information
+- [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
-
+ 
 ## Contact information
 
 - Discord: Genesis#2418
