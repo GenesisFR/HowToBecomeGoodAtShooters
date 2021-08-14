@@ -475,6 +475,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - destroying the drone also causes an explosion that can kill her if she's close
 - unable to deploy drones when disrupted
 - usually peeks a few seconds after deploying drones if a player is visible (great for riflers/snipers)
+- walking backwards is enough to dodge her drones
 
 #### Medic
 - throws EMP jammers and attempts to revive downed allies via a medical drone
@@ -626,14 +627,17 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - faster than running
 - allows you to reload without reducing speed
 - try to end up with a dodge roll to cover if the destination will leave you exposed as the enemy's accuracy will be instantly back to normal as soon as the cover to cover stops
+- when running past an enemy, acts as a soft form of CC (they'll often try to melee you)
 - doesn't prevent explosions from staggering and hurting you
 - explosions will cancel the cover to cover, sometimes leaving you extremely vulnerable (especially when there's no cover nearby)
+- you can't deploy skills while performing a cover to cover, but you can target with already deployed skills, keep charging the jammer/banshee pulse and change the direction of the banshee pulse
 
 ### Dancing
 - definition: moving across/around an NPC to force them to melee/chase you
 - baits for your teammates to get the kill (however, weak point explosions can kill you)
 - buys you time to relocate or get the kill before the NPC recovers from his animation
 - best used when it's the last mob of a wave or an isolated mob
+- acts as a soft form of CC (the NPC will try to melee you)
 
 ### Group composition (basics)
 - definition: the different builds the group is made of
@@ -721,10 +725,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - no weak point
  
 #### Controller
-- utilizes an RC car equipped that will rush towards their target and attempt to cut them apart with its spinning saws
+- controls an RC car that will rush towards their target and attempt to cut them apart with its spinning saws
 - when hit, its target will suffer constant heavy damage and bleed
 - the RC car is heavily armored on the front and sides but has a weak spot on the rear
-- it can be avoided with a dodge roll, which exposes its weak backside, and the saws can be destroyed, rendering the RC useless
+- destroying the RC car causes him to revert to conventional weapons
+- it can be avoided with a dodge roll (which exposes its weak backside) and the saws can be destroyed, rendering the RC useless
 - dodging also can make the car get stuck on a wall for a few seconds, making it immobile
  
 #### Heavy Weapons
@@ -793,6 +798,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Eclipse
 - good for Heroic content and CP4s, only useful in legendaries if your group focuses affected targets and has enough damage to kill them quickly
 - spreads status effects on kill, therefore, the Eclipse chest is a must
+- also spreads status effects from Scorpio (TODO: test if Scorpio stacks and TP debuffs)
 - preferred skills are riot foam/firestarter, airburst seeker and burn/emp sticky bomb
 - bigger cooldowns
 
@@ -880,14 +886,15 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Reviving
 - always revive from or behind cover to avoid getting shot
-- avoid reviving before making sure the nearby area is clear and you're not gonna get rushed
-- you should always provide cover to the one reviving by either killing, CC'ing, aggro'ing or suppressing mobs
-- downed players must get near cover without blocking it for alive players and avoid crawling in the open otherwise it'll make things harder for the reviver if they die
-- it's a good idea to throw a flashbang/fire grenade before reviving if there are enemies nearby to prevent them from pushing, especially near choke points
-- it's sometimes better to go through the rest of the engagement without reviving someone because it would make you at risk
+- avoid reviving before making sure the nearby area is clear, enemies don't have line of sight on you and you're not gonna get rushed
 - if your reviver hive is at Tier 5 or lower and has full charges, you can switch to the TDI Kard Custom before deploying it to get an additional charge without making it go on cooldown
-- you can revive teammates without being next to them by moving over and away from their body (TODO: test if it's affected by downed/dead state and walking/running)
+- it's a good idea to throw a flashbang/fire grenade before reviving if there are enemies nearby to prevent them from pushing, especially near choke points
+- it's sometimes better to go through the rest of the engagement without reviving someone if it would make you at risk
+- reviving someone behind a low cover while not taking cover still covers you (not in pvp)
 - when reviving a downed teammate, you can use them as bullet shield (since they become immune to damage)
+- you can revive teammates without being next to them by moving over their body while pressing the revive key when close to it (TODO: test if it's affected by downed/dead state and walking/running)
+- you should always provide cover to the one reviving by either killing, CC'ing, aggro'ing or suppressing mobs
+- downed players must get near cover without blocking it for alive players and avoid crawling in the open otherwise they'll be harder to revive
 
 ### Rikers
 \- reference: https://thedivision.fandom.com/wiki/Rikers#Tom_Clancy.27s_The_Division_2
@@ -1117,7 +1124,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD, DTA and DTH. in PVP, the player who applied the debuff must die for the ticks to stop
 - Quick Draw (Dodge City Gunslinger's Holster): the shot consuming the buff will heavily boost Headhunter stacks for the next shot
 - Regicide (Regulus): also affected by explosive damage
-- Sandman (Sweet Dreams): doesn't work on robotics
+- Sandman (Sweet Dreams): doesn't work on robotics. meleeing with a non-deployable skill can still proc Sandman.
 - Septic Shock (Scorpio): venom stacks are added to each other when applied by different players
 - Tenacity (Eagle Bearer): in PVP, provides an important reload speed bonus
 - Toxic Delivery (Vile): ticks are also affected by Perpetuation, OOCD, DTA and DTH
