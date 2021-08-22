@@ -1164,6 +1164,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Leadership: procs when interrupting the end of a cover to cover by deploying a shield
 - Tag Team: proc'ed by the Jammer pulse and the Deflector shield (the latter can also consume the mark)
 - Trauma: boosted by status effects. blind and bleed have separate cooldowns
+- Vanguard: gives bonus armor to yourself in raids
 - Vigilance: stays proc'ed when your base armor remains untouched (like with a shield or bonus armor)
 
 #### Weapons
