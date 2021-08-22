@@ -147,7 +147,7 @@ TODO:
          * [4.24.5.1 Artificer](#artificer)
          * [4.24.5.2 Stinger](#stinger)
       * [4.24.6 Pulse](#pulse)
-         * [4.24.6.1 Achille's](#achille-s)
+         * [4.24.6.1 Achille's](#achilles)
          * [4.24.6.2 Banshee](#banshee)
          * [4.24.6.3 Jammer](#jammer)
          * [4.24.6.4 Scanner](#scanner)
