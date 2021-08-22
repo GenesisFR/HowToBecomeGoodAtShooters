@@ -6,10 +6,10 @@ TODO:
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
 \- check if rushers have less HP than snipers  
-\- check if the Banshee skill pulses enemies (https://www.reddit.com/r/thedivision/comments/oiuhf2/fyi_banshee_pulse_disorients_and_pulses_enemys)  
 \- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
-\- check if the demolisher firefly trick works on mini-tanks, tanks and marauders (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
+\- check if the demolisher firefly trick works on mini-tanks (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
 \- check if the Firestarter shotgun allows you to put mini-tanks and marauders on fire but also bypass the armor plates of warhounds  
+\- check if True Patriot's white buff and popping a survivalist medkit can proc Empathic Resolve (https://www.reddit.com/r/thedivision/comments/p2cgp7/emphatic_resolve_x_true_patriots)  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test cluster seekers rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v)  
 \- test syscor medkit versus fragile armor stacks  
@@ -89,112 +89,114 @@ TODO:
    * [4.7 Dancing](#dancing)
    * [4.8 Group composition (basics)](#group-composition-basics)
    * [4.9 Group composition (advanced)](#group-composition-advanced)
-   * [4.10 Hyenas](#hyenas)
-      * [4.10.1 Assault](#assault-2)
-      * [4.10.2 Controller](#controller-2)
-      * [4.10.3 Engineer](#engineer-1)
-      * [4.10.4 Medic](#medic-1)
-      * [4.10.6 Rusher](#rusher-2)
-      * [4.10.7 Shield](#shield)
-      * [4.10.8 Sniper](#sniper-2)
-      * [4.10.9 Tank](#tank-2)
-      * [4.10.10 Thrower](#thrower-2)
-   * [4.11 Looting](#looting)
-   * [4.12 Outcasts](#outcasts)
-      * [4.12.1 Assault](#assault-3)
-      * [4.12.2 Controller](#controller-3)
-      * [4.12.3 Heavy Weapons](#heavy-weapons)
-      * [4.12.4 Rusher](#rusher-3)
-      * [4.12.5 Scorcher](#scorcher)
-      * [4.12.6 Sniper](#sniper-3)
-      * [4.12.7 Support](#support-1)
-      * [4.12.8 Tank](#tank-3)
-      * [4.12.9 Thrower](#thrower-3)
-   * [4.13 Playing ARs](#playing-ars)
-   * [4.14 Playing crowd control](#playing-crowd-control)
-      * [4.14.1 Eclipse](#eclipse)
-      * [4.14.2 High-end](#high-end)
-   * [4.15 Playing LMGs](#playing-lmgs)
-   * [4.16 Playing medic](#playing-medic)
-   * [4.17 Playing rifler](#playing-rifler)
-   * [4.18 Playing offensive skill builds](#playing-offensive-skill-builds)
-      * [4.18.1 AFK](#afk)
-      * [4.18.2 Explosive](#explosive)
-   * [4.19 Playing sniper](#playing-sniper)
-   * [4.20 Playing tank](#playing-tank)
-   * [4.21 Reviving](#reviving)
-   * [4.22 Rikers](#rikers)
-      * [4.22.1 Assault](#assault-4)
-      * [4.22.2 Heavy Weapons](#heavy-weapons-1)
-      * [4.22.3 Leader](#leader)
-      * [4.22.4 Rusher](#rusher-4)
-      * [4.22.5 Sniper](#sniper-4)
-      * [4.22.6 Tank](#tank-4)
-      * [4.22.7 Thrower](#thrower-4)
-   * [4.23 Skills](#skills)
-      * [4.23.1 Chem Launcher](#chem-launcher)
-         * [4.23.1.1 Firestarter](#firestarter)
-         * [4.23.1.2 Oxidizer](#oxidizer)
-         * [4.23.1.3 Reinforcer](#reinforcer)
-      * [4.23.2 Decoy](#decoy)
-      * [4.23.3 Drone](#drone)
-         * [4.23.3.1 Bombardier](#bombardier)
-         * [4.23.3.2 Defender](#defender)
-         * [4.23.3.3 Striker](#striker)
-      * [4.23.4 Firefly](#firefly)
-      * [4.23.5 Hive](#hive)
-         * [4.23.5.1 Artificer](#artificer)
-         * [4.23.5.2 Stinger](#stinger)
-      * [4.23.6 Pulse](#pulse)
-         * [4.23.6.1 Banshee](#banshee)
-         * [4.23.6.2 Jammer](#jammer)
-         * [4.23.6.3 Scanner](#scanner)
-      * [4.23.7 Seeker Mine](#seeker-mine)
-         * [4.23.7.1 Airburst](#airburst)
-         * [4.23.7.2 Cluster](#cluster)
-         * [4.23.7.3 Explosive](#explosive)
-         * [4.23.7.4 Mender](#mender)
-      * [4.23.8 Shield](#shield-1)
-         * [4.23.8.1 Bulwark Shield](#bulwark-shield)
-         * [4.23.8.2 Crusader/firewall Shield](#crusaderfirewall-shield)
-         * [4.23.8.3 Deflector Shield](#deflector-shield)
-      * [4.23.9 Sticky Bomb](#sticky-bomb)
-      * [4.23.10 Trap](#trap)
-         * [4.23.10.1 Shock](#shock)
-         * [4.23.10.2 Healing](#healing)
-         * [4.23.10.3 Shrapnel](#shrapnel)
-      * [4.23.11 Turret](#turret)
-         * [4.23.11.1 Artillery](#artillery)
-         * [4.23.11.2 Assault](#assault-5)
-         * [4.23.11.3 Incinerator](#incinerator)
-         * [4.23.11.4 Sniper](#sniper-5)
-   * [4.24 Spawn camping](#spawn-camping)
-   * [4.25 Status effects](#status-effects)
-   * [4.26 Summit](#summit)
-   * [4.27 Talents](#talents)
-      * [4.27.1 Exotics](#exotics)
-      * [4.27.2 Gear sets](#gear-sets)
-      * [4.27.3 High-end](#high-end-1)
-      * [4.27.4 Weapons](#weapons)
-   * [4.28 Tips/tricks](#tipstricks)
-   * [4.29 True Sons](#true-sons)
-      * [4.29.1 Assault](#assault-6)
-      * [4.29.2 Engineer](#engineer-2)
-      * [4.29.3 Heavy Weapons](#heavy-weapons-2)
-      * [4.29.4 Immobilizer](#immobilizer)
-      * [4.29.5 Medic](#medic-2)
-      * [4.29.6 RPG](#rpg)
-      * [4.29.7 Rusher](#rusher-5)
-      * [4.29.8 Sniper](#sniper-6)
-      * [4.29.9 Tank](#tank-5)
-      * [4.29.10 Thrower](#thrower-5)
-   * [4.30 White Tusks](#white-tusks)
-      * [4.30.1 Drone Operator](#drone-operator-1)
-      * [4.30.2 Mini-tank](#mini-tank-1)
-      * [4.30.3 Rusher](#rusher-6)
-      * [4.30.4 Sniper](#sniper-7)
-      * [4.30.5 Tank](#tank-6)
-      * [4.30.6 Thrower](#thrower-6)
+   * [4.10 Hunters](#hunters)
+   * [4.11 Hyenas](#hyenas)
+      * [4.11.1 Assault](#assault-2)
+      * [4.11.2 Controller](#controller-2)
+      * [4.11.3 Engineer](#engineer-1)
+      * [4.11.4 Medic](#medic-1)
+      * [4.11.6 Rusher](#rusher-2)
+      * [4.11.7 Shield](#shield)
+      * [4.11.8 Sniper](#sniper-2)
+      * [4.11.9 Tank](#tank-2)
+      * [4.11.10 Thrower](#thrower-2)
+   * [4.12 Looting](#looting)
+   * [4.13 Outcasts](#outcasts)
+      * [4.13.1 Assault](#assault-3)
+      * [4.13.2 Controller](#controller-3)
+      * [4.13.3 Heavy Weapons](#heavy-weapons)
+      * [4.13.4 Rusher](#rusher-3)
+      * [4.13.5 Scorcher](#scorcher)
+      * [4.13.6 Sniper](#sniper-3)
+      * [4.13.7 Support](#support-1)
+      * [4.13.8 Tank](#tank-3)
+      * [4.13.9 Thrower](#thrower-3)
+   * [4.14 Playing ARs](#playing-ars)
+   * [4.15 Playing crowd control](#playing-crowd-control)
+      * [4.15.1 Eclipse](#eclipse)
+      * [4.15.2 High-end](#high-end)
+   * [4.16 Playing LMGs](#playing-lmgs)
+   * [4.17 Playing medic](#playing-medic)
+   * [4.18 Playing rifler](#playing-rifler)
+   * [4.19 Playing offensive skill builds](#playing-offensive-skill-builds)
+      * [4.19.1 AFK](#afk)
+      * [4.19.2 Explosive](#explosive)
+   * [4.20 Playing sniper](#playing-sniper)
+   * [4.21 Playing tank](#playing-tank)
+   * [4.22 Reviving](#reviving)
+   * [4.23 Rikers](#rikers)
+      * [4.24.1 Assault](#assault-4)
+      * [4.24.2 Heavy Weapons](#heavy-weapons-1)
+      * [4.24.3 Leader](#leader)
+      * [4.24.4 Rusher](#rusher-4)
+      * [4.24.5 Sniper](#sniper-4)
+      * [4.24.6 Tank](#tank-4)
+      * [4.24.7 Thrower](#thrower-4)
+   * [4.24 Skills](#skills)
+      * [4.24.1 Chem Launcher](#chem-launcher)
+         * [4.24.1.1 Firestarter](#firestarter)
+         * [4.24.1.2 Oxidizer](#oxidizer)
+         * [4.24.1.3 Reinforcer](#reinforcer)
+      * [4.24.2 Decoy](#decoy)
+      * [4.24.3 Drone](#drone)
+         * [4.24.3.1 Bombardier](#bombardier)
+         * [4.24.3.2 Defender](#defender)
+         * [4.24.3.3 Striker](#striker)
+      * [4.24.4 Firefly](#firefly)
+      * [4.24.5 Hive](#hive)
+         * [4.24.5.1 Artificer](#artificer)
+         * [4.24.5.2 Stinger](#stinger)
+      * [4.24.6 Pulse](#pulse)
+         * [4.24.6.1 Achille's](#achille-s)
+         * [4.24.6.2 Banshee](#banshee)
+         * [4.24.6.3 Jammer](#jammer)
+         * [4.24.6.4 Scanner](#scanner)
+      * [4.24.7 Seeker Mine](#seeker-mine)
+         * [4.24.7.1 Airburst](#airburst)
+         * [4.24.7.2 Cluster](#cluster)
+         * [4.24.7.3 Explosive](#explosive)
+         * [4.24.7.4 Mender](#mender)
+      * [4.24.8 Shield](#shield-1)
+         * [4.24.8.1 Bulwark Shield](#bulwark-shield)
+         * [4.24.8.2 Crusader/firewall Shield](#crusaderfirewall-shield)
+         * [4.24.8.3 Deflector Shield](#deflector-shield)
+      * [4.24.9 Sticky Bomb](#sticky-bomb)
+      * [4.24.10 Trap](#trap)
+         * [4.24.10.1 Shock](#shock)
+         * [4.24.10.2 Healing](#healing)
+         * [4.24.10.3 Shrapnel](#shrapnel)
+      * [4.24.11 Turret](#turret)
+         * [4.24.11.1 Artillery](#artillery)
+         * [4.24.11.2 Assault](#assault-5)
+         * [4.24.11.3 Incinerator](#incinerator)
+         * [4.24.11.4 Sniper](#sniper-5)
+   * [4.25 Spawn camping](#spawn-camping)
+   * [4.26 Status effects](#status-effects)
+   * [4.27 Summit](#summit)
+   * [4.28 Talents](#talents)
+      * [4.28.1 Exotics](#exotics)
+      * [4.28.2 Gear sets](#gear-sets)
+      * [4.28.3 High-end](#high-end-1)
+      * [4.28.4 Weapons](#weapons)
+   * [4.29 Tips/tricks](#tipstricks)
+   * [4.30 True Sons](#true-sons)
+      * [4.30.1 Assault](#assault-6)
+      * [4.30.2 Engineer](#engineer-2)
+      * [4.30.3 Heavy Weapons](#heavy-weapons-2)
+      * [4.30.4 Immobilizer](#immobilizer)
+      * [4.30.5 Medic](#medic-2)
+      * [4.30.6 RPG](#rpg)
+      * [4.30.7 Rusher](#rusher-5)
+      * [4.30.8 Sniper](#sniper-6)
+      * [4.30.9 Tank](#tank-5)
+      * [4.30.10 Thrower](#thrower-5)
+   * [4.31 White Tusks](#white-tusks)
+      * [4.31.1 Drone Operator](#drone-operator-1)
+      * [4.31.2 Mini-tank](#mini-tank-1)
+      * [4.31.3 Rusher](#rusher-6)
+      * [4.31.4 Sniper](#sniper-7)
+      * [4.31.5 Tank](#tank-6)
+      * [4.31.6 Thrower](#thrower-6)
 * [5.0 Links](#links)
 * [6.0 Credits](#credits)
 * [7.0 Contact information](#contact-information)
@@ -604,6 +606,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Tank
 - armed with a flamethrower and molotov cocktails
+- resistant to explosives
 - shooting the fuel tank on his back will temporarily cripple him and make him remove his helmet, thus making him vulnerable to headshots
 - shooting the gas tank on his left leg will disable his flamethrower and force him to use a fire axe
 - shooting the bag on his right leg will disable his ability to throw molotov cocktails
@@ -629,8 +632,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - try to end up with a dodge roll to cover if the destination will leave you exposed as the enemy's accuracy will be instantly back to normal as soon as the cover to cover stops
 - when running past an enemy, acts as a soft form of CC (they'll often try to melee you)
 - doesn't prevent explosions from staggering and hurting you
-- explosions will cancel the cover to cover, sometimes leaving you extremely vulnerable (especially when there's no cover nearby)
-- you can't deploy skills while performing a cover to cover, but you can target with already deployed skills, keep charging the jammer/banshee pulse and change the direction of the banshee pulse
+- explosions and some status effects (foam, shock) will cancel the cover to cover, sometimes leaving you extremely vulnerable (especially when there's no cover nearby) (TODO: test when being caught on fire)
+- you can't use skills while performing a cover to cover, but you can target with already deployed skills, keep charging the jammer/banshee pulse and change the direction of the banshee pulse
 
 ### Dancing
 - definition: moving across/around an NPC to force them to melee/chase you
@@ -653,6 +656,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
    - 2: it helps but is not essential (ex: tech support skill user)
    - 1: it doesn't matter (ex: medic)
 - your team should have an average kill dependency <= 2.5
+
+### Hunters
+- can hack any deployed skill (except traps) based on line of sight 
+- can heal up to 3 times
+- can melee you when performing cover to cover or running past them because they seem to have a 2m melee range (you have to dodge roll to avoid being hit)
+- can still use their abilities while disrupted
+- stand up when deploying most of their skills, giving you time to land a few shots
 
 ### Hyenas
 \- reference: https://thedivision.fandom.com/wiki/Hyenas#Archetypes
@@ -700,6 +710,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
   
 #### Tank
 - relentlessly moves towards enemies, fearless behind a bulwark of heavy armor
+- resistant to explosives
 - destroying his ammo belt forces him to manually reload his machinegun (TODO: check if his LMG even requires a reload)
 - deploying a turret or a hive will make him immediately go to it and kick it to destroy it
 - foaming him during the reload animation (up until he stands up after reloading) forces him to redo the entire reload animation
@@ -765,6 +776,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Tank
 - heavily-armored melee unit armed with a sledgehammer that walks towards his target, but will switch to sprinting if he gets close enough
 - deals very high damage with each swing, but his attacks are slow and leave him vulnerable to counterattacks
+- resistant to explosives
 - named Outcast Tanks are faster and do more damage per hit
 - some named Tanks in Kenly College are armed with flamethrowers
  
@@ -827,7 +839,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the restorer hive must not be obstructed by a wall to heal your teammates, but will also heal deployed skills after they take damage, you may not want the latter to prevent your charges from draining too fast, therefore, its placement is important
 - useful to do preemptive heals with the chem launcher, especially for crusader shield users (their shield is their main source of survivability)
 - there's often no need to expose yourself to enemies to deploy your hive or heal your teammates
-- > 900k chem heals are overkill as most of the playerbase is sitting around 700k armor
+- 900k chem heals are often overkill as most of the playerbase is sitting around 700k armor
 - reference: https://www.reddit.com/r/thedivision/comments/ko4ds5/please_try_a_healing_build/ghqvfx1
 
 ### Playing rifler
@@ -930,6 +942,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Tank
 - heavily armored Riker armed with a Dazzler rigged riot shield and a nail gun that does bleed damage on contact
+- resistant to explosives
 - has an air tank weak point that if shot, will make him switch to a pistol
 - his shield can be destroyed with enough concentrated fire and so can his dazzlers
 - the dazzlers are arranged in an inverted triangle just beneath the window in the shield
@@ -995,10 +1008,16 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - initial damage and ticks affected by DTA
 
 #### Pulse
+##### Achille's
+- scales with headshot damage squared if the head is marked and shot
 ##### Banshee
 - the longer you hold the button, the further the confuse wave will go
+- its cooldown is based on the number of targets hit
+- can affect targets 5m above/below the confusion wave
+- also pulses affected targets
 ##### Jammer
 - the longer you hold the button, the wider the disrupt radius will be
+- acts as a sphere so you can disrupt mobs above/below you
 ##### Scanner
 - its effect duration is also affected by skill duration
 
@@ -1008,6 +1027,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - has the longest status effect damage and burn duration in the game
 ##### Cluster
 - it's better to throw them near mobs than to deploy them at your feet otherwise they'll most likely dodge them
+- can be used to flush enemies out of cover or as a soft form of CC since non-robotic enemies (except tanks) will have to dodge them
 ##### Explosive
 - explosive damage and bleed ticks affected by DTA
 ##### Mender
@@ -1029,10 +1049,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Sticky Bomb
 - applies status effect on impact
-- double tapping the button will quickly shoot them with perfect accuracy (can be done from cover)
+- double tapping the button will quickly shoot it with perfect accuracy (can be done from cover)
 - explodes on impact when hitting drones
 - not detonating a Burn/EMP sticky on a target will automatically reapply the corresponding status effect upon expiration if the status effect expires before the sticky duration (subsequent statuses will be about 33% shorter than the previous status, based on the initial status duration)
-- you can proc In Sync by shooting it at a distance further than 100m like the sky (double-tap it)
+- you can proc In Sync by shooting it at a distance further than 100m (like the sky)
 
 #### Trap
 - good to hold choke points
@@ -1051,6 +1071,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ##### Artillery
 - double tapping will lock/unlock it to a specific location (only works if you're within 10m of the turret)
 - rounds can bounce off walls and ceilings if there is an accessible area
+- can be used to flush enemies out of cover or as a soft form of CC since non-robotic enemies (except tanks) will have to dodge explosions
 - explosive damage and bleed ticks affected by DTA
 ##### Assault
 - always targets the chest
@@ -1093,12 +1114,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - completing objectives early limits the number of additional enemy waves
 - Contagion from the Eclipse Protocol gear set can destroy at least 2 waves of drones if one spawns shortly after the previous one
 - equip the jammer pulse for drone rooms
-- foaming a rogue/hunter stops them from medkitting
+- foaming a boss/hunter/rogue stops them from medkitting
 - going down or dying on an objective keeps capturing it
-- hunters can hack any deployed skill (except traps) based on line of sight 
-- hunters can heal up to 3 times
-- hunters stand up when deploying most of their skills, giving you time to land a few shots
-- hunters will still be able to melee you when performing cover to cover or running past them, you have to roll to avoid being hit (they also seem to have a 2m melee range)
 - immune reviver drones and warhounds can be destroyed by Hostile Negotiations from the Negotiator’s Dilemma gear set even though no icons will be displayed above them (TODO: verify if warhounds can actually be destroyed)
 - immune reviver drones, turrets and warhounds can be disrupted
 - killing marked targets with Negotiator’s Dilemma counts as skill kills (useful for the Cool Skills Challenge)
@@ -1140,9 +1157,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Creeping Death: mobs on which it procs remain affected by their natural status resistance
 - Empathic Resolve: refreshed every time you heal a player
 - Focus: stays proc'ed when reloading or unscoping for less than a second. doesn't proc with the Big Horn, Capacitor or TAC-50 as these have variable scopes
-- Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage and DTA
+- Glass Cannon: also affects how much damage your shield is taking (TODO: check with other skills)
+- Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage and DTA. calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of any other weapon. isn't affected by damage drop-off
 - Intimidate: proc'ed by the bonus armor provided by the "My Home Is My Castle" perk from the Sharpshooter specialization
 - Kinetic Momentum: half of the stacks are lost upon using a chem launcher at full charges and it won't start rebuilding these stacks until it's back at full charges
+- Leadership: procs when interrupting the end of a cover to cover by deploying a shield
 - Tag Team: proc'ed by the Jammer pulse and the Deflector shield (the latter can also consume the mark)
 - Trauma: boosted by status effects. blind and bleed have separate cooldowns
 - Vigilance: stays proc'ed when your base armor remains untouched (like with a shield or bonus armor)
@@ -1161,21 +1180,26 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Tips/tricks
 - any type of armor on kill works with skill kills
+- critical hit damage isn't affected by damage drop-off
 - crossbow bolts apply localized damage, for instance headshots remove helmets
 - double-clicking on a cache instantly opens it
+- explosions have damage drop-off from the point of impact
 - health doesn't regen when disrupted (TODO: check if it's the same when your shield is taking damage)
+- incoming repairs is its own multiplier, therefore it's multiplicative with repair skills
 - mobs can block shots and take damage from another mob, turning a mob right in front of you as a bullet shield
 - opening an ammo box will automatically reload your current weapon
 - picking up a disrupted skill and redeploying it will cleanse it from disruption
 - shooting the foam on an ensnared teammate or hip-firing at your feet breaks it
+- skill damage also boosts status damage
 - swapping any armor piece while out of combat restores all of your armor
 - swapping to a loadout with a different specialization refills grenades
-- swapping to another weapon after a reload is halfway done will still reload the weapon
+- swapping to another weapon halfway through a reload will still reload your other weapon
 - swapping to your pistol then to your other primary weapon is faster than swapping between primary weapons
+- targeting a specific brand (6 items) is much better than targeting a specific armor piece (32 items)
 - the Cool Skills directive doesn't affect deployed skills
 - the flamethrower's stream bypasses warhounds' health, it's not efficient on higher difficulties though as it requires burning a lot of fuel to kill a single warhound
 - the Scavenged Skills directive can be bypassed with the Rigger backpack
-- the survivalist medkit acts as a sphere, just like the Jammer pulse, so you can heal people above/below you
+- the survivalist medkit acts as a sphere so you can heal people above/below you
 - when medkitting with the fragile armor directive, use Perfectly Efficient
 - when your health is depleted, you have a 1-2s buffer to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage (TODO: test the cooldown duration)
 - you can donate resources from the Projects tab on your map
@@ -1183,6 +1207,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can kill enemies stuck behind doors with the Oxidizer
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: firefly)
 - you can skip real-time cutscenes by dodge rolling or aiming
+- walking doesn't trigger NPCs as much as running
 
 ### True Sons
 \- reference: https://thedivision.fandom.com/wiki/True_Sons#Archetypes
@@ -1233,6 +1258,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Tank
 - prefers to launch grenades, periodically stopping to reload
 - well armored, and can take significant damage before the armor breaks
+- resistant to explosives
 - destroying the ammo pack on his back will cause an explosion that will destroy the armor plate on his chest and force him to use a shotgun
 - bounty tanks will keep using the grenade launcher despite destroying his ammo pack
 
@@ -1245,8 +1271,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 \- reference: https://thedivision.fandom.com/wiki/White_Tusk#Archetypes
 
 #### Drone Operator
-- same as the Black Tusk [variant](#drone-operator), except the speed and health of the suicide drones are increased, they're deployed more often and instantly distance themselves from the operator to prevent collateral damage
-- drone initial distance speed is affected by veterancy
+- same as the Black Tusk [variant](#drone-operator), except the speed and health of the suicide drones are increased, they're deployed more often and instantly distance themselves away from the operator to prevent collateral damage
+- drone initial separation speed is affected by veterancy
 
 #### Mini-tank
 - same as the Black Tusk [variant](#mini-tank), except it can still target you after killing its controller and elites don't fire incendiary grenades
@@ -1262,6 +1288,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - tries to get close because of his stinger hive
 - the stinger hive temporarily stops working when he's disrupted (TODO: check if it's the same when shocked)
 - tends to retreat after breaking his backpack
+- his armor plates will turn black once they have less than 50% HP left
 
 #### Thrower
 - same as the Black Tusk [variant](#thrower), except he always fires his airburst launcher in volleys of 3
@@ -1290,7 +1317,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
 - MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998) for general information and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/DrawingWeak4034, u/iKia, u/kestononline, u/Masenku, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45) for general information
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/DrawingWeak4034, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45) for general information
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
  
