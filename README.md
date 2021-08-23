@@ -2,17 +2,14 @@
 
 TODO:
 
-\- check if chunga's butts are still unarmored  
+\- check if chunga's butts are still unarmored (outside the Dark Hours raid)  
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
 \- check if rushers have less HP than snipers  
-\- check if the damage immunity after a self-revive is gone (https://www.reddit.com/r/thedivision/comments/n8ejqk/since_when_are_you_not_invulnerable_anymore_after)  
 \- check if the demolisher firefly trick works on mini-tanks (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
-\- check if the Firestarter shotgun allows you to put mini-tanks and marauders on fire but also bypass the armor plates of warhounds  
-\- check if True Patriot's white buff and popping a survivalist medkit can proc Empathic Resolve (https://www.reddit.com/r/thedivision/comments/p2cgp7/emphatic_resolve_x_true_patriots)  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test cluster seekers rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v)  
-\- test syscor medkit versus fragile armor stacks  
+\- test syscor medkit during cover to cover and against fragile armor stacks  
 
 ## Table of Contents
 
@@ -73,15 +70,15 @@ TODO:
       * [4.3.9 Tank](#tank)
       * [4.3.10 Thrower](#thrower)
       * [4.3.11 Warhounds](#warhounds)
-         * [4.3.11.1 Sniper Warhound](#sniper-warhound)
-         * [4.3.11.2 Minigun Warhound](#minigun-warhound)
-         * [4.3.11.3 Grenadier Warhound](#grenadier-warhound)
+         * [4.3.11.1 Grenadier](#grenadier)
+         * [4.3.11.2 Minigun](#minigun)
+         * [4.3.11.3 Sniper](#sniper-1)
    * [4.4 Cleaners](#cleaners)
       * [4.4.1 Assault](#assault-1)
       * [4.4.2 Controller](#controller-1)
       * [4.4.3 Engineer](#engineer)
       * [4.4.4 Rusher](#rusher-1)
-      * [4.4.5 Sniper](#sniper-1)
+      * [4.4.5 Sniper](#sniper-2)
       * [4.4.6 Tank](#tank-1)
       * [4.4.7 Thrower](#thrower-1)
    * [4.5 Cover](#cover)
@@ -97,7 +94,7 @@ TODO:
       * [4.11.4 Medic](#medic-1)
       * [4.11.6 Rusher](#rusher-2)
       * [4.11.7 Shield](#shield)
-      * [4.11.8 Sniper](#sniper-2)
+      * [4.11.8 Sniper](#sniper-3)
       * [4.11.9 Tank](#tank-2)
       * [4.11.10 Thrower](#thrower-2)
    * [4.12 Looting](#looting)
@@ -107,7 +104,7 @@ TODO:
       * [4.13.3 Heavy Weapons](#heavy-weapons)
       * [4.13.4 Rusher](#rusher-3)
       * [4.13.5 Scorcher](#scorcher)
-      * [4.13.6 Sniper](#sniper-3)
+      * [4.13.6 Sniper](#sniper-4)
       * [4.13.7 Support](#support-1)
       * [4.13.8 Tank](#tank-3)
       * [4.13.9 Thrower](#thrower-3)
@@ -129,7 +126,7 @@ TODO:
       * [4.24.2 Heavy Weapons](#heavy-weapons-1)
       * [4.24.3 Leader](#leader)
       * [4.24.4 Rusher](#rusher-4)
-      * [4.24.5 Sniper](#sniper-4)
+      * [4.24.5 Sniper](#sniper-5)
       * [4.24.6 Tank](#tank-4)
       * [4.24.7 Thrower](#thrower-4)
    * [4.24 Skills](#skills)
@@ -169,7 +166,7 @@ TODO:
          * [4.24.11.1 Artillery](#artillery)
          * [4.24.11.2 Assault](#assault-5)
          * [4.24.11.3 Incinerator](#incinerator)
-         * [4.24.11.4 Sniper](#sniper-5)
+         * [4.24.11.4 Sniper](#sniper-6)
    * [4.25 Spawn camping](#spawn-camping)
    * [4.26 Status effects](#status-effects)
    * [4.27 Summit](#summit)
@@ -187,14 +184,14 @@ TODO:
       * [4.30.5 Medic](#medic-2)
       * [4.30.6 RPG](#rpg)
       * [4.30.7 Rusher](#rusher-5)
-      * [4.30.8 Sniper](#sniper-6)
+      * [4.30.8 Sniper](#sniper-7)
       * [4.30.9 Tank](#tank-5)
       * [4.30.10 Thrower](#thrower-5)
    * [4.31 White Tusks](#white-tusks)
       * [4.31.1 Drone Operator](#drone-operator-1)
       * [4.31.2 Mini-tank](#mini-tank-1)
       * [4.31.3 Rusher](#rusher-6)
-      * [4.31.4 Sniper](#sniper-7)
+      * [4.31.4 Sniper](#sniper-8)
       * [4.31.5 Tank](#tank-6)
       * [4.31.6 Thrower](#thrower-6)
 * [5.0 Links](#links)
@@ -496,6 +493,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - doesn't despawn until all other Black Tusk units in the fight are dead
 - elites roll faster, have more health and fire incendiary grenades
 - vulnerable to explosive damage
+- the Firestarter shotgun (from the Firewall specialization) allows you to put it on fire by lowering its fire resistance
 
 #### Rusher
 - tries to get close to use his deadly shotgun
@@ -555,22 +553,22 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - using a demolisher firefly while they're disrupted bypasses their armor
 - the Firestarter shotgun (from the Firewall specialization) allows you to put them on fire by lowering their fire resistance
 - 3 variants with different weak points, causing them to stop working for a few seconds when destroyed:
-##### Sniper warhound
+##### Grenadier
+- has weak points behind its cannon and at the top of its back (TODO: check for other weak points)
+- elites fire 3 shock grenades in a salvo and try harder to flank
+- when destroyed, explodes with an electrical charge, causing everything nearby to be shocked
+- shooting the hinge next to its cannon bypasses armor
+##### Minigun
+- has weak points located at the top of its legs
+- elites can stop and after a short charge up time, fire their minigun in a devastating 360° spin
+- when destroyed, explodes with fragmentation inflicting damage and causing everything nearby to bleed
+##### Sniper
 - has its weak point exposed in the form of a little red cartridge on the right of the gun when it fires (TODO: verify if still bugged for elites)
 - elites fire in 3-round bursts with the sniper turret when stationary
 - dealing enough damage to its legs staggers it and prevents it from firing (or at least delays its next shot)
 - shooting its butt bypasses its armor
 - when destroyed, creates an EMP explosion, disrupting agents in close range and everything else in medium range (TODO: check if the EMP range is bigger on elites)
-##### Minigun warhound
-- has weak points located at the top of its legs
-- elites can stop and after a short charge up time, fire their minigun in a devastating 360° spin
-- when destroyed, explodes with fragmentation inflicting damage and causing everything nearby to bleed
-##### Grenadier warhound
-- has weak points behind its cannon and at the top of its back (TODO: check for other weak points)
-- elites fire 3 shock grenades in a salvo and try harder to flank
-- when destroyed, explodes with an electrical charge, causing everything nearby to be shocked
-- shooting the hinge next to its cannon bypasses armor
-
+- 
 ### Cleaners
 \- reference: https://thedivision.fandom.com/wiki/Cleaners#Tom_Clancy.27s_The_Division_2
 
@@ -907,6 +905,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can revive teammates without being next to them by moving over their body while pressing the revive key when close to it (TODO: test if it's affected by downed/dead state and walking/running)
 - you should always provide cover to the one reviving by either killing, CC'ing, aggro'ing or suppressing mobs
 - downed players must get near cover without blocking it for alive players and avoid crawling in the open otherwise they'll be harder to revive
+- after self-reviving, you're immmune to damage for a few seconds as long as you don't perform any action other than walking
 
 ### Rikers
 \- reference: https://thedivision.fandom.com/wiki/Rikers#Tom_Clancy.27s_The_Division_2
@@ -1155,7 +1154,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 - Bloodsucker: procs on skill kills. all stacks are refreshed upon killing an enemy
 - Creeping Death: mobs on which it procs remain affected by their natural status resistance
-- Empathic Resolve: refreshed every time you heal a player
+- Empathic Resolve: refreshed every time you heal a player. also procs with True Patriot's white buff and when healing other group members with the Survivalist medkit
 - Focus: stays proc'ed when reloading or unscoping for less than a second. doesn't proc with the Big Horn, Capacitor or TAC-50 as these have variable scopes
 - Glass Cannon: also affects how much damage your shield is taking (TODO: check with other skills)
 - Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage and DTA. calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of any other weapon. isn't affected by damage drop-off
@@ -1318,7 +1317,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
 - MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998) for general information and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/DrawingWeak4034, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45) for general information
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/D3LTAFR0ST, u/DrawingWeak4034, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45) for general information
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
  
