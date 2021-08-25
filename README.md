@@ -202,9 +202,9 @@
 
 ## Introduction
 
-I'm going to make a video series about how to become good at shooters because I've noticed a vast number of players don't spend the time to study how game mechanics work or learn from their mistakes. It doesn't take a genius to be a decent player so I'm just gonna lay things out there so that everyone can understand how games work and what it takes to become better.
+I'm going to make a video series about how to become good at shooters because I've noticed a vast number of players could use some help to improve the way they play games. I will lay things down in a way that everyone can understand to facilitate assimilating new concepts.
 
-I'll use this document to mention what I'm gonna talk about. I'll edit it when I think of new concepts or when I find new tricks. If you think of something that is not listed, feel free to message me (contact information at the bottom). Once the list is done, I'll start making videos about it. Don't expect any good editing, I don't know anything about it so I'll have to learn that on-the-fly and I don't deem it important for these videos.
+I'll use this document to mention what I'm gonna talk about. I'll edit it when I think of new concepts or when I find new tricks. If you think of something that is not listed, feel free to message me (contact information at the bottom). Once this document is complete, I'll start making one video per section. Don't expect any good intro/outro and transitions, I don't know anything about video editing so I'll have to learn that on-the-fly and I don't deem it important for now.
 
 While it's divided into 3 sections, the one about The Division 2 will be the first I will focus on.
 
