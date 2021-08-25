@@ -1303,11 +1303,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - [Community Resources](https://www.reddit.com/r/thedivision/wiki/thedivision2/communityresources)
 - [Gear Attribute Sheet](https://docs.google.com/spreadsheets/d/1REi6cA7oSzT7h0O9YD6uxAbnCTmE-YKMDctsKogzXC8)
 - [Gear Spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJEX5DerCvOj3a_m36TRy1gPBAUvrduOIdmXI9j1Y0MpQk1wIXaZ9KOcPa7HzXzp_N5qGmjDj6yEfL/pubhtml) ([alternative](https://docs.google.com/spreadsheets/d/1nrPBmOrtpkEW1j5fbcRT7L-AXgsGOqMqxXoVtopsiGM))
-- [Hazard Protection and Status Effects Immunity Thresholds](https://www.reddit.com/r/thedivision/comments/hdac4x/tu10_hazard_protection_and_status_effects)
 - [Guide to blowing things up - Explosive Skill Damage Build](https://www.reddit.com/r/thedivision/comments/gbrbvm/guide_to_blowing_things_up_explosive_skill_damage)
 - [Guide to Shield Tanks - How to take a beating](https://www.reddit.com/r/thedivision/comments/hr0gxr/how_to_take_a_beating_a_guide_to_shield_tanks)
+- [Hazard Protection and Status Effects Immunity Thresholds](https://www.reddit.com/r/thedivision/comments/hdac4x/tu10_hazard_protection_and_status_effects)
 - [Interactive Map](https://division2map.com)
 - [NPC Health Pools](https://docs.google.com/spreadsheets/d/1OP0r0A81wroX9v9iZ1u-jYNndTjugaB8e1MxS3FWCsk)
+- [Reddit thread](https://www.reddit.com/r/thedivision/comments/pa5r2c/a_comprehensive_guide_to_become_better_at_the)
 - [Weapon Damage 101: Bullet Damage](https://www.reddit.com/r/thedivision/comments/gi0uel/weapon_damage_101_bullet_damage)
 - [Weapon DPS Database](https://onedrive.live.com/view.aspx?resid=FCC78BAD7A71FF1C!263)
 - [Weekly vendor reset](https://rubenalamina.mx/the-division-weekly-vendor-reset)
@@ -1318,8 +1319,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - [adreN](https://www.youtube.com/channel/UCauWzM4ElgQCuwymc3sV42g), [BreezyGamingTV](https://www.youtube.com/channel/UCWtBHE2zTID1XTPQrpf8MyA), [JoshNissan](https://www.youtube.com/channel/UCkFeaDgFURxNOoRoezRl7aQ), [luckySkillFaker](https://www.youtube.com/channel/UCS6fU1w749zdEwIhJCxAc3g), [Lunar](https://www.youtube.com/channel/UC28EeQoLgCVERhAj20R1qLg), [OfficialA2K](https://www.youtube.com/channel/UC_LCy84M7DHHNteE0-OjwEQ), [TheWarOwl](https://www.youtube.com/channel/UCpFcHE36IoySjYj1Rytxyog) and [voo CSGO](https://www.youtube.com/channel/UC2vjGuOTH-KcRCLSm5F3oUA) for the videos about PVP concepts
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
-- MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998) for general information and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45) for general information
+- MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/mikkroniks, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
  
