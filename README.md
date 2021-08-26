@@ -3,6 +3,9 @@
 <details>
 <summary><b>To-do list</b></summary>
 
+\- add a Builds section  
+\- add a Marauder section  
+\- add an Inventory management section (https://www.youtube.com/watch?v=1Rkoxi1u8tg)  
 \- check if chunga's butts are still unarmored (outside the Dark Hours raid)  
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
