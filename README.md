@@ -189,7 +189,7 @@
       * [4.30.8 Sniper](#sniper-7)
       * [4.30.9 Tank](#tank-5)
       * [4.30.10 Thrower](#thrower-5)
-   * [4.31 White Tusks](#white-tusks)
+   * [4.31 White Tusk](#white-tusk)
       * [4.31.1 Drone Operator](#drone-operator-1)
       * [4.31.2 Mini-tank](#mini-tank-1)
       * [4.31.3 Rusher](#rusher-6)
@@ -219,12 +219,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### AI animations
 - predictable
-- different in every game (must be studied)
+- different in every game
 - can be used for crosshair placement
 
 ### AI behavior
 - predictable
-- different in every game (must be studied)
+- different in every game
 - can be used for funnelling mobs and setting up traps
 
 ### Angle isolation
@@ -254,6 +254,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - always play on hardest
 - forces you to be smart
 - you learn more and faster about the game than on easier difficulties
+- easier difficulties don't challenge you, we often learn by overcoming challenges
 - more rewarding
 
 ### Elevation
@@ -325,13 +326,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - alone first: allows you to thin out enemies without raising the alarm
 
 ### Weak points
-- different in every game (must be studied)
+- different in every game
 - allows you to kill/disrupt several enemies at once
 - may prevent enemies from using their abilities
 
 ### Weapon recoil
-- different in every game (must be learned)
-- rule of thumb: shoot in bursts to maintain accuracy
+- different in every game
+- every weapon often has a different recoil pattern that can be mastered
+- shooting in bursts or tapping will help maintaining accuracy
 
 ### Weapon selection
 - use the right weapon based on distance (short range: SMG, long range: sniper rifle)
@@ -342,7 +344,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Baiting
 - using a teammate to force your opponent to peek, thus revealing his location and allowing you to get the kill without getting shot (baiting a teammate)
 - forcing your opponents to use their utility by putting pressure or using utility against them (baiting utility)
-- jiggle peek (see the "Jiggle peeking" section) to have an opponent reveal his location (baiting a shot)
+- jiggle peek (see this [section](#jiggle-peeking)) to have an opponent reveal his location (baiting a shot)
 - reference: https://www.youtube.com/watch?v=43J9nUmrbo4
 
 ### Callouts
@@ -473,7 +475,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Drone Operator
 - deploys suicide drones above her that target players and skills
 - destroying their backpack causes an explosion that hurts her and prevents her from deploying drones
-- destroying the drone also causes an explosion that can kill her if she's close
+- destroying the drones (preferably with an AR) causes an explosion that can kill her if she's too close
+- staying close to her after she's deployed her drones will make them blow up in her face, potentially killing her
 - unable to deploy drones when disrupted
 - usually peeks a few seconds after deploying drones if a player is visible (great for riflers/snipers)
 - walking backwards is enough to dodge her drones
@@ -500,7 +503,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Rusher
 - tries to get close to use his deadly shotgun
 - ignores grenades and stinger hives
-- elites will throw a flashbang grenade when getting close
+- elites will throw a flashbang grenade when getting close, which can potentially blind them and other nearby enemies
 - has the lowest amount of HP of all archetypes
 
 #### Sniper
@@ -595,7 +598,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Rusher
 - armed with fire axes and riot shields
 - you can use dancing to force him to melee you, thus exposing his body at the end of his swing animation
-- their shield can withstand a whole magazine of AR before breaking
+- you can also deal enough damage to his body or his shield (for instance with a shotgun) to trigger the knockback animation, thus exposing his body
+- their shield can withstand an entire AR magazine before breaking
 - has the lowest amount of HP of all archetypes
 - no weak point
 
@@ -624,10 +628,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - peeking from vertical cover exposes you to less angles at the same time
 - shooting from vertical cover at a 30-75° angle allows you to shoot mobs without them shooting back
 - covers cannot be shared between teammates so you should let dps players have them when possible
+- you can dodge roll to cover to get behind or around a piece of cover faster
 
 ### Cover to cover
 - reduces the enemy's accuracy on you, thus drastically reducing incoming damage
 - faster than running
+- allows you to look around without changing the direction of your movement
 - allows you to reload without reducing speed
 - try to end up with a dodge roll to cover if the destination will leave you exposed as the enemy's accuracy will be instantly back to normal as soon as the cover to cover stops
 - when running past an enemy, acts as a soft form of CC (they'll often try to melee you)
@@ -797,10 +803,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Playing crowd control
 - main attributes: status effects and skill haste
 - prevents the AI from shooting back or using their abilities
-- Creeping Death is a must as it spreads status effects on hit
-- Scorpio is a must as it's another form of CC
-- any AR with Future Perfect and a pistol with Perpetuation are a must
-- Survivalist is a must for the additional damage to affected targets and the fire grenade as another form of CC
+- Creeping Death is good for short radius skills (like foam and sticky bombs) as it spreads status effects on hit
+- Scorpio is a good choice as it's another form of CC, which helps mitigating skill cooldowns because it allows you to still CC while waiting for your skills to come back
+- any weapon with Future Perfect and Perpetuation are also good choices
+- Survivalist is a good choice for the additional damage to affected targets and the fire grenade as another form of CC
 - CC'ed enemies must be within line of sight of your teammates to be efficient
 - status selection is going to vary based on content and group composition
 - try to get as close as possible to spawn closets to maximize effectiveness because the more the AI spreads out, the less effective a CC becomes as you'll be putting less mobs under status effects at the same time
@@ -808,9 +814,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - 2 types of CC builds:
 
 #### Eclipse
-- good for Heroic content and CP4s, only useful in legendaries if your group focuses affected targets and has enough damage to kill them quickly
+- good for Heroic content and CP4s, only efficient in legendaries if your group focuses affected targets and has enough damage to kill them quickly
+- can be used as an offensive skill build on Challenging or lower difficulty content, in that case prefer the Eclipse backpack and Capacitor
 - spreads status effects on kill, therefore, the Eclipse chest is a must
-- also spreads status effects from Scorpio (TODO: test if Scorpio stacks and TP debuffs)
+- also spreads status effects from Scorpio (TODO: test if TP debuffs are also spread)
 - preferred skills are riot foam/firestarter, airburst seeker and burn/emp sticky bomb
 - bigger cooldowns
 
@@ -972,9 +979,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Decoy
 - used to pull aggro off you and your group
-- can be meleed, shot or damaged by explosions
-- should be deployed at elevated but visible positions (better if unreachable)
+- can be meleed, shot or damaged by explosions and fire
+- should be deployed in locations where the hologram is visible to enemies but not its base, such as elevated positions or behind low covers (better if it's in an unreachable location)
 - its duration can be greatly extended with an artificer hive
+- mobs shooting it will be pulsed and therefore proc Spotter
 
 #### Drone
 ##### Bombardier
@@ -1011,6 +1019,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Pulse
 ##### Achille's
 - scales with headshot damage squared if the head is marked and shot
+- also pulses affected target
 ##### Banshee
 - the longer you hold the button, the further the confuse wave will go
 - its cooldown is based on the number of targets hit
@@ -1053,6 +1062,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - double tapping the button will quickly shoot it with perfect accuracy (can be done from cover)
 - explodes on impact when hitting drones
 - not detonating a Burn/EMP sticky on a target will automatically reapply the corresponding status effect upon expiration if the status effect expires before the sticky duration (subsequent statuses will be about 33% shorter than the previous status, based on the initial status duration)
+- when you're standing or on the move, aiming with your weapon prior to double-tapping it will help making the shot land where you want to
 - you can proc In Sync by shooting it at a distance further than 100m (like the sky)
 
 #### Trap
@@ -1092,7 +1102,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - definition: attacking mobs while they're still inside (or as soon as they come out) of their spawn closet
 - requires that you already know the AI spawn locations combined with an aggressive playstyle
 - greatly reduces incoming damage as mobs can't shoot back while they're still inside their spawn closet (and if they do come out, they'll usually walk for a few meters or wait for a few seconds before shooting)
-- faster to switch between targets as they're all close to each other, leading to less time needed to clear content
+- faster to switch between targets as they're all close to each other, leading to faster TTK
 - only possible with some form of CC (Eclipse, Hunter's Fury, fire grenades)
 - deadly when combined with the firewall shield, a shotgun with Pummel or Negotiator’s Dilemma
 - try to make your way to spawn closets before the current enemy wave is cleared
@@ -1115,6 +1125,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - completing objectives early limits the number of additional enemy waves
 - Contagion from the Eclipse Protocol gear set can destroy at least 2 waves of drones if one spawns shortly after the previous one
 - equip the jammer pulse for drone rooms
+- every time an enemy dies, expect a spawn to not be caught off guard
 - foaming a boss/hunter/rogue stops them from medkitting
 - going down or dying on an objective keeps capturing it
 - immune reviver drones and warhounds can be destroyed by Hostile Negotiations from the Negotiator’s Dilemma gear set even though no icons will be displayed above them (TODO: verify if warhounds can actually be destroyed)
@@ -1128,7 +1139,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - when no mobs are in a room, don't go too far from the door as it's a drone ambush
 - when stuck between a door and a wall, fast travel to another player
 - you can build Scorpio stacks on a rotating jammer before it's 
-- you can open locked doors by shooting the lock with a chem launcher, it allows you to not alert enemies
+- you can open locked doors by shooting the lock with a chem launcher or a silenced pistol, it allows you to not alert enemies
 
 ### Talents
 
@@ -1199,6 +1210,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - swapping to your pistol then to your other primary weapon is faster than swapping between primary weapons
 - targeting a specific brand (6 items) is much better than targeting a specific armor piece (32 items)
 - the Cool Skills directive doesn't affect deployed skills
+- the EMP grenade has a fixed ~11s duration, regardless of skill tiers or attributes (TODO: check if status effects can increase its duration)
 - the flamethrower's stream bypasses warhounds' health, it's not efficient on higher difficulties though as it requires burning a lot of fuel to kill a single warhound
 - the Scavenged Skills directive can be bypassed with the Rigger backpack
 - the survivalist medkit acts as a sphere so you can heal people above/below you
@@ -1269,7 +1281,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - avoids direct engagement and fight from range while other allies distract opponents
 - destroying the grenade pouch on their thigh will cause an explosion
 
-### White Tusks
+### White Tusk
 \- reference: https://thedivision.fandom.com/wiki/White_Tusk#Archetypes
 
 #### Drone Operator
@@ -1280,7 +1292,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - same as the Black Tusk [variant](#mini-tank), except it can still target you after killing its controller and elites don't fire incendiary grenades
 
 #### Rusher
-- same as the Black Tusk [variant](#rusher), except he throws shock grenades
+- same as the Black Tusk [variant](#rusher), except he throws shock grenades, which can potentially shock them and other nearby enemies
 
 #### Sniper
 - same as the Black Tusk [variant](#sniper), except she only needs 2s to acquire a target before shooting
@@ -1320,7 +1332,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
 - MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/mikkroniks, u/mxswat, u/rubenalamina, u/Trzebiat and u/Vikeman45) for knowledge sharing and feedback
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
  
