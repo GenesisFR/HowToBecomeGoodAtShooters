@@ -3,10 +3,12 @@
 <details>
 <summary><b>To-do list</b></summary>
 
-\- add a Builds section  
-\- add a Marauder section  
-\- add an Inventory management section (https://www.youtube.com/watch?v=1Rkoxi1u8tg)  
-\- add an Optimization section  
+\- add a Builds section under The Division 2  
+\- add a Marauder section under The Division 2  
+\- add a Sounding section under PVE  
+\- add a Target prioritisation section under The Division 2  
+\- add an Inventory management section (https://www.youtube.com/watch?v=1Rkoxi1u8tg) under The Division 2  
+\- add an Optimization section under The Division 2  
 \- check if chunga's butts are still unarmored (outside the Dark Hours raid)  
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
@@ -145,7 +147,8 @@
       * [4.25.3 Drone](#drone)
          * [4.25.3.1 Bombardier](#bombardier)
          * [4.25.3.2 Defender](#defender)
-         * [4.25.3.3 Striker](#striker)
+         * [4.25.3.3 Spotter](#spotter)
+         * [4.25.3.4 Striker](#striker)
       * [4.25.4 Firefly](#firefly)
       * [4.25.5 Hive](#hive)
          * [4.25.5.1 Artificer](#artificer)
@@ -553,6 +556,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - heavily armored quadrupeds that attempt to position themselves with clear line of sight to enemies and use a powerful sniper type armament, a grenade launcher or a minigun to dispatch their foes
 - have no armor bar, but you have to destroy their armor plate before damaging its health
 - elites have the added bonus of firing on the move
+- they always move from a point to another and stop for a few seconds, use that time to shoot weak points
 - although warhounds don't have a head, shooting their red eye counts as a headshot, proccing headshot-related talents like Perpetuation (TODO: verify this information)
 - their legs have a 90% damage reduction
 - the survivalist crossbow completely breaks their armor plate (unless you aim for the legs)
@@ -654,7 +658,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - acts as a soft form of CC (the NPC will try to melee you)
 
 ### Difficulty
-- affects how many enemies you face
+- affects how many enemies you face (except in legendary strongholds)
 - affects how much damage enemies deal
 - affects how much HP enemies have
 - affects how much XP you get by killing enemies and completing activities
@@ -682,6 +686,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - can heal up to 3 times
 - can melee you when performing cover to cover or running past them because they seem to have a 2m melee range (you have to dodge roll to avoid being hit)
 - can still use their abilities while disrupted
+- not considered as named enemies, therefore signature weapons aren't affected by damage reduction
 - stand up when deploying most of their skills, giving you time to land a few shots
 - their damage output and melee damage are way beyond any other mob in the game
 - when they're about to hack your skills, a lightning icon will be shown above them so you have about 2-3s to destroy or pick up your skill
@@ -745,9 +750,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Looting
 - deconstructing gear set pieces gives blue materials
-- looting is proximity based, so wait for others to be close (when you can see their name plate) before opening crates
-- you can share any cache with whoever was in your group when you obtained (not opened) the cache
+- looting is proximity based, so wait for others to be close (when you can see their icon) before opening crates
+- you can share any cache/loot with whoever was in your group when you obtained (not opened) the cache/loot
 - avoid sharing items near loot piles as it's common for someone to deconstruct an entire pile
+- try to loot from cover whenever possible to minimize exposure
 
 ### Outcasts
 \- reference: https://thedivision.fandom.com/wiki/Outcasts#Archetypes
@@ -823,7 +829,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Creeping Death is good for short radius skills (like foam and sticky bombs) as it spreads status effects on hit
 - Scorpio is a good choice as it's another form of CC, which helps mitigating skill cooldowns because it allows you to still CC while waiting for your skills to come back
 - any weapon with Future Perfect and Perpetuation are also good choices
-- Survivalist is a good choice for the additional damage to affected targets and the fire grenade as another form of CC
+- Survivalist is a good choice for the additional damage to status affected targets and the fire grenade as another form of CC, prefer Firewall if you're going to use fire skills
 - CC'ed enemies must be within line of sight of your teammates to be efficient
 - status selection is going to vary based on content and group composition
 - try to get as close as possible to spawn closets to maximize effectiveness because the more the AI spreads out, the less effective a CC becomes as you'll be putting less mobs under status effects at the same time
@@ -915,8 +921,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - must not block shots from your teammates
 - must provide more survivability to the group
 - must stay within range of your teammates
-- it's best to stay on the edges of a room or have a wall behind you to avoid getting shot from the side
+- it's best to stay on the edges of a room or have a wall behind you to avoid getting shot from multiple sides
 - pay close attention to your radar to avoid getting flanked
+- you should be the one reviving other players as you can withstand a lot of damage
 - Foundry Bulwark is the best gear set for it
 - reference: https://www.reddit.com/r/thedivision/comments/hr0gxr/how_to_take_a_beating_a_guide_to_shield_tanks and https://www.reddit.com/r/thedivision/comments/jg4brb/whats_the_point_of_tank_builds/g9op8nb
 
@@ -926,7 +933,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - if your reviver hive is at Tier 5 or lower and has full charges, you can switch to the TDI Kard Custom before deploying it to get an additional charge without making it go on cooldown
 - it's a good idea to throw a flashbang/fire grenade before reviving if there are enemies nearby to prevent them from pushing, especially near choke points
 - it's sometimes better to go through the rest of the engagement without reviving someone if it would make you at risk
-- reviving someone behind a low cover while not taking cover still covers you (not in pvp)
+- reviving someone behind a low cover while not taking cover still covers you (not in PVP)
+- support builds should be the ones reviving other players (they're still able to support the team in the meantime), a dps can't shoot while reviving
 - when reviving a downed teammate, you can use them as bullet shield (since they become immune to damage)
 - you can revive teammates without being next to them by moving over their body while pressing the revive key when close to it (TODO: test if it's affected by downed/dead state and walking/running)
 - you should always provide cover to the one reviving by either killing, CC'ing, aggro'ing or suppressing mobs
@@ -1010,6 +1018,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ##### Defender
 - its damage reduction isn't additive with protection from elites
 - its duration can be greatly extended with an artificer hive
+##### Spotter
+- can be aimed through walls
 ##### Striker
 - always targets the chest
 - used to pull aggro off you and your group
@@ -1049,6 +1059,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ##### Jammer
 - the longer you hold the button, the wider the disrupt radius will be
 - acts as a sphere so you can disrupt mobs above/below you
+- effective to proc Toxic Delivery from the Vile mask
 ##### Scanner
 - its effect duration is also affected by skill duration
 
@@ -1104,6 +1115,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ##### Artillery
 - double tapping will lock/unlock it to a specific location (only works if you're within 10m of the turret)
 - rounds can bounce off walls and ceilings if there is an accessible area
+- can be aimed through walls
 - can be used to flush enemies out of cover or as a soft form of CC since non-robotic enemies (except tanks) will have to dodge explosions
 - explosive damage and bleed ticks affected by DTA
 ##### Assault
@@ -1130,6 +1142,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - try to make your way to spawn closets before the current enemy wave is cleared
 
 ### Status effects
+- a player cannot put another player under status effects, therefore, environmental hazards next to a player should be triggered before the AI triggers them
 - AI status effect resistance is based on difficulty, veterancy and skill used
 - Bleed: mobs run away from the bleed source, robotics are immune (not to the stinger hive damage though)
 - Blind: mobs wander around in random directions with an arm covering their eyes (hard to get headshots), robotics are immune
@@ -1137,6 +1150,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Confuse: mobs kneel down then wander around in random directions, robotics are immune
 - Disrupt: red/purple mobs on Heroic difficulty or lower kneel down, effective against electronics, prevents mobs from using their abilities (except hunters), deployed support stations from healing and legendary tanks from using their backpack
 - Ensnare: mobs can't move, any action they were performing will be interrupted, they will shoot at you if you're facing them (in a 180° forward angle), robotics are immune
+- hazard protection reduces how long you're affected by status effects, not the initial damage
 - Poison: red mobs kneel down, robotics are immune (TODO: test on purples and Heroic-)
 - Pulse: mobs are highlighted along with their weak points (even through walls) for a short time then stay tagged, it's not considered as a status effect and therefore doesn't proc status effect talents (except Spotter)
 - raid bosses are immune to some status effects
@@ -1162,7 +1176,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - when no mobs are in a room, don't go too far from the door as it's a drone ambush
 - when stuck between a door and a wall, fast travel to another player
 - you can build Scorpio stacks on a rotating jammer before it's 
-- you can open locked doors by shooting the lock with a chem launcher or a silenced pistol, it allows you to not alert enemies
+- you can open locked doors by shooting the lock with a chem launcher or a silenced weapon, it allows you to not alert enemies (providing you're far enough from enemies when using a silencer)
 - you can see enemies through walls when servers are blinking
 
 ### Talents
@@ -1192,7 +1206,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Bloodsucker: procs on skill kills. all stacks are refreshed upon killing an enemy
 - Creeping Death: mobs on which it procs remain affected by their natural status resistance
 - Empathic Resolve: refreshed every time you heal a player. also procs with True Patriot's white buff and when healing other group members with the Survivalist medkit
-- Focus: stays proc'ed when reloading or unscoping for less than a second. doesn't proc with the Big Horn, Capacitor or TAC-50 as these have variable scopes
+- Focus: stays proc'ed when reloading or unscoping for less than a second, which allows you to keep moving. doesn't proc with the Big Horn, Capacitor or TAC-50 as these have variable scopes
 - Glass Cannon: also affects how much damage your shield is taking (TODO: check with other skills)
 - Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage and DTA. calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of any other weapon. isn't affected by damage drop-off
 - Intimidate: proc'ed by the bonus armor provided by the "My Home Is My Castle" perk from the Sharpshooter specialization
@@ -1200,8 +1214,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Leadership: procs when interrupting the end of a cover to cover by deploying a shield
 - Tag Team: proc'ed by the Jammer pulse and the Deflector shield (the latter can also consume the mark)
 - Trauma: boosted by status effects. blind and bleed have separate cooldowns
-- Vanguard: gives bonus armor to yourself in raids
-- Vigilance: stays proc'ed when your base armor remains untouched (like with a shield or bonus armor)
+- Vanguard: also gives bonus armor to yourself in raids
+- Vigilance: stays proc'ed when your base armor remains untouched (like when using a shield or having bonus armor)
 
 #### Weapons
 
@@ -1236,12 +1250,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - swapping to your pistol then to your other primary weapon is faster than swapping between primary weapons
 - targeting a specific brand (6 items) is much better than targeting a specific armor piece (32 items)
 - the Cool Skills directive doesn't affect deployed skills
+- the crossbow can one shot Razorback's grates in the Dark Hours raid
 - the EMP grenade has a fixed ~11s duration, regardless of skill tiers or attributes (TODO: check if status effects can increase its duration)
 - the flamethrower's stream bypasses warhounds' health, it's not efficient on higher difficulties though as it requires burning a lot of fuel to kill a single warhound
 - the Scavenged Skills directive can be bypassed with the Rigger backpack
 - the survivalist medkit acts as a sphere so you can heal people above/below you
 - when medkitting with the fragile armor directive, use Perfectly Efficient
-- when your health is depleted, you have a 1-2s buffer to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage (TODO: test the cooldown duration)
+- when your health is depleted, you have a 1-2s buffer (not in PVP) to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage (TODO: test the cooldown duration)
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
 - you can kill enemies stuck behind doors with the Oxidizer
