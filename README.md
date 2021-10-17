@@ -17,6 +17,7 @@
 \- check if the Demolisher Firefly trick works on mini-tanks (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test Cluster Seeker Mines rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v)  
+\- test if the Stinger Hive actually scales with explosive damage and DTA  
 \- test syscor medkit during cover to cover and against fragile armor stacks  
 </details>
 
@@ -169,6 +170,7 @@
          * [4.25.8.2 Crusader/Striker Shield](#crusaderstriker)
          * [4.25.8.3 Deflector Shield](#deflector)
       * [4.25.9 Sticky Bomb](#sticky-bomb)
+         * [4.25.9.1 EMP](#emp)
       * [4.25.10 Trap](#trap)
          * [4.25.10.1 Shock](#shock)
          * [4.25.10.2 Healing](#healing)
@@ -252,6 +254,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - aim at head level
 - snap to the wall as you're clearing an angle
 - reduces how much you have to move your mouse before being on your target
+- you should always try having your crosshair where enemies could potentially peek from
 - reference: https://www.youtube.com/watch?v=U9mvXfnY8wU
 
 ### Damage indicator
@@ -461,11 +464,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### AI behavior
 - dictated by positioning and playstyle
-- being aggressive makes them stay back or in cover
+- being aggressive from afar makes mobs stay back or in cover
 - being passive makes them go in the open and push
 - they always try to flank
 - they become aggressive when you're low HP
 - they try to melee you when you're in close range
+- they will leave cover as you get close
 
 ### Black Tusks
 \- reference: https://thedivision.fandom.com/wiki/Black_Tusk#Archetype
@@ -488,7 +492,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - destroying the drones (preferably with an AR) causes an explosion that can kill her if she's too close
 - staying close to her after she's deployed her drones will make them blow up in her face, potentially killing her
 - unable to deploy drones when disrupted
-- usually peeks a few seconds after deploying drones if a player is visible (great for riflers/snipers)
+- players needs to be in her line of sight in order to be able to target them with her drones, that's why she usually peeks a few seconds after deploying drones (great for riflers/snipers)
 - walking backwards is enough to dodge her drones
 
 #### Medic
@@ -583,7 +587,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - elites fire in 3-round bursts with the sniper turret when stationary
 - dealing enough damage to its legs staggers it and prevents it from firing (or at least delays its next shot)
 - shooting its butt bypasses its armor
-- when destroyed, creates an EMP explosion, disrupting agents in close range and everything else in medium range (TODO: check if the EMP range is bigger on elites)
+- when destroyed, creates an EMP explosion, disrupting agents in close range for 9s and everything else in medium range for at least 12s (TODO: check if the EMP range is bigger on elites and enemy disrupt duration)
 - 
 ### Cleaners
 \- reference: https://thedivision.fandom.com/wiki/Cleaners#Tom_Clancy.27s_The_Division_2
@@ -827,7 +831,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Playing crowd control
 - main attributes: status effects and skill haste
 - prevents the AI from shooting back or using their abilities
-- Creeping Death is good for short radius skills (like Riot Foam Chem Launcher and Sticky Bomb) as it spreads status effects on hit
+- Creeping Death is good for short radius skills (like Chem Launcher and Sticky Bomb) as it spreads status effects on hit
 - Scorpio is a good choice as it's another form of CC, which helps mitigating skill cooldowns because it allows you to still CC while waiting for your skills to come back
 - any weapon with Future Perfect and Perpetuation are also good choices
 - Survivalist is a good choice for the additional damage to status affected targets and the fire grenade as another form of CC, prefer Firewall if you're going to use fire skills
@@ -1040,6 +1044,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - deploying it is a good way to proc Feedback Loop from the Hardwired gear set
 - drone speed based on skill tier
 - must not be obstructed by a wall to interact with skills or players
+- acts as a sphere so you can revive a player who is on a different floor for instance
+
 ##### Artificer
 - doesn't need to be deployed to affect your other skill
 - heals nearby deployed shields while holstered (TODO: verify this information)
@@ -1061,6 +1067,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the longer you hold the button, the wider the disrupt radius will be
 - acts as a sphere so you can disrupt mobs above/below you
 - effective to proc Toxic Delivery from the Vile mask
+- its damage on robotics is only increased by skill damage
 ##### Scanner
 - its effect duration is also affected by skill duration
 
@@ -1099,8 +1106,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - double tapping the button will quickly shoot it with perfect accuracy (can be done from cover)
 - explodes on impact when hitting drones
 - not detonating a Burn/EMP sticky on a target will automatically reapply the corresponding status effect upon expiration if the status effect expires before the sticky duration (subsequent statuses will be about 33% shorter than the previous status, based on the initial status duration)
-- when you're standing or on the move, aiming with your weapon prior to double-tapping it will help making the shot land where you want to
+- when you're standing or on the move, aiming with your weapon prior to double-tapping it will make it easier lining up your shot
 - you can proc In Sync by shooting it at a distance further than 100m (like the sky)
+##### EMP
+- its damage on robotics is only increased by skill damage
 
 #### Trap
 - cooldown starts as soon as deploying them
@@ -1124,17 +1133,18 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - explosive damage and bleed ticks affected by DTA
 ##### Assault
 - always targets the chest
+- it shows a red line when automatically targeting mobs that you can use as a way to spot them (especially when solo)
 - will shoot the nearest mob unless you do manual targeting
 ##### Incinerator
 - great for spawn closets
-- duration based on fuel
+- its duration is reduced every time you burn fuel
 - tap the button when you don't need it to save fuel
 - initial damage and ticks affected by DTA
 ##### Sniper
 - good for burst damage
 - targets the chest by default
 - you have to ADS with your gun to switch to manual aim, which allows you to land a headshot, which deals more damage
-- doesn't scale with headshot damage
+- doesn't scale with headshot damage but headshots will instead deal double the body damage
 
 ### Spawn camping
 
@@ -1211,6 +1221,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Gear sets
 
 - Ground Control (Future Initiative): procs when someone is at full armor, not when the FI user is at full armor
+- Hostile Negotiations (Negotiator’s Dilemma): crits caused by a signature weapon aren't affected by damage reduction when shooting a non-named enemy while a named enemy is marked
 - Makeshift Repairs (Foundry Bulwark): explosive damage isn't taken into account
 
 #### High-end
@@ -1242,13 +1253,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Ranger: multiplicative damage that doesn't boost Headhunter
 
 ### Tips/tricks
-- any type of armor on kill works with skill kills
+- any type of armor on kill works with skill kills and the Plague of the Outcasts debuff from Pestilence
 - critical hit damage isn't affected by damage drop-off
 - crossbow bolts apply localized damage, for instance headshots remove helmets
 - deploying a skill while using Technician protects you and nearby allies from disruption/shock (Faraday field) as long as you're both staying within 5m of it
 - double-clicking on a cache instantly opens it
 - explosions have damage drop-off from the point of impact
-- health doesn't regen when disrupted (TODO: check if it's the same when your shield is taking damage)
+- health doesn't regen when disrupted
 - improvised gear always has a mod slot, opening up possibilities for some builds (ex: PFE, hazard immunity)
 - incoming repairs and outgoing healing are multiplicative and they are their own multiplier, therefore, they're both multiplicative with repair skills
 - mobs can block shots and take damage from another mob, turning a mob right in front of you as a bullet shield
@@ -1261,14 +1272,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - swapping to another weapon halfway through a reload will still reload your other weapon
 - swapping to your pistol then to your other primary weapon is faster than swapping between primary weapons
 - targeting a specific brand (6 items) is much better than targeting a specific armor piece (32 items)
+- the Cool Skills and Scavenged Skills directives can be bypassed by deconstructing skills while using the Rigger backpack
 - the Cool Skills directive doesn't affect deployed skills
 - the crossbow can one shot Razorback's grates in the Dark Hours raid
 - the EMP grenade has a fixed ~11s duration, regardless of skill tiers or attributes (TODO: check if status effects can increase its duration)
 - the flamethrower's stream bypasses warhounds' health, it's not efficient on higher difficulties though as it requires burning a lot of fuel to kill a single warhound
-- the Scavenged Skills directive can be bypassed with the Rigger backpack
 - the Survivalist medkit acts as a sphere so you can heal people above/below you
 - when medkitting with the fragile armor directive, use Perfectly Efficient
-- when your health is depleted, you have a 1-2s buffer (not in PVP) to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage (TODO: test the cooldown duration)
+- when your health is depleted, you have a 1-2s buffer (not in PVP) to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
 - you can kill enemies stuck behind doors with the Oxidizer Chem Launcher
@@ -1340,6 +1351,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Drone Operator
 - same as the Black Tusk [variant](#drone-operator), except the speed and health of the suicide drones are increased, they're deployed more often and instantly distance themselves away from the operator to prevent collateral damage
 - drone initial separation speed is based on veterancy
+- doesn't need to have line of sight to be able to target players with her drones (but will still occasionally peek after deploying them if a player is visible)
 
 #### Mini Tank
 - same as the Black Tusk [variant](#mini-tank), except it can still target you after killing its controller and elites don't fire incendiary grenades
@@ -1356,6 +1368,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - his Stinger Hive stops working while he's disrupted (TODO: check if it's the same when shocked)
 - tends to retreat after breaking his backpack
 - his armor plates will turn black once they have less than 50% HP left
+- his backpack can target up to 2 targets per player at the same time, therefore if both of a player's skills are deployed and in range of the hive, the player won't be targeted by it
 
 #### Thrower
 - same as the Black Tusk [variant](#thrower), except he always fires his airburst launcher in volleys of 3
