@@ -4,10 +4,12 @@
 <summary><b>To-do list</b></summary>
 
 \- add a Builds section under The Division 2  
+\- add a Counter-strafing section under PVE  
+\- add a Map knowledge section under PVP  
 \- add a Marauder section under The Division 2  
 \- add a Playing Shotgun section under The Division 2  
 \- add a Sounding section under PVE  
-\- add a Target prioritisation section under The Division 2  
+\- add a Target prioritization section under The Division 2  
 \- add an Inventory management section (https://www.youtube.com/watch?v=1Rkoxi1u8tg) under The Division 2  
 \- add an Optimization section under The Division 2  
 \- check if chunga's butts are still unarmored (outside the Dark Hours raid)  
@@ -170,7 +172,8 @@
          * [4.25.8.2 Crusader/Striker Shield](#crusaderstriker)
          * [4.25.8.3 Deflector Shield](#deflector)
       * [4.25.9 Sticky Bomb](#sticky-bomb)
-         * [4.25.9.1 EMP](#emp)
+         * [4.25.9.1 Burn](#burn)
+         * [4.25.9.2 EMP](#emp)
       * [4.25.10 Trap](#trap)
          * [4.25.10.1 Shock](#shock)
          * [4.25.10.2 Healing](#healing)
@@ -278,7 +281,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Environmental damage
 - definition: using the environment to your advantage
-- can kill/disrupt/bait enemies (explosive barrels, gas tanks, etc)
+- can kill/CC/bait enemies (explosive barrels, gas tanks, etc)
 - can flush enemies out of cover
 
 ### Falling back
@@ -347,6 +350,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - different in every game
 - every weapon often has a different recoil pattern that can be mastered
 - shooting in bursts or tapping will help maintaining accuracy
+- crouching or going prone usually reduces it
 
 ### Weapon selection
 - use the right weapon based on distance (short range: SMG, long range: sniper rifle)
@@ -500,6 +504,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - destroying the drone forces him to run to downed allies to revive them
 - elites throw jammers that strip away armor and health
 - destroying the EMP jammer pouch sets off an EMP that disrupts him
+- hitting the weak spot on the back of the drone will destroy it and shock everyone nearby
 - vulnerable when manually reviving downed allies (animation can be interrupted by dealing enough damage)
 
 #### Mini Tank
@@ -567,7 +572,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - their legs have a 90% damage reduction
 - the Survivalist crossbow completely breaks their armor plate (unless you aim for the legs)
 - explosive damage and disruptive skills (Jammer Pulse, EMP Sticky Bomb and EMP grenade) bypasses their armor plating and does damage directly to their health
-- critical hit damage and headhunter stacks on their legs isn't affected by the damage reduction and therefore bypasses their armor
+- critical hit damage and Headhunter stacks on their legs isn't affected by the damage reduction and therefore bypasses their armor
 - Hostile Negotiations from the Negotiator’s Dilemma gear set bypasses their armor
 - Pestilence ticks bypasses their armor
 - using a Demolisher Firefly while they're disrupted bypasses their armor
@@ -582,13 +587,15 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - has weak points located at the top of its legs
 - elites can stop and after a short charge up time, fire their minigun in a devastating 360° spin
 - when destroyed, explodes with fragmentation inflicting damage and causing everything nearby to bleed
+- you can rotate around it while aggro'ed to make it stop moving/shooting
 ##### Sniper
 - has its weak point exposed in the form of a little red cartridge on the right of the gun when it fires (TODO: verify if still bugged for elites)
 - elites fire in 3-round bursts with the sniper turret when stationary
 - dealing enough damage to its legs staggers it and prevents it from firing (or at least delays its next shot)
 - shooting its butt bypasses its armor
 - when destroyed, creates an EMP explosion, disrupting agents in close range for 9s and everything else in medium range for at least 12s (TODO: check if the EMP range is bigger on elites and enemy disrupt duration)
-- 
+- you can rotate around it while aggro'ed to make it stop moving/shooting
+ 
 ### Cleaners
 \- reference: https://thedivision.fandom.com/wiki/Cleaners#Tom_Clancy.27s_The_Division_2
 
@@ -681,9 +688,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Group composition (advanced)
 - kill-dependency levels
-   - 4: your life depends on it (ex: bloodsucker/hunter's fury frontliner)
-   - 3: your effectiveness depends on it (ex: headhunter sniper)
-   - 2: it helps but is not essential (ex: tech support skill user)
+   - 4: your life depends on it (ex: Bloodsucker/Hunter's Fury frontliner)
+   - 3: your effectiveness depends on it (ex: Headhunter sniper)
+   - 2: it helps but is not essential (ex: Tech Support skill user)
    - 1: it doesn't matter (ex: medic)
 - your team should have an average kill dependency <= 2.5
 
@@ -911,10 +918,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - for stationary targets, put your crosshair on them, at head level (or where it's going to be), before peeking
 - for moving targets, put your crosshair on their trajectory and take the shot when they come across it
 - for Nemesis, don't use the cover system but charge from behind cover, jiggle peek to acquire your target, peek again to release the trigger then hide
+- you can do a quick peek then hide to bait an enemy into peeking
 - you can stand in the open to force a target behind cover to peek you (preferably exposing yourself only from that target), just release the trigger at head level when they peek
 - peek, take the shot and immediately take cover to minimize incoming damage (by strafing or pop shooting)
-- can one shot dogs with the headhunter buff by shooting their legs
-- avoid using a scope, it allows you to see your surroundings when aiming and you often don't need the extra damage or magnification from using one (unless you're fighting targets above 50m)
+- can one shot dogs with the Headhunter buff by shooting their legs
+- avoid using a scope, it allows you to see your surroundings when aiming and you often don't need the extra damage or magnification from using one (unless you're fighting targets beyond 50m)
 - Tip of the Spear is the best gear set for it
 
 ### Playing tank
@@ -1045,6 +1053,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - drone speed based on skill tier
 - must not be obstructed by a wall to interact with skills or players
 - acts as a sphere so you can revive a player who is on a different floor for instance
+- charges don't decrease if you lose skill tiers after deploying it
 
 ##### Artificer
 - doesn't need to be deployed to affect your other skill
@@ -1108,6 +1117,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - not detonating a Burn/EMP sticky on a target will automatically reapply the corresponding status effect upon expiration if the status effect expires before the sticky duration (subsequent statuses will be about 33% shorter than the previous status, based on the initial status duration)
 - when you're standing or on the move, aiming with your weapon prior to double-tapping it will make it easier lining up your shot
 - you can proc In Sync by shooting it at a distance further than 100m (like the sky)
+##### Burn
+- targets won't burn immediately on impact so you should wait one second before detonating it when using Eclipse
 ##### EMP
 - its damage on robotics is only increased by skill damage
 
@@ -1205,15 +1216,15 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Exotics
 
-- Binary Trigger (Merciless): not affected by explosive damage
+- Binary Trigger (Merciless): affected by weapon damage, OOCD and DTA but not by explosive damage
 - Electromagnetic Accelerator (Nemesis): shots are also fired when swapping weapons
 - In Plain Sight (Mantis): the headshot damage boost is always active in PVP
 - Incessant Chatter (Chatterbox): doesn't expire after dying (as long as you don't switch weapons)
 - Pack Instincts (Coyote’s Mask): buffs can be individually proc'ed by 3 players using it and can therefore all be active at the same time 
-- Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD, DTA and DTH. in PVP, the player who applied the debuff must die for the ticks to stop
+- Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD and DTA. in PVP, the player who applied the debuff must die for the ticks to stop
 - Quick Draw (Dodge City Gunslinger's Holster): the shot consuming the buff will heavily boost Headhunter stacks for the next shot
 - Regicide (Regulus): also affected by explosive damage
-- Sandman (Sweet Dreams): doesn't work on robotics. meleeing with a non-deployable skill can still proc Sandman.
+- Sandman (Sweet Dreams): doesn't work on robotics. meleeing with a non-deployable skill can still proc Sandman
 - Septic Shock (Scorpio): venom stacks are added to each other when applied by different players
 - Tenacity (Eagle Bearer): in PVP, provides an important reload speed bonus
 - Toxic Delivery (Vile): ticks are also affected by Perpetuation, OOCD, DTA and DTH
@@ -1246,7 +1257,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Future Perfect: being at skill tier 3 is enough to overcharge
 - In Sync: procs when deploying a shield
 - Measured: the second half is total weapon damage unlike the first half
-- Naked: procs when killing armored targets with a single shot
+- Naked: procs when killing armored targets with a single shot or when a shot chips into both armor and health
 - Optimist: boosts Headhunter stacks
 - Preservation: procs on skill kills
 - Pummel: procs when destroying enemy skills
@@ -1265,6 +1276,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - mobs can block shots and take damage from another mob, turning a mob right in front of you as a bullet shield
 - opening an ammo box will automatically reload your current weapon
 - picking up a disrupted skill and redeploying it will cleanse it from disruption
+- rain reduces ballistic skills targeting abilities and AI sight
 - shooting the foam on an ensnared teammate or hip-firing at your feet breaks it
 - skill damage also boosts status damage
 - swapping any armor piece while out of combat restores all of your armor
@@ -1283,8 +1295,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
 - you can kill enemies stuck behind doors with the Oxidizer Chem Launcher
+- you can let medics revive mobs to farm Headhunter stacks
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: Firefly)
 - you can skip real-time cutscenes by dodge rolling or aiming
+- you can use armor plates or enemy skills to "extend" Negotiator’s Dilemma copy damage 
+- you can use drones to farm Memento trophies
 - walking doesn't trigger NPCs as much as running
 
 ### True Sons
@@ -1366,8 +1381,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - same as the Black Tusk [variant](#tank), except the support station on his back is replaced with a variant of the Stinger Hive which deals heavy damage to those within 15m and causes them to bleed
 - tries to get close because of his Stinger Hive
 - his Stinger Hive stops working while he's disrupted (TODO: check if it's the same when shocked)
+- his Stinger Hive has a 20m range
 - tends to retreat after breaking his backpack
-- his armor plates will turn black once they have less than 50% HP left
+- his chest/helmet armor plates will turn black once they have less than 50% HP left
 - his backpack can target up to 2 targets per player at the same time, therefore if both of a player's skills are deployed and in range of the hive, the player won't be targeted by it
 
 #### Thrower
@@ -1398,7 +1414,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
 - MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
  
