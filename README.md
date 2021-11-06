@@ -5,22 +5,26 @@
 
 \- add a Builds section under The Division 2  
 \- add a Counter-strafing section under PVE  
+\- add a Cover section under PVE
+\- add a Group play section under The Division 2  
 \- add a Map knowledge section under PVP  
 \- add a Marauder section under The Division 2  
+\- add a Playing off first contact section under PVP
 \- add a Playing Shotgun section under The Division 2  
 \- add a Sounding section under PVE  
 \- add a Target prioritization section under The Division 2  
 \- add an Inventory management section (https://www.youtube.com/watch?v=1Rkoxi1u8tg) under The Division 2  
 \- add an Optimization section under The Division 2  
-\- check if chunga's butts are still unarmored (outside the Dark Hours raid)  
+\- check if Black Tusk tank's butt is unarmored (outside the Dark Hours raid)  
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
 \- check if rushers have less HP than snipers  
 \- check if the Demolisher Firefly trick works on mini-tanks (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
-\- test Cluster Seeker Mines rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v)  
 \- test if the Stinger Hive actually scales with explosive damage and DTA  
+\- test if shooting warhounds weak points with the TAC- 50 can instakill them  
 \- test syscor medkit during cover to cover and against fragile armor stacks  
+\- test the Cluster Seeker Mines rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v and "Cluster seeker goes to cooldown on FIRST cluster's explosion")  
 </details>
 
 ## Table of Contents
@@ -565,24 +569,24 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Warhounds
 - heavily armored quadrupeds that attempt to position themselves with clear line of sight to enemies and use a powerful sniper type armament, a grenade launcher or a minigun to dispatch their foes
-- have no armor bar, but you have to destroy their armor plate before damaging its health
+- have no armor bar, but you usually have to destroy their armor plating before damaging their health
 - elites have the added bonus of firing on the move
 - they always move from a point to another and stop for a few seconds, use that time to damage them with a skill, shoot their weak points or EMP them
 - although warhounds don't have a head, shooting their red eye counts as a headshot, proccing headshot-related talents like Perpetuation (TODO: verify this information)
-- their legs have a 90% damage reduction
+- shooting their legs depletes their health, however they have a 90% damage reduction
 - the Survivalist crossbow completely breaks their armor plate (unless you aim for the legs)
-- explosive damage and disruptive skills (Jammer Pulse, EMP Sticky Bomb and EMP grenade) bypasses their armor plating and does damage directly to their health
-- critical hit damage and Headhunter stacks on their legs isn't affected by the damage reduction and therefore bypasses their armor
-- Hostile Negotiations from the Negotiator’s Dilemma gear set bypasses their armor
-- Pestilence ticks bypasses their armor
-- using a Demolisher Firefly while they're disrupted bypasses their armor
+- explosive damage and disruptive skills (Jammer Pulse, EMP Sticky Bomb and EMP grenade) bypass their armor plating and does damage directly to their health
+- critical hit damage and Headhunter stacks on their legs isn't affected by the damage reduction and therefore bypasses their armor plating
+- Hostile Negotiations from the Negotiator’s Dilemma gear set bypasses their armor plating
+- Pestilence ticks bypasses their armor plating
+- using a Demolisher Firefly while they're disrupted bypasses their armor plating
 - the Firestarter shotgun (from the Firewall specialization) allows you to put them on fire by lowering their fire resistance
 - 3 variants with different weak points, causing them to stop working for a few seconds when destroyed:
 ##### Grenadier
 - has weak points behind its cannon and at the top of its back (TODO: check for other weak points)
-- elites fire 3 shock grenades in a salvo and try harder to flank
+- elites fire 3 shock grenades in a salvo and try harder to flank (TODO: verify if purples shoot shock grenades too)
 - when destroyed, explodes with an electrical charge, causing everything nearby to be shocked
-- shooting the hinge next to its cannon bypasses armor
+- shooting the hinge next to its cannon bypasses its armor plating
 ##### Minigun
 - has weak points located at the top of its legs
 - elites can stop and after a short charge up time, fire their minigun in a devastating 360° spin
@@ -592,7 +596,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - has its weak point exposed in the form of a little red cartridge on the right of the gun when it fires (TODO: verify if still bugged for elites)
 - elites fire in 3-round bursts with the sniper turret when stationary
 - dealing enough damage to its legs staggers it and prevents it from firing (or at least delays its next shot)
-- shooting its butt bypasses its armor
+- shooting its butt bypasses its armor plating
 - when destroyed, creates an EMP explosion, disrupting agents in close range for 9s and everything else in medium range for at least 12s (TODO: check if the EMP range is bigger on elites and enemy disrupt duration)
 - you can rotate around it while aggro'ed to make it stop moving/shooting
  
@@ -726,13 +730,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
  
 #### Medic
 - sprints to dead allies in an attempt to revive them with adrenaline and supports living allies with combat stims, granting them overheal
-- destroying the red stripe on his bag prevents him from assisting allies
+- destroying the red stripe on his bag will prevent him from assisting allies and confuse everyone nearby
 - elites can toss vapor grenades containing spice to revive their allies faster (TODO: verify that it's not a myth)
- 
+- mobs revived are granted overheal and their weak points are repaired (TODO: verify this information)
+
 #### Rusher
 - sprints towards targets and attempts to melee them with a baton
 - has a destructible riot helmet that prevents headshots
-- her spice bag is on her left hip and grants extra speed and damage to melee attacks (TODO: check if it grants overheal too)
+- her spice bag is on her left hip and grants extra speed and damage to melee attacks only once (TODO: check if it grants overheal too)
 - destroying her spice supply confuses her and everyone nearby, preventing her from using the drug
 - elites are equipped with shock batons
 - has the lowest amount of HP of all archetypes, so body shots usually take them down fast
@@ -752,7 +757,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Tank
 - relentlessly moves towards enemies, fearless behind a bulwark of heavy armor
 - resistant to explosives
-- destroying his ammo belt forces him to manually reload his machinegun (TODO: check if his LMG even requires a reload)
+- destroying his ammo belt forces him to manually reload his machinegun
 - deploying a turret or a hive will make him immediately go to it and kick it to destroy it
 - foaming him during the reload animation (up until he stands up after reloading) forces him to redo the entire reload animation
 
@@ -764,7 +769,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Looting
 - deconstructing gear set pieces gives blue materials
 - looting is proximity based, so wait for others to be close (when you can see their icon) before opening crates
-- you can share any cache/loot with whoever was in your group when you obtained (not opened) the cache/loot
+- you can share any loot or the content of rewarded/claimed caches with whoever was in your group when you obtained (not opened) said cache/loot, however you can't share loot/caches that have been crafted/purchased
+- you can get DZ exclusive items from DZ caches, Conflict caches and Named Item caches
 - avoid sharing items near loot piles as it's common for someone to deconstruct an entire pile
 - try to loot from cover whenever possible to minimize exposure
 
@@ -1240,7 +1246,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Bloodsucker: procs on skill kills. all stacks are refreshed upon killing an enemy
 - Creeping Death: mobs on which it procs remain affected by their natural status resistance
 - Empathic Resolve: refreshed every time you heal a player. also procs with True Patriot's white buff and when healing other group members with the Survivalist medkit
-- Focus: stays proc'ed when reloading or unscoping for less than a second, which allows you to keep moving. doesn't proc with the Big Horn, Capacitor or TAC-50 as these have variable scopes
+- Focus: stays proc'ed when reloading or unscoping for less than a second, which allows you to keep moving. doesn't proc with the Big Horn, Capacitor or the TAC-50 as these have variable scopes
 - Glass Cannon: also affects how much damage your shield is taking (TODO: check with other skills)
 - Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage and DTA. calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of any other weapon. isn't affected by damage drop-off
 - Intimidate: proc'ed by the bonus armor provided by the "My Home Is My Castle" perk from the Sharpshooter specialization
@@ -1264,6 +1270,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Ranger: multiplicative damage that doesn't boost Headhunter
 
 ### Tips/tricks
+- activity completion rewards are proximity based, so wait for others to be close before completing them
 - any type of armor on kill works with skill kills and the Plague of the Outcasts debuff from Pestilence
 - critical hit damage isn't affected by damage drop-off
 - crossbow bolts apply localized damage, for instance headshots remove helmets
@@ -1289,6 +1296,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the crossbow can one shot Razorback's grates in the Dark Hours raid
 - the EMP grenade has a fixed ~11s duration, regardless of skill tiers or attributes (TODO: check if status effects can increase its duration)
 - the flamethrower's stream bypasses warhounds' health, it's not efficient on higher difficulties though as it requires burning a lot of fuel to kill a single warhound
+- the golden bullet also refreshes all your skill charges
 - the Survivalist medkit acts as a sphere so you can heal people above/below you
 - when medkitting with the fragile armor directive, use Perfectly Efficient
 - when your health is depleted, you have a 1-2s buffer (not in PVP) to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage
@@ -1297,8 +1305,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can kill enemies stuck behind doors with the Oxidizer Chem Launcher
 - you can let medics revive mobs to farm Headhunter stacks
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: Firefly)
+- you can see additional outlines when using radius-based skills by enabling color blind mode (Settings > Accessibility > Color Blind Mode), making it easier to use such skills
 - you can skip real-time cutscenes by dodge rolling or aiming
-- you can use armor plates or enemy skills to "extend" Negotiator’s Dilemma copy damage 
+- you can use armor plates or enemy skills to "extend" Negotiator’s Dilemma copy damage
 - you can use drones to farm Memento trophies
 - walking doesn't trigger NPCs as much as running
 
@@ -1330,6 +1339,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - in close quarters combat, he can use his shock paddles to lethal effect
 - destroying the medical pack on his back will prevent him from reviving allies and shock everyone nearby
 - elites will revive fallen enemies faster and provide the revived target with an overheal along with some armor should they revive a Veteran, Elite or Named enemy
+- mobs revived also have their weak points repaired (TODO: verify this information)
 
 #### RPG
 - unleashes rocket propelled grenades at enemies
@@ -1414,7 +1424,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
 - MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/sukaihoku, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
  
