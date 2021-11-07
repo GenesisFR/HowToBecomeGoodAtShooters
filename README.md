@@ -3,28 +3,27 @@
 <details>
 <summary><b>To-do list</b></summary>
 
-\- add a Builds section under The Division 2  
-\- add a Counter-strafing section under PVE  
-\- add a Cover section under PVE
-\- add a Group play section under The Division 2  
-\- add a Map knowledge section under PVP  
-\- add a Marauder section under The Division 2  
-\- add a Playing off first contact section under PVP
-\- add a Playing Shotgun section under The Division 2  
-\- add a Sounding section under PVE  
-\- add a Target prioritization section under The Division 2  
-\- add an Inventory management section (https://www.youtube.com/watch?v=1Rkoxi1u8tg) under The Division 2  
-\- add an Optimization section under The Division 2  
 \- check if Black Tusk tank's butt is unarmored (outside the Dark Hours raid)  
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
-\- check if rushers have less HP than snipers  
+\- check if rushers from all factions have less HP than snipers  
 \- check if the Demolisher Firefly trick works on mini-tanks (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
+\- fill the Builds section  
+\- fill the Counter-strafing section  
+\- fill the Cover section  
+\- fill the Group play section  
+\- fill the Inventory management section  
+\- fill the Map knowledge section  
+\- fill the Optimization section  
+\- fill the Playing off first contact section  
+\- fill the Playing shotgun section  
+\- fill the Sounding section  
+\- fill the Target prioritization section  
 \- test if the Stinger Hive actually scales with explosive damage and DTA  
-\- test if shooting warhounds weak points with the TAC- 50 can instakill them  
-\- test syscor medkit during cover to cover and against fragile armor stacks  
-\- test the Cluster Seeker Mines rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v and "Cluster seeker goes to cooldown on FIRST cluster's explosion")  
+\- test if shooting Warhounds weak points with the TAC-50 can instakill them  
+\- test the Cluster Seeker Mine rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v and "Cluster seeker goes to cooldown on FIRST cluster's explosion")  
+\- test the System Corruption medkit against Fragile Armor stacks  
 </details>
 
 ## Table of Contents
@@ -36,24 +35,27 @@
    * [2.3 AI behavior](#ai-behavior)
    * [2.4 Angle isolation](#angle-isolation)
    * [2.5 Clearing angles](#clearing-angles)
-   * [2.6 Crosshair placement](#crosshair-placement)
-   * [2.7 Damage indicator](#damage-indicator)
-   * [2.8 Difficulty](#difficulty)
-   * [2.9 Elevation](#elevation)
-   * [2.10 Environmental damage](#environmental-damage)
-   * [2.11 Falling back](#falling-back)
-   * [2.12 Minimap/radar](#minimapradar)
-   * [2.13 Movement](#movement)
-   * [2.14 Peeking](#peeking)
-   * [2.15 Perspective](#perspective)
-   * [2.16 Playing your build/class](#playing-your-buildclass)
-   * [2.17 Relocation](#relocation)
-   * [2.18 Starting engagements](#starting-engagements)
-   * [2.19 Sweeping](#sweeping)
-   * [2.20 Target prioritization](#target-prioritization)
-   * [2.21 Weak points](#weak-points)
-   * [2.22 Weapon recoil](#weapon-recoil)
-   * [2.23 Weapon selection](#weapon-selection)
+   * [2.6 Counter-strafing](#counter-strafing)
+   * [2.7 Cover](#cover)
+   * [2.8 Crosshair placement](#crosshair-placement)
+   * [2.9 Damage indicator](#damage-indicator)
+   * [2.10 Difficulty](#difficulty)
+   * [2.11 Elevation](#elevation)
+   * [2.12 Environmental damage](#environmental-damage)
+   * [2.13 Falling back](#falling-back)
+   * [2.14 Minimap/radar](#minimapradar)
+   * [2.15 Movement](#movement)
+   * [2.16 Peeking](#peeking)
+   * [2.17 Perspective](#perspective)
+   * [2.18 Playing your build/class](#playing-your-buildclass)
+   * [2.19 Relocation](#relocation)
+   * [2.20 Sounding](#sounding)
+   * [2.21 Starting engagements](#starting-engagements)
+   * [2.22 Sweeping](#sweeping)
+   * [2.23 Target prioritization](#target-prioritization)
+   * [2.24 Weak points](#weak-points)
+   * [2.25 Weapon recoil](#weapon-recoil)
+   * [2.26 Weapon selection](#weapon-selection)
 * [3.0 PVP concepts](#pvp-concepts)
    * [3.1 Baiting](#baiting)
    * [3.2 Callouts](#callouts)
@@ -67,14 +69,16 @@
    * [3.10 Jiggle peeking](#jiggle-peeking)
    * [3.11 Lurking](#lurking)
    * [3.12 Map control](#map-control)
-   * [3.13 Off angle](#off-angle)
-   * [3.14 Rotating](#rotating)
-   * [3.15 Strength in numbers](#strength-in-numbers)
-   * [3.16 Trading](#trading)
+   * [3.13 Map knowledge](#map-knowledge)
+   * [3.14 Off angle](#off-angle)
+   * [3.15 Playing off first contact](#playing-off-first-contact)
+   * [3.16 Rotating](#rotating)
+   * [3.17 Strength in numbers](#strength-in-numbers)
+   * [3.18 Trading](#trading)
 * [4.0 The Division 2](#the-division-2)
    * [4.1 AI animations](#ai-animations-1)
    * [4.2 AI behavior](#ai-behavior-1)
-   * [4.3 Black Tusks](#black-tusks)
+   * [4.3 Black Tusk](#black-tusk)
       * [4.3.1 Assault](#assault)
       * [4.3.2 Controller](#controller)
       * [4.3.3 Drone Operator](#drone-operator)
@@ -89,132 +93,138 @@
          * [4.3.11.1 Grenadier](#grenadier)
          * [4.3.11.2 Minigun](#minigun)
          * [4.3.11.3 Sniper](#sniper-1)
-   * [4.4 Cleaners](#cleaners)
-      * [4.4.1 Assault](#assault-1)
-      * [4.4.2 Controller](#controller-1)
-      * [4.4.3 Engineer](#engineer)
-      * [4.4.4 Rusher](#rusher-1)
-      * [4.4.5 Sniper](#sniper-2)
-      * [4.4.6 Tank](#tank-1)
-      * [4.4.7 Thrower](#thrower-1)
-   * [4.5 Cover](#cover)
-   * [4.6 Cover to cover](#cover-to-cover)
-   * [4.7 Dancing](#dancing)
-   * [4.8 Difficulty](#difficulty-1)
-   * [4.9 Group composition (basics)](#group-composition-basics)
-   * [4.10 Group composition (advanced)](#group-composition-advanced)
-   * [4.11 Hunters](#hunters)
-   * [4.12 Hyenas](#hyenas)
-      * [4.12.1 Assault](#assault-2)
-      * [4.12.2 Controller](#controller-2)
-      * [4.12.3 Engineer](#engineer-1)
-      * [4.12.4 Medic](#medic-1)
-      * [4.12.6 Rusher](#rusher-2)
-      * [4.12.7 Shield](#shield)
-      * [4.12.8 Sniper](#sniper-3)
-      * [4.12.9 Tank](#tank-2)
-      * [4.12.10 Thrower](#thrower-2)
-   * [4.13 Looting](#looting)
-   * [4.14 Outcasts](#outcasts)
-      * [4.14.1 Assault](#assault-3)
-      * [4.14.2 Controller](#controller-3)
-      * [4.14.3 Heavy Weapons](#heavy-weapons)
-      * [4.14.4 Rusher](#rusher-3)
-      * [4.14.5 Scorcher](#scorcher)
-      * [4.14.6 Sniper](#sniper-4)
-      * [4.14.7 Support](#support-1)
-      * [4.14.8 Tank](#tank-3)
-      * [4.14.9 Thrower](#thrower-3)
-   * [4.15 Playing ARs](#playing-ars)
-   * [4.16 Playing crowd control](#playing-crowd-control)
-      * [4.16.1 Eclipse](#eclipse)
-      * [4.16.2 High-end](#high-end)
-   * [4.17 Playing LMGs](#playing-lmgs)
-   * [4.18 Playing medic](#playing-medic)
-   * [4.19 Playing rifler](#playing-rifler)
-   * [4.20 Playing offensive skill builds](#playing-offensive-skill-builds)
-      * [4.20.1 AFK](#afk)
-      * [4.20.2 Explosive](#explosive)
-   * [4.21 Playing sniper](#playing-sniper)
-   * [4.22 Playing tank](#playing-tank)
-   * [4.23 Reviving](#reviving)
-   * [4.24 Rikers](#rikers)
-      * [4.24.1 Assault](#assault-4)
-      * [4.24.2 Heavy Weapons](#heavy-weapons-1)
-      * [4.24.3 Leader](#leader)
-      * [4.24.4 Rusher](#rusher-4)
-      * [4.24.5 Sniper](#sniper-5)
-      * [4.24.6 Tank](#tank-4)
-      * [4.24.7 Thrower](#thrower-4)
-   * [4.25 Skills](#skills)
-      * [4.25.1 Chem Launcher](#chem-launcher)
-         * [4.25.1.1 Firestarter](#firestarter)
-         * [4.25.1.2 Oxidizer](#oxidizer)
-         * [4.25.1.3 Reinforcer](#reinforcer)
-      * [4.25.2 Decoy](#decoy)
-      * [4.25.3 Drone](#drone)
-         * [4.25.3.1 Bombardier](#bombardier)
-         * [4.25.3.2 Defender](#defender)
-         * [4.25.3.3 Spotter](#spotter)
-         * [4.25.3.4 Striker](#striker)
-      * [4.25.4 Firefly](#firefly)
-      * [4.25.5 Hive](#hive)
-         * [4.25.5.1 Artificer](#artificer)
-         * [4.25.5.2 Stinger](#stinger)
-      * [4.25.6 Pulse](#pulse)
-         * [4.25.6.1 Achille's](#achilles)
-         * [4.25.6.2 Banshee](#banshee)
-         * [4.25.6.3 Jammer](#jammer)
-         * [4.25.6.4 Scanner](#scanner)
-      * [4.25.7 Seeker Mine](#seeker-mine)
-         * [4.25.7.1 Airburst](#airburst)
-         * [4.25.7.2 Cluster](#cluster)
-         * [4.25.7.3 Explosive](#explosive)
-         * [4.25.7.4 Mender](#mender)
-      * [4.25.8 Shield](#shield-1)
-         * [4.25.8.1 Bulwark Shield](#bulwark)
-         * [4.25.8.2 Crusader/Striker Shield](#crusaderstriker)
-         * [4.25.8.3 Deflector Shield](#deflector)
-      * [4.25.9 Sticky Bomb](#sticky-bomb)
-         * [4.25.9.1 Burn](#burn)
-         * [4.25.9.2 EMP](#emp)
-      * [4.25.10 Trap](#trap)
-         * [4.25.10.1 Shock](#shock)
-         * [4.25.10.2 Healing](#healing)
-         * [4.25.10.3 Shrapnel](#shrapnel)
-      * [4.25.11 Turret](#turret)
-         * [4.25.11.1 Artillery](#artillery)
-         * [4.25.11.2 Assault](#assault-5)
-         * [4.25.11.3 Incinerator](#incinerator)
-         * [4.25.11.4 Sniper](#sniper-6)
-   * [4.26 Spawn camping](#spawn-camping)
-   * [4.27 Status effects](#status-effects)
-   * [4.28 Summit](#summit)
-   * [4.29 Suppressing](#suppressing)
-   * [4.30 Talents](#talents)
-      * [4.30.1 Exotics](#exotics)
-      * [4.30.2 Gear sets](#gear-sets)
-      * [4.30.3 High-end](#high-end-1)
-      * [4.30.4 Weapons](#weapons)
-   * [4.31 Tips/tricks](#tipstricks)
-   * [4.32 True Sons](#true-sons)
-      * [4.32.1 Assault](#assault-6)
-      * [4.32.2 Engineer](#engineer-2)
-      * [4.32.3 Heavy Weapons](#heavy-weapons-2)
-      * [4.32.4 Immobilizer](#immobilizer)
-      * [4.32.5 Medic](#medic-2)
-      * [4.32.6 RPG](#rpg)
-      * [4.32.7 Rusher](#rusher-5)
-      * [4.32.8 Sniper](#sniper-7)
-      * [4.32.9 Tank](#tank-5)
-      * [4.32.10 Thrower](#thrower-5)
-   * [4.33 White Tusk](#white-tusk)
-      * [4.33.1 Drone Operator](#drone-operator-1)
-      * [4.33.2 Mini Tank](#mini-tank-1)
-      * [4.33.3 Rusher](#rusher-6)
-      * [4.33.4 Sniper](#sniper-8)
-      * [4.33.5 Tank](#tank-6)
-      * [4.33.6 Thrower](#thrower-6)
+   * [4.4 Builds](#builds)
+   * [4.5 Cleaners](#cleaners)
+      * [4.5.1 Assault](#assault-1)
+      * [4.5.2 Controller](#controller-1)
+      * [4.5.3 Engineer](#engineer)
+      * [4.5.4 Rusher](#rusher-1)
+      * [4.5.5 Sniper](#sniper-2)
+      * [4.5.6 Tank](#tank-1)
+      * [4.5.7 Thrower](#thrower-1)
+   * [4.6 Cover](#cover)
+   * [4.7 Cover to cover](#cover-to-cover)
+   * [4.8 Dancing](#dancing)
+   * [4.9 Difficulty](#difficulty-1)
+   * [4.10 Group composition (basics)](#group-composition-basics)
+   * [4.11 Group composition (advanced)](#group-composition-advanced)
+   * [4.12 Group play](#group-play) 
+   * [4.13 Hunters](#hunters)
+   * [4.14 Hyenas](#hyenas)
+      * [4.14.1 Assault](#assault-2)
+      * [4.14.2 Controller](#controller-2)
+      * [4.14.3 Engineer](#engineer-1)
+      * [4.14.4 Medic](#medic-1)
+      * [4.14.6 Rusher](#rusher-2)
+      * [4.14.7 Shield](#shield)
+      * [4.14.8 Sniper](#sniper-3)
+      * [4.14.9 Tank](#tank-2)
+      * [4.14.10 Thrower](#thrower-2)
+   * [4.15 Inventory management](#inventory-management)
+   * [4.16 Looting](#looting)
+   * [4.17 Optimization](#optimization)
+   * [4.18 Outcasts](#outcasts)
+      * [4.18.1 Assault](#assault-3)
+      * [4.18.2 Controller](#controller-3)
+      * [4.18.3 Heavy Weapons](#heavy-weapons)
+      * [4.18.4 Rusher](#rusher-3)
+      * [4.18.5 Scorcher](#scorcher)
+      * [4.18.6 Sniper](#sniper-4)
+      * [4.18.7 Support](#support-1)
+      * [4.18.8 Tank](#tank-3)
+      * [4.18.9 Thrower](#thrower-3)
+   * [4.19 Playing ARs](#playing-ars)
+   * [4.20 Playing crowd control](#playing-crowd-control)
+      * [4.20.1 Eclipse](#eclipse)
+      * [4.20.2 High-end](#high-end)
+   * [4.21 Playing LMGs](#playing-lmgs)
+   * [4.22 Playing medic](#playing-medic)
+   * [4.23 Playing rifler](#playing-rifler)
+   * [4.24 Playing offensive skill builds](#playing-offensive-skill-builds)
+      * [4.24.1 AFK](#afk)
+      * [4.24.2 Explosive](#explosive)
+   * [4.25 Playing shotgun](#playing-shotgun)
+   * [4.26 Playing sniper](#playing-sniper)
+   * [4.27 Playing tank](#playing-tank)
+   * [4.28 Reviving](#reviving)
+   * [4.29 Rikers](#rikers)
+      * [4.29.1 Assault](#assault-4)
+      * [4.29.2 Heavy Weapons](#heavy-weapons-1)
+      * [4.29.3 Leader](#leader)
+      * [4.29.4 Rusher](#rusher-4)
+      * [4.29.5 Sniper](#sniper-5)
+      * [4.29.6 Tank](#tank-4)
+      * [4.29.7 Thrower](#thrower-4)
+   * [4.30 Skills](#skills)
+      * [4.30.1 Chem Launcher](#chem-launcher)
+         * [4.30.1.1 Firestarter](#firestarter)
+         * [4.30.1.2 Oxidizer](#oxidizer)
+         * [4.30.1.3 Reinforcer](#reinforcer)
+      * [4.30.2 Decoy](#decoy)
+      * [4.30.3 Drone](#drone)
+         * [4.30.3.1 Bombardier](#bombardier)
+         * [4.30.3.2 Defender](#defender)
+         * [4.30.3.3 Spotter](#spotter)
+         * [4.30.3.4 Striker](#striker)
+      * [4.30.4 Firefly](#firefly)
+      * [4.30.5 Hive](#hive)
+         * [4.30.5.1 Artificer](#artificer)
+         * [4.30.5.2 Stinger](#stinger)
+      * [4.30.6 Pulse](#pulse)
+         * [4.30.6.1 Achille's](#achilles)
+         * [4.30.6.2 Banshee](#banshee)
+         * [4.30.6.3 Jammer](#jammer)
+         * [4.30.6.4 Scanner](#scanner)
+      * [4.30.7 Seeker Mine](#seeker-mine)
+         * [4.30.7.1 Airburst](#airburst)
+         * [4.30.7.2 Cluster](#cluster)
+         * [4.30.7.3 Explosive](#explosive)
+         * [4.30.7.4 Mender](#mender)
+      * [4.30.8 Shield](#shield-1)
+         * [4.30.8.1 Bulwark Shield](#bulwark)
+         * [4.30.8.2 Crusader/Striker Shield](#crusaderstriker)
+         * [4.30.8.3 Deflector Shield](#deflector)
+      * [4.30.9 Sticky Bomb](#sticky-bomb)
+         * [4.30.9.1 Burn](#burn)
+         * [4.30.9.2 EMP](#emp)
+      * [4.30.10 Trap](#trap)
+         * [4.30.10.1 Shock](#shock)
+         * [4.30.10.2 Healing](#healing)
+         * [4.30.10.3 Shrapnel](#shrapnel)
+      * [4.30.11 Turret](#turret)
+         * [4.30.11.1 Artillery](#artillery)
+         * [4.30.11.2 Assault](#assault-5)
+         * [4.30.11.3 Incinerator](#incinerator)
+         * [4.30.11.4 Sniper](#sniper-6)
+   * [4.31 Spawn camping](#spawn-camping)
+   * [4.32 Status effects](#status-effects)
+   * [4.33 Summit](#summit)
+   * [4.34 Suppressing](#suppressing)
+   * [4.35 Talents](#talents)
+      * [4.35.1 Exotics](#exotics)
+      * [4.35.2 Gear sets](#gear-sets)
+      * [4.35.3 High-end](#high-end-1)
+      * [4.35.4 Weapons](#weapons)
+   * [4.36 Target prioritization](#target-prioritization)
+   * [4.37 Tips/tricks](#tipstricks)
+   * [4.38 True Sons](#true-sons)
+      * [4.38.1 Assault](#assault-6)
+      * [4.38.2 Engineer](#engineer-2)
+      * [4.38.3 Heavy Weapons](#heavy-weapons-2)
+      * [4.38.4 Immobilizer](#immobilizer)
+      * [4.38.5 Medic](#medic-2)
+      * [4.38.6 RPG](#rpg)
+      * [4.38.7 Rusher](#rusher-5)
+      * [4.38.8 Sniper](#sniper-7)
+      * [4.38.9 Tank](#tank-5)
+      * [4.38.10 Thrower](#thrower-5)
+   * [4.39 White Tusk](#white-tusk)
+      * [4.39.1 Drone Operator](#drone-operator-1)
+      * [4.39.2 Mini Tank](#mini-tank-1)
+      * [4.39.3 Rusher](#rusher-6)
+      * [4.39.4 Sniper](#sniper-8)
+      * [4.39.5 Tank](#tank-6)
+      * [4.39.6 Thrower](#thrower-6)
 * [5.0 Links](#links)
 * [6.0 Credits](#credits)
 * [7.0 Contact information](#contact-information)
@@ -256,6 +266,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - be methodical, clear progressively and check every corner
 - use jiggle peeking to quickly get information without allowing the AI to react
 - reference: https://www.youtube.com/watch?v=ivh8r0LxgLQ
+
+### Counter-strafing
+
+
+
+### Cover
+
+
 
 ### Crosshair placement
 - aim at head level
@@ -325,6 +343,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - when the AI pinpoints your location, it may put more pressure on that location
 - relocating makes the AI lose track of you and allows you to take shots from another location
 - reference: https://www.youtube.com/watch?v=s1WF22xSEgU
+
+### Sounding
+
+
 
 ### Starting engagements
 - scout the area (enemy types, environmental damage, fallback location)
@@ -433,6 +455,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - restrains the enemy team options
 - reference: https://www.youtube.com/watch?v=N3K2V3RMpFU and https://www.youtube.com/watch?v=6Tc_STmhZVc
 
+### Map knowledge
+
+
+
 ### Off angle
 - definition: an uncommon angle, usually exposed, where the enemy is not expecting you
 - used to surprise your opponent, usually only works on a single opponent
@@ -445,6 +471,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you have to be mindful of the direction you're looking at, your gun may stick out and reveal your location
 - you have to be mindful of your shadow, it may also reveal your location
 - reference: https://www.youtube.com/watch?v=5e8HZqF3cyk
+
+### Playing off first contact
+- reference: https://www.youtube.com/watch?v=GiliidExmgM
 
 ### Rotating
 - definition: moving from a part of the map to another, usually to play an objective
@@ -479,7 +508,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - they try to melee you when you're in close range
 - they will leave cover as you get close
 
-### Black Tusks
+### Black Tusk
 \- reference: https://thedivision.fandom.com/wiki/Black_Tusk#Archetype
 
 #### Assault
@@ -599,7 +628,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - shooting its butt bypasses its armor plating
 - when destroyed, creates an EMP explosion, disrupting agents in close range for 9s and everything else in medium range for at least 12s (TODO: check if the EMP range is bigger on elites and enemy disrupt duration)
 - you can rotate around it while aggro'ed to make it stop moving/shooting
- 
+
+### Builds
+
+
+
 ### Cleaners
 \- reference: https://thedivision.fandom.com/wiki/Cleaners#Tom_Clancy.27s_The_Division_2
 
@@ -698,6 +731,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
    - 1: it doesn't matter (ex: medic)
 - your team should have an average kill dependency <= 2.5
 
+### Group play
+
+
+
 ### Hunters
 - can hack any deployed skill (except traps) based on line of sight 
 - can heal up to 3 times
@@ -766,6 +803,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - destroying his ammo pouch on the back waist will cause an explosion, killing or damaging him
 - elites fire multiple concussion grenades in succession
 
+### Inventory management
+- reference: https://www.youtube.com/watch?v=1Rkoxi1u8tg
+
+
 ### Looting
 - deconstructing gear set pieces gives blue materials
 - looting is proximity based, so wait for others to be close (when you can see their icon) before opening crates
@@ -773,6 +814,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can get DZ exclusive items from DZ caches, Conflict caches and Named Item caches
 - avoid sharing items near loot piles as it's common for someone to deconstruct an entire pile
 - try to loot from cover whenever possible to minimize exposure
+
+### Optimization
+
+
 
 ### Outcasts
 \- reference: https://thedivision.fandom.com/wiki/Outcasts#Archetypes
@@ -917,6 +962,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - very good damage output
 - good for clearing groups of enemies, spawn closets, flushing targets out of cover and against robotics
 - bad against moving targets and tanks
+
+### Playing shotgun
+
+
 
 ### Playing sniper
 - main attributes: weapon damage and headshot damage
@@ -1268,6 +1317,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Preservation: procs on skill kills
 - Pummel: procs when destroying enemy skills
 - Ranger: multiplicative damage that doesn't boost Headhunter
+
+### Target prioritization
+
+
 
 ### Tips/tricks
 - activity completion rewards are proximity based, so wait for others to be close before completing them
