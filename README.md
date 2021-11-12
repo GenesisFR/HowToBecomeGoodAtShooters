@@ -9,13 +9,8 @@
 \- check if rushers from all factions have less HP than snipers  
 \- check if the Demolisher Firefly trick works on mini-tanks (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
-\- fill the Builds section  
 \- fill the Group play section  
-\- fill the Inventory management section  
-\- fill the Optimization section  
 \- fill the Playing off first contact section  
-\- fill the Playing shotgun section  
-\- fill the Sounding section  
 \- fill the Target prioritization section  
 \- test if the Stinger Hive actually scales with explosive damage and DTA  
 \- test if shooting Warhounds weak points with the TAC-50 can instakill them  
@@ -141,6 +136,8 @@
       * [4.24.1 AFK](#afk)
       * [4.24.2 Explosive](#explosive)
    * [4.25 Playing shotgun](#playing-shotgun)
+      * [4.25.1 Crit-based](#crit-based)
+      * [4.25.2 Headhunter](#headhunter)
    * [4.26 Playing sniper](#playing-sniper)
    * [4.27 Playing tank](#playing-tank)
    * [4.28 Reviving](#reviving)
@@ -348,8 +345,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - reference: https://www.youtube.com/watch?v=s1WF22xSEgU
 
 ### Sounding
-
-
+- definition: listening to sound cues to get information about enemy location
+- requires a decent headset
+- allows you to make callouts in co-op or PVP (location, enemy count, weapons used, etc)
+- helps you decide where to go next, which area to pay attention to or where to place your crosshair
 
 ### Starting engagements
 - scout the area (enemy types, environmental damage, fallback location)
@@ -360,8 +359,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Sweeping
 - definition: clearing an area from one side to the other, one enemy at a time
 - allows you to keep track of which side enemies are at any given time
-- when new enemies spawn in a cleared area, restart the sweep
-- if your current enemy isn't peeking or is out of your line of sight, skip to the next one
+- when a new wave of enemies spawn or you spot a new enemy in a previously cleared area, restart the sweep
+- if your current enemy isn't peeking or goes out of your line of sight, skip to the next one
 
 ### Target prioritization
 - closest first: preferred strategy if no dangerous enemies are around
@@ -395,7 +394,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - reference: https://www.youtube.com/watch?v=43J9nUmrbo4
 
 ### Callouts
-- definition: feeding your teammates with information about enemy positions or your next move
+- definition: feeding your teammates with information about enemy position or your next move
 - learn the map-specific callouts
 - when making callouts, you must include location, count, health remaining, direction, weapon used and any essential information (ex: bomb holder in CS:GO)
 - when requesting utility or revealing your intentions, make the callout beforehand to give your teammates time to adjust
@@ -613,7 +612,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - shooting their legs depletes their health, however they have a 90% damage reduction
 - the Survivalist crossbow completely breaks their armor plate (unless you aim for the legs)
 - explosive damage and disruptive skills (Jammer Pulse, EMP Sticky Bomb and EMP grenade) bypass their armor plating and does damage directly to their health
-- critical hit damage and Headhunter stacks on their legs isn't affected by the damage reduction and therefore bypasses their armor plating
+- CHD and Headhunter stacks on their legs isn't affected by the damage reduction and therefore bypasses their armor plating
 - Hostile Negotiations from the Negotiator's Dilemma gear set bypasses their armor plating
 - Pestilence ticks bypasses their armor plating
 - using a Demolisher Firefly while they're disrupted bypasses their armor plating
@@ -638,8 +637,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can rotate around it while aggro'ed to make it stop moving/shooting
 
 ### Builds
-
-
+- definition: a set of items supporting a specific playstyle or solving a problem
+- you have to define what you're trying to go for (DPS, tank, crowd control, healing, etc), for which group scaling and for which difficulty
+- from there, you have to look at the weapons, brands, talents and attributes that could synergize with what you're going for (ex: AR/Ceska/Obliterate/CHC for DPS, Alps/Safeguard/repair skills for healer, etc)
+- look in your stash, craft, buy or farm the necessary pieces to make a first version of the build, recalibrate if necessary
+- test it in the desired situation and see if it works
+- if it doesn't, make some adjustments and try it again
+- once it works, start farming for pieces with better rolls and/or optimize them (if you have the resources)
 
 ### Cleaners
 \- reference: https://thedivision.fandom.com/wiki/Cleaners#Tom_Clancy.27s_The_Division_2
@@ -812,8 +816,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - elites fire multiple concussion grenades in succession
 
 ### Inventory management
-- reference: https://www.youtube.com/watch?v=1Rkoxi1u8tg
-
+- gear pieces with good rolls aren't necessarily good, look at the talent and brand bonus and see if they synergize with it. if they don't, trash them (unless you want to make a hybrid build)
+- you can leave rewarded caches and DZ extracted items in your mailbox, they won't use stash space
+- you should favorite loadout items and those that don't need further changes, mark for recalibration those that need to be changed and mark for donation those used for projects or that you want to keep for resources or other characters (ex: exotics)
+- it's a good idea to make new characters and level them up (or boost them) to 30 to have 150 inventory slots per character
+- you can put gear mods in gear slots to save on stash/inventory space since it only counts as a single item
 
 ### Looting
 - deconstructing gear set pieces gives blue materials
@@ -824,8 +831,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - try to loot from cover whenever possible to minimize exposure
 
 ### Optimization
-
-
+- optimization resources can be obtained through completing activities/projects, killing faction bosses, deconstructing items, crafting or spending SHD points
+- the amount of optimization resources necessary to optimize an attribute is based on the distance between its current value and the value from its next threshold
+- as a rule of thumb, try to recalibrate the attribute with the longest distance to its max value as it may save you some optimization resources in the end
+- once you're past SHD 1000, it's a good idea to make new characters and level them up to 40 to have extra SHD points you can spend on optimization
+- avoid optimizing an item that doesn't have the right attributes (ex: AR without OOCD)
+- avoid optimizing an item that doesn't have at least 80% rolls overall after recalibration otherwise you're going to burn too many resources (unless it's a hard to find item like raid/DZ exclusives)
 
 ### Outcasts
 \- reference: https://thedivision.fandom.com/wiki/Outcasts#Archetypes
@@ -888,7 +899,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - elites will throw incendiary grenades that detonate after a short fuse and have a wider radius
 
 ### Playing ARs
-- main attributes: weapon damage and critical hit chance/damage
+- main attributes: weapon damage and CHC/CHD
 - effective against anything that doesn't have an armor bar: red mobs, robotics, tanks and summit objectives
 - pairs well with the Crusader/Striker Shield
 - should focus on weak points and burst enemies down to knock them back
@@ -922,7 +933,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - lower cooldowns
 
 ### Playing LMGs
-- main attributes: weapon damage and critical hit chance/damage
+- main attributes: weapon damage and CHC/CHD
 - effective against out of cover targets (robotics and tanks are always out of cover)
 - can easily suppress enemies in cover
 
@@ -943,7 +954,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - reference: https://www.reddit.com/r/thedivision/comments/ko4ds5/please_try_a_healing_build/ghqvfx1
 
 ### Playing rifler
-- main attributes: weapon damage and critical hit chance/damage
+- main attributes: weapon damage and CHC/CHD
 - effective against all types of mobs thanks to critical hits
 - pairs well with the Crusader/Firewall Shield, especially when using a scope
 - should go for weak points and headshots to maximize damage and/or knock enemies back
@@ -972,16 +983,42 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - bad against moving targets and tanks
 
 ### Playing shotgun
+- very effective at close range
+- hard to play and weak at long range
+- pairs well with the Crusader/Striker Shield
+- deadly around spawn closets
+- when fighting a mob, try to isolate yourself from other mobs as much as you can because you'll get flanked a lot
+- Hunter's Fury is the best gear set for it as you'll be taking a lot of damage so you'll need CC and armor on kill to survive
+- 2 types of shotgun builds:
 
+#### Crit-based
+- main attributes: weapon damage and CHC/CHD
+- Tsunami/Enforcer are good choices when solo
+- Scorpio is BiS when in groups
+- Intimidate and Adrenaline Rush/Memento are recommended
+- the goal is to stay around spawn closets and land as many pellets as you can
+- try to go for the weakest mob to confuse nearby mobs as soon as possible
+- if you're using Scorpio, you can shoot between 2 mobs on purpose to apply status effects to both at the same time
 
+#### Headhunter
+- main attributes: weapon damage and HSD (to reach 150HSD, all attributes and mods will likely need to be maxed out)
+- M870 or any other high damage shotgun with Pummel is a good choice
+- you can use another shotgun, a White Death and/or a Regulus as backup weapons
+- the goal is to stay around spawn closets and keep Headhunter as long as possible for warhounds, bosses and tanks
+- you must make smart use of cover or cover to cover to get close to mobs and spawn closets
+- wait until a mob stops moving or tries to melee you before shooting (deploy your shield to absord the melee)
+- if you're within 3m, aim for the head, otherwise aim slightly above the head because if you don't, a pellet may hit the body and you're likely to lose Headhunter
+- if a mob is on the move, place your crosshair on their trajectory, at head level, and shoot when they come across it
+- if you're near a spawn closet as new mobs spawn, try to time your kills so that the Confuse effect from Hunter's Fury is reapplied (unless the other mobs are still inside the spawn closet)
 
 ### Playing sniper
 - main attributes: weapon damage and headshot damage
 - effective against targets that have a head and no helmet
-- for stationary targets, put your crosshair on them, at head level (or where it's going to be), before peeking
+- for stationary targets, put your crosshair on them, at head level, before peeking
 - for moving targets, put your crosshair on their trajectory and take the shot when they come across it
+- for targets in cover, put your crosshair about 50cm above the cover (where their head is going to be), before peeking
 - for Nemesis, don't use the cover system but charge from behind cover, jiggle peek to acquire your target, peek again to release the trigger then hide
-- you can do a quick peek then hide to bait an enemy into peeking
+- you can do a quick peek then hide to bait an enemy in cover into peeking
 - you can stand in the open to force a target behind cover to peek you (preferably exposing yourself only from that target), just release the trigger at head level when they peek
 - peek, take the shot and immediately take cover to minimize incoming damage (by strafing or pop shooting)
 - can one shot dogs with the Headhunter buff by shooting their legs
@@ -1100,6 +1137,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - always targets the chest
 - used to pull aggro off you and your group
 - flushes mobs out of cover
+- keeps shooting at enemies while the player is downed
 
 #### Firefly
 - double-tapping will throw it in the direction you're aiming and automatically target the nearest mob
@@ -1211,6 +1249,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - always targets the chest
 - it shows a red line when automatically targeting mobs that you can use as a way to spot them (especially when solo)
 - will shoot the nearest mob unless you do manual targeting
+- keeps shooting at enemies while the player is downed
 ##### Incinerator
 - great for spawn closets
 - its duration is reduced every time you burn fuel
@@ -1224,7 +1263,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Spawn camping
 
-- definition: attacking mobs while they're still inside (or as soon as they come out) of their spawn closet
+- definition: attacking mobs while they're still inside or in front of their spawn closet
 - requires that you already know the AI spawn locations combined with an aggressive playstyle
 - greatly reduces incoming damage as mobs can't shoot back while they're still inside their spawn closet (and if they do come out, they'll usually walk for a few meters or wait for a few seconds before shooting)
 - faster to switch between targets as they're all close to each other, leading to faster TTK
@@ -1287,7 +1326,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Incessant Chatter (Chatterbox): doesn't expire after dying (as long as you don't switch weapons)
 - Pack Instincts (Coyote's Mask): buffs can be individually proc'ed by 3 players using it and can therefore all be active at the same time 
 - Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD and DTA. in PVP, the player who applied the debuff must die for the ticks to stop
-- Quick Draw (Dodge City Gunslinger's Holster): the shot consuming the buff will heavily boost Headhunter stacks for the next shot
+- Quick Draw (Dodge City Gunslinger's Holster): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
 - Regicide (Regulus): also affected by explosive damage
 - Sandman (Sweet Dreams): doesn't work on robotics. meleeing with a non-deployable skill can still proc Sandman
 - Septic Shock (Scorpio): venom stacks are added to each other when applied by different players
@@ -1338,7 +1377,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Tips/tricks
 - activity completion rewards are proximity based, so wait for others to be close before completing them
 - any type of armor on kill works with skill kills and the Plague of the Outcasts debuff from Pestilence
-- critical hit damage isn't affected by damage drop-off
+- CHD isn't affected by damage drop-off
 - crossbow bolts apply localized damage, for instance headshots remove helmets
 - deploying a skill while using Technician protects you and nearby allies from disruption/shock (Faraday field) as long as you're both staying within 5m of it
 - double-clicking on a cache instantly opens it
@@ -1349,6 +1388,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - mobs can block shots and take damage from another mob, turning a mob right in front of you as a bullet shield
 - opening an ammo box will automatically reload your current weapon
 - picking up a disrupted skill and redeploying it will cleanse it from disruption
+- Protection From Elites is capped at 80%
 - rain reduces ballistic skills targeting abilities and AI sight
 - shooting the foam on an ensnared teammate or hip-firing at your feet breaks it
 - skill damage also boosts status damage
@@ -1490,7 +1530,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
 - MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/sukaihoku, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/sukaihoku, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
  
