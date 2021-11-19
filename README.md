@@ -104,7 +104,7 @@
    * [4.9 Difficulty](#difficulty-1)
    * [4.10 Group composition (basics)](#group-composition-basics)
    * [4.11 Group composition (advanced)](#group-composition-advanced)
-   * [4.12 Group play](#group-play) 
+   * [4.12 Group play](#group-play)
    * [4.13 Hunters](#hunters)
    * [4.14 Hyenas](#hyenas)
       * [4.14.1 Assault](#assault-2)
@@ -771,7 +771,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 
 ### Hunters
-- can hack any deployed skill (except traps) based on line of sight 
+- can hack any deployed skill (except traps) based on line of sight
 - can heal up to 3 times
 - can melee you when performing cover to cover or running past them because they seem to have a 2m melee range (you have to dodge roll to avoid being hit)
 - can still use their abilities while disrupted
@@ -787,19 +787,19 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Assault
 - fights from cover and moves cover to cover to avoid enemy fire
 - no weak point
- 
+
 #### Controller
 - deploys remote-controlled explosive cars from behind cover
 - elite RC cars set the area around the car's explosion on fire and confuse anyone within the blast radius (TODO: verify the confuse bit)
 - destroying her backpack is an effective way to get rid of her (TODO: verify the confuse bit, if shooting the bag kills purples, how much HP left for elites and if she can deploy cars afterwards)
 - shooting the RC car will cause it to burn and confuse everyone around it
- 
+
 #### Engineer
 - sets up sniper turrets and attempts to repair them when they're damaged (TODO: check if he can deploy more than one turret)
 - destroying his backpack will prevent him from deploying his turret
 - damage a deployed turret to expose the engineer
 - elite turrets shock their targets
- 
+
 #### Medic
 - sprints to dead allies in an attempt to revive them with adrenaline and supports living allies with combat stims, granting them overheal
 - destroying the red stripe on his bag will prevent him from assisting allies and confuse everyone nearby
@@ -825,7 +825,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - stays in cover at long range
 - looking at her while she uses her laser dazzler results in being blinded
 - elites have the ability to deploy shock mines, immobilizing anyone making contact with them
-  
+
 #### Tank
 - relentlessly moves towards enemies, fearless behind a bulwark of heavy armor
 - resistant to explosives
@@ -871,7 +871,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - smarter than Hyena Assaults and use cover more often
 - elites are equipped with concussion grenades
 - no weak point
- 
+
 #### Controller
 - controls an RC car that will rush towards their target and attempt to cut them apart with its spinning saws
 - when hit, its target will suffer constant heavy damage and bleed
@@ -879,7 +879,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - destroying the RC car causes him to revert to conventional weapons
 - it can be avoided with a dodge roll (which exposes its weak backside) and the saws can be destroyed, rendering the RC useless
 - dodging also can make the car get stuck on a wall for a few seconds, making it immobile
- 
+
 #### Heavy Weapons
 - provides suppressive fire with his LMG
 - similar to True Sons' Heavy Weapons but they lack the armored helmet and ability to go prone
@@ -889,12 +889,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - runs at his target with the intent to blow himself up, taking out the enemy in the process
 - his vest can be shot, causing him to explode prematurely, damaging friend and foe alike
 - elites will leave a fire effect similar to a Molotov after exploding
- 
+
 #### Scorcher
 - utilizes homemade flamethrowers
 - destroying the fuel tank she carries on her waist will make it explode after a few seconds, causing her to panic, sometimes rushing at her target, then causing heavy damage to her, sometimes even killing her
 - after her fuel tank is destroyed, she will switch to a pistol
- 
+
 #### Sniper
 - a long-range bowman unit that wields a bow with explosive arrows
 - these arrows have travel time and the "sniper glare" is attached to them, making them easy to dodge
@@ -915,12 +915,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - resistant to explosives
 - named Outcast Tanks are faster and do more damage per hit
 - some named Tanks in Kenly College are armed with flamethrowers
- 
+
 #### Thrower
 - throws Molotov cocktails at enemies
 - shooting him while he's about to throw a Molotov cocktail will cause him to drop it at his feet and put himself on fire
 - shooting the red pouch on his right thigh will set him and his surroundings on fire
-- when shooting a Molotov out of the air, the fire will spread to the ground right under it, regardless of how high in the air it was 
+- when shooting a Molotov out of the air, the fire will spread to the ground right under it, regardless of how high in the air it was
 - elites will throw incendiary grenades that detonate after a short fuse and have a wider radius
 
 ### Playing ARs
@@ -1095,7 +1095,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - his HMG can be destroyed on his back, preventing him from deploying it
 - if the player gets too close, or all Rikers in the area die, the HMG detonates
 - elites have an HMG that fires explosive rounds at a slower pace but doesn't inflict bleed damage
- 
+
 #### Leader
 - gives a buff in health to all Rikers in the area
 - always equipped with two weapons, one for long-range and another for short-range
@@ -1111,7 +1111,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - has a taser gun at close range that shocks the target, used if the player gets too close
 - usually crouches, but the shield can be destroyed with enough concentrated fire
 - if his shield is destroyed, he will seek cover and fire from that position
-- doesn't have as much HP as the other archetypes 
+- doesn't have as much HP as the other archetypes
 
 #### Tank
 - heavily armored Riker armed with a Dazzler rigged riot shield and a nail gun that does bleed damage on contact
@@ -1120,7 +1120,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - his shield can be destroyed with enough concentrated fire and so can his dazzlers
 - the dazzlers are arranged in an inverted triangle just beneath the window in the shield
 - if the shield is destroyed, he will then use his Nail Gun
- 
+
 #### Thrower
 - equipped with proximity nail bombs that can cause bleed damage upon detonation
 - usually stays away in combat and throws nail bombs from a distance
@@ -1147,7 +1147,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - used to pull aggro off you and your group
 - can be meleed, shot or damaged by explosions and fire
 - should be deployed in locations where the hologram is visible to enemies but not its base, such as elevated positions or behind low covers (better if it's in an unreachable location)
-- in groups, avoid placing it near doorways or teammates 
+- in groups, avoid placing it near doorways or teammates
 - its duration can be greatly extended with an Artificer Hive
 - mobs shooting it will be pulsed (and therefore proc Spotter) for a short time
 - useful in PVP to catch a player off guard as it hides your nameplate until it's destroyed
@@ -1268,7 +1268,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Turret
 - good to draw aggro
 - try to put it in an elevated location, but not too close to you as it will draw aggro (unless you want to benefit from the Technician's Faraday field)
-- in groups, avoid placing it near doorways or teammates 
+- in groups, avoid placing it near doorways or teammates
 ##### Artillery
 - double tapping will lock/unlock it to a specific location (only works if you're within 10m of the turret)
 - rounds can bounce off walls and ceilings if there is an accessible area
@@ -1335,7 +1335,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - when capturing objectives, don't peek unless you have to, completing objectives is more important than clearing mobs
 - when no mobs are in a room, don't go too far from the door as it's a drone ambush
 - when stuck between a door and a wall, fast travel to another player
-- you can build Scorpio stacks on a rotating jammer before it's 
+- you can build Scorpio stacks on a rotating jammer before it's
 - you can open locked doors by shooting the lock with a Chem Launcher or a silenced weapon, it allows you to not alert enemies (providing you're far enough from enemies when using a silencer)
 - you can see enemies through walls when servers are blinking
 
@@ -1354,7 +1354,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Electromagnetic Accelerator (Nemesis): shots are also fired when swapping weapons
 - In Plain Sight (Mantis): the headshot damage boost is always active in PVP
 - Incessant Chatter (Chatterbox): doesn't expire after dying (as long as you don't switch weapons)
-- Pack Instincts (Coyote's Mask): buffs can be individually proc'ed by 3 players using it and can therefore all be active at the same time 
+- Pack Instincts (Coyote's Mask): buffs can be individually proc'ed by 3 players using it and can therefore all be active at the same time
 - Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD and DTA. in PVP, the player who applied the debuff must die for the ticks to stop
 - Quick Draw (Dodge City Gunslinger's Holster): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
 - Regicide (Regulus): also affected by explosive damage and how many Dodge City stacks you have
@@ -1565,7 +1565,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/sukaihoku, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
- 
+
 ## Contact information
 
 - Discord: Genesis#2418
