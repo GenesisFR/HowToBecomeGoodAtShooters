@@ -9,10 +9,7 @@
 \- check if the Demolisher Firefly trick works on mini-tanks (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- fill the Group play section  
-\- fill the Keeping your distance section  
 \- fill the Playing off first contact section  
-\- fill the State of mind section  
-\- fill the Target prioritization section  
 \- test if the Stinger Hive actually scales with explosive damage and DTA  
 \- test if shooting Warhounds weak points with the TAC-50 can instakill them (from u/XPS1647)  
 \- test the Cluster Seeker Mine rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v and "Cluster seeker goes to cooldown on FIRST cluster's explosion")  
@@ -287,8 +284,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - reference: https://www.youtube.com/watch?v=U9mvXfnY8wU
 
 ### Damage indicator
-- definition: UI elements indicating when the player is taking damage, where the damage is coming from and whether you're low HP or not (if the game has no health bar)
-- allows you to quickly pinpoint where the attacker is
+- definition: UI elements indicating when the player is taking damage and how much HP they have left (if the game has no health bar)
+- gives you a general direction of where your attacker is
 - allows you to decide whether to engage or take cover based on your HP
 - reference: https://medium.com/@jasper.stephenson/a-ux-analysis-of-first-person-shooter-damage-indicators-59ac9d41caf8
 
@@ -316,8 +313,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - when there are too many enemies around you and you know you're not gonna be able to stand your ground, immediately fall back
 
 ### Keeping your distance
-
-
+- you usually take less damage the further away you are from an enemy
+- the AI is often inaccurate at longer distancss
+- it's easier to relocate if you're far away from threats
 
 ### Minimap/radar
 - allows you to see incoming threats
@@ -365,8 +363,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - study AI routes if applicable (ex: Hitman)
 
 ### State of mind
-
-
+- you have to be open-minded and receptive to learning if you want to improve
+- you have to be observant to learn how game mechanics and the AI work
+- you have to be perseverant in trying other strategies when something doesn't work
 
 ### Sweeping
 - definition: clearing an area from one side to the other, one enemy at a time
@@ -1367,7 +1366,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 - Ground Control (Future Initiative): procs when someone is at full armor, not when the FI user is at full armor
 - Hostile Negotiations (Negotiator's Dilemma): crits caused by a signature weapon aren't affected by damage reduction when shooting a non-named enemy while a named enemy is marked
-- Makeshift Repairs (Foundry Bulwark): explosive damage isn't taken into account
+- Makeshift Repairs (Foundry Bulwark): explosive damage doesn't proc it
 
 #### High-end
 
@@ -1401,8 +1400,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Ranger: multiplicative damage that doesn't boost Headhunter
 
 ### Target prioritization
-
-
+- when starting an engagement, annoying archetypes (Grenadier, Drone Operator, Medic) and weak points (Stinger Hive bag, support station) should be dealt with first to make the rest of the engagement easier
+- you can also start engagements by targeting weak points that will CC nearby mobs (such as spice bags) in a group
+- rushers are your top priority later on as they'll become deadly at close range
+- if you're using Headhunter, you can kickstart it on a sniper/rusher if you don't have enough damage for a kill
 
 ### Tips/tricks
 - activity completion rewards are proximity based, so wait for others to be close before completing them
