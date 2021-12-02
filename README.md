@@ -779,8 +779,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - shooting environmental hazards (such as gas tanks) won't hurt your teammates and should be done before they or the AI does it so that they don't get interrupted in the middle of an engagement
 - there's no friendly fire, however shooting weak points from any mob (dead or alive) will hurt your teammates
 - when a teammate is getting flanked and focused by a mob, you should help them by prioritizing that mob if you can
+- when a teammate is putting a mob under disabling status effects, you should focus that mob
 - when you see a teammate is too busy holding a lane, you should hold his other lane if your build allows it
-- you can enable "Show groupmate skills" in gameplay settings, that will allow you to see when they use their skills and when they are on cooldown
+- you can see when your teammates use their skills and when they are on cooldown by enabling group skill usage (Chat Settings > Combat Info > Group Skill Usage)
 
 ### Hunters
 - can hack any deployed skill (except traps) based on line of sight
@@ -1460,7 +1461,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can kill enemies stuck behind doors with the Oxidizer Chem Launcher
 - you can let medics revive mobs to farm Headhunter stacks
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: Firefly)
-- you can see additional outlines when using radius-based skills by enabling color blind mode (Settings > Accessibility > Color Blind Mode), making it easier to use such skills
+- you can see additional outlines when using radius-based skills by enabling color blind mode (Chat Settings > Accessibility > Color Blind Mode), making it easier to use such skills
 - you can skip real-time cutscenes by dodge rolling or aiming
 - you can use armor plates or enemy skills to "extend" Negotiator's Dilemma copy damage
 - you can use drones to farm Memento trophies
@@ -1577,7 +1578,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - [adreN](https://www.youtube.com/channel/UCauWzM4ElgQCuwymc3sV42g), [BreezyGamingTV](https://www.youtube.com/channel/UCWtBHE2zTID1XTPQrpf8MyA), [JoshNissan](https://www.youtube.com/channel/UCkFeaDgFURxNOoRoezRl7aQ), [luckySkillFaker](https://www.youtube.com/channel/UCS6fU1w749zdEwIhJCxAc3g), [Lunar](https://www.youtube.com/channel/UC28EeQoLgCVERhAj20R1qLg), [OfficialA2K](https://www.youtube.com/channel/UC_LCy84M7DHHNteE0-OjwEQ), [TheWarOwl](https://www.youtube.com/channel/UCpFcHE36IoySjYj1Rytxyog) and [voo CSGO](https://www.youtube.com/channel/UC2vjGuOTH-KcRCLSm5F3oUA) for the videos about PVP concepts
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
-- MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
+- MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), [Greetallica](https://www.reddit.com/user/0-Ren), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
 - [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/sukaihoku, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
