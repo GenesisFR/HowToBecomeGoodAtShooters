@@ -12,8 +12,8 @@
 \- test if Ravenous explosions are affected by OOCD  
 \- test if shooting Warhounds weak points with the TAC-50 can instakill them (from u/XPS1647)  
 \- test if the Stinger Hive scales with explosive damage and DTA  
-\- test the Cluster Seeker Mine rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v and "Cluster seeker goes on cooldown on FIRST cluster's explosion")  
 \- test if when a target tagged with the Burster Firefly dies, it makes the ones on the other targets blow up too  
+\- test the Cluster Seeker Mine rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v and "Cluster seeker goes on cooldown on FIRST cluster's explosion")  
 \- test the System Corruption medkit against Fragile Armor stacks  
 </details>
 
@@ -34,21 +34,24 @@
    * [2.11 Elevation](#elevation)
    * [2.12 Environmental damage](#environmental-damage)
    * [2.13 Falling back](#falling-back)
-   * [2.14 Keeping your distance](#keeping-your-distance)
-   * [2.15 Minimap/radar](#minimapradar)
-   * [2.16 Movement](#movement)
-   * [2.17 Peeking](#peeking)
-   * [2.18 Perspective](#perspective)
-   * [2.19 Playing your build/class](#playing-your-buildclass)
-   * [2.20 Relocation](#relocation)
-   * [2.21 Sounding](#sounding)
-   * [2.22 Starting engagements](#starting-engagements)
-   * [2.23 State of mind](#state-of-mind)
-   * [2.24 Sweeping](#sweeping)
-   * [2.25 Target prioritization](#target-prioritization)
-   * [2.26 Weak points](#weak-points)
-   * [2.27 Weapon recoil](#weapon-recoil)
-   * [2.28 Weapon selection](#weapon-selection)
+   * [2.14 Graphics settings](#graphics-settings)
+   * [2.15 Keeping your distance](#keeping-your-distance)
+   * [2.16 Minimap/radar](#minimapradar)
+   * [2.17 Mouse settings](#mouse-settings)
+   * [2.18 Movement](#movement)
+   * [2.19 Peeking](#peeking)
+   * [2.20 Perspective](#perspective)
+   * [2.21 Playing your build/class](#playing-your-buildclass)
+   * [2.22 Reloading](#reloading)
+   * [2.23 Relocation](#relocation)
+   * [2.24 Sounding](#sounding)
+   * [2.25 Starting engagements](#starting-engagements)
+   * [2.26 State of mind](#state-of-mind)
+   * [2.27 Sweeping](#sweeping)
+   * [2.28 Target prioritization](#target-prioritization)
+   * [2.29 Weak points](#weak-points)
+   * [2.30 Weapon recoil](#weapon-recoil)
+   * [2.31 Weapon selection](#weapon-selection)
 * [3.0 PVP concepts](#pvp-concepts)
    * [3.1 Baiting](#baiting)
    * [3.2 Callouts](#callouts)
@@ -261,7 +264,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Clearing angles
 - be methodical, clear progressively and check every corner
-- use jiggle peeking to quickly get information without allowing the AI to react
+- use [jiggle peeking](#jiggle-peeking) to quickly get information without allowing the AI to react
 - reference: https://www.youtube.com/watch?v=ivh8r0LxgLQ
 
 ### Counter-strafing
@@ -314,6 +317,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - prevents the AI from cornering you, thus putting more pressure on you
 - when there are too many enemies around you and you know you're not gonna be able to stand your ground, immediately fall back
 
+### Graphics settings
+- you want to improve how visible things are by disabling motion blur, depth of field, foliage density and increase sharpness
+- use digital vibrance to make spotting enemies easier and colors stand out
+- increase the field of view to be able to see more things at the same time (will decrease frame rate)
+- use a frame limiter (preferably ingame) instead of vertical synchronization to limit input lag, stutters due to frame rate fluctuations) and make your CPU/GPU work less
+- if your frame rate is bad, lower the graphics until the game is playable
+
 ### Keeping your distance
 - you usually take less damage the further away you are from an enemy
 - the AI is often inaccurate at longer distances
@@ -324,16 +334,25 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - can reveal the location of various useful items (like ammo crates)
 - prevents you from getting flanked
 
+### Mouse settings
+- set your Windows mouse sensitivity at 6/11 to keep the default mouse speed (otherwise mouse movements may get discarded when lower or interpolated when higher) and disable "Enhanced pointer precision"
+- use raw input if the game supports it (otherwise use [Rinput]( https://github.com/VolsandJezuz/Rinput-Library/releases)), it bypasses any mouse acceleration settings in the operating system (avoid enabling it if your frame rate is bad though)
+- disable mouse acceleration and smoothing (look on [PCGamingWiki](https://www.pcgamingwiki.com)) to make mouse movement consistent
+- use the highest polling rate your mouse supports (it may cause issues in some games though)
+- use a low DPI (higher on +1080p resolutions) and sensitivity if your mouse pad allows it and take some time to get used to it, it'll help getting more accurate and avoid skipping targets, especially at longer distances
+- get a large mouse pad if you can afford it and you have enough space on your desk
+- play from the wrist for precision flicking, only use your arm if you need to look around
+
 ### Movement
 - always move from cover to cover to minimize exposure and incoming damage
-- always reload behind cover (unless the area is clear)
 - breaking line of sight with the AI gives you time to recover or devise another strategy
 
 ### Peeking
 - definition: show yourself to start an engagement or get information
-- try to peek as far away from a corner (body less exposed)
+- try to peek far away from a corner (body less exposed)
 - don't expose yourself for too long: peek, get the kill (or take the shot for sniper rifles) and hide
 - can peek for longer or even switch targets if AI animations allow it (ex: AI stumbling when shot) and you know they're unlikely to hit you
+- when not fighting from cover, make sure there is one nearby in case you get badly wounded
 
 ### Perspective
 - definition: how characters are perceived in the game world
@@ -346,10 +365,17 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - every build has a purpose and should be played a certain way
 - not playing your build for what it's supposed to do or not playing it correctly is inefficient
 
+### Reloading
+- always reload from behind cover (unless the area is clear)
+- avoid reloading until your mag is almost empty as you may be caught off guard doing so
+- if your current magazine is almost empty, reload as you may not able to kill an enemy with the remaining rounds
+- if you're in the middle of an engagement and need to reload, it's usually faster to switch to another weapon
+
 ### Relocation
 - definition: moving elsewhere unnoticed after being spotted
 - when the AI pinpoints your location, it may put more pressure on that location
 - relocating makes the AI lose track of you and allows you to take shots from another location
+- can be used to control where mobs go
 - reference: https://www.youtube.com/watch?v=s1WF22xSEgU
 
 ### Sounding
@@ -368,6 +394,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you have to be open-minded and receptive to learning if you want to improve
 - you have to be observant to learn how game mechanics and the AI work
 - you have to be perseverant in trying other strategies when something doesn't work
+- while under pressure, try to stay calm as getting angry at yourself or others will lead you/them to make bad decisions and play worse
 
 ### Sweeping
 - definition: clearing an area from one side to the other, one enemy at a time
@@ -536,8 +563,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - they always try to flank
 - they become aggressive when you're low HP
 - they try to melee you when you're in close range
+- they will exploit any gap in your defense, especially on legendary
 - they will leave their cover as you get close
 - walking doesn't trigger them as much as running
+- when a Black/White Tusk support station is down, mobs will try to get within its range when they're low HP
 
 ### Black Tusk
 \- reference: https://thedivision.fandom.com/wiki/Black_Tusk#Archetype
@@ -599,7 +628,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - doesn't have as much HP as the other archetypes
 
 #### Support
-- places a support station down healing nearby allies and attempts to repair it when damaged (TODO: verify the repair bit)
+- places a support station down healing nearby allies
 - destroying the station on his back prevents him from deploying it
 - elite support stations grant overheal to nearby allies
 - support stations can be disrupted, temporarily stopping their healing ability
@@ -778,6 +807,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - avoid standing in front of a teammate who uses the Demolitionist grenade launcher or Firestarter Chem Launcher, you'll make them kill themselves
 - shooting environmental hazards (such as gas tanks) won't hurt your teammates and should be done before they or the AI does it so that they don't get interrupted in the middle of an engagement
 - there's no friendly fire, however shooting weak points from any mob (dead or alive) will hurt your teammates
+- try to spread out to cover the entire width of an area to discourage the AI from pushing
 - when a teammate is getting flanked and focused by a mob, you should help them by prioritizing that mob if you can
 - when a teammate is putting a mob under disabling status effects, you should focus on that mob
 - when you see a teammate is too busy holding a lane, you should hold his other lane if your build allows it
@@ -869,11 +899,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Optimization
 - optimization resources can be obtained through completing activities/projects, killing faction bosses, deconstructing items, crafting or spending SHD points
-- the amount of optimization resources necessary to optimize an attribute is based on the distance between its current value and the value from its next threshold
+- the amount of optimization resources necessary to optimize an attribute is based on the distance between its current value and the value of its next threshold
 - as a rule of thumb, try to recalibrate the attribute with the longest distance to its max value as it may save you some optimization resources in the end
 - once you're past SHD 1000, it's a good idea to make new characters and level them up to 40 to have extra SHD points you can spend on optimization
-- avoid optimizing an item that doesn't have the right attributes (ex: AR without OOCD)
-- avoid optimizing an item that doesn't have at least 80% rolls overall after recalibration, otherwise, you're going to burn too many resources (unless it's an item hard to find like raid/DZ exclusives)
+- avoid optimizing an item that doesn't have the right attributes after recalibration (ex: AR without OOCD)
+- avoid optimizing an item that doesn't have at least 85% rolls overall after recalibration, otherwise, you're going to burn too many resources (unless it's an item hard to find like raid/DZ exclusives)
 - you can't recalibrate an attribute that has been optimized
 
 ### Outcasts
@@ -1064,6 +1094,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - can destroy dogs in one shot with the Headhunter buff by shooting their legs
 - avoid using a scope, it allows you to see your surroundings when aiming and you often don't need the extra damage or magnification from using one (unless you're fighting targets beyond 50m)
 - avoid shooting the back of a running mob as its head will be leaning forward so you're likely to miss it or hit the body
+- avoid switching to a low base damage weapon or your Headhunter stacks will be weak when switching back to a high base damage weapon
 - Tip of the Spear is the best gear set for it
 
 ### Playing tank
@@ -1228,7 +1259,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Seeker Mine
 - tanks will destroy them when targeted if they're not distracted
 ##### Airburst
-- has the longest status effect damage and burn duration in the game
+- has the highest status effect damage and longest burn duration in the game
 ##### Cluster
 - it's better to throw them near mobs than to deploy them at your feet otherwise they'll most likely dodge them
 - can be used to flush enemies out of cover or as a soft form of CC since non-robotic enemies (except tanks) will have to dodge them
@@ -1567,7 +1598,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - [Hazard Protection and Status Effects Immunity Thresholds](https://www.reddit.com/r/thedivision/comments/hdac4x/tu10_hazard_protection_and_status_effects)
 - [Interactive Map](https://division2map.com)
 - [NPC Health Pools](https://docs.google.com/spreadsheets/d/1OP0r0A81wroX9v9iZ1u-jYNndTjugaB8e1MxS3FWCsk)
-- [Reddit thread](https://www.reddit.com/r/thedivision/comments/pa5r2c/a_comprehensive_guide_to_become_better_at_the)
+- [Reddit thread](https://www.reddit.com/r/thedivision/comments/rcemoz/update_on_my_comprehensive_guide_to_become_better/)
 - [Weapon Damage 101: Bullet Damage](https://www.reddit.com/r/thedivision/comments/gi0uel/weapon_damage_101_bullet_damage)
 - [Weapon DPS Database](https://onedrive.live.com/view.aspx?resid=FCC78BAD7A71FF1C!263)
 - [Weekly vendor reset](https://rubenalamina.mx/the-division-weekly-vendor-reset)
@@ -1577,11 +1608,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 - [adreN](https://www.youtube.com/channel/UCauWzM4ElgQCuwymc3sV42g), [BreezyGamingTV](https://www.youtube.com/channel/UCWtBHE2zTID1XTPQrpf8MyA), [JoshNissan](https://www.youtube.com/channel/UCkFeaDgFURxNOoRoezRl7aQ), [luckySkillFaker](https://www.youtube.com/channel/UCS6fU1w749zdEwIhJCxAc3g), [Lunar](https://www.youtube.com/channel/UC28EeQoLgCVERhAj20R1qLg), [OfficialA2K](https://www.youtube.com/channel/UC_LCy84M7DHHNteE0-OjwEQ), [TheWarOwl](https://www.youtube.com/channel/UCpFcHE36IoySjYj1Rytxyog) and [voo CSGO](https://www.youtube.com/channel/UC2vjGuOTH-KcRCLSm5F3oUA) for the videos about PVP concepts
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
-- [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me the base game
-- MMR clan (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), [Greetallica](https://www.reddit.com/user/0-Ren), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/sukaihoku, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
+- [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me The Division 2
+- MMR clan members (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), [Greetallica](https://www.reddit.com/user/0-Ren), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/MemoriesMu, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/SarcasmNotImplied, u/sukaihoku, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
-- [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me WONY
+- [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me Warlords of New York
 
 ## Contact information
 
