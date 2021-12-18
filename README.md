@@ -241,10 +241,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Aggro
 - definition: when mobs target you
-- how to use it to your advantage (bait for another player)
-- how to get it off you (use utility/players, break line of sight, run away)
+- you can use it to your advantage by [baiting](#baiting) for another player
+- you can get it off you by using utility/players, breaking line of sight or running away
 - do not direct it at other players
-- only aggro one mob (RPGs only)
+- in some games, it's possible to only aggro a single mob
 
 ### AI animations
 - predictable
@@ -309,7 +309,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Environmental damage
 - definition: using the environment to your advantage
-- can kill/CC/bait enemies (explosive barrels, gas tanks, etc)
+- can kill/CC/[bait](#baiting) enemies (explosive barrels, gas tanks, etc)
 - can flush enemies out of cover
 
 ### Falling back
@@ -321,7 +321,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you want to improve how visible things are by disabling motion blur, depth of field, foliage density and increase sharpness
 - use digital vibrance to make spotting enemies easier and colors stand out
 - increase the field of view to be able to see more things at the same time (will decrease frame rate)
-- use a frame limiter (preferably ingame) instead of vertical synchronization to limit input lag, stutters due to frame rate fluctuations) and make your CPU/GPU work less
+- use a frame limiter (preferably ingame) instead of vertical synchronization to limit input lag, stutters (due to frame rate fluctuations) and make your CPU/GPU work less
 - if your frame rate is bad, lower the graphics until the game is playable
 
 ### Keeping your distance
@@ -394,7 +394,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you have to be open-minded and receptive to learning if you want to improve
 - you have to be observant to learn how game mechanics and the AI work
 - you have to be perseverant in trying other strategies when something doesn't work
+- you have to be methodical, on harder difficulties, you may get punished for a single mistake
+- you have to be consistent, once you find patterns that work, repeat them
 - while under pressure, try to stay calm as getting angry at yourself or others will lead you/them to make bad decisions and play worse
+- application, not knowledge, is power, it's the drive to apply the concepts you learn here that will make you truly better
 
 ### Sweeping
 - definition: clearing an area from one side to the other, one enemy at a time
@@ -430,7 +433,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Baiting
 - using a teammate to force your opponent to peek, thus revealing his location and allowing you to get the kill without getting shot (baiting a teammate)
 - forcing your opponents to use their utility by putting pressure or using utility against them (baiting utility)
-- jiggle peek (see this [section](#jiggle-peeking)) to have an opponent reveal his location (baiting a shot)
+- [jiggle peek](#jiggle-peeking) to have an opponent reveal his location (baiting a shot)
 - reference: https://www.youtube.com/watch?v=43J9nUmrbo4
 
 ### Callouts
@@ -444,7 +447,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Clearing angles
 - same points as in [PVE](#clearing-angles)
-- you must know the map and where people are usually standing (gets you information and map control)
+- you must know the map and where people are usually standing (gets you information and [map control](#map-control))
 - reference: https://www.youtube.com/watch?v=ivh8r0LxgLQ
 
 ### Counter-strafing
@@ -473,7 +476,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Focus management
 - definition: splitting your attention between several locations
 - prevents you from getting flanked
-- allows you to maintain map control
+- allows you to maintain [map control](#map-control)
 
 ### Getting information
 - definition: knowing the enemy's location, count and destination
@@ -482,19 +485,19 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Holding angles
 - active angle: randomly jiggle peek
-- passive angle: be at an off-angle
+- passive angle: be at an [off angle](#off-angle)
 - reference: https://www.youtube.com/watch?v=n1ux6y4esvw
 
 ### Jiggle peeking
 - definition: strafing left and right around a corner
-- used to bait shots
+- used to [bait](#baiting) shots
 - gets you information without taking (a lot of) damage
 - reference: https://www.youtube.com/watch?v=iJ1rCx8AEBc
 
 ### Lurking
 - definition: playing sneaky, far away from your team
 - aggressive lurker: puts pressure in an area to prevent enemy rotation
-- passive lurker: doesn't show his presence, flanks rotators to maintain map control
+- passive lurker: doesn't show his presence, flanks rotators to maintain [map control](#map-control)
 - plays an important role at the end of rounds
 - reference: https://www.youtube.com/watch?v=wxGv0EJG4-Q
 
@@ -539,12 +542,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Strength in numbers
 - a 2v1 is better than a 1v1
-- move like a pack or in pairs in order to trade kills
+- move like a pack or in pairs in order to [trade](#trading) kills
 
 ### Trading
 - definition: killing someone who just killed a teammate
 - only doable if moving in pairs, obviously
-- allows you to maintain map control if you get the trade
+- allows you to maintain [map control](#map-control) if you get the trade
 - reference: https://www.youtube.com/watch?v=8YfVRuKk8_Y
 
 ## The Division 2
@@ -554,7 +557,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - knockback: after inflicting a certain amount of damage, gives you time to line up your next shot or get the kill
 - quick peek: done from cover on Heroic difficulty or lower by tank operators and medics, wait for it to get headshots with a (sniper) rifle
 - strafe: used after spotting a player, take your time to adjust your crosshair when sniping/rifling
-- status effects: see this [section](#status-effects)
+- status effects: see [Status effects](#status-effects)
 
 ### AI behavior
 - dictated by positioning and playstyle
@@ -774,8 +777,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Dancing
 - definition: moving across/around an NPC to force them to melee/chase you
-- baits for your teammates to get the kill (however, weak point explosions can kill you)
-- buys you time to relocate or get the kill before the NPC recovers from his animation
+- [baits](#baiting) for your teammates to get the kill (however, weak point explosions can kill you)
+- buys you time to relocate or get the kill before the NPC recovers from their animation
 - best used when it's the last mob of a wave or an isolated mob
 - acts as a soft form of CC (the NPC will try to melee you)
 
@@ -1029,7 +1032,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Playing offensive skill builds
 - main attributes: skill damage and skill haste
-- skill placement is important, see this [section](#turret)
+- skill placement is important, see [Turret](#turret)
 - Harmony/Test Subject and Capacitor are usually best in slot
 - there's often no need to expose yourself to enemies to deploy your skills
 - there's no need to be constantly peeking to maintain your buffs
@@ -1087,7 +1090,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - for moving targets, put your crosshair on their trajectory and take the shot when they come across it
 - for targets in cover, put your crosshair about 50cm above the cover (where their head is going to be), before peeking
 - for Nemesis, don't use the cover system but charge from behind cover, jiggle peek to acquire your target, peek again to release the trigger then hide
-- you can do a quick peek then hide to bait an enemy in cover into peeking
+- you can do a quick peek then hide to [bait](#baiting) an enemy in cover into peeking
 - you can stand in the open to force a target behind cover to peek you (preferably exposing yourself only from that target), just release the trigger at head level when they peek
 - peek, take the shot and immediately take cover to minimize incoming damage (by strafing or pop shooting)
 - when a mob is using a minigun, aim at the top of their head or it'll hit the minigun
@@ -1598,7 +1601,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - [Hazard Protection and Status Effects Immunity Thresholds](https://www.reddit.com/r/thedivision/comments/hdac4x/tu10_hazard_protection_and_status_effects)
 - [Interactive Map](https://division2map.com)
 - [NPC Health Pools](https://docs.google.com/spreadsheets/d/1OP0r0A81wroX9v9iZ1u-jYNndTjugaB8e1MxS3FWCsk)
-- [Reddit thread](https://www.reddit.com/r/thedivision/comments/rcemoz/update_on_my_comprehensive_guide_to_become_better/)
+- [Reddit thread](https://www.reddit.com/r/thedivision/comments/rcemoz/update_on_my_comprehensive_guide_to_become_better)
 - [Weapon Damage 101: Bullet Damage](https://www.reddit.com/r/thedivision/comments/gi0uel/weapon_damage_101_bullet_damage)
 - [Weapon DPS Database](https://onedrive.live.com/view.aspx?resid=FCC78BAD7A71FF1C!263)
 - [Weekly vendor reset](https://rubenalamina.mx/the-division-weekly-vendor-reset)
