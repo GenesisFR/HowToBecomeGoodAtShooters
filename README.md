@@ -6,7 +6,6 @@
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
 \- check if rushers from all factions have less HP than snipers  
-\- check if the Demolisher Firefly trick works on mini-tanks (https://www.reddit.com/r/thedivision/comments/n9l7xs/how_to_destroy_warhounds_in_a_easy_way_a_hidden)  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test if dodge rolling right before being hit by an explosion skips the staggering animation  
 \- test if Ravenous explosions are affected by OOCD  
@@ -15,6 +14,8 @@
 \- test if when a target tagged with the Burster Firefly dies, it makes the ones on the other targets blow up too  
 \- test the Cluster Seeker Mine rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v and "Cluster seeker goes on cooldown on FIRST cluster's explosion")  
 \- test the System Corruption medkit against Fragile Armor stacks  
+\- test using cover to cover to move into enemy lines without getting spotted (https://www.reddit.com/r/Division2/comments/rcendk/update_on_my_comprehensive_guide_to_become_better/hnxh7pt)
+
 </details>
 
 ## Table of Contents
@@ -24,34 +25,39 @@
    * [2.1 Aggro](#aggro)
    * [2.2 AI animations](#ai-animations)
    * [2.3 AI behavior](#ai-behavior)
-   * [2.4 Angle isolation](#angle-isolation)
-   * [2.5 Clearing angles](#clearing-angles)
-   * [2.6 Counter-strafing](#counter-strafing)
-   * [2.7 Cover](#cover)
-   * [2.8 Crosshair placement](#crosshair-placement)
-   * [2.9 Damage indicator](#damage-indicator)
-   * [2.10 Difficulty](#difficulty)
-   * [2.11 Elevation](#elevation)
-   * [2.12 Environmental damage](#environmental-damage)
-   * [2.13 Falling back](#falling-back)
-   * [2.14 Graphics settings](#graphics-settings)
-   * [2.15 Keeping your distance](#keeping-your-distance)
-   * [2.16 Minimap/radar](#minimapradar)
-   * [2.17 Mouse settings](#mouse-settings)
-   * [2.18 Movement](#movement)
-   * [2.19 Peeking](#peeking)
-   * [2.20 Perspective](#perspective)
-   * [2.21 Playing your build/class](#playing-your-buildclass)
-   * [2.22 Reloading](#reloading)
-   * [2.23 Relocation](#relocation)
-   * [2.24 Sounding](#sounding)
-   * [2.25 Starting engagements](#starting-engagements)
-   * [2.26 State of mind](#state-of-mind)
-   * [2.27 Sweeping](#sweeping)
-   * [2.28 Target prioritization](#target-prioritization)
-   * [2.29 Weak points](#weak-points)
-   * [2.30 Weapon recoil](#weapon-recoil)
-   * [2.31 Weapon selection](#weapon-selection)
+   * [2.4 AI states](#ai-states)
+   * [2.5 Angle isolation](#angle-isolation)
+   * [2.6 Clearing angles](#clearing-angles)
+   * [2.7 Counter-strafing](#counter-strafing)
+   * [2.8 Cover](#cover)
+   * [2.9 Crosshair placement](#crosshair-placement)
+   * [2.10 Damage indicator](#damage-indicator)
+   * [2.11 Difficulty](#difficulty)
+   * [2.12 Elevation](#elevation)
+   * [2.13 Environmental damage](#environmental-damage)
+   * [2.14 Falling back](#falling-back)
+   * [2.15 Focus management](#focus-management)
+   * [2.16 Getting information](#getting-information)
+   * [2.17 Graphics settings](#graphics-settings)
+   * [2.18 Jiggle peeking](#jiggle-peeking)
+   * [2.19 Keeping your distance](#keeping-your-distance)
+   * [2.20 Map control](#map-control)
+   * [2.21 Minimap/radar](#minimapradar)
+   * [2.22 Mouse settings](#mouse-settings)
+   * [2.23 Movement](#movement)
+   * [2.24 Peeking](#peeking)
+   * [2.25 Perspective](#perspective)
+   * [2.26 Playing your build/class](#playing-your-buildclass)
+   * [2.27 Reloading](#reloading)
+   * [2.28 Relocation](#relocation)
+   * [2.29 Sounding](#sounding)
+   * [2.30 Starting engagements](#starting-engagements)
+   * [2.31 State of mind](#state-of-mind)
+   * [2.32 Sweeping](#sweeping)
+   * [2.33 Target prioritization](#target-prioritization)
+   * [2.34 Weak points](#weak-points)
+   * [2.35 Weapon recoil](#weapon-recoil)
+   * [2.36 Weapon selection](#weapon-selection)
 * [3.0 PVP concepts](#pvp-concepts)
    * [3.1 Baiting](#baiting)
    * [3.2 Callouts](#callouts)
@@ -60,18 +66,17 @@
    * [3.5 Crossfire](#crossfire)
    * [3.6 Double peeking](#double-peeking)
    * [3.7 Flanking](#flanking)
-   * [3.8 Focus management](#focus-management)
-   * [3.9 Getting information](#getting-information)
-   * [3.10 Holding angles](#holding-angles)
-   * [3.11 Jiggle peeking](#jiggle-peeking)
-   * [3.12 Lurking](#lurking)
-   * [3.13 Map control](#map-control)
-   * [3.14 Map knowledge](#map-knowledge)
-   * [3.15 Off angle](#off-angle)
-   * [3.16 Playing off first contact](#playing-off-first-contact)
-   * [3.17 Rotating](#rotating)
-   * [3.18 Strength in numbers](#strength-in-numbers)
-   * [3.19 Trading](#trading)
+   * [3.8 Getting information](#getting-information-1)
+   * [3.9 Holding angles](#holding-angles)
+   * [3.10 Jiggle peeking](#jiggle-peeking-1)
+   * [3.11 Lurking](#lurking)
+   * [3.12 Map control](#map-control-1)
+   * [3.13 Map knowledge](#map-knowledge)
+   * [3.14 Off angle](#off-angle)
+   * [3.15 Playing off first contact](#playing-off-first-contact)
+   * [3.16 Rotating](#rotating)
+   * [3.17 Strength in numbers](#strength-in-numbers)
+   * [3.18 Trading](#trading)
 * [4.0 The Division 2](#the-division-2)
    * [4.1 AI animations](#ai-animations-1)
    * [4.2 AI behavior](#ai-behavior-1)
@@ -256,15 +261,21 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - different in every game
 - can be used for funneling mobs and setting up traps
 
+### AI states
+- idle: mobs move predictably and are usually patrolling their own designated area
+- alerted: mobs will investigate the area where they last saw/heard something suspicious, they move semi-predictably and usually go back to idle after a while without any sign of suspicious activity
+- combat: mobs move unpredictably and it'll take longer for them to go back to idle, it may not be possible to do so depending on the level design
+
 ### Angle isolation
 - definition: using the environment/utility to isolate enemies
-- creates a series of 1v1s
+- creates a series of 1v1s as other enemies won't be able to hit you
 - makes it easier to win engagements
 - reference: https://www.youtube.com/watch?v=z-LyLG5YieY
 
 ### Clearing angles
 - be methodical, clear progressively and check every corner
-- use [jiggle peeking](#jiggle-peeking) to quickly get information without allowing the AI to react
+- you can use [jiggle peeking](#jiggle-peeking) to quickly clear an angle
+- allows you to gradually gain [map control](#map-control)
 - reference: https://www.youtube.com/watch?v=ivh8r0LxgLQ
 
 ### Counter-strafing
@@ -317,6 +328,17 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - prevents the AI from cornering you, thus putting more pressure on you
 - when there are too many enemies around you and you know you're not gonna be able to stand your ground, immediately fall back
 
+### Focus management
+- definition: splitting your attention between several locations
+- you shouldn't spend all of your time watching a single lane but periodically check your other lanes as well
+- prevents you from getting flanked
+- allows you to maintain [map control](#map-control)
+
+### Getting information
+- definition: knowing the enemy's location, count and destination
+- [jiggle peeking](#jiggle-peeking), jumping or [sounding](#sounding) are good ways to get information
+- allows you to make rational decisions to give you the upper hand
+
 ### Graphics settings
 - you want to improve how visible things are by disabling motion blur, depth of field, foliage density and increase sharpness
 - use digital vibrance to make spotting enemies easier and colors stand out
@@ -324,10 +346,23 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - use a frame limiter (preferably ingame) instead of vertical synchronization to limit input lag, stutters (due to frame rate fluctuations) and make your CPU/GPU work less
 - if your frame rate is bad, lower the graphics until the game is playable
 
+### Jiggle peeking
+- definition: strafing left and right around a corner
+- it's fine if you fully expose yourself while doing so, the AI usually won't have time to react
+- used to [bait](#baiting) shots
+- gets you information without taking (a lot of) damage
+
 ### Keeping your distance
 - you usually take less damage the further away you are from an enemy
 - the AI is often inaccurate at longer distances
 - it's easier to relocate if you're far away from threats
+
+### Map control
+- definition: taking control of contestable areas
+- allows you to dictate the pace of the game
+- helps you guess where are your opponents
+- facilitated through the use of utility (ex: flashbangs, smokes)
+- reference: https://www.youtube.com/watch?v=N3K2V3RMpFU and https://www.youtube.com/watch?v=6Tc_STmhZVc
 
 ### Minimap/radar
 - allows you to see incoming threats
@@ -438,8 +473,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Callouts
 - definition: feeding your teammates with information about the enemy position or your next move
-- learn the map-specific callouts
-- when making callouts, you must include location, count, health remaining, direction, weapon used and any essential information (ex: bomb holder in CS:GO)
+- learn callouts specific to the map you're playing
+- when making callouts, you must include location, count, health remaining, direction, weapon used and any other essential information (ex: bomb holder in CS:GO)
 - when requesting utility or revealing your intentions, make the callout beforehand to give your teammates time to adjust
 - callouts must be fast to allow your teammates to react quickly
 - they must also be concise to avoid covering game sound from your teammates
@@ -465,7 +500,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Double peeking
 - definition: having 2 people peek an opponent at the same time
 - creates a 2v1
-- can be from the same angle (short + wide swing) or different angles
+- can be from the same angle (short + wide swing) or from different angles
 - relies on voice communication
 
 ### Flanking
@@ -473,15 +508,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - make sure your teammates are focused by the enemy
 - call out you're flanking so that your teammates keep fighting your opponents from the same location
 
-### Focus management
-- definition: splitting your attention between several locations
-- prevents you from getting flanked
-- allows you to maintain [map control](#map-control)
-
 ### Getting information
-- definition: knowing the enemy's location, count and destination
+- same points as in [PVE](#getting-information)
 - always make callouts to let your teammates know about new information
-- allows you to make rational decisions to give you the upper hand
 
 ### Holding angles
 - active angle: randomly jiggle peek
@@ -489,9 +518,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - reference: https://www.youtube.com/watch?v=n1ux6y4esvw
 
 ### Jiggle peeking
-- definition: strafing left and right around a corner
-- used to [bait](#baiting) shots
-- gets you information without taking (a lot of) damage
+- same points as in [PVE](#jiggle-peeking)
+- contrary to PVE, you want to only show your shoulder to make it harder to be hit
 - reference: https://www.youtube.com/watch?v=iJ1rCx8AEBc
 
 ### Lurking
@@ -502,11 +530,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - reference: https://www.youtube.com/watch?v=wxGv0EJG4-Q
 
 ### Map control
-- definition: taking control of contestable areas
-- allows you to dictate the pace of the game
-- helps you guess where are your opponents
+- same points as in [PVE](#map-control)
 - restrains the enemy team options
-- facilitated through the use of utility (ex: flashbangs, smokes)
 - reference: https://www.youtube.com/watch?v=N3K2V3RMpFU and https://www.youtube.com/watch?v=6Tc_STmhZVc
 
 ### Map knowledge
@@ -608,11 +633,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - rolls around slowly while the controller operates it from cover at medium range
 - occasionally holds still and begins spinning a laser dazzler around in a circle, blinding any enemies caught by it
 - both treads can be destroyed, making it stop moving and causing its controller to come to repair it
-- dealing enough damage to it will cause it to go back to its controller for repairs
+- when less than half HP, it will go back to its controller for repairs
 - killing the controller will cause it to go haywire while looking for a target
 - doesn't despawn until all other Black Tusk units in the fight are dead
 - elites roll faster, have more health and fire incendiary grenades
 - vulnerable to explosive damage
+- using a Demolisher Firefly while both treads are destroyed depletes its health
 - the Firestarter shotgun (from the Firewall specialization) allows you to put it on fire by lowering its fire resistance
 
 #### Rusher
@@ -1191,6 +1217,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - affected by DTA and OOCD
 ##### Reinforcer
 - much more effective at healing allies than yourself because only allies benefit from the initial burst heal
+- double tapping it while holding a TDI Kard Custom keeps the extra skill tier
 
 #### Decoy
 - used to pull aggro off you and your group
@@ -1198,13 +1225,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - should be deployed in locations where the hologram is visible to enemies but not its base, such as elevated positions or behind low covers (better if it's in an unreachable location)
 - in groups, avoid placing it near doorways or teammates
 - its duration can be greatly extended with an Artificer Hive
-- its skill tier can't decrease after deploying it
+- its duration is set when deploying it, even if it loses skill tiers afterward
 - mobs shooting it will be pulsed (and therefore proc Spotter) for a short time
 - useful in PVP to catch a player off guard as it hides your nameplate until it's destroyed
 
 #### Drone
 ##### Bombardier
-- can be auto-deployed in a straight line by the corresponding skill key (it will hurt you if you don't take a step back or aren't behind cover)
+- can be auto-deployed in a straight line by holding the corresponding skill key (it will hurt you if you don't take a step back or aren't behind cover)
 - affected by DTA
 ##### Defender
 - its damage reduction isn't additive with protection from elites
@@ -1230,10 +1257,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ##### Hive
 - deploying it is a good way to proc Feedback Loop from the Hardwired gear set
 - drone speed based on skill tier
-- must not be obstructed by a wall to interact with skills or players
-- acts as a sphere so you can revive a player who is on a different floor for instance
-- its skill tier can't decrease after deploying it
-
+- must not be obstructed by a wall too much to be able interact with skills or players
+- acts as a sphere so you can heal/revive a player who is on a different floor for instance
+- its number of charges can't decrease from losing skill tiers after deploying it
 ##### Artificer
 - doesn't need to be deployed to affect your other skill
 - heals nearby deployed shields while holstered (TODO: verify this information)
@@ -1267,8 +1293,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - it's better to throw them near mobs than to deploy them at your feet otherwise they'll most likely dodge them
 - can be used to flush enemies out of cover or as a soft form of CC since non-robotic enemies (except tanks) will have to dodge them
 - more effective when multiple mobs are close to each other as they may get hit by more than one seeker mine
+- holding a TDI Kard Custom when targeting mobs will grant an extra seeker (if not at tier 6)
 - damage affected by DTA
 ##### Explosive
+- automatically locks on the nearest target when thrown near mobs
 - explosive damage and bleed ticks affected by DTA
 ##### Mender
 - automatically targets nearby friendlies that require healing
@@ -1277,6 +1305,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - deploying it is a good way to proc In Sync and Feedback Loop from the Hardwired gear set
 - protects your armor from explosions if aimed towards the impact
 - double tapping Escape or the Inventory button allows you to instantly unequip and reequip a shield to proc Vanguard instead of waiting for the 1s cooldown
+- gaining extra skill tiers after deploying it only increases its max health (if not at tier 6)
 ##### Bulwark
 - all enemies will target the shield
 - while behind vertical cover, peeking from the left allows you to have only your hand sticking out, therefore minimizing exposure
@@ -1305,6 +1334,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Trap
 - cooldown starts as soon as deploying them
+- the number of traps can't decrease from losing skill tiers after deploying it
 ##### Shock
 - deploys in a roughly circular area
 - good to hold choke points
@@ -1324,6 +1354,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - rounds can bounce off walls and ceilings if there is an accessible area
 - you can aim through walls to shoot it
 - can be used to flush enemies out of cover or as a soft form of CC since non-robotic enemies (except tanks) will perform a dodge roll to avoid the explosion
+- the number of rounds can't decrease from losing skill tiers after deploying it
 - explosive damage and bleed ticks affected by DTA
 ##### Assault
 - always targets the chest
@@ -1340,9 +1371,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - targets the chest by default
 - you have to ADS with your gun to switch to manual aim, which allows you to land a headshot, which deals more damage
 - doesn't scale with headshot damage but headshots will instead deal double the body damage
+- the number of rounds can't decrease from losing skill tiers after deploying it
 
 ### Spawn camping
-
 - definition: attacking mobs while they're still inside or in front of their spawn closet
 - requires that you already know the AI spawn locations combined with an aggressive playstyle
 - greatly reduces incoming damage as mobs can't shoot back while they're still inside their spawn closet (and if they do come out, they'll usually walk for a few meters or wait for a few seconds before shooting)
@@ -1355,7 +1386,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - a player cannot put another player under status effects, therefore, environmental hazards next to a player should be triggered before the AI triggers them
 - AI status effect resistance is based on difficulty, veterancy and skill used
 - Bleed: mobs run away from the bleed source, robotics are immune (TODO: test if mobs also get to cover and if they only run away from the Stinger Hive)
-- Blind: mobs wander around in random directions with an arm covering their eyes (hard to get headshots), robotics are immune
+- Blind: mobs wander around in random directions with an arm covering their eyes (making it harder to get headshots), robotics are immune
 - Burn: mobs wander around in random directions, robotics are immune
 - Confuse: mobs kneel down then wander around in random directions, robotics are immune
 - Disrupt: red/purple mobs on Heroic difficulty or lower kneel down, effective against electronics, prevents mobs from using their abilities (except hunters), deployed support stations from healing and legendary tanks from using their backpack
@@ -1366,6 +1397,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - raid bosses are immune to some status effects
 - Shock: mobs kneel down for the duration of the shock, robotics can still move but are unable to use their abilities
 - status effects cannot be refreshed, you have to wait until one ends before being able to apply the same one again
+- when applying a status effect, everything that was active when it was applied is baked into it (skill tier, skill damage, status effects, Perpetuation)
 - you're immune for about one second between applications of the same status effect, giving you a short window of time to use your skills
 
 ### Summit
@@ -1378,11 +1410,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - immune reviver drones and warhounds can be destroyed by Hostile Negotiations from the Negotiator's Dilemma gear set even though no icons will be displayed above them (TODO: verify if warhounds can actually be destroyed)
 - immune reviver drones, turrets and warhounds can be disrupted
 - killing marked targets with Negotiator's Dilemma counts as skill kills (useful for the Cool Skills Challenge)
-- try to complete multiple objectives at the same time
-- try to complete the hardest objective first (ex: destroying a server in the back of a room)
+- try to complete the hardest objective first (ex: destroying a server in the back of a room) as you'll be likely to struggle to get to it later on
 - try to leave 1 or 2 mobs alive so you can complete objectives early (reinforcements don't spawn until clearing most mobs in a wave)
 - wait for your teammates before entering a room to allow them to get ready and prevent objectives from triggering early
 - when capturing objectives, don't peek unless you have to, completing objectives is more important than clearing mobs
+- when grouped, try to complete multiple objectives at the same time to cut down on room completion time
 - when no mobs are in a room, don't go too far from the door as it's a drone ambush
 - when stuck between a door and a wall, fast travel to another player
 - you can build Scorpio stacks on a rotating jammer before it's
@@ -1613,7 +1645,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me The Division 2
 - MMR clan members (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), [Greetallica](https://www.reddit.com/user/0-Ren), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/MemoriesMu, u/mikkroniks, u/mrcivster, u/mxswat, u/rubenalamina, u/SarcasmNotImplied, u/sukaihoku, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/MemoriesMu, u/mikkroniks, u/mrcivster, u/mxswat, u/ObviousKangaroo, u/rubenalamina, u/SarcasmNotImplied, u/sukaihoku, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me Warlords of New York
 
