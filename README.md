@@ -34,7 +34,7 @@
    * [2.10 Damage indicator](#damage-indicator)
    * [2.11 Difficulty](#difficulty)
    * [2.12 Elevation](#elevation)
-   * [2.13 Environmental damage](#environmental-damage)
+   * [2.13 Environmental hazards](#environmental-hazards)
    * [2.14 Falling back](#falling-back)
    * [2.15 Focus management](#focus-management)
    * [2.16 Getting information](#getting-information)
@@ -47,7 +47,7 @@
    * [2.23 Movement](#movement)
    * [2.24 Peeking](#peeking)
    * [2.25 Perspective](#perspective)
-   * [2.26 Playing your build/class](#playing-your-buildclass)
+   * [2.26 Playing your class](#playing-your-class)
    * [2.27 Reloading](#reloading)
    * [2.28 Relocation](#relocation)
    * [2.29 Sounding](#sounding)
@@ -73,163 +73,165 @@
    * [3.12 Map control](#map-control-1)
    * [3.13 Map knowledge](#map-knowledge)
    * [3.14 Off angle](#off-angle)
-   * [3.15 Playing off first contact](#playing-off-first-contact)
-   * [3.16 Rotating](#rotating)
-   * [3.17 Strength in numbers](#strength-in-numbers)
-   * [3.18 Trading](#trading)
+   * [3.15 Peeking](#peeking-1)
+   * [3.16 Playing off first contact](#playing-off-first-contact)
+   * [3.17 Rotating](#rotating)
+   * [3.18 Strength in numbers](#strength-in-numbers)
+   * [3.19 Trading](#trading)
 * [4.0 The Division 2](#the-division-2)
-   * [4.1 AI animations](#ai-animations-1)
-   * [4.2 AI behavior](#ai-behavior-1)
-   * [4.3 Black Tusk](#black-tusk)
-      * [4.3.1 Assault](#assault)
-      * [4.3.2 Controller](#controller)
-      * [4.3.3 Drone Operator](#drone-operator)
-      * [4.3.4 Medic](#medic)
-      * [4.3.5 Mini Tank](#mini-tank)
-      * [4.3.6 Rusher](#rusher)
-      * [4.3.7 Sniper](#sniper)
-      * [4.3.8 Support](#support)
-      * [4.3.9 Tank](#tank)
-      * [4.3.10 Thrower](#thrower)
-      * [4.3.11 Warhounds](#warhounds)
-         * [4.3.11.1 Grenadier](#grenadier)
-         * [4.3.11.2 Minigun](#minigun)
-         * [4.3.11.3 Sniper](#sniper-1)
-   * [4.4 Builds](#builds)
-   * [4.5 Cleaners](#cleaners)
-      * [4.5.1 Assault](#assault-1)
-      * [4.5.2 Controller](#controller-1)
-      * [4.5.3 Engineer](#engineer)
-      * [4.5.4 Rusher](#rusher-1)
-      * [4.5.5 Sniper](#sniper-2)
-      * [4.5.6 Tank](#tank-1)
-      * [4.5.7 Thrower](#thrower-1)
-   * [4.6 Cover](#cover)
-   * [4.7 Cover to cover](#cover-to-cover)
-   * [4.8 Dancing](#dancing)
-   * [4.9 Difficulty](#difficulty-1)
-   * [4.10 Group composition (basics)](#group-composition-basics)
-   * [4.11 Group composition (advanced)](#group-composition-advanced)
-   * [4.12 Group play](#group-play)
-   * [4.13 Hunters](#hunters)
-   * [4.14 Hyenas](#hyenas)
-      * [4.14.1 Assault](#assault-2)
-      * [4.14.2 Controller](#controller-2)
-      * [4.14.3 Engineer](#engineer-1)
-      * [4.14.4 Medic](#medic-1)
-      * [4.14.6 Rusher](#rusher-2)
-      * [4.14.7 Shield](#shield)
-      * [4.14.8 Sniper](#sniper-3)
-      * [4.14.9 Tank](#tank-2)
-      * [4.14.10 Thrower](#thrower-2)
-   * [4.15 Inventory management](#inventory-management)
-   * [4.16 Looting](#looting)
-   * [4.17 Optimization](#optimization)
-   * [4.18 Outcasts](#outcasts)
-      * [4.18.1 Assault](#assault-3)
-      * [4.18.2 Controller](#controller-3)
-      * [4.18.3 Heavy Weapons](#heavy-weapons)
-      * [4.18.4 Rusher](#rusher-3)
-      * [4.18.5 Scorcher](#scorcher)
-      * [4.18.6 Sniper](#sniper-4)
-      * [4.18.7 Support](#support-1)
-      * [4.18.8 Tank](#tank-3)
-      * [4.18.9 Thrower](#thrower-3)
-   * [4.19 Playing ARs](#playing-ars)
-   * [4.20 Playing crowd control](#playing-crowd-control)
-      * [4.20.1 Eclipse](#eclipse)
-      * [4.20.2 High-end](#high-end)
-   * [4.21 Playing LMGs](#playing-lmgs)
-   * [4.22 Playing medic](#playing-medic)
-   * [4.23 Playing rifler](#playing-rifler)
-   * [4.24 Playing offensive skill builds](#playing-offensive-skill-builds)
-      * [4.24.1 AFK](#afk)
-      * [4.24.2 Explosive](#explosive)
-   * [4.25 Playing shotgun](#playing-shotgun)
-      * [4.25.1 Crit-based](#crit-based)
-      * [4.25.2 Headhunter](#headhunter)
-   * [4.26 Playing sniper](#playing-sniper)
-   * [4.27 Playing tank](#playing-tank)
-   * [4.28 Reviving](#reviving)
-   * [4.29 Rikers](#rikers)
-      * [4.29.1 Assault](#assault-4)
-      * [4.29.2 Heavy Weapons](#heavy-weapons-1)
-      * [4.29.3 Leader](#leader)
-      * [4.29.4 Rusher](#rusher-4)
-      * [4.29.5 Sniper](#sniper-5)
-      * [4.29.6 Tank](#tank-4)
-      * [4.29.7 Thrower](#thrower-4)
-   * [4.30 Skills](#skills)
-      * [4.30.1 Chem Launcher](#chem-launcher)
-         * [4.30.1.1 Firestarter](#firestarter)
-         * [4.30.1.2 Oxidizer](#oxidizer)
-         * [4.30.1.3 Reinforcer](#reinforcer)
-      * [4.30.2 Decoy](#decoy)
-      * [4.30.3 Drone](#drone)
-         * [4.30.3.1 Bombardier](#bombardier)
-         * [4.30.3.2 Defender](#defender)
-         * [4.30.3.3 Spotter](#spotter)
-         * [4.30.3.4 Striker](#striker)
-      * [4.30.4 Firefly](#firefly)
-      * [4.30.5 Hive](#hive)
-         * [4.30.5.1 Artificer](#artificer)
-         * [4.30.5.2 Stinger](#stinger)
-      * [4.30.6 Pulse](#pulse)
-         * [4.30.6.1 Achille's](#achilles)
-         * [4.30.6.2 Banshee](#banshee)
-         * [4.30.6.3 Jammer](#jammer)
-         * [4.30.6.4 Scanner](#scanner)
-      * [4.30.7 Seeker Mine](#seeker-mine)
-         * [4.30.7.1 Airburst](#airburst)
-         * [4.30.7.2 Cluster](#cluster)
-         * [4.30.7.3 Explosive](#explosive-1)
-         * [4.30.7.4 Mender](#mender)
-      * [4.30.8 Shield](#shield-1)
-         * [4.30.8.1 Bulwark Shield](#bulwark)
-         * [4.30.8.2 Crusader/Striker Shield](#crusaderstriker)
-         * [4.30.8.3 Deflector Shield](#deflector)
-      * [4.30.9 Sticky Bomb](#sticky-bomb)
-         * [4.30.9.1 Burn](#burn)
-         * [4.30.9.2 EMP](#emp)
-         * [4.30.9.3 Explosive](#explosive-2)
-      * [4.30.10 Trap](#trap)
-         * [4.30.10.1 Shock](#shock)
-         * [4.30.10.2 Healing](#healing)
-         * [4.30.10.3 Shrapnel](#shrapnel)
-      * [4.30.11 Turret](#turret)
-         * [4.30.11.1 Artillery](#artillery)
-         * [4.30.11.2 Assault](#assault-5)
-         * [4.30.11.3 Incinerator](#incinerator)
-         * [4.30.11.4 Sniper](#sniper-6)
-   * [4.31 Spawn camping](#spawn-camping)
-   * [4.32 Status effects](#status-effects)
-   * [4.33 Summit](#summit)
-   * [4.34 Suppressing](#suppressing)
-   * [4.35 Talents](#talents)
-      * [4.35.1 Exotics](#exotics)
-      * [4.35.2 Gear sets](#gear-sets)
-      * [4.35.3 High-end](#high-end-1)
-      * [4.35.4 Weapons](#weapons)
-   * [4.36 Target prioritization](#target-prioritization)
-   * [4.37 Tips/tricks](#tipstricks)
-   * [4.38 True Sons](#true-sons)
-      * [4.38.1 Assault](#assault-6)
-      * [4.38.2 Engineer](#engineer-2)
-      * [4.38.3 Heavy Weapons](#heavy-weapons-2)
-      * [4.38.4 Immobilizer](#immobilizer)
-      * [4.38.5 Medic](#medic-2)
-      * [4.38.6 RPG](#rpg)
-      * [4.38.7 Rusher](#rusher-5)
-      * [4.38.8 Sniper](#sniper-7)
-      * [4.38.9 Tank](#tank-5)
-      * [4.38.10 Thrower](#thrower-5)
-   * [4.39 White Tusk](#white-tusk)
-      * [4.39.1 Drone Operator](#drone-operator-1)
-      * [4.39.2 Mini Tank](#mini-tank-1)
-      * [4.39.3 Rusher](#rusher-6)
-      * [4.39.4 Sniper](#sniper-8)
-      * [4.39.5 Tank](#tank-6)
-      * [4.39.6 Thrower](#thrower-6)
+   * [4.1 Abbreviations](#abbreviations)
+   * [4.2 AI animations](#ai-animations-1)
+   * [4.3 AI behavior](#ai-behavior-1)
+   * [4.4 Black Tusk](#black-tusk)
+      * [4.4.1 Assault](#assault)
+      * [4.4.2 Controller](#controller)
+      * [4.4.3 Drone Operator](#drone-operator)
+      * [4.4.4 Medic](#medic)
+      * [4.4.5 Mini Tank](#mini-tank)
+      * [4.4.6 Rusher](#rusher)
+      * [4.4.7 Sniper](#sniper)
+      * [4.4.8 Support](#support)
+      * [4.4.9 Tank](#tank)
+      * [4.4.10 Thrower](#thrower)
+      * [4.4.11 Warhounds](#warhounds)
+         * [4.4.11.1 Grenadier](#grenadier)
+         * [4.4.11.2 Minigun](#minigun)
+         * [4.4.11.3 Sniper](#sniper-1)
+   * [4.5 Builds](#builds)
+   * [4.6 Cleaners](#cleaners)
+      * [4.6.1 Assault](#assault-1)
+      * [4.6.2 Controller](#controller-1)
+      * [4.6.3 Engineer](#engineer)
+      * [4.6.4 Rusher](#rusher-1)
+      * [4.6.5 Sniper](#sniper-2)
+      * [4.6.6 Tank](#tank-1)
+      * [4.6.7 Thrower](#thrower-1)
+   * [4.7 Cover](#cover)
+   * [4.8 Cover to cover](#cover-to-cover)
+   * [4.9 Dancing](#dancing)
+   * [4.10 Difficulty](#difficulty-1)
+   * [4.11 Group composition (basics)](#group-composition-basics)
+   * [4.12 Group composition (advanced)](#group-composition-advanced)
+   * [4.13 Group play](#group-play)
+   * [4.14 Hunters](#hunters)
+   * [4.15 Hyenas](#hyenas)
+      * [4.15.1 Assault](#assault-2)
+      * [4.15.2 Controller](#controller-2)
+      * [4.15.3 Engineer](#engineer-1)
+      * [4.15.4 Medic](#medic-1)
+      * [4.15.6 Rusher](#rusher-2)
+      * [4.15.7 Shield](#shield)
+      * [4.15.8 Sniper](#sniper-3)
+      * [4.15.9 Tank](#tank-2)
+      * [4.15.10 Thrower](#thrower-2)
+   * [4.16 Inventory management](#inventory-management)
+   * [4.17 Looting](#looting)
+   * [4.18 Optimization](#optimization)
+   * [4.19 Outcasts](#outcasts)
+      * [4.19.1 Assault](#assault-3)
+      * [4.19.2 Controller](#controller-3)
+      * [4.19.3 Heavy Weapons](#heavy-weapons)
+      * [4.19.4 Rusher](#rusher-3)
+      * [4.19.5 Scorcher](#scorcher)
+      * [4.19.6 Sniper](#sniper-4)
+      * [4.19.7 Support](#support-1)
+      * [4.19.8 Tank](#tank-3)
+      * [4.19.9 Thrower](#thrower-3)
+   * [4.20 Playing ARs](#playing-ars)
+   * [4.21 Playing crowd control](#playing-crowd-control)
+      * [4.21.1 Eclipse](#eclipse)
+      * [4.21.2 High-end](#high-end)
+   * [4.22 Playing LMGs](#playing-lmgs)
+   * [4.23 Playing medic](#playing-medic)
+   * [4.24 Playing rifler](#playing-rifler)
+   * [4.25 Playing offensive skill builds](#playing-offensive-skill-builds)
+      * [4.25.1 AFK](#afk)
+      * [4.25.2 Explosive](#explosive)
+   * [4.26 Playing shotgun](#playing-shotgun)
+      * [4.26.1 Crit-based](#crit-based)
+      * [4.26.2 Headhunter](#headhunter)
+   * [4.27 Playing sniper](#playing-sniper)
+   * [4.28 Playing tank](#playing-tank)
+   * [4.29 Reviving](#reviving)
+   * [4.30 Rikers](#rikers)
+      * [4.30.1 Assault](#assault-4)
+      * [4.30.2 Heavy Weapons](#heavy-weapons-1)
+      * [4.30.3 Leader](#leader)
+      * [4.30.4 Rusher](#rusher-4)
+      * [4.30.5 Sniper](#sniper-5)
+      * [4.30.6 Tank](#tank-4)
+      * [4.30.7 Thrower](#thrower-4)
+   * [4.31 Skills](#skills)
+      * [4.31.1 Chem Launcher](#chem-launcher)
+         * [4.31.1.1 Firestarter](#firestarter)
+         * [4.31.1.2 Oxidizer](#oxidizer)
+         * [4.31.1.3 Reinforcer](#reinforcer)
+      * [4.31.2 Decoy](#decoy)
+      * [4.31.3 Drone](#drone)
+         * [4.31.3.1 Bombardier](#bombardier)
+         * [4.31.3.2 Defender](#defender)
+         * [4.31.3.3 Spotter](#spotter)
+         * [4.31.3.4 Striker](#striker)
+      * [4.31.4 Firefly](#firefly)
+      * [4.31.5 Hive](#hive)
+         * [4.31.5.1 Artificer](#artificer)
+         * [4.31.5.2 Stinger](#stinger)
+      * [4.31.6 Pulse](#pulse)
+         * [4.31.6.1 Achille's](#achilles)
+         * [4.31.6.2 Banshee](#banshee)
+         * [4.31.6.3 Jammer](#jammer)
+         * [4.31.6.4 Scanner](#scanner)
+      * [4.31.7 Seeker Mine](#seeker-mine)
+         * [4.31.7.1 Airburst](#airburst)
+         * [4.31.7.2 Cluster](#cluster)
+         * [4.31.7.3 Explosive](#explosive-1)
+         * [4.31.7.4 Mender](#mender)
+      * [4.31.8 Shield](#shield-1)
+         * [4.31.8.1 Bulwark Shield](#bulwark)
+         * [4.31.8.2 Crusader/Striker Shield](#crusaderstriker)
+         * [4.31.8.3 Deflector Shield](#deflector)
+      * [4.31.9 Sticky Bomb](#sticky-bomb)
+         * [4.31.9.1 Burn](#burn)
+         * [4.31.9.2 EMP](#emp)
+         * [4.31.9.3 Explosive](#explosive-2)
+      * [4.31.10 Trap](#trap)
+         * [4.31.10.1 Shock](#shock)
+         * [4.31.10.2 Healing](#healing)
+         * [4.31.10.3 Shrapnel](#shrapnel)
+      * [4.31.11 Turret](#turret)
+         * [4.31.11.1 Artillery](#artillery)
+         * [4.31.11.2 Assault](#assault-5)
+         * [4.31.11.3 Incinerator](#incinerator)
+         * [4.31.11.4 Sniper](#sniper-6)
+   * [4.32 Spawn camping](#spawn-camping)
+   * [4.33 Status effects](#status-effects)
+   * [4.34 Summit](#summit)
+   * [4.35 Suppressing](#suppressing)
+   * [4.36 Talents](#talents)
+      * [4.36.1 Exotics](#exotics)
+      * [4.36.2 Gear sets](#gear-sets)
+      * [4.36.3 High-end](#high-end-1)
+      * [4.36.4 Weapons](#weapons)
+   * [4.37 Target prioritization](#target-prioritization)
+   * [4.38 Tips/tricks](#tipstricks)
+   * [4.39 True Sons](#true-sons)
+      * [4.39.1 Assault](#assault-6)
+      * [4.39.2 Engineer](#engineer-2)
+      * [4.39.3 Heavy Weapons](#heavy-weapons-2)
+      * [4.39.4 Immobilizer](#immobilizer)
+      * [4.39.5 Medic](#medic-2)
+      * [4.39.6 RPG](#rpg)
+      * [4.39.7 Rusher](#rusher-5)
+      * [4.39.8 Sniper](#sniper-7)
+      * [4.39.9 Tank](#tank-5)
+      * [4.39.10 Thrower](#thrower-5)
+   * [4.40 White Tusk](#white-tusk)
+      * [4.40.1 Drone Operator](#drone-operator-1)
+      * [4.40.2 Mini Tank](#mini-tank-1)
+      * [4.40.3 Rusher](#rusher-6)
+      * [4.40.4 Sniper](#sniper-8)
+      * [4.40.5 Tank](#tank-6)
+      * [4.40.6 Thrower](#thrower-6)
 * [5.0 Links](#links)
 * [6.0 Credits](#credits)
 * [7.0 Contact information](#contact-information)
@@ -246,25 +248,29 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Aggro
 - definition: when mobs target you
-- you can use it to your advantage by [baiting](#baiting) for another player
+- you can use it to your advantage by [baiting](#baiting) while another player eliminates the threat
 - you can get it off you by using utility/players, breaking line of sight or running away
 - do not direct it at other players
+- if you notice a mob isn't aggroing you, it may be safe to expose yourself from it to kill another mob
 - in some games, it's possible to only aggro a single mob
 
 ### AI animations
 - predictable
 - different in every game
-- can be used for crosshair placement
+- take note of AI animations (ex: stagger), when they happen and what triggers them
+- can be used for crosshair placement or targeting other mobs while a mob completes an animation
 
 ### AI behavior
 - predictable
 - different in every game
-- can be used for funneling mobs and setting up traps
+- observe what the AI does in certain situations to find patterns (ex: flanking right when going left)
+- knowing those patterns allow you to predict what mobs are going to do
+- can be used for funneling mobs, crowd control or setting up traps
 
 ### AI states
 - idle: mobs move predictably and are usually patrolling their designated area
 - alerted: mobs will investigate the area where they last saw/heard something suspicious, they move semi-predictably and usually go back to idle after a while without any sign of suspicious activity
-- combat: mobs move unpredictably and it'll take longer for them to go back to idle, it may not be possible to do so depending on the level design
+- combat: mobs move unpredictably and it'll take longer for them to go back to idle (it may not be possible to do so depending on the level design)
 
 ### Angle isolation
 - definition: using the environment/utility to isolate enemies
@@ -307,10 +313,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Difficulty
 - always play on hardest
-- forces you to be smart
-- you learn more and faster about the game than on easier difficulties
-- easier difficulties don't challenge you, we often learn by overcoming challenges
-- more rewarding
+- even though it may be less fun, you will learn more and faster about the game than on easier difficulties (we often learn by overcoming challenges)
+- forces you to play smarter and be more cautious about approaching engagements
+- if it disables some of the UI (ex: radar), it'll force you to be more methodical and will therefore make you less dependent on it, which is something you can use in other games
+- in some games, it'll yield better loot and rewards
 
 ### Elevation
 - vantage points allow you to have a good view of your surroundings and devise tactics
@@ -318,15 +324,15 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - usually offers more cover versus low ground being a no man's land
 - can see enemies hiding behind low covers
 
-### Environmental damage
-- definition: using the environment to your advantage
+### Environmental hazards
+- definition: using the environment to deal damage or cause a distraction
 - can kill/CC/[bait](#baiting) enemies (explosive barrels, gas tanks, etc)
 - can flush enemies out of cover
 
 ### Falling back
 - always have a backup location before an engagement, if things were to go south
-- prevents the AI from cornering you, thus putting more pressure on you
 - when there are too many enemies around you and you know you're not gonna be able to stand your ground, immediately fall back
+- prevents the AI from cornering you, thus putting more pressure on you
 
 ### Focus management
 - definition: splitting your attention between several locations
@@ -340,10 +346,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - allows you to make rational decisions to give you the upper hand
 
 ### Graphics settings
-- you want to improve how visible things are by disabling motion blur, depth of field, foliage density and increasing sharpness
+- you want to improve how visible things are by disabling motion blur, depth of field, foliage density, increasing sharpness and brightness
 - use digital vibrance to make spotting enemies easier and colors stand out
 - increase the field of view to be able to see more things at the same time (will decrease frame rate)
-- use a frame limiter (preferably in-game) instead of vertical synchronization to limit input lag, stutters (due to frame rate fluctuations) and make your CPU/GPU work less
+- if you want to make your CPU/GPU work (and therefore heat) less, use a frame limiter (preferably in-game) instead of vertical synchronization to limit input lag and stutters (due to frame rate fluctuations)
 - if your frame rate is bad, lower the graphics until the game is playable
 
 ### Jiggle peeking
@@ -364,9 +370,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - facilitated through the use of utility (ex: flashbangs, smokes)
 
 ### Minimap/radar
-- allows you to see incoming threats
-- can reveal the location of various useful items (like ammo crates)
-- prevents you from getting flanked
+- may allow you to see incoming threats or reveal the enemy's location
+- prevents you from getting caught off guard
+- can also reveal the location of various useful items (like ammo crates)
 
 ### Mouse settings
 - set your Windows mouse sensitivity at 6/11 to keep the default mouse speed (otherwise mouse movements may get discarded when lower or interpolated when higher) and disable "Enhanced pointer precision"
@@ -382,11 +388,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - breaking line of sight with the AI gives you time to recover or devise another strategy
 
 ### Peeking
-- definition: show yourself to start an engagement or get information
-- try to peek far away from a corner (body less exposed)
+- definition: exposing yourself to engage an enemy or get information
+- try to peek as far away from a corner as possible (see [Perspective](#perspective))
 - don't expose yourself for too long: peek, get the kill (or take the shot for sniper rifles) and hide
 - can peek for longer or even switch targets if AI animations allow it (ex: AI stumbling when shot) and you know they're unlikely to hit you
-- when not fighting from cover, make sure there is one nearby in case you get badly wounded
+- when not fighting from cover, make sure there's one nearby in case you get badly wounded
 
 ### Perspective
 - definition: how characters are perceived in the game world
@@ -395,9 +401,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - in some games, the AI can't see you until you see their head (ex: Half-Life)
 - reference: https://www.youtube.com/watch?v=5e8HZqF3cyk
 
-### Playing your build/class
-- every build has a purpose and should be played a certain way
-- not playing your build for what it's supposed to do or not playing it correctly is inefficient
+### Playing your class
+- every class has a specific role and should be played a certain way
+- not playing your class for what it's supposed to do or not playing it correctly is inefficient (ex: sniper using pistols)
 
 ### Reloading
 - always reload from behind cover (unless the area is clear)
@@ -444,17 +450,17 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - dangerous first: allows you to have more freedom of movement
 - weakest first: allows you to get rid of multiple enemies quickly, thus facing fewer enemies at the same time
 - group first: same as weakest, except you'll be able to take out multiple enemies without switching targets
-- alone first: allows you to thin out enemies without raising the alarm
+- alone first: allows you to thin out enemy lines without raising the alarm
 
 ### Weak points
 - different in every game
-- allows you to kill/disrupt several enemies at once
-- may prevent enemies from using their abilities
+- headshots usually deal more damage
+- destroying weak points allows you to kill/disrupt several enemies at once and may prevent them from using their abilities
 
 ### Weapon recoil
 - different in every game
 - every weapon has a different recoil pattern that may be mastered
-- shooting in bursts or tapping will help maintain accuracy
+- shooting in bursts or tapping will help maintain accuracy, especially when the enemy's body is barely exposed or at longer distances
 - crouching or going prone usually reduces it
 - moving usually decreases your accuracy while staying still makes sure your first shot is fully accurate
 
@@ -482,6 +488,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Clearing angles
 - same points as in [PVE](#clearing-angles)
 - you must know the map and where people are usually standing (gets you information and [map control](#map-control))
+- once you've taken control of an area, let your team know about it so they don't have to clear it
 - reference: https://www.youtube.com/watch?v=ivh8r0LxgLQ
 
 ### Counter-strafing
@@ -503,13 +510,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - relies on voice communication
 
 ### Flanking
-- definition: attacking the enemy from a side while they're focused on another side
-- make sure your teammates are focused by the enemy
+- definition: attacking the enemy from a side while they're focusing their attention elsewhere
+- make sure your teammates are keeping your opponents distracted
 - callout you're flanking so that your teammates keep fighting your opponents from the same location
 
 ### Getting information
 - same points as in [PVE](#getting-information)
 - always make callouts to let your teammates know about new information
+- jumping to get information makes you a harder target
 
 ### Holding angles
 - active angle: randomly jiggle peek
@@ -524,7 +532,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Lurking
 - definition: playing sneaky, far away from your team
 - aggressive lurker: puts pressure in an area to prevent enemy rotation
-- passive lurker: doesn't show his presence, flanks rotators to maintain [map control](#map-control)
+- passive lurker: doesn't show his presence, flanks [rotators](#rotating) to maintain [map control](#map-control)
 - plays an important role at the end of rounds
 - reference: https://www.youtube.com/watch?v=wxGv0EJG4-Q
 
@@ -546,10 +554,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - must be used sparingly otherwise your opponent will catch up
 - reference: https://www.youtube.com/watch?v=Nm5o26Cqi6U
 
+### Peeking
+- same points as in [PVE](#peeking)
+- you should never peek slowly, unless you're sniping and you know your opponent isn't
+
 ### Perspective
 - same points as in [PVE](#perspective)
 - you have to be mindful of the direction you're looking at, your gun may stick out and reveal your location
-- you have to be mindful of your shadow, it may also reveal your location
+- you also have to pay attention to your shadow, it may also reveal your location
 - reference: https://www.youtube.com/watch?v=5e8HZqF3cyk
 
 ### Playing off first contact
@@ -561,7 +573,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Rotating
 - definition: moving from a part of the map to another, usually to play an objective
-- on the attacking side, can be used to catch the enemy team off-guard (must sell a fake push beforehand)
+- on the attacking side, can be used to catch the enemy team off guard (must sell a fake push beforehand)
 - on the defending side, helps you slow down an enemy push
 
 ### Strength in numbers
@@ -575,6 +587,36 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - reference: https://www.youtube.com/watch?v=8YfVRuKk8_Y
 
 ## The Division 2
+
+### Abbreviations
+- AD: amplified damage
+- AOK: armor on kill
+- AWD: all weapon damage
+- CD: cooldown
+- CHC: critical hit chance
+- CHD: critical hit damage
+- DTA: damage to armor
+- DTH: damage to health
+- DTOOC/OOCD: damage to targets out of cover
+- god roll: all max rolls with the right talent
+- green: gear set item
+- high-end: yellow item
+- HOK: health on kill
+- HSD: headshot damage
+- HZP: hazard protection
+- max roll: max value for an attribute (orange background)
+- PFE: protection from elites
+- proc: activate a talent (Programmed Random Occurrence)
+- optimize: gradually increase the value of an attribute
+- rainbow: item with one attribute of each color
+- recalibrate: overwrite an attribute with another one from your library
+- reconfigure: reroll the attributes of an exotic with random values
+- ROF: rate of fire
+- SD: skill damage
+- SE: status effects
+- SH: skill haste
+- ST: skill tier
+- TWD: total weapon damage
 
 ### AI animations
 - dodge roll: done to avoid explosions (grenades, Artillery Turret, Seeker Mines) or after getting shot
@@ -1263,6 +1305,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - doesn't need to be deployed to affect your other skill
 - heals nearby deployed shields while holstered (TODO: verify this information)
 ##### Stinger
+- defensive tool meant for area denial
+- should be deployed close to you or at choke points to prevent mobs from pushing
 - efficient against drones due to their low HP (TODO: verify if mostly for explosive drones and/or lower difficulties)
 - counts as explosive damage
 - initial damage and ticks affected by DTA
@@ -1350,7 +1394,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - in groups, avoid placing it near doorways or teammates
 ##### Artillery
 - double tapping will lock/unlock it to a specific location (only works if you're within 10m of the turret)
-- rounds can bounce off walls and ceilings if there is an accessible area
+- rounds can bounce off walls and ceilings if there's an accessible area
 - you can aim through walls to shoot it
 - can be used to flush enemies out of cover or as a soft form of CC since non-robotic enemies (except tanks) will perform a dodge roll to avoid the explosion
 - the number of rounds can't decrease from losing skill tiers after deploying it
@@ -1435,6 +1479,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Electromagnetic Accelerator (Nemesis): shots are also fired when swapping weapons
 - In Plain Sight (Mantis): the headshot damage boost is always active in PVP
 - Incessant Chatter (Chatterbox): doesn't expire after dying (as long as you don't switch weapons)
+- Payment In Kind (Backfire): once at max stacks and 1 HP, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
 - Pack Instincts (Coyote's Mask): buffs can be individually procced by 3 players using it and can therefore all be active at the same time
 - Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD and DTA. in PVP, the player who applied the debuff must die for the ticks to stop
 - Quick Draw (Dodge City Gunslinger's Holster): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
@@ -1520,13 +1565,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the Survivalist medkit acts as a sphere so you can heal people above/below you
 - the weak points on dead mobs can be destroyed
 - when using a medkit with the No Regen/Hard To Earn/Fragile Armor directives, use Perfectly Efficient to save medkits
-- when your health is depleted, you have a 1-2s buffer (not in PVP) to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage
+- when you're down to 1 HP, you have a 1-2s buffer (not in PVP) to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
 - you can kill enemies stuck behind doors with the Oxidizer Chem Launcher
 - you can let medics revive mobs to farm Headhunter stacks
+- you can read chat more easily by enabling high contrast (Settings > Accessibility > High Contrast UI)
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: Firefly)
-- you can see additional outlines when using radius-based skills by enabling color blind mode (Chat Settings > Accessibility > Color Blind Mode), making it easier to use such skills
+- you can see additional outlines when using radius-based skills by enabling color blind mode (Settings > Accessibility > Color Blind Mode), making it easier to use such skills
 - you can skip real-time cutscenes by dodge rolling or aiming
 - you can use armor plates or enemy skills to "extend" Negotiator's Dilemma copy damage
 - you can use drones to farm Memento trophies
