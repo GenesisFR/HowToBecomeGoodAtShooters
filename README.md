@@ -4,6 +4,7 @@
 <summary><b>To-do list</b></summary>
 
 \- check if dying refills your ammo after being (manually) revived by another player  
+\- check if mobs limp when bleeding  
 \- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
 \- check if rushers from all factions have less HP than snipers  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
@@ -589,22 +590,32 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ## The Division 2
 
 ### Abbreviations
+- A&8: Aces and Eights gear set
 - AD: amplified damage
 - AOK: armor on kill
 - AWD: all weapon damage
+- CC: crowd control
 - CD: cooldown
 - CHC: critical hit chance
 - CHD: critical hit damage
 - DTA: damage to armor
 - DTH: damage to health
 - DTOOC/OOCD: damage to targets out of cover
+- EP: Eclipse Protocol gear set
+- FB: Foundry Bulwark gear set
+- FI: Future Initiative gear set
 - god roll: all max rolls with the right talent
 - green: gear set item
+- GS: gear score
+- HF: Hunter's Fury gear set
 - high-end: yellow item
 - HOK: health on kill
 - HSD: headshot damage
+- HW: Hard Wired gear set
 - HZP: hazard protection
 - max roll: max value for an attribute (orange background)
+- ND: Negotiator's Dilemma gear set
+- OD: Ongoing Directive gear set
 - PFE: protection from elites
 - proc: activate a talent (Programmed Random Occurrence)
 - optimize: gradually increase the value of an attribute
@@ -616,7 +627,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - SE: status effects
 - SH: skill haste
 - ST: skill tier
+- SC/SysCor: System Corruption gear set
+- TOTS: Tip of the Spear gear set
+- TP: True Patriot gear set
+- TTK: time to kill
 - TWD: total weapon damage
+- WH: weapon handling
 
 ### AI animations
 - dodge roll: done to avoid explosions (grenades, Artillery Turret, Seeker Mines) or after getting shot
@@ -862,16 +878,17 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - definition: the different builds the group is made of
 - you want the right balance of offense, defense and utility
 - you should focus on offense first, then defense/utility
+- too much offense and you'll have trouble staying alive, too much defense and it'll take a long time killing mobs, too much utility and you'll have issues doing both
 - you want to create synergy between builds, some builds/skills don't work well together (ex: fire/blind with snipers)
 - some examples of good synergy are 3 DPS + 1 healer/CC, 3 AFK skill builds and 1 skill support build
 
 ### Group composition (advanced)
 - kill-dependency levels
-   - 4: your life depends on it (ex: Bloodsucker/Hunter's Fury front liner)
-   - 3: your effectiveness depends on it (ex: Headhunter sniper)
-   - 2: it helps but isn't essential (ex: Tech Support skill user)
    - 1: it doesn't matter (ex: medic)
-- your team should have an average kill dependency <= 2.5
+   - 2: it helps but isn't essential (ex: Tech Support skill user)
+   - 3: your effectiveness depends on it (ex: Headhunter sniper)
+   - 4: your life depends on it (ex: Bloodsucker/Hunter's Fury front liner)
+- your team should have an average kill dependency <= 2.5 otherwise you may make each other less effective (unless you're coordinated) due to preventing certain talents from proccing
 
 ### Group play
 - avoid standing in front of a teammate who uses the Demolitionist grenade launcher or Firestarter Chem Launcher, you'll make them kill themselves
@@ -1426,7 +1443,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - try to make your way to spawn closets before the current enemy wave is cleared
 
 ### Status effects
-- a player cannot put another player under status effects, therefore, environmental hazards next to a player should be triggered before the AI triggers them
+- a player cannot put a teammate under status effects, therefore, environmental hazards next to a teammate should be triggered before the AI does
 - AI status effect resistance is based on difficulty, veterancy and skill used
 - Bleed: mobs run away from the bleed source, robotics are immune (TODO: test if mobs also get to cover and if they only run away from the Stinger Hive)
 - Blind: mobs wander around in random directions with an arm covering their eyes (making it harder to get headshots), robotics are immune
