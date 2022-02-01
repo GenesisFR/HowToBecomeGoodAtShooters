@@ -12,9 +12,8 @@
 \- test if Ravenous explosions are affected by OOCD  
 \- test if shooting Warhounds weak points with the TAC-50 can instakill them (from u/XPS1647)  
 \- test if the Stinger Hive scales with explosive damage and DTA  
-\- test if when a target tagged with the Burster Firefly dies, it makes the ones on the other targets blow up too  
+\- test if when a target tagged with the Burster Firefly dies, it makes the ones attached to other targets blow up too  
 \- test the Cluster Seeker Mine rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v and "Cluster seeker goes on cooldown on FIRST cluster's explosion")  
-\- test the System Corruption medkit against Fragile Armor stacks  
 \- test using cover to cover to move into enemy lines without getting spotted (https://www.reddit.com/r/Division2/comments/rcendk/update_on_my_comprehensive_guide_to_become_better/hnxh7pt)
 
 </details>
@@ -249,9 +248,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Aggro
 - definition: when mobs target you
-- you can use it to your advantage by [baiting](#baiting) while another player eliminates the threat
+- you can use it to your advantage by [baiting](#baiting) (therefore grabbing aggro) while another safely player eliminates the threat
 - you can get it off you by using utility/players, breaking line of sight or running away
-- do not direct it at other players
+- do not direct it toward other players as they may get hurt or die as a result
 - if you notice a mob isn't aggroing you, it may be safe to expose yourself from it to kill another mob
 - in some games, it's possible to only aggro a single mob
 
@@ -472,9 +471,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ## PVP concepts
 
 ### Baiting
-- using a teammate to force your opponent to peek, thus revealing his location and allowing you to get the kill without getting shot (baiting a teammate)
-- forcing your opponents to use their utility by putting pressure or using utility against them (baiting utility)
-- [jiggle peek](#jiggle-peeking) to have an opponent reveal his location (baiting a shot)
+- baiting a shot: [jiggle peek](#jiggle-peeking) to have an opponent reveal his location
+- baiting a teammate: using a teammate to force your opponent to peek, thus revealing his location and allowing you to get the kill without getting shot
+- baiting utility: forcing your opponents to use their utility by putting pressure or using utility against them
 - reference: https://www.youtube.com/watch?v=43J9nUmrbo4
 
 ### Callouts
@@ -598,6 +597,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - CD: cooldown
 - CHC: critical hit chance
 - CHD: critical hit damage
+- DPS: damage per second
 - DTA: damage to armor
 - DTH: damage to health
 - DTOOC/OOCD: damage to targets out of cover
@@ -631,6 +631,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - TOTS: Tip of the Spear gear set
 - TP: True Patriot gear set
 - TTK: time to kill
+- TU: title update
 - TWD: total weapon damage
 - WH: weapon handling
 
@@ -782,12 +783,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Builds
 - definition: a set of items supporting a specific playstyle or solving a problem
-- you have to define what you're trying to go for (DPS, tank, crowd control, healing, etc), for which group scaling and for which difficulty
-- from there, you have to look at the weapons, brands, talents and attributes that could synergize with what you're going for (ex: AR/Ceska/Obliterate/CHC/CHD for a DPS, Alps/Safeguard/repair skills for a healer, etc)
+- there are 3 main types of builds defined by the core attribute: red for DPS, blue for tank, yellow for skill
+- you have to define what you want to go for (DPS, tank, crowd control, healing, hybrid, etc), what group scaling and what difficulty
+- from there, you have to look at the weapons, brands, talents and attributes that could synergize with what you're going for (ex: Ceska/Obliterate/CHC/CHD for a DPS, Alps/Safeguard/repair skills for a healer, etc)
 - look in your stash, craft, buy or farm the necessary pieces to make a first version of the build (ideally with the right talents and attributes), recalibrate if necessary
 - test it in the desired situation and see if it works
 - if it doesn't, make some adjustments and try it again
-- once it works, start farming for pieces with better rolls and/or optimize them (if you have the resources)
+- once it works, start farming for pieces with better attributes/rolls and/or optimize them (if you have the resources)
 
 ### Cleaners
 \- reference: https://thedivision.fandom.com/wiki/Cleaners#Tom_Clancy.27s_The_Division_2
@@ -879,6 +881,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you want the right balance of offense, defense and utility
 - you should focus on offense first, then defense/utility
 - too much offense and you'll have trouble staying alive, too much defense and it'll take a long time killing mobs, too much utility and you'll have issues doing both
+- when joining a random group, inspect the builds the other players are using and decide what would contribute the most (ex: if you see they all have damage builds, switch to CC)
 - you want to create synergy between builds, some builds/skills don't work well together (ex: fire/blind with snipers)
 - some examples of good synergy are 3 DPS + 1 healer/CC, 3 AFK skill builds and 1 skill support build
 
@@ -1055,9 +1058,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Playing ARs
 - main attributes: weapon damage and CHC/CHD
-- effective against anything that doesn't have an armor bar: red mobs, robotics, tanks and summit objectives
+- effective against anything that doesn't have an armor bar: red mobs, robotics, summit objectives, tanks and weak points
 - pairs well with the Crusader/Striker Shield
-- should focus on weak points and burst enemies down to knock them back
+- focus on weak points and burst enemies down to knock them back
 - Negotiator's Dilemma is the best gear set for it
 
 ### Playing crowd control
@@ -1264,15 +1267,18 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Chem Launcher
 - a direct hit from a Reinforcer/Firestarter will cause minimal damage, but will also consume Headhunter stacks (even on a headshot) and benefit from them, thus allowing you to kill a mob with it
 - penetrates cover (except the Riot Foam variant)
+
 ##### Firestarter
 - double tapping the button will remotely detonate gas clouds
-- you can bounce charges off walls
+- you can bounce charges off walls and ceilings
 - initial damage and ticks affected by DTA
+
 ##### Oxidizer
 - clouds can stack
 - flushes mobs out of cover
 - lethal when used in its overcharged form on a group of ensnared mobs (like in speedruns)
 - affected by DTA and OOCD
+
 ##### Reinforcer
 - much more effective at healing allies than yourself because only allies benefit from the initial burst heal
 - double tapping it while holding a TDI Kard Custom keeps the extra skill tier
@@ -1288,14 +1294,18 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - useful in PVP to catch a player off guard as it hides your nameplate until it's destroyed
 
 #### Drone
+
 ##### Bombardier
 - can be auto-deployed in a straight line by holding the corresponding skill key (it will hurt you if you don't take a step back or aren't behind cover)
 - affected by DTA
+
 ##### Defender
 - its damage reduction isn't additive with protection from elites
 - its duration can be greatly extended with an Artificer Hive
+
 ##### Spotter
 - you can aim through walls to change its location
+
 ##### Striker
 - always targets the chest
 - used to pull aggro off you and your group
@@ -1307,8 +1317,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - its cooldown is based on the number of targets hit
 - you can proc In Sync by not targeting any mob with it (double tap it)
 - it's good after locking targets to throw it sideways to avoid making it collide with obstacles in front of you
+
 ##### Blinder
 - has an area of effect and will therefore blind multiple mobs if they're close to each other
+
 ##### Burster
 - affected by DTA
 
@@ -1318,9 +1330,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - must not be obstructed by a wall too much to be able to interact with skills or players
 - acts as a sphere so you can heal/revive a player who is on a different floor for instance
 - its number of charges can't decrease from losing skill tiers after deploying it
+
 ##### Artificer
 - doesn't need to be deployed to affect your other skill
 - heals nearby deployed shields while holstered (TODO: verify this information)
+
 ##### Stinger
 - defensive tool meant for area denial
 - should be deployed close to you or at choke points to prevent mobs from pushing
@@ -1329,35 +1343,43 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - initial damage and ticks affected by DTA
 
 #### Pulse
+
 ##### Achille's
 - scales with headshot damage squared if the head is marked and shot
 - also pulses the affected target
+
 ##### Banshee
 - the longer you hold the corresponding skill key, the further the confuse wave will go
 - its cooldown is based on the number of targets hit
 - can affect targets 5m above/below the confusion wave
 - also pulses affected targets
+
 ##### Jammer
 - the longer you hold the corresponding skill key, the wider the disrupt radius will be
 - acts as a sphere so you can disrupt mobs above/below you
 - effective to proc Toxic Delivery from the Vile mask
 - its damage on robotics is only increased by skill damage
+
 ##### Scanner
 - its effect duration is also affected by skill duration
 
 #### Seeker Mine
 - tanks will destroy them when targeted if they're not distracted
+
 ##### Airburst
 - has the highest status effect damage and longest burn duration in the game
+
 ##### Cluster
 - it's better to throw them near mobs than to deploy them at your feet otherwise they'll most likely dodge them
 - can be used to flush enemies out of cover or as a soft form of CC since non-robotic enemies (except tanks) will have to dodge them
 - more effective when multiple mobs are close to each other as they may get hit by more than one seeker mine
 - holding a TDI Kard Custom when targeting mobs will grant an extra seeker (if not at tier 6)
 - damage affected by DTA
+
 ##### Explosive
 - automatically locks on the nearest target when thrown near mobs
 - explosive damage and bleed ticks affected by DTA
+
 ##### Mender
 - automatically targets nearby friendlies that require healing
 
@@ -1366,14 +1388,17 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - protects your armor from explosions if aimed towards the impact
 - double tapping Escape or the Inventory button allows you to instantly unequip and reequip a shield to proc Vanguard instead of waiting for the 1s cooldown
 - gaining extra skill tiers after deploying it only increases its max health (if not at tier 6)
+
 ##### Bulwark
 - all enemies will target the shield
 - while behind vertical cover, peeking from the left allows you to have only your hand sticking out, therefore minimizing exposure
+
 ##### Crusader/Striker
 - all enemies will target the shield
 - deploying it will automatically switch to a weapon that can be used with shields (secondary weapon otherwise)
 - increases your character's hitbox and therefore makes it harder to navigate through doorways and around props
 - using a weapon with a scope will shift the camera to the right, allowing you to shoot from vertical cover when peeking from the left
+
 ##### Deflector
 - mobs will target the shield for the most part except elites (unless they're very close)
 - deflected damage scales with skill damage
@@ -1385,23 +1410,31 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - not detonating a Burn/EMP sticky on a target will automatically reapply the corresponding status effect upon expiration provided that the status effect expires before the sticky duration (subsequent statuses will be about 33% shorter than the previous status, based on the initial status duration)
 - when you're standing or on the move, aiming with your weapon before double tapping it will make it easier to line up your shot
 - you can proc In Sync by shooting it at a distance further than 100m (like the sky)
+
 ##### Burn
-- targets won't burn immediately on impact so you should wait one second before detonating it when using Eclipse
+- your target won't burn immediately on impact so you should wait one second before detonating it (in case it kills them) when using Eclipse
+
 ##### EMP
 - its damage on robotics is only increased by skill damage
+
 ##### Explosive
 - damage affected by DTA
 
 #### Trap
 - cooldown starts as soon as deploying them
 - the number of traps can't decrease from losing skill tiers after deploying it
+- they have a longer duration than cooldown
+- can't be disrupted
+
 ##### Shock
 - deploys in a roughly circular area
 - good to hold choke points
 - very efficient against drones
 - you can shock yourself if nearby when an enemy triggers it
+
 ##### Healing
 - deploys in a rough arc/line shape
+
 ##### Shrapnel
 - deploys in a roughly circular area
 
@@ -1409,23 +1442,27 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - good to draw aggro
 - try to put it in an elevated location, but not too close to you as it will draw aggro (unless you want to benefit from the Technician's Faraday field)
 - in groups, avoid placing it near doorways or teammates
+
 ##### Artillery
 - double tapping will lock/unlock it to a specific location (only works if you're within 10m of the turret)
-- rounds can bounce off walls and ceilings if there's an accessible area
+- rounds can bounce off walls and ceilings
 - you can aim through walls to shoot it
 - can be used to flush enemies out of cover or as a soft form of CC since non-robotic enemies (except tanks) will perform a dodge roll to avoid the explosion
 - the number of rounds can't decrease from losing skill tiers after deploying it
 - explosive damage and bleed ticks affected by DTA
+
 ##### Assault
 - always targets the chest
 - it shows a red line when automatically targeting mobs that you can use as a way to spot them (especially when solo)
 - will shoot the nearest mob unless you do manual targeting
 - keeps shooting at enemies while the player is downed
+
 ##### Incinerator
 - great for spawn closets
 - its duration is reduced every time you burn fuel
 - tap the button when you don't need it to save fuel
 - initial damage and ticks affected by DTA
+
 ##### Sniper
 - good for burst damage
 - targets the chest by default
@@ -1473,20 +1510,19 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - try to complete the hardest objective first (ex: destroying a server in the back of a room) as you'll be likely to struggle to complete it later on
 - try to leave 1 or 2 mobs alive so you can complete objectives early (reinforcements don't spawn until clearing most mobs in a wave)
 - wait for your teammates before entering a room to allow them to get ready and prevent objectives from triggering early
-- when capturing objectives, don't peek unless you have to, completing objectives is more important than clearing mobs
+- when capturing objectives, don't peek unless you absolutely have to, completing objectives is often more important than clearing mobs
 - when grouped, try to complete multiple objectives at the same time to shorten the room completion time
 - when no mobs are in a room, don't go too far from the door as it's a drone ambush
 - when stuck between a door and a wall, fast travel to another player
-- you can build Scorpio stacks on a rotating jammer before it's
+- you can build Scorpio stacks on a rotating jammer before it's captured
 - you can open locked doors by shooting the lock with a Chem Launcher or a silenced weapon, it allows you to not alert enemies (providing you're far enough from enemies when using a silencer)
-- you can see enemies through walls when servers are blinking
+- you can see enemies through walls when looking through blinking servers
 
 ### Suppressing
-
 - definition: laying down suppressive fire towards a cover a mob is using
 - mobs are unable to move or use their abilities (up to a certain extent) when suppressed (TODO: verify if Black Tusk controllers can still control their mini tank)
 - should be used sparingly, in the following cases: going for a flank, allowing teammates to push or when reviving someone in the open
-- suppressed enemies will not peek and may blind fire, preventing most of your group from killing them
+- suppressed enemies will not peek and may blind fire (with good accuracy on higher difficulties), preventing most of your group from killing them
 
 ### Talents
 
@@ -1553,6 +1589,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Tips/tricks
 - activity completion rewards are proximity-based, so wait for others to be close before completing them
 - any type of armor on kill works with skill kills and the Plague of the Outcasts debuff from Pestilence
+- breaking weak points off corpses with the Scavenged Skills directive gives you skill parts
 - CHD isn't affected by damage drop-off
 - crossbow bolts apply localized damage, for instance, headshots remove helmets
 - deploying a skill while using Technician protects you and nearby allies from disruption/shock (Faraday field) as long as you're both staying within 5m of it
@@ -1583,12 +1620,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the weak points on dead mobs can be destroyed
 - when using a medkit with the No Regen/Hard To Earn/Fragile Armor directives, use Perfectly Efficient to save medkits
 - when you're down to 1 HP, you have a 1-2s buffer (not in PVP) to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage
+- you can bounce grenade launcher rounds off walls and ceilings
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
 - you can kill enemies stuck behind doors with the Oxidizer Chem Launcher
 - you can let medics revive mobs to farm Headhunter stacks
 - you can read chat more easily by enabling high contrast (Settings > Accessibility > High Contrast UI)
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: Firefly)
+- you can roll off of surfaces shorter than your character (ex: dumpsters, cars, boxes)
 - you can see additional outlines when using radius-based skills by enabling color blind mode (Settings > Accessibility > Color Blind Mode), making it easier to use such skills
 - you can skip real-time cutscenes by dodge rolling or aiming
 - you can use armor plates or enemy skills to "extend" Negotiator's Dilemma copy damage
@@ -1707,7 +1746,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me The Division 2
 - MMR clan members (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), [Greetallica](https://www.reddit.com/user/0-Ren), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/MemoriesMu, u/mikkroniks, u/mrcivster, u/mxswat, u/ObviousKangaroo, u/rubenalamina, u/SarcasmNotImplied, u/sukaihoku, u/Trzebiat, u/Vikeman45 and u/XPS1647) for knowledge sharing and feedback
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/I_N_C_O_M_I_N_G, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/MemoriesMu, u/mikkroniks, u/mrcivster, u/mxswat, u/ObviousKangaroo, u/rubenalamina, u/SarcasmNotImplied, u/sukaihoku, u//Traveller2471, u/Trzebiat, u/Vikeman45, u/TheWaffleBoss and u/XPS1647) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me Warlords of New York
 
