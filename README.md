@@ -248,7 +248,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Aggro
 - definition: when mobs target you
-- you can use it to your advantage by [baiting](#baiting) (therefore grabbing aggro) while another safely player eliminates the threat
+- you can use it to your advantage by [baiting](#baiting) (therefore grabbing aggro) while another player safely eliminates the threat
 - you can get it off you by using utility/players, breaking line of sight or running away
 - do not direct it toward other players as they may get hurt or die as a result
 - if you notice a mob isn't aggroing you, it may be safe to expose yourself from it to kill another mob
