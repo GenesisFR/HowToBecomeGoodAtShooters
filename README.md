@@ -8,6 +8,7 @@
 \- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
 \- check if rushers from all factions have less HP than snipers  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
+\- test how high the surfaces you can roll off of can be  
 \- test if dodge rolling right before being hit by an explosion skips the staggering animation  
 \- test if Ravenous explosions are affected by OOCD  
 \- test if shooting Warhounds weak points with the TAC-50 can instakill them (from u/XPS1647)  
@@ -434,7 +435,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you have to be open-minded and receptive to learning if you want to improve
 - you have to be observant to learn how game mechanics and the AI work
 - you have to be perseverant in trying other strategies when something doesn't work
-- you have to be methodical, on harder difficulties, you may get punished for a single mistake
+- you have to be methodical because on harder difficulties, you may get punished for a single mistake
 - you have to be consistent, once you find patterns that work, repeat them
 - while under pressure, try to stay calm as getting angry at yourself or others will lead you/them to make bad decisions and play worse
 - application, not knowledge, is power, it's the drive to apply the concepts you learn here that will make you truly better
@@ -636,7 +637,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - WH: weapon handling
 
 ### AI animations
-- dodge roll: done to avoid explosions (grenades, Artillery Turret, Seeker Mines) or after getting shot
+- dodge roll: done to avoid explosions (grenades, Artillery Turret, Seeker Mines) or after getting shot, shoot the mob in the body while they're dodging or wait until they recover from the animation to get an easy headshot
 - knockback: after inflicting a certain amount of damage, gives you time to line up your next shot or get the kill
 - quick peek: done from cover on Heroic difficulty or lower by tank operators and medics, wait for it to get headshots with a (sniper) rifle
 - strafe: used after spotting a player, take your time to adjust your crosshair when sniping/rifling
@@ -673,9 +674,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - deploys suicide drones above her that target players and skills
 - destroying their backpack causes an explosion that hurts her and prevents her from deploying drones
 - destroying the drones (preferably with an AR) causes an explosion that can kill her if she's too close
-- staying close to her after she's deployed her drones will make them blow up in her face, potentially killing her
+- staying close or deploying a decoy next to her after she's deployed her drones will make them blow up in her face, potentially killing her
 - unable to deploy drones when disrupted
-- players need to be in her line of sight to be able to target them with her drones, that's why she usually peeks a few seconds after deploying drones (great for riflers/snipers)
+- players need to be in her line of sight to be targetable by her drones, that's why she usually peeks a few seconds after deploying drones (great for riflers/snipers)
 - walking backward is enough to dodge her drones
 
 #### Medic
@@ -784,7 +785,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Builds
 - definition: a set of items supporting a specific playstyle or solving a problem
 - there are 3 main types of builds defined by the core attribute: red for DPS, blue for tank, yellow for skill
-- you have to define what you want to go for (DPS, tank, crowd control, healing, hybrid, etc), what group scaling and what difficulty
+- you have to define what you want to go for based on your playstyle (DPS, tank, crowd control, healing, hybrid, etc), the group scaling and the difficulty
 - from there, you have to look at the weapons, brands, talents and attributes that could synergize with what you're going for (ex: Ceska/Obliterate/CHC/CHD for a DPS, Alps/Safeguard/repair skills for a healer, etc)
 - look in your stash, craft, buy or farm the necessary pieces to make a first version of the build (ideally with the right talents and attributes), recalibrate if necessary
 - test it in the desired situation and see if it works
@@ -1288,6 +1289,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - can be meleed, shot or damaged by explosions and fire
 - should be deployed in locations where the hologram is visible to enemies but not its base, such as elevated positions or behind low covers (better if it's in an unreachable location)
 - in groups, avoid placing it near doorways or teammates
+- effective at drawing aggro from suicide drones
 - its duration can be greatly extended with an Artificer Hive
 - its duration is set when deploying it, even if it loses skill tiers afterward
 - mobs shooting it will be pulsed (and therefore proc Spotter) for a short time
@@ -1752,7 +1754,6 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ## Contact information
 
-- Discord: Genesis#2418
 - Reddit: https://www.reddit.com/user/genesis_tv
 - Twitch: <https://www.twitch.tv/genesis_tv_>
 - Twitter: <https://twitter.com/genesis_tv_>
