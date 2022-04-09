@@ -611,6 +611,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - HF: Hunter's Fury gear set
 - high-end: yellow item
 - HOK: health on kill
+- HP: health point
 - HSD: headshot damage
 - HW: Hard Wired gear set
 - HZP: hazard protection
@@ -653,7 +654,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - they will exploit any gap in your defense, especially on legendary
 - they will leave their cover as you get close
 - walking doesn't trigger them as much as running
-- when a Black/White Tusk support station is down, mobs will try to get within its range when they're low HP
+- when a Black/White Tusk support station has been deployed, mobs will try to get within its range when they're low HP
 
 ### Black Tusk
 \- reference: https://thedivision.fandom.com/wiki/Black_Tusk#Archetype
@@ -682,7 +683,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Medic
 - throws EMP jammers and attempts to revive downed allies via a medical drone
 - destroying the drone forces him to run to downed allies to revive them
-- elites throw jammers that strip away armor and health
+- elites throw jammers that strip away armor and armor/health
 - destroying the EMP jammer pouch sets off an EMP that disrupts him
 - hitting the weak spot on the back of the drone will destroy it and shock everyone nearby
 - vulnerable when manually reviving downed allies (the animation can be interrupted by dealing enough damage)
@@ -693,11 +694,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - occasionally holds still and begins spinning a laser dazzler around in a circle, blinding anyone looking at it
 - both treads can be destroyed, making it stop moving and causing its controller to come to repair it
 - when less than half HP, it will go back to its controller for repairs
-- killing the controller will cause it to go haywire while looking for a target
+- killing the controller will cause it to go haywire while looking for a target and potentially hitting other mobs
 - doesn't despawn until all other Black Tusk units in the fight are dead
-- elites roll faster, have more health and fire incendiary grenades
+- elites roll faster, have more HP and fire incendiary grenades
 - vulnerable to explosive damage
-- using a Demolisher Firefly while both treads are destroyed depletes its health
+- using a Demolisher Firefly while both treads are destroyed depletes its HP
 - the Firestarter shotgun (from the Firewall specialization) allows you to put it on fire by lowering its fire resistance
 
 #### Rusher
@@ -726,14 +727,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - attempts to stay at range, using his minigun to suppress enemy targets
 - has a support station mounted on his back which feeds a constant supply of health recovery
 - his minigun ammo belt never requires a reload
-- has no armor bar, but you have to destroy his armor plates before damaging his health
+- has no armor bar, but you have to destroy one of his armor plates before being able to damage his HP
 - resistant to explosives
 - breaking his ammo belt forces him to reload
 - destroying the support station stops his health regeneration
 - destroying any weak point or hitting him with any explosion (including with a Stinger Hive) will cause the ammo belt to reappear
 - foaming him during the reload animation (up until he stands up after reloading) forces him to redo the entire reload animation
 - using the Demolisher Firefly will break the ammo belt, then the support station, then armor plates, depending on which one was previously broken (TODO: verify the bit about armor plates)
-- the Survivalist crossbow completely breaks his armor plate
+- the Survivalist crossbow completely breaks one of his armor plates
 - has no armor behind his support station
 - in the Dark Hours raid, his butt is unarmored
 
@@ -748,19 +749,19 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Warhounds
 - heavily armored quadrupeds that attempt to position themselves with a clear line of sight to enemies and use a powerful sniper type armament, a grenade launcher or a minigun to dispatch their foes
-- have no armor bar, but you usually have to destroy their armor plating before damaging their health
+- have no armor bar, but you usually have to destroy their armor plating before damaging their HP
 - elites have the bonus of firing on the move
 - they always move from a point to another and stop for a few seconds, use that time to damage them with a skill, shoot their weak points or EMP them
 - although warhounds don't have a head, shooting their red eye counts as a headshot, proccing headshot-related talents like Perpetuation (TODO: verify this information)
-- shooting their legs depletes their health, however, they have a 90% damage reduction
-- the Survivalist crossbow completely breaks their armor plate (unless you aim for the legs)
-- explosive damage bypasses their armor plating and does damage directly to their health, therefore Ravenous can be effective against them (and Merciless, to a lesser extent)
+- shooting their legs depletes their HP, however they have a 90% damage reduction
+- the Survivalist crossbow completely breaks their armor plating (unless you aim for the legs)
+- explosive damage bypasses their armor plating and deals damage directly to their health, therefore Ravenous can be effective against them (and Merciless, to a lesser extent)
 - disruptive skills (Jammer Pulse, EMP Sticky Bomb and EMP grenade) also bypass their armor plating
-- CHD and Headhunter stacks on their legs aren't affected by the damage reduction and therefore bypasses their armor plating
+- CHD and Headhunter stacks on their legs aren't affected by the damage reduction and therefore bypass their armor plating
 - Hostile Negotiations from the Negotiator's Dilemma gear set bypasses their armor plating
 - Pestilence ticks bypass their armor plating
 - using a Demolisher Firefly while they're disrupted bypasses their armor plating and can destroy them in one shot on offensive skill builds
-- the flamethrower's stream bypasses their health, it's not efficient on higher difficulties though as it requires burning a lot of fuel to kill a single one
+- the flamethrower's stream bypasses their armor plating, it's not really efficient on higher difficulties though as it requires burning a lot of fuel to kill a single one
 - the Firestarter shotgun (from the Firewall specialization) allows you to put them on fire by lowering their fire resistance
 - 3 variants with different weak points, causing them to stop working for a few seconds when destroyed:
 
@@ -1103,7 +1104,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Survivalist is recommended for the multiplicative outgoing healing, the crossbow and the fire grenade as a form of CC
 - use the crossbow on tanks/warhounds and fire grenades on spawn closets
 - preferred skills are Reinforcer Chem Launcher and Restorer Hive
-- stick with your group, monitor their health, avoid dying and manage your cooldowns by picking up your hive when not in use
+- stick with your group, monitor their health status, avoid dying and manage your cooldowns by picking up your hive when not in use
 - if a red/purple mob gets close or you see an opportunity to kill one, melee with Sweet Dreams or use Scorpio to make it easier for your teammates to focus them
 - refresh skill cooldowns between engagements (or after one or more teammates used a Reviver Hive)
 - the Restorer Hive will heal deployed skills after they take damage, you may not want this to happen to prevent your charges from draining too fast, therefore, its placement is important
@@ -1216,6 +1217,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you should always provide cover to the one reviving by either killing, CC'ing, aggroing or suppressing mobs
 - downed players should strive to get near cover without blocking it for alive players and avoid crawling in the open otherwise they'll be harder to revive
 - after self-reviving, you're immune to damage for a few seconds as long as you don't perform any action other than walking
+- while getting revived, the player who is downed is invulnerable (except in PVP)
 
 ### Rikers
 \- reference: https://thedivision.fandom.com/wiki/Rikers#Tom_Clancy.27s_The_Division_2
@@ -1233,9 +1235,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - elites have an HMG that fires explosive rounds at a slower pace but doesn't inflict bleed damage
 
 #### Leader
-- gives a buff in health to all Rikers in the area
+- gives an overheal to all Rikers in the area
 - always equipped with two weapons, one for long-range and another for short-range
-- killing the Leader will return all Rikers affected by their buff to their health before the buff, minus the damage that was inflicted on them
+- killing the Leader will remove the overheal from all Rikers affected by it
 
 #### Rusher
 - chases the player for a long time while firing their SMGs
@@ -1621,7 +1623,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the Survivalist medkit acts as a sphere so you can heal people above/below you
 - the weak points on dead mobs can be destroyed
 - when using a medkit with the No Regen/Hard To Earn/Fragile Armor directives, use Perfectly Efficient to save medkits
-- when you're down to 1 HP, you have a 1-2s buffer (not in PVP) to take cover before going down, it's disabled until you're back to full health, which takes around 30s without taking damage
+- when you're down to 1 HP from full HP, there is a one shot protection granting you about 1-2s of invulnerability (not in PVP), it's disabled until you're back to full HP, which takes around 30s without taking damage
 - you can bounce grenade launcher rounds off walls and ceilings
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
@@ -1686,7 +1688,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - prefers to launch grenades, periodically stopping to reload
 - well armored, and can take significant damage before the armor breaks
 - resistant to explosives
-- destroying the ammo pack on his back will cause an explosion that will destroy the armor plate on his chest and force him to use a shotgun
+- destroying the ammo pack on his back will cause an explosion that will destroy his chest armor plate and force him to use a shotgun
 - bounty tanks will keep using the grenade launcher despite destroying his ammo pack
 
 #### Thrower
@@ -1698,7 +1700,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 \- reference: https://thedivision.fandom.com/wiki/White_Tusk#Archetypes
 
 #### Drone Operator
-- same as the Black Tusk [variant](#drone-operator) except the speed and health of the suicide drones are increased, they're deployed more often and instantly distance themselves away from the operator to prevent collateral damage
+- same as the Black Tusk [variant](#drone-operator) except the speed and HP of the suicide drones are increased, they're deployed more often and instantly distance themselves away from the operator to prevent collateral damage
 - drone initial separation speed is based on veterancy
 - doesn't need to have a line of sight to be able to target players with her drones (but will still occasionally peek after deploying them if a player is visible)
 
