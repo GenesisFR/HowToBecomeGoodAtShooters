@@ -1740,7 +1740,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - [NPC Health Pools](https://docs.google.com/spreadsheets/d/1OP0r0A81wroX9v9iZ1u-jYNndTjugaB8e1MxS3FWCsk)
 - [Reddit thread](https://www.reddit.com/r/thedivision/comments/rcemoz/update_on_my_comprehensive_guide_to_become_better)
 - [Weapon Damage 101: Bullet Damage](https://www.reddit.com/r/thedivision/comments/gi0uel/weapon_damage_101_bullet_damage)
-- [Weapon DPS Database](https://onedrive.live.com/view.aspx?resid=FCC78BAD7A71FF1C!263)
+- [Weapon DPS Database](https://onedrive.live.com/view.aspx?resid=FCC78BAD7A71FF1C!258)
 - [Weekly vendor reset](https://rubenalamina.mx/the-division-weekly-vendor-reset)
 - [Youtube playlist for the videos](https://youtube.com/playlist?list=PL21pn9mLCSJpWyzNG7AA--lUMK0ZBQoQv) (empty for now)
 
