@@ -3,6 +3,8 @@
 <details>
 <summary><b>To-do list</b></summary>
 
+\- add a section about how to play Negotiator's Dilemma  
+\- add TU15-related sections (Countdown and Expertise)  
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if mobs limp when bleeding  
 \- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
@@ -271,7 +273,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### AI states
 - idle: mobs move predictably and are usually patrolling their designated area
 - alerted: mobs will investigate the area where they last saw/heard something suspicious, they move semi-predictably and usually go back to idle after a while without any sign of suspicious activity
-- combat: mobs move unpredictably and it'll take longer for them to go back to idle (it may not be possible to do so depending on the level design)
+- combat: mobs move unpredictably and it'll take longer for them to go back to idle (it may not be possible to do so depending on the game or level design)
+- you can use that predictability to devise strategies such as sneaking through mobs or luring a mob away from the others to kill it
 
 ### Angle isolation
 - definition: using the environment/utility to isolate enemies
@@ -590,6 +593,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ## The Division 2
 
 ### Abbreviations
+- 6B/6R/6Y: number of blue/red/yellow armor cores on a build
 - A&8: Aces and Eights gear set
 - AD: amplified damage
 - AOK: armor on kill
@@ -598,16 +602,20 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - CD: cooldown
 - CHC: critical hit chance
 - CHD: critical hit damage
+- CP4: level 4 control point
+- DH: Dark Hours raid
 - DPS: damage per second
 - DTA: damage to armor
 - DTH: damage to health
 - DTOOC/OOCD: damage to targets out of cover
 - EP: Eclipse Protocol gear set
+- EXP: experienced players (only)
 - FB: Foundry Bulwark gear set
 - FI: Future Initiative gear set
 - god roll: all max rolls with the right talent
 - green: gear set item
 - GS: gear score
+- GV1: group voice 1 (Discord)
 - HF: Hunter's Fury gear set
 - high-end: yellow item
 - HOK: health on kill
@@ -615,6 +623,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - HSD: headshot damage
 - HW: Hard Wired gear set
 - HZP: hazard protection
+- IGN: in-game name
+- IH: Iron Horse raid
+- Leg: legendary
+- LF: looking for
+- LF2M: looking for 2 man
+- LFG: looking for group
 - max roll: max value for an attribute (orange background)
 - ND: Negotiator's Dilemma gear set
 - OD: Ongoing Directive gear set
@@ -625,6 +639,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - recalibrate: overwrite an attribute with another one from your library
 - reconfigure: reroll the attributes of an exotic with random values
 - ROF: rate of fire
+- RV1: raid voice 1 (Discord)
 - SD: skill damage
 - SE: status effects
 - SH: skill haste
@@ -635,6 +650,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - TTK: time to kill
 - TU: title update
 - TWD: total weapon damage
+- WD: weapon damage
 - WH: weapon handling
 
 ### AI animations
@@ -683,7 +699,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Medic
 - throws EMP jammers and attempts to revive downed allies via a medical drone
 - destroying the drone forces him to run to downed allies to revive them
-- elites throw jammers that strip away armor and armor/health
+- elites throw jammers that strip away armor then health
 - destroying the EMP jammer pouch sets off an EMP that disrupts him
 - hitting the weak spot on the back of the drone will destroy it and shock everyone nearby
 - vulnerable when manually reviving downed allies (the animation can be interrupted by dealing enough damage)
@@ -725,7 +741,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Tank
 - attempts to stay at range, using his minigun to suppress enemy targets
-- has a support station mounted on his back which feeds a constant supply of health recovery
+- has a support station mounted on his back which heals him when not at full health
 - his minigun ammo belt never requires a reload
 - has no armor bar, but you have to destroy one of his armor plates before being able to damage his HP
 - resistant to explosives
@@ -735,8 +751,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - foaming him during the reload animation (up until he stands up after reloading) forces him to redo the entire reload animation
 - using the Demolisher Firefly will break the ammo belt, then the support station, then armor plates, depending on which one was previously broken (TODO: verify the bit about armor plates)
 - the Survivalist crossbow completely breaks one of his armor plates
-- has no armor behind his support station
-- in the Dark Hours raid, his butt is unarmored
+- has no armor plate behind his support station, it requires you to be behind him though
+- shooting the dark side of his support station (next to his hip) deals damage directly to his health, it requires you to be a bit on his side though
+- in the Dark Hours raid, his butt is unarmored, therefore allowing you to deal damage directly to his health
 
 #### Thrower
 - uses an airburst grenade launcher to hit targets behind cover
@@ -779,7 +796,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - has its weak point exposed in the form of a red cartridge next to the cannon when it fires (TODO: verify if still bugged for elites)
 - elites fire in 3-round bursts with the sniper turret when stationary
 - dealing enough damage to its legs staggers it and prevents it from firing (or at least delays its next shot)
-- shooting its butt bypasses its armor plating
+- shooting the top of its butt bypasses its armor plating
 - when destroyed, creates an EMP explosion, disrupting agents in close range for 9s and everything else in medium-range for at least 12s (TODO: check if the EMP range is bigger on elites and enemy disrupt duration)
 - you can rotate around it while aggroed to make it stop moving/shooting
 
@@ -1235,7 +1252,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - elites have an HMG that fires explosive rounds at a slower pace but doesn't inflict bleed damage
 
 #### Leader
-- gives an overheal to all Rikers in the area
+- gives an overheal to all Rikers in the area (equal to their amount of HP)
 - always equipped with two weapons, one for long-range and another for short-range
 - killing the Leader will remove the overheal from all Rikers affected by it
 
@@ -1533,11 +1550,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Exotics
 
 - Binary Trigger (Merciless): affected by weapon damage, OOCD and DTA but not by explosive damage
+- Breathe Free (Lady Death): also procs when swapping to it before a warhound explodes
 - Electromagnetic Accelerator (Nemesis): shots are also fired when swapping weapons
 - In Plain Sight (Mantis): the headshot damage boost is always active in PVP
-- Incessant Chatter (Chatterbox): doesn't expire after dying (as long as you don't switch weapons)
-- Payment In Kind (Backfire): once at max stacks and 1 HP, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
+- Incessant Chatter (Chatterbox): stays procced after dying (as long as you don't switch weapons)
 - Pack Instincts (Coyote's Mask): buffs can be individually procced by 3 players using it and can therefore all be active at the same time
+- Payment In Kind (Backfire): once at max stacks and 1 HP, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
 - Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD and DTA. in PVP, the player who applied the debuff must die for the ticks to stop
 - Quick Draw (Dodge City Gunslinger's Holster): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
 - Regicide (Regulus): also affected by explosive damage and how many Dodge City stacks you have
@@ -1559,9 +1577,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Creeping Death: mobs on which it procs remain affected by their natural status resistance
 - Empathic Resolve: refreshed every time you heal a player. also procs with True Patriot's white buff and when healing other group members with the Survivalist medkit
 - Eyeless: affects the damage of non-ballistic skills
-- Focus: stays procced when reloading or unscoping for less than a second, which allows you to keep moving. doesn't proc with the Big Horn, Capacitor or the TAC-50 as these have variable scopes
+- Focus: stays procced when reloading or unscoping for less than a second, which allows you to keep moving. doesn't proc with the Big Horn and Capacitor (these have x4 scopes), or the TAC-50 (it has a variable scope)
 - Glass Cannon: also affects how much damage your shield is taking (TODO: check with other skills)
-- Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage and DTA. calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of any other weapon. isn't affected by damage drop-off
+- Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage and DTA. calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of any other weapon. isn't affected by damage drop-off. stacks are kept after dying
 - Ignited: affects the damage of non-ballistic skills
 - Intimidate: procced by the bonus armor provided by the "My Home Is My Castle" perk from the Sharpshooter specialization
 - Kinetic Momentum: half of the stacks are lost upon using a Chem Launcher at full charges and it won't start rebuilding these stacks until it's back at full charges
@@ -1610,6 +1628,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - shooting the foam on an ensnared teammate or hip-firing at your feet breaks it
 - signature weapons are automatically reloaded when holstered
 - skill damage also boosts status damage
+- staggering yourself while interacting with an object instantly completes the interaction
 - swapping any armor piece while out of combat restores all of your armor
 - swapping to a loadout with a different specialization refills grenades
 - swapping to another weapon halfway through a reload will still reload your other weapon
@@ -1623,7 +1642,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the Survivalist medkit acts as a sphere so you can heal people above/below you
 - the weak points on dead mobs can be destroyed
 - when using a medkit with the No Regen/Hard To Earn/Fragile Armor directives, use Perfectly Efficient to save medkits
-- when you're down to 1 HP from full HP, there is a one shot protection granting you about 1-2s of invulnerability (not in PVP), it's disabled until you're back to full HP, which takes around 30s without taking damage
+- when you're down to 1 HP from full health, there is a one shot protection granting you about 1-2s of invulnerability to allow you to take cover before going down (not in PVP), it's disabled until you're back to full health, which takes up to 30s without taking damage
 - you can bounce grenade launcher rounds off walls and ceilings
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
@@ -1634,7 +1653,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can roll off of surfaces shorter than your character (ex: dumpsters, cars, boxes)
 - you can see additional outlines when using radius-based skills by enabling color blind mode (Settings > Accessibility > Color Blind Mode), making it easier to use such skills
 - you can skip real-time cutscenes by dodge rolling or aiming
-- you can use armor plates or enemy skills to "extend" Negotiator's Dilemma copy damage
+- you can use non-broken armor plates or enemy skills to "extend" Negotiator's Dilemma copy damage
 - you can use drones to farm Memento trophies
 
 ### True Sons
@@ -1715,10 +1734,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Tank
 - same as the Black Tusk [variant](#tank) except the support station on his back is replaced with a variant of the Stinger Hive which deals heavy damage to those within 15m and causes them to bleed
-- tries to get close because of his Stinger Hive
+- attempts to get close but reverts to staying at range after breaking his backpack
 - his Stinger Hive stops working while he's disrupted (TODO: check if it's the same when shocked)
 - his Stinger Hive has a 20m range
-- tends to retreat after breaking his backpack
 - his chest/helmet armor plates will turn black once they have less than 50% HP left
 - his backpack can target up to 2 targets per player at the same time, therefore if both of a player's skills are deployed and in range of the hive, the player won't be targeted by it
 
