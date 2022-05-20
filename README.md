@@ -3,8 +3,6 @@
 <details>
 <summary><b>To-do list</b></summary>
 
-\- add a section about how to play Negotiator's Dilemma  
-\- add TU15-related sections (Countdown and Expertise)  
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if mobs limp when bleeding  
 \- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
@@ -109,132 +107,135 @@
       * [4.6.5 Sniper](#sniper-2)
       * [4.6.6 Tank](#tank-1)
       * [4.6.7 Thrower](#thrower-1)
-   * [4.7 Cover](#cover)
-   * [4.8 Cover to cover](#cover-to-cover)
-   * [4.9 Dancing](#dancing)
-   * [4.10 Difficulty](#difficulty-1)
-   * [4.11 Group composition (basics)](#group-composition-basics)
-   * [4.12 Group composition (advanced)](#group-composition-advanced)
-   * [4.13 Group play](#group-play)
-   * [4.14 Hunters](#hunters)
-   * [4.15 Hyenas](#hyenas)
-      * [4.15.1 Assault](#assault-2)
-      * [4.15.2 Controller](#controller-2)
-      * [4.15.3 Engineer](#engineer-1)
-      * [4.15.4 Medic](#medic-1)
-      * [4.15.6 Rusher](#rusher-2)
-      * [4.15.7 Shield](#shield)
-      * [4.15.8 Sniper](#sniper-3)
-      * [4.15.9 Tank](#tank-2)
-      * [4.15.10 Thrower](#thrower-2)
-   * [4.16 Inventory management](#inventory-management)
-   * [4.17 Looting](#looting)
-   * [4.18 Optimization](#optimization)
-   * [4.19 Outcasts](#outcasts)
-      * [4.19.1 Assault](#assault-3)
-      * [4.19.2 Controller](#controller-3)
-      * [4.19.3 Heavy Weapons](#heavy-weapons)
-      * [4.19.4 Rusher](#rusher-3)
-      * [4.19.5 Scorcher](#scorcher)
-      * [4.19.6 Sniper](#sniper-4)
-      * [4.19.7 Support](#support-1)
-      * [4.19.8 Tank](#tank-3)
-      * [4.19.9 Thrower](#thrower-3)
-   * [4.20 Playing ARs](#playing-ars)
-   * [4.21 Playing crowd control](#playing-crowd-control)
-      * [4.21.1 Eclipse](#eclipse)
-      * [4.21.2 High-end](#high-end)
-   * [4.22 Playing LMGs](#playing-lmgs)
-   * [4.23 Playing medic](#playing-medic)
-   * [4.24 Playing rifler](#playing-rifler)
-   * [4.25 Playing offensive skill builds](#playing-offensive-skill-builds)
-      * [4.25.1 AFK](#afk)
-      * [4.25.2 Explosive](#explosive)
-   * [4.26 Playing shotgun](#playing-shotgun)
-      * [4.26.1 Crit-based](#crit-based)
-      * [4.26.2 Headhunter](#headhunter)
-   * [4.27 Playing sniper](#playing-sniper)
-   * [4.28 Playing tank](#playing-tank)
-   * [4.29 Reviving](#reviving)
-   * [4.30 Rikers](#rikers)
-      * [4.30.1 Assault](#assault-4)
-      * [4.30.2 Heavy Weapons](#heavy-weapons-1)
-      * [4.30.3 Leader](#leader)
-      * [4.30.4 Rusher](#rusher-4)
-      * [4.30.5 Sniper](#sniper-5)
-      * [4.30.6 Tank](#tank-4)
-      * [4.30.7 Thrower](#thrower-4)
-   * [4.31 Skills](#skills)
-      * [4.31.1 Chem Launcher](#chem-launcher)
-         * [4.31.1.1 Firestarter](#firestarter)
-         * [4.31.1.2 Oxidizer](#oxidizer)
-         * [4.31.1.3 Reinforcer](#reinforcer)
-      * [4.31.2 Decoy](#decoy)
-      * [4.31.3 Drone](#drone)
-         * [4.31.3.1 Bombardier](#bombardier)
-         * [4.31.3.2 Defender](#defender)
-         * [4.31.3.3 Spotter](#spotter)
-         * [4.31.3.4 Striker](#striker)
-      * [4.31.4 Firefly](#firefly)
-      * [4.31.5 Hive](#hive)
-         * [4.31.5.1 Artificer](#artificer)
-         * [4.31.5.2 Stinger](#stinger)
-      * [4.31.6 Pulse](#pulse)
-         * [4.31.6.1 Achille's](#achilles)
-         * [4.31.6.2 Banshee](#banshee)
-         * [4.31.6.3 Jammer](#jammer)
-         * [4.31.6.4 Scanner](#scanner)
-      * [4.31.7 Seeker Mine](#seeker-mine)
-         * [4.31.7.1 Airburst](#airburst)
-         * [4.31.7.2 Cluster](#cluster)
-         * [4.31.7.3 Explosive](#explosive-1)
-         * [4.31.7.4 Mender](#mender)
-      * [4.31.8 Shield](#shield-1)
-         * [4.31.8.1 Bulwark Shield](#bulwark)
-         * [4.31.8.2 Crusader/Striker Shield](#crusaderstriker)
-         * [4.31.8.3 Deflector Shield](#deflector)
-      * [4.31.9 Sticky Bomb](#sticky-bomb)
-         * [4.31.9.1 Burn](#burn)
-         * [4.31.9.2 EMP](#emp)
-         * [4.31.9.3 Explosive](#explosive-2)
-      * [4.31.10 Trap](#trap)
-         * [4.31.10.1 Shock](#shock)
-         * [4.31.10.2 Healing](#healing)
-         * [4.31.10.3 Shrapnel](#shrapnel)
-      * [4.31.11 Turret](#turret)
-         * [4.31.11.1 Artillery](#artillery)
-         * [4.31.11.2 Assault](#assault-5)
-         * [4.31.11.3 Incinerator](#incinerator)
-         * [4.31.11.4 Sniper](#sniper-6)
-   * [4.32 Spawn camping](#spawn-camping)
-   * [4.33 Status effects](#status-effects)
-   * [4.34 Summit](#summit)
-   * [4.35 Suppressing](#suppressing)
-   * [4.36 Talents](#talents)
-      * [4.36.1 Exotics](#exotics)
-      * [4.36.2 Gear sets](#gear-sets)
-      * [4.36.3 High-end](#high-end-1)
-      * [4.36.4 Weapons](#weapons)
-   * [4.37 Target prioritization](#target-prioritization)
-   * [4.38 Tips/tricks](#tipstricks)
-   * [4.39 True Sons](#true-sons)
-      * [4.39.1 Assault](#assault-6)
-      * [4.39.2 Engineer](#engineer-2)
-      * [4.39.3 Heavy Weapons](#heavy-weapons-2)
-      * [4.39.4 Immobilizer](#immobilizer)
-      * [4.39.5 Medic](#medic-2)
-      * [4.39.6 RPG](#rpg)
-      * [4.39.7 Rusher](#rusher-5)
-      * [4.39.8 Sniper](#sniper-7)
-      * [4.39.9 Tank](#tank-5)
-      * [4.39.10 Thrower](#thrower-5)
-   * [4.40 White Tusk](#white-tusk)
-      * [4.40.1 Drone Operator](#drone-operator-1)
-      * [4.40.2 Mini Tank](#mini-tank-1)
-      * [4.40.3 Rusher](#rusher-6)
-      * [4.40.4 Sniper](#sniper-8)
-      * [4.40.5 Tank](#tank-6)
-      * [4.40.6 Thrower](#thrower-6)
+   * [4.7 Countdown](#countdown)
+   * [4.8 Cover](#cover)
+   * [4.9 Cover to cover](#cover-to-cover)
+   * [4.10 Dancing](#dancing)
+   * [4.11 Difficulty](#difficulty-1)
+   * [4.12 Expertise](#expertise)
+   * [4.13 Group composition (basics)](#group-composition-basics)
+   * [4.14 Group composition (advanced)](#group-composition-advanced)
+   * [4.15 Group play](#group-play)
+   * [4.16 Hunters](#hunters)
+   * [4.17 Hyenas](#hyenas)
+      * [4.17.1 Assault](#assault-2)
+      * [4.17.2 Controller](#controller-2)
+      * [4.17.3 Engineer](#engineer-1)
+      * [4.17.4 Medic](#medic-1)
+      * [4.17.6 Rusher](#rusher-2)
+      * [4.17.7 Shield](#shield)
+      * [4.17.8 Sniper](#sniper-3)
+      * [4.17.9 Tank](#tank-2)
+      * [4.17.10 Thrower](#thrower-2)
+   * [4.18 Inventory management](#inventory-management)
+   * [4.19 Looting](#looting)
+   * [4.20 Optimization](#optimization)
+   * [4.21 Outcasts](#outcasts)
+      * [4.21.1 Assault](#assault-3)
+      * [4.21.2 Controller](#controller-3)
+      * [4.21.3 Heavy Weapons](#heavy-weapons)
+      * [4.21.4 Rusher](#rusher-3)
+      * [4.21.5 Scorcher](#scorcher)
+      * [4.21.6 Sniper](#sniper-4)
+      * [4.21.7 Support](#support-1)
+      * [4.21.8 Tank](#tank-3)
+      * [4.21.9 Thrower](#thrower-3)
+   * [4.22 Playing ARs](#playing-ars)
+   * [4.23 Playing crowd control](#playing-crowd-control)
+      * [4.23.1 Eclipse](#eclipse)
+      * [4.23.2 High-end](#high-end)
+   * [4.24 Playing LMGs](#playing-lmgs)
+   * [4.25 Playing medic](#playing-medic)
+   * [4.26 Playing Negotiator's Dilemma](#playing-negotiators-dilemma)
+   * [4.27 Playing offensive skill builds](#playing-offensive-skill-builds)
+      * [4.27.1 AFK](#afk)
+      * [4.27.2 Explosive](#explosive)
+   * [4.28 Playing rifler](#playing-rifler)
+   * [4.29 Playing shotgun](#playing-shotgun)
+      * [4.29.1 Crit-based](#crit-based)
+      * [4.29.2 Headhunter](#headhunter)
+   * [4.30 Playing sniper](#playing-sniper)
+   * [4.31 Playing tank](#playing-tank)
+   * [4.32 Reviving](#reviving)
+   * [4.33 Rikers](#rikers)
+      * [4.33.1 Assault](#assault-4)
+      * [4.33.2 Heavy Weapons](#heavy-weapons-1)
+      * [4.33.3 Leader](#leader)
+      * [4.33.4 Rusher](#rusher-4)
+      * [4.33.5 Sniper](#sniper-5)
+      * [4.33.6 Tank](#tank-4)
+      * [4.33.7 Thrower](#thrower-4)
+   * [4.34 Skills](#skills)
+      * [4.34.1 Chem Launcher](#chem-launcher)
+         * [4.34.1.1 Firestarter](#firestarter)
+         * [4.34.1.2 Oxidizer](#oxidizer)
+         * [4.34.1.3 Reinforcer](#reinforcer)
+      * [4.34.2 Decoy](#decoy)
+      * [4.34.3 Drone](#drone)
+         * [4.34.3.1 Bombardier](#bombardier)
+         * [4.34.3.2 Defender](#defender)
+         * [4.34.3.3 Spotter](#spotter)
+         * [4.34.3.4 Striker](#striker)
+      * [4.34.4 Firefly](#firefly)
+      * [4.34.5 Hive](#hive)
+         * [4.34.5.1 Artificer](#artificer)
+         * [4.34.5.2 Stinger](#stinger)
+      * [4.34.6 Pulse](#pulse)
+         * [4.34.6.1 Achille's](#achilles)
+         * [4.34.6.2 Banshee](#banshee)
+         * [4.34.6.3 Jammer](#jammer)
+         * [4.34.6.4 Scanner](#scanner)
+      * [4.34.7 Seeker Mine](#seeker-mine)
+         * [4.34.7.1 Airburst](#airburst)
+         * [4.34.7.2 Cluster](#cluster)
+         * [4.34.7.3 Explosive](#explosive-1)
+         * [4.34.7.4 Mender](#mender)
+      * [4.34.8 Shield](#shield-1)
+         * [4.34.8.1 Bulwark Shield](#bulwark)
+         * [4.34.8.2 Crusader/Striker Shield](#crusaderstriker)
+         * [4.34.8.3 Deflector Shield](#deflector)
+      * [4.34.9 Sticky Bomb](#sticky-bomb)
+         * [4.34.9.1 Burn](#burn)
+         * [4.34.9.2 EMP](#emp)
+         * [4.34.9.3 Explosive](#explosive-2)
+      * [4.34.10 Trap](#trap)
+         * [4.34.10.1 Shock](#shock)
+         * [4.34.10.2 Healing](#healing)
+         * [4.34.10.3 Shrapnel](#shrapnel)
+      * [4.34.11 Turret](#turret)
+         * [4.34.11.1 Artillery](#artillery)
+         * [4.34.11.2 Assault](#assault-5)
+         * [4.34.11.3 Incinerator](#incinerator)
+         * [4.34.11.4 Sniper](#sniper-6)
+   * [4.35 Spawn camping](#spawn-camping)
+   * [4.36 Status effects](#status-effects)
+   * [4.37 Summit](#summit)
+   * [4.38 Suppressing](#suppressing)
+   * [4.39 Talents](#talents)
+      * [4.39.1 Exotic](#exotic)
+      * [4.39.2 Gear set](#gear-set)
+      * [4.39.3 High-end](#high-end-1)
+      * [4.39.4 Weapon](#weapon)
+   * [4.40 Target prioritization](#target-prioritization)
+   * [4.41 Tips/tricks](#tipstricks)
+   * [4.42 True Sons](#true-sons)
+      * [4.42.1 Assault](#assault-6)
+      * [4.42.2 Engineer](#engineer-2)
+      * [4.42.3 Heavy Weapons](#heavy-weapons-2)
+      * [4.42.4 Immobilizer](#immobilizer)
+      * [4.42.5 Medic](#medic-2)
+      * [4.42.6 RPG](#rpg)
+      * [4.42.7 Rusher](#rusher-5)
+      * [4.42.8 Sniper](#sniper-7)
+      * [4.42.9 Tank](#tank-5)
+      * [4.42.10 Thrower](#thrower-5)
+   * [4.43 White Tusk](#white-tusk)
+      * [4.43.1 Drone Operator](#drone-operator-1)
+      * [4.43.2 Mini Tank](#mini-tank-1)
+      * [4.43.3 Rusher](#rusher-6)
+      * [4.43.4 Sniper](#sniper-8)
+      * [4.43.5 Tank](#tank-6)
+      * [4.43.6 Thrower](#thrower-6)
 * [5.0 Links](#links)
 * [6.0 Credits](#credits)
 * [7.0 Contact information](#contact-information)
@@ -608,6 +609,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - DTA: damage to armor
 - DTH: damage to health
 - DTOOC/OOCD: damage to targets out of cover
+- DZ: dark zone
 - EP: Eclipse Protocol gear set
 - EXP: experienced players (only)
 - FB: Foundry Bulwark gear set
@@ -629,6 +631,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - LF: looking for
 - LF2M: looking for 2 man
 - LFG: looking for group
+- LZ: light zone
 - max roll: max value for an attribute (orange background)
 - ND: Negotiator's Dilemma gear set
 - OD: Ongoing Directive gear set
@@ -858,6 +861,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - shooting him while he's throwing a grenade will cause him to drop it at his feet
 - elites have a grenade launcher that fires napalm projectiles similar to the engineer's turret
 
+### Countdown
+
+- each hunter drops a named item, you can therefore kill the ones spawning at the beginning to farm LZ named items
+- PFE builds shine as most of the mobs are elites
+- reinforcement waves coming from the chopper at the end are not limited, you can therefore afford both shooting the flare and extracting at the last moment to maximize the amount of loot dropped
+
 ### Cover
 - same points as in [PVE](#cover)
 - avoid using low covers unless you're sniping or don't have aggro
@@ -894,6 +903,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - affects the average veterancy of enemies
 - the number of players also affects all of the above (except XP)
 - hybrid builds become less effective at higher difficulties and player scaling
+
+### Expertise
+
+- crafting an armor or a weapon then donating it is about 80% cheaper than directly donating materials
+- donating a weapon/named/exotic counts for half of a proficiency level
+- donating an armor piece counts for 10% of a proficiency level
+- wearing several of the same item type (ex: 4 gear set items) multiplies how fast you get proficient with it
+- you can donate materials to increase your proficiency level, therefore allowing you to not let some of them go to waste (it's the only way for most players to level up items they don't have such as the Adrestia SR-1 or DZ exclusives)
 
 ### Group composition (basics)
 - definition: the different builds the group is made of
@@ -1130,11 +1147,16 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - 900k Reinforcer Chem Launcher heals are often overkill as most of the player base is sitting around 700k armor
 - reference: https://www.reddit.com/r/thedivision/comments/ko4ds5/please_try_a_healing_build/ghqvfx1
 
-### Playing rifler
+### Playing Negotiator's Dilemma
 - main attributes: weapon damage and CHC/CHD
-- effective against all types of mobs thanks to critical hits
-- pairs well with the Crusader/Firewall Shield, especially when using a scope
-- should go for weak points and headshots to maximize damage and/or knock enemies back
+- there are different ways you can set up ND, with/without the bag, with Dodge City/Ravenous for bosses and with skill tiers to make an AFK skill hybrid
+- Vigilance outperforms the ND bag when marking less than 3 targets and should be preferred in such instances
+- aim for mobs that are close to each other (especially around spawn closets) to minimize how much time it takes to mark them
+- try to tag weak mobs first then focus on a tankier target
+- try to expose yourself just from one target after tagging the others
+- when only marking warhounds, you can equalize their health by shooting the one with the lowest HP (providing its armor plating isn't broken)
+- make sure you have several marked targets at all times to fully take advantage of copy damage
+- you can purposefully target non-broken armor plates or enemy skills to "extend" copy damage (ex: a legendary 4-man tank has 30m HP per armor plate, 6 armors plates so that's up to 108M damage that can be transferred to other mobs)
 
 ### Playing offensive skill builds
 - main attributes: skill damage and skill haste
@@ -1158,6 +1180,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - very good damage output
 - good for clearing groups of enemies, spawn closets, flushing targets out of cover and against robotics
 - bad against moving targets and tanks
+
+### Playing rifler
+- main attributes: weapon damage and CHC/CHD
+- effective against all types of mobs thanks to critical hits
+- pairs well with the Crusader/Firewall Shield, especially when using a scope
+- should go for weak points and headshots to maximize damage and/or knock enemies back
 
 ### Playing shotgun
 - very effective at close range
@@ -1226,15 +1254,16 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - avoid reviving before making sure the nearby area is clear, you're not in the line of sight of enemies and you're not gonna get rushed
 - if your Reviver Hive is at Tier 5 or lower and has full charges, you can switch to the TDI Kard Custom before deploying it to get an additional charge that can be used without making it go on cooldown
 - it's a good idea to throw a flashbang/fire grenade before reviving if there are enemies nearby to prevent them from pushing, especially near choke points
-- it's sometimes better to go through the rest of the engagement without reviving someone if it would make you at risk
+- it's sometimes better to go through the rest of the engagement without reviving someone if it would make you at risk because they died in a bad spot
 - reviving someone behind a low cover while not taking cover still covers you (not in PVP)
 - support builds should be the ones reviving other players (they're still able to support the team in the meantime), a DPS can't shoot while reviving
 - when reviving a downed teammate, you can use them as bullet shield (since they become immune to damage)
-- you can revive teammates without being next to them by moving over their body while pressing the revive key when close to it (TODO: test if it's affected by downed/dead state and walking/running)
+- you can revive teammates without being next to them by moving across their body while pressing the revive key when close to it (TODO: test if it's affected by downed/dead state and walking/running)
 - you should always provide cover to the one reviving by either killing, CC'ing, aggroing or suppressing mobs
 - downed players should strive to get near cover without blocking it for alive players and avoid crawling in the open otherwise they'll be harder to revive
-- after self-reviving, you're immune to damage for a few seconds as long as you don't perform any action other than walking
+- after self-reviving, you're immune to damage for a few seconds (except in PVP) as long as you don't perform any action other than walking
 - while getting revived, the player who is downed is invulnerable (except in PVP)
+- any explosion will interrupt the revive, therefore you shouldn't stand or deploy a skill too close to the player reviving
 
 ### Rikers
 \- reference: https://thedivision.fandom.com/wiki/Rikers#Tom_Clancy.27s_The_Division_2
@@ -1421,7 +1450,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - using a weapon with a scope will shift the camera to the right, allowing you to shoot from vertical cover when peeking from the left
 
 ##### Deflector
-- mobs will target the shield for the most part except elites (unless they're very close)
+- mobs will target the shield for the most part except elites, unless they're very close (TODO: verify the behavior of elites)
 - deflected damage scales with skill damage
 
 #### Sticky Bomb
@@ -1499,6 +1528,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - only possible with some form of CC (Eclipse, Hunter's Fury, fire grenades)
 - deadly when combined with the Striker shield, a shotgun with Pummel or Negotiator's Dilemma
 - try to make your way to spawn closets before the current enemy wave is cleared
+- you can't directly put mobs that are still inside a spawn closet under status effects or damage them with explosives
 
 ### Status effects
 - a player cannot put a teammate under status effects, therefore, environmental hazards next to a teammate should be triggered before the AI does
@@ -1547,7 +1577,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Talents
 
-#### Exotics
+#### Exotic
 
 - Binary Trigger (Merciless): affected by weapon damage, OOCD and DTA but not by explosive damage
 - Breathe Free (Lady Death): also procs when swapping to it before a warhound explodes
@@ -1564,12 +1594,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Tenacity (Eagle Bearer): in PVP, provides an important reload speed bonus
 - Toxic Delivery (Vile): ticks are also affected by Perpetuation, OOCD, DTA and DTH
 
-#### Gear sets
+#### Gear set
 
 - Ground Control (Future Initiative): procs when someone is at full armor, not when the FI user is at full armor
+- Heartstopper (Heartbreaker): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster. damage stacks are multiplicative with each other
 - Hostile Negotiations (Negotiator's Dilemma): crits caused by a signature weapon aren't affected by damage reduction when shooting a non-named enemy while a named enemy is marked
 - Makeshift Repairs (Foundry Bulwark): explosive damage doesn't proc it
-- Striker's Gamble (Striker): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster
+- Striker's Gamble (Striker): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster. stacks are multiplicative with each other
 
 #### High-end
 
@@ -1590,7 +1621,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Vanguard: also gives bonus armor to yourself in raids
 - Vigilance: stays procced when your base armor remains untouched (like when using a shield or having bonus armor)
 
-#### Weapons
+#### Weapon
 
 - Finisher: procs when destroying enemy skills
 - Future Perfect: being at skill tier 3 is enough to overcharge
@@ -1642,7 +1673,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the Survivalist medkit acts as a sphere so you can heal people above/below you
 - the weak points on dead mobs can be destroyed
 - when using a medkit with the No Regen/Hard To Earn/Fragile Armor directives, use Perfectly Efficient to save medkits
-- when you're down to 1 HP from full health, there is a one shot protection granting you about 1-2s of invulnerability to allow you to take cover before going down (not in PVP), it's disabled until you're back to full health, which takes up to 30s without taking damage
+- when you're down to 1 HP from full health, there is a one shot protection granting you about 1-2s of invulnerability (not in PVP) to allow you to take cover before going down, it's disabled until you're back to full health, which takes up to 30s without taking damage
 - you can bounce grenade launcher rounds off walls and ceilings
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
@@ -1653,7 +1684,6 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can roll off of surfaces shorter than your character (ex: dumpsters, cars, boxes)
 - you can see additional outlines when using radius-based skills by enabling color blind mode (Settings > Accessibility > Color Blind Mode), making it easier to use such skills
 - you can skip real-time cutscenes by dodge rolling or aiming
-- you can use non-broken armor plates or enemy skills to "extend" Negotiator's Dilemma copy damage
 - you can use drones to farm Memento trophies
 
 ### True Sons
