@@ -594,7 +594,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ## The Division 2
 
 ### Abbreviations
-- 6B/6R/6Y: number of blue/red/yellow armor cores on a build
+- 2B/2R/2Y: number of blue/red/yellow armor cores on a build
+- 2-piece: number of pieces of a specified brand/gear set
 - A&8: Aces and Eights gear set
 - AD: amplified damage
 - AOK: armor on kill
@@ -605,10 +606,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - CHD: critical hit damage
 - CP4: level 4 control point
 - DH: Dark Hours raid
+- DoT: damage over time
 - DPS: damage per second
 - DTA: damage to armor
 - DTH: damage to health
-- DTOOC/OOCD: damage to targets out of cover
+- DTTOOC/OOCD: damage to targets out of cover
 - DZ: dark zone
 - EP: Eclipse Protocol gear set
 - EXP: experienced players (only)
@@ -618,6 +620,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - green: gear set item
 - GS: gear score
 - GV1: group voice 1 (Discord)
+- HB: Heartbreaker gear set
 - HF: Hunter's Fury gear set
 - high-end: yellow item
 - HOK: health on kill
@@ -629,25 +632,27 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - IH: Iron Horse raid
 - Leg: legendary
 - LF: looking for
-- LF2M: looking for 2 man
+- LF2M: looking for 2 more
 - LFG: looking for group
 - LZ: light zone
 - max roll: max value for an attribute (orange background)
+- min-max: make a build completely godrolled
+- mule: another character used to store extra items
 - ND: Negotiator's Dilemma gear set
 - OD: Ongoing Directive gear set
+- optimize: gradually increase the value of an attribute
 - PFE: protection from elites
 - proc: activate a talent (Programmed Random Occurrence)
-- optimize: gradually increase the value of an attribute
 - rainbow: item with one attribute of each color
 - recalibrate: overwrite an attribute with another one from your library
 - reconfigure: reroll the attributes of an exotic with random values
 - ROF: rate of fire
 - RV1: raid voice 1 (Discord)
+- SC/SysCor: System Corruption gear set
 - SD: skill damage
 - SE: status effects
 - SH: skill haste
 - ST: skill tier
-- SC/SysCor: System Corruption gear set
 - TOTS: Tip of the Spear gear set
 - TP: True Patriot gear set
 - TTK: time to kill
@@ -655,6 +660,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - TWD: total weapon damage
 - WD: weapon damage
 - WH: weapon handling
+- wipe: when the entire group dies
 
 ### AI animations
 - dodge roll: done to avoid explosions (grenades, Artillery Turret, Seeker Mines) or after getting shot, shoot the mob in the body while they're dodging or wait until they recover from the animation to get an easy headshot
@@ -750,7 +756,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - resistant to explosives
 - breaking his ammo belt forces him to reload
 - destroying the support station stops his health regeneration
-- destroying any weak point or hitting him with any explosion (including with a Stinger Hive) will cause the ammo belt to reappear
+- destroying any of his weak points, hitting his body with a lot of damage or hitting him with any explosion (including with a Stinger Hive) will cause the ammo belt to reappear
 - foaming him during the reload animation (up until he stands up after reloading) forces him to redo the entire reload animation
 - using the Demolisher Firefly will break the ammo belt, then the support station, then armor plates, depending on which one was previously broken (TODO: verify the bit about armor plates)
 - the Survivalist crossbow completely breaks one of his armor plates
@@ -862,7 +868,6 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - elites have a grenade launcher that fires napalm projectiles similar to the engineer's turret
 
 ### Countdown
-
 - each hunter drops a named item, you can therefore kill the ones spawning at the beginning to farm LZ named items
 - PFE builds shine as most of the mobs are elites
 - reinforcement waves coming from the chopper at the end are not limited, you can therefore afford both shooting the flare and extracting at the last moment to maximize the amount of loot dropped
@@ -872,7 +877,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - avoid using low covers unless you're sniping or don't have aggro
 - vertical cover minimizes incoming explosions
 - shooting from vertical cover at a 30-75° angle allows you to shoot mobs without them shooting back
-- aiming 180° backward from a low cover doesn't make your char stand up and you can't be hit by mobs in PVE (in PVP your head sticks out)
+- aiming 180° backward from a low cover doesn't make your character stand up and you can't be hit by mobs in PVE (in PVP, your head sticks out and can be shot)
+- aiming 45° backward from a low cover then aiming to the sides of the same cover doesn't make your character stand up either
 - covers cannot be shared between teammates so you should let DPS players have them whenever possible
 - you can dodge roll to cover to get behind or around a piece of cover faster
 
@@ -881,15 +887,15 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - faster than running
 - allows you to look around without changing the direction of your movement
 - allows you to reload without reducing speed
-- try to end up with a dodge roll to cover if the destination will leave you exposed as the enemy's accuracy will be instantly back to normal as soon as the cover to cover move stops
-- when running past an enemy, acts as a soft form of CC (they'll often try to melee you)
+- try to end up with a dodge roll to cover if the destination will leave you exposed as the enemy's accuracy will be instantly back to normal as soon as the cover to cover ends
+- when running past a human enemy, it often acts as a soft form of CC (they'll often try to melee you)
 - doesn't prevent explosions from staggering and hurting you
 - explosions and some status effects (ensnare, shock) will cancel the cover to cover move, sometimes leaving you extremely vulnerable (especially when there's no cover nearby) (TODO: test when being caught on fire)
 - you can't use skills while performing a cover to cover move, but you can target with already deployed skills, keep charging the Jammer/Banshee Pulse and change the direction of the Banshee Pulse
 - when getting shot from an unknown direction, it may be beneficial to perform a cover to cover move in a random direction instead of trying to locate the enemy, that will give you time to locate that enemy and may break line of sight with them
 
 ### Dancing
-- definition: moving across/around an NPC to force them to melee/chase you
+- definition: moving across/around a human NPC to force them to melee/chase you
 - [baits](#baiting) for your teammates to get the kill (however, weak point explosions can kill you)
 - buys you time to relocate or get the kill before the NPC recovers from their animation
 - best used when it's the last mob of a wave or an isolated mob
@@ -905,19 +911,23 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - hybrid builds become less effective at higher difficulties and player scaling
 
 ### Expertise
-
-- crafting an armor or a weapon then donating it is about 80% cheaper than directly donating materials
-- donating a weapon/named/exotic counts for half of a proficiency level
-- donating an armor piece counts for 10% of a proficiency level
+- proficiency XP is gained from killing enemies (either yourself or thanks to teammates) and scales based on veterancy
+- holstered weapons gain a passive amount equal to half of the full proficiency XP
 - wearing several of the same item type (ex: 4 gear set items) multiplies how fast you get proficient with it
-- you can donate materials to increase your proficiency level, therefore allowing you to not let some of them go to waste (it's the only way for most players to level up items they don't have such as the Adrestia SR-1 or DZ exclusives)
+- donating a weapon or a named/exotic item counts for half of a proficiency level
+- donating an armor piece counts for 10% of a proficiency level
+- donating materials also increases your proficiency level, therefore allowing you to not let some of them go to waste (it's the only way for most players to level up items they don't have such as named items or exotics)
+- crafting an armor or a weapon then donating it is about 80% cheaper than directly donating materials
+- experience gained towards proficiency levels is the same regardless of the difficulty
+- skill kills give your current weapon the full amount of proficiency XP (including specialization weapons)
+- Countdown is the best place for it
 
 ### Group composition (basics)
 - definition: the different builds the group is made of
 - you want the right balance of offense, defense and utility
 - you should focus on offense first, then defense/utility
 - too much offense and you'll have trouble staying alive, too much defense and it'll take a long time killing mobs, too much utility and you'll have issues doing both
-- when joining a random group, inspect the builds the other players are using and decide what would contribute the most (ex: if you see they all have damage builds, switch to CC)
+- when joining a random group, inspect the builds the other players are using, decide what would contribute the most (ex: if you see they all have damage builds, switch to CC) and adapt your playstyle accordingly (ex: if there's a sniper, don't kill all the reds)
 - you want to create synergy between builds, some builds/skills don't work well together (ex: fire/blind with snipers)
 - some examples of good synergy are 3 DPS + 1 healer/CC, 3 AFK skill builds and 1 skill support build
 
@@ -942,7 +952,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Hunters
 - can hack any deployed skill (except traps) based on line of sight
 - can heal up to 3 times
-- can melee you when you're performing a cover to cover move or running past them because they seem to have a 2m melee range (you have to dodge roll to avoid being hit)
+- can melee you when you're performing a cover to cover move or running past them because they have a greater melee range that extends up to 2 meters (you have to dodge roll to avoid being hit)
 - can still use their abilities while disrupted
 - not considered as named enemies, therefore signature weapons aren't affected by damage reduction
 - stand up when deploying most of their skills, giving you time to land a few shots
@@ -978,10 +988,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Rusher
 - sprints towards targets and attempts to melee them with a baton
 - has a destructible riot helmet that prevents headshots
-- her spice bag is on her left hip and grants extra speed and damage to melee attacks only once (TODO: check if it grants overheal too)
-- destroying her spice supply confuses her and everyone nearby, preventing her from using the drug
+- the spice bag on her left hip grants extra speed and damage to melee attacks only once (TODO: check if it grants overheal too)
+- destroying her spice supply confuses her and everyone nearby, preventing her from using it
 - elites are equipped with shock batons
-- has the lowest amount of HP of all archetypes, so body shots usually take them down fast
+- has the lowest amount of HP of all archetypes, body shots usually take them down fast
 
 #### Shield
 - takes cover behind a massive riot shield while facing down his enemies with a sidearm
@@ -1212,7 +1222,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can use another shotgun, a White Death and/or a Regulus as backup weapons
 - the goal is to stay around spawn closets and keep Headhunter as long as possible for warhounds, bosses and tanks
 - you must make smart use of cover or cover to cover to get close to mobs and spawn closets
-- wait until a mob stops moving or tries to melee you before shooting (deploy your shield to absorb the melee)
+- wait until a mob stops moving or tries to melee you before shooting (deploy your shield to absorb the melee if necessary)
 - if you're within 3m, aim for the head, otherwise aim slightly above the head because if you don't, a pellet may hit the body and you're likely to lose Headhunter
 - if a mob is on the move, place your crosshair on their trajectory, at head level, and shoot when they come across it
 - if you're near a spawn closet as new mobs spawn, try to time your kills so that the Confuse effect from Hunter's Fury is reapplied (unless the other mobs are still inside the spawn closet)
@@ -1227,6 +1237,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can do a quick peek then hide to [bait](#baiting) an enemy in cover into peeking
 - you can stand in the open to force a target behind cover to peek you (preferably exposing yourself only from that target), just release the trigger at head level when they peek
 - peek, take the shot and immediately take cover to minimize incoming damage (by strafing or pop shooting)
+- when peeking from soft cover, aim from behind cover until your crosshair gets accurate, then do stutter steps to keep it steady
+- the bloom when aiming depends on whether you're using hard cover (faster) or not, your previous movement speed (if you just stopped running, it's gonna take up to 2s) and whether you just reloaded (longer)
 - when a mob is using a minigun, aim at the top of their head or it'll hit the minigun
 - can destroy dogs in one shot with the Headhunter buff by shooting their legs
 - avoid using a scope, it allows you to see your surroundings when aiming and you often don't need the extra damage or magnification from using one (unless you're fighting targets beyond 50m)
@@ -1565,7 +1577,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - when grouped, try to complete multiple objectives at the same time to shorten the room completion time
 - when no mobs are in a room, don't go too far from the door as it's a drone ambush
 - when stuck between a door and a wall, fast travel to another player
-- you can build Scorpio stacks on a rotating jammer before it's captured
+- you can build Scorpio and Pestilence stacks on a rotating jammer before it's captured
 - you can open locked doors by shooting the lock with a Chem Launcher or a silenced weapon, it allows you to not alert enemies (providing you're far enough from enemies when using a silencer)
 - you can see enemies through walls when looking through blinking servers
 
@@ -1588,7 +1600,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Payment In Kind (Backfire): once at max stacks and 1 HP, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
 - Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD and DTA. in PVP, the player who applied the debuff must die for the ticks to stop
 - Quick Draw (Dodge City Gunslinger's Holster): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
-- Regicide (Regulus): also affected by explosive damage and how many Dodge City stacks you have
+- Regicide (Regulus): also affected by explosive damage and how many Dodge City stacks you have (TODO: verify the bit about explosive damage)
 - Sandman (Sweet Dreams): doesn't work on robotics. meleeing with a non-deployable skill can still proc Sandman
 - Septic Shock (Scorpio): venom stacks are added to each other when applied by different players
 - Tenacity (Eagle Bearer): in PVP, provides an important reload speed bonus
