@@ -5,7 +5,6 @@
 
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if mobs limp when bleeding  
-\- check if red/purple Cleaner snipers have an RC car and if it can jump (https://www.reddit.com/r/thedivision/comments/oxw1ha/do_rc_cars_normally_do_this)  
 \- check if rushers from all factions have less HP than snipers  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test how high the surfaces you can roll off of can be  
@@ -698,7 +697,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Drone Operator
 - deploys suicide drones above her that target players and skills
-- destroying their backpack causes an explosion that hurts her and prevents her from deploying drones
+- destroying her backpack causes an explosion that hurts her and prevents her drones from being deployed
 - destroying the drones (preferably with an AR) causes an explosion that can kill her if she's too close
 - staying close or deploying a decoy next to her after she's deployed her drones will make them blow up in her face, potentially killing her
 - unable to deploy drones when disrupted
@@ -736,14 +735,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - takes cover at long range while attempting to eliminate targets and sets up decoy lenses that can be confused for her real position
 - retreats if a player gets too close to her
 - deploys a taser drone that seeks out hostiles and stuns them, granting her a clear shot
-- destroying her lens pouch prevents her from deploying the countermeasures
+- destroying her lens pouch prevents her countermeasures from being deployed
 - destroying the drone on her back prevents it from being deployed
 - needs to acquire a target for a few seconds before shooting
 - doesn't have as much HP as the other archetypes
 
 #### Support
 - places a support station down healing nearby allies
-- destroying the station on his back prevents him from deploying it
+- destroying the station on his back prevents it from being deployed
 - elite support stations grant overheal to nearby allies
 - support stations can be disrupted, temporarily stopping their healing ability
 - if undestroyed at the end of combat, support stations grant an armor kit
@@ -756,7 +755,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - resistant to explosives
 - breaking his ammo belt forces him to reload
 - destroying the support station stops his health regeneration
-- destroying any of his weak points, hitting his body with a lot of damage or hitting him with any explosion (including with a Stinger Hive) will cause the ammo belt to reappear
+- destroying any of his weak points, hitting his body with a lot of damage or hitting him with any explosion (including with a Stinger Hive) will cause the ammo belt to reappear (TODO: test if there's a damage threshold with explosions)
 - foaming him during the reload animation (up until he stands up after reloading) forces him to redo the entire reload animation
 - using the Demolisher Firefly will break the ammo belt, then the support station, then armor plates, depending on which one was previously broken (TODO: verify the bit about armor plates)
 - the Survivalist crossbow completely breaks one of his armor plates
@@ -787,7 +786,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Hostile Negotiations from the Negotiator's Dilemma gear set bypasses their armor plating
 - Pestilence ticks bypass their armor plating
 - using a Demolisher Firefly while they're disrupted bypasses their armor plating and can destroy them in one shot on offensive skill builds
-- the flamethrower's stream bypasses their armor plating, it's not really efficient on higher difficulties though as it requires burning a lot of fuel to kill a single one
+- the flamethrower's stream bypasses their armor plating, it's not really effective on higher difficulties though as it requires burning a lot of fuel to kill a single one
 - the Firestarter shotgun (from the Firewall specialization) allows you to put them on fire by lowering their fire resistance
 - 3 variants with different weak points, causing them to stop working for a few seconds when destroyed:
 
@@ -830,7 +829,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Controller
 - deploys drones dropping vapor bombs over the target, causing it to burn
 - has a weak point on his left thigh, where his cluster bombs are stored
-- shooting the drone on his back will prevent him from deploying it
+- shooting the drone on his back prevents it from being deployed
 - shooting the bomb pouch of the drone will cause it to drop its load, setting fire to anyone caught in the blast
 - after dropping its load, the drone goes back to the controller, making him stand up a bit to load it with bombs again
 
@@ -850,7 +849,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Sniper
 - can deploy an incendiary RC car at long range to knock targets out of cover
-- shooting the RC car on his back will prevent him from deploying it
+- shooting the RC car on his back prevents it from being deployed
 - doesn't have as much HP as the other archetypes
 
 #### Tank
@@ -917,9 +916,10 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - donating a weapon or a named/exotic item counts for half of a proficiency level
 - donating an armor piece counts for 10% of a proficiency level
 - donating materials also increases your proficiency level, therefore allowing you to not let some of them go to waste (it's the only way for most players to level up items they don't have such as named items or exotics)
-- crafting an armor or a weapon then donating it is about 80% cheaper than directly donating materials
 - experience gained towards proficiency levels is the same regardless of the difficulty
 - skill kills give your current weapon the full amount of proficiency XP (including specialization weapons)
+- crafting an armor or a weapon then donating it is about 80% cheaper than directly donating materials
+- donating printer filaments is the least costly in terms of SHD points
 - Countdown is the best place for it
 
 ### Group composition (basics)
@@ -975,7 +975,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Engineer
 - sets up sniper turrets and attempts to repair them when they're damaged (TODO: check if he can deploy more than one turret)
-- destroying his backpack will prevent him from deploying his turret
+- destroying his backpack prevents his turret from being deployed 
 - damage a deployed turret to expose the engineer
 - elite turrets shock their targets
 
@@ -1123,7 +1123,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - 2 types of CC builds:
 
 #### Eclipse
-- good for Heroic content and CP4s, only efficient in legendaries if your group focuses status affected targets and has enough damage to kill them quickly
+- good for Heroic content and CP4s, only effective in legendaries if your group focuses status affected targets and has enough damage to kill them quickly
 - can be used as an offensive skill build on Challenging or lower difficulty content, in that case, prefer the Eclipse backpack and Capacitor
 - spreads status effects on kill, therefore, the Eclipse chest is a must
 - also spreads status effects from Scorpio (TODO: test if TP debuffs are also spread)
@@ -1288,7 +1288,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Heavy Weapons
 - equipped with a SPAS-12 shotgun loaded with slug rounds and a stationary HMG that can be set up and used by other Rikers even if the Heavy Weapons dies
 - has a riot helmet protecting him from headshots, but it can be destroyed with about half a clip of assault rifle ammo
-- his HMG can be destroyed on his back, preventing him from deploying it
+- the HMG on his back can be destroyed, preventing it from being deployed
 - if the player gets too close, or all Rikers in the area die, the HMG detonates
 - elites have an HMG that fires explosive rounds at a slower pace but doesn't inflict bleed damage
 
@@ -1398,9 +1398,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - heals nearby deployed shields while holstered (TODO: verify this information)
 
 ##### Stinger
-- defensive tool meant for area denial
-- should be deployed close to you or at choke points to prevent mobs from pushing
-- efficient against drones due to their low HP (TODO: verify if mostly for explosive drones and/or lower difficulties)
+- defensive tool meant for area denial and flushing mobs out of cover
+- should be deployed close to you or at strategic locations to prevent mobs from pushing
+- effective against suicide drones due to their low HP
 - counts as explosive damage
 - initial damage and ticks affected by DTA
 
@@ -1449,6 +1449,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - deploying it is a good way to proc In Sync and Feedback Loop from the Hardwired gear set
 - protects your armor from explosions if aimed towards the impact
 - double tapping Escape or the Inventory button allows you to instantly unequip and reequip a shield to proc Vanguard instead of waiting for the 1s cooldown
+- incoming damage from elites can be reduced by using Protection from elites
 - gaining extra skill tiers after deploying it only increases its max health (if not at tier 6)
 
 ##### Bulwark
@@ -1491,7 +1492,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ##### Shock
 - deploys in a roughly circular area
 - good to hold choke points
-- very efficient against drones
+- very effective against drones
 - you can shock yourself if nearby when an enemy triggers it
 
 ##### Healing
@@ -1571,7 +1572,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - immune reviver drones, turrets and warhounds can be disrupted
 - killing marked targets with Negotiator's Dilemma counts as skill kills (useful for the Cool Skills Challenge)
 - try to complete the hardest objective first (ex: destroying a server in the back of a room) as you'll be likely to struggle to complete it later on
-- try to leave 1 or 2 mobs alive so you can complete objectives early (reinforcements don't spawn until clearing most mobs in a wave)
+- try to leave 1 or 2 mobs alive so you can complete objectives early (reinforcements don't spawn until clearing most mobs in a wave) or revive downed teammates
 - wait for your teammates before entering a room to allow them to get ready and prevent objectives from triggering early
 - when capturing objectives, don't peek unless you absolutely have to, completing objectives is often more important than clearing mobs
 - when grouped, try to complete multiple objectives at the same time to shorten the room completion time
@@ -1609,7 +1610,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Gear set
 
 - Ground Control (Future Initiative): procs when someone is at full armor, not when the FI user is at full armor
-- Heartstopper (Heartbreaker): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster. damage stacks are multiplicative with each other
+- Heartstopper (Heartbreaker): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster
 - Hostile Negotiations (Negotiator's Dilemma): crits caused by a signature weapon aren't affected by damage reduction when shooting a non-named enemy while a named enemy is marked
 - Makeshift Repairs (Foundry Bulwark): explosive damage doesn't proc it
 - Striker's Gamble (Striker): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster. stacks are multiplicative with each other
@@ -1622,7 +1623,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Eyeless: affects the damage of non-ballistic skills
 - Focus: stays procced when reloading or unscoping for less than a second, which allows you to keep moving. doesn't proc with the Big Horn and Capacitor (these have x4 scopes), or the TAC-50 (it has a variable scope)
 - Glass Cannon: also affects how much damage your shield is taking (TODO: check with other skills)
-- Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage and DTA. calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of any other weapon. isn't affected by damage drop-off. stacks are kept after dying
+- Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage, DTA and the Striker shield. calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of any other weapon. isn't affected by damage drop-off. stacks are kept after dying
 - Ignited: affects the damage of non-ballistic skills
 - Intimidate: procced by the bonus armor provided by the "My Home Is My Castle" perk from the Sharpshooter specialization
 - Kinetic Momentum: half of the stacks are lost upon using a Chem Launcher at full charges and it won't start rebuilding these stacks until it's back at full charges
