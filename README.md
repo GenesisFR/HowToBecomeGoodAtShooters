@@ -7,7 +7,6 @@
 \- check if mobs limp when bleeding  
 \- check if rushers from all factions have less HP than snipers  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
-\- test how high the surfaces you can roll off of can be  
 \- test if dodge rolling right before being hit by an explosion skips the staggering animation  
 \- test if Ravenous explosions are affected by OOCD  
 \- test if shooting Warhounds weak points with the TAC-50 can instakill them (from u/XPS1647)  
@@ -107,7 +106,7 @@
       * [4.6.6 Tank](#tank-1)
       * [4.6.7 Thrower](#thrower-1)
    * [4.7 Countdown](#countdown)
-   * [4.8 Cover](#cover)
+   * [4.8 Cover](#cover-1)
    * [4.9 Cover to cover](#cover-to-cover)
    * [4.10 Dancing](#dancing)
    * [4.11 Difficulty](#difficulty-1)
@@ -597,6 +596,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - 2-piece: number of pieces of a specified brand/gear set
 - A&8: Aces and Eights gear set
 - AD: amplified damage
+- alt/toon: another character
 - AOK: armor on kill
 - AWD: all weapon damage
 - CC: crowd control
@@ -636,6 +636,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - LZ: light zone
 - max roll: max value for an attribute (orange background)
 - min-max: make a build completely godrolled
+- mm: matchmake
 - mule: another character used to store extra items
 - ND: Negotiator's Dilemma gear set
 - OD: Ongoing Directive gear set
@@ -662,7 +663,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - wipe: when the entire group dies
 
 ### AI animations
-- dodge roll: done to avoid explosions (grenades, Artillery Turret, Seeker Mines) or after getting shot, shoot the mob in the body while they're dodging or wait until they recover from the animation to get an easy headshot
+- dodge roll: done to avoid explosions (grenades, Artillery Turret, Seeker Mines) or after getting shot, giving you time to either shoot mobs in the body while they're dodging, relocate or you can just wait until they recover from the animation to get an easy headshot
 - knockback: after inflicting a certain amount of damage, gives you time to line up your next shot or get the kill
 - quick peek: done from cover on Heroic difficulty or lower by tank operators and medics, wait for it to get headshots with a (sniper) rifle
 - strafe: used after spotting a player, take your time to adjust your crosshair when sniping/rifling
@@ -868,18 +869,22 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Countdown
 - each hunter drops a named item, you can therefore kill the ones spawning at the beginning to farm LZ named items
+- hitting the countermeasures early (and killing the hunters) will make the whole run easier and faster
+- upon completing the main objective, the timer always resets to 4 minutes
+- reinforcement waves coming from the chopper at the end are unlimited, you can therefore afford both shooting the flare and extracting at the last moment to maximize the amount of loot dropped
 - PFE builds shine as most of the mobs are elites
-- reinforcement waves coming from the chopper at the end are not limited, you can therefore afford both shooting the flare and extracting at the last moment to maximize the amount of loot dropped
 
 ### Cover
 - same points as in [PVE](#cover)
 - avoid using low covers unless you're sniping or don't have aggro
-- vertical cover minimizes incoming explosions
+- vertical cover helps minimizing incoming explosions
 - shooting from vertical cover at a 30-75° angle allows you to shoot mobs without them shooting back
-- aiming 180° backward from a low cover doesn't make your character stand up and you can't be hit by mobs in PVE (in PVP, your head sticks out and can be shot)
-- aiming 45° backward from a low cover then aiming to the sides of the same cover doesn't make your character stand up either
+- aiming at more than 45° backward from a low cover doesn't make your character stand up and you can't be hit by mobs in front of that cover (in PVP, your head sticks out and can be shot at)
+- aiming at more than 45° backward from a low cover then aiming to the sides of the same cover doesn't make your character stand up either
 - covers cannot be shared between teammates so you should let DPS players have them whenever possible
+- you should avoid using the same cover than someone else to not bother them and prevent collateral damage (ex: grenadier hitting both of you)
 - you can dodge roll to cover to get behind or around a piece of cover faster
+- moving after shooting from low cover makes your character hide in cover faster
 
 ### Cover to cover
 - reduces the enemy's accuracy on you, thus drastically reducing incoming damage
@@ -889,7 +894,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - try to end up with a dodge roll to cover if the destination will leave you exposed as the enemy's accuracy will be instantly back to normal as soon as the cover to cover ends
 - when running past a human enemy, it often acts as a soft form of CC (they'll often try to melee you)
 - doesn't prevent explosions from staggering and hurting you
-- explosions and some status effects (ensnare, shock) will cancel the cover to cover move, sometimes leaving you extremely vulnerable (especially when there's no cover nearby) (TODO: test when being caught on fire)
+- explosions and some status effects (ensnare, shock) will cancel the cover to cover move, sometimes leaving you extremely vulnerable (especially when there's no cover nearby) (TODO: test when catching fire)
 - you can't use skills while performing a cover to cover move, but you can target with already deployed skills, keep charging the Jammer/Banshee Pulse and change the direction of the Banshee Pulse
 - when getting shot from an unknown direction, it may be beneficial to perform a cover to cover move in a random direction instead of trying to locate the enemy, that will give you time to locate that enemy and may break line of sight with them
 
@@ -919,7 +924,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - experience gained towards proficiency levels is the same regardless of the difficulty
 - skill kills give your current weapon the full amount of proficiency XP (including specialization weapons)
 - crafting an armor or a weapon then donating it is about 80% cheaper than directly donating materials
-- donating printer filaments is the least costly in terms of SHD points
+- buying mods, deconstructing them for printer filaments then donating them is the least costly in terms of SHD points
 - Countdown is the best place for it
 
 ### Group composition (basics)
@@ -1119,6 +1124,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - CC'ed enemies must be within line of sight of your teammates to be efficient
 - the status selection is going to vary based on content and group composition
 - try to get as close as possible to spawn closets to maximize effectiveness because the more the AI spreads out, the less effective a CC becomes as you'll be putting fewer mobs under status effects at the same time
+- when NPCs are sitting being cover, it's better to aim for the side of the cover to foam or stagger them with a sticky bomb
 - there's often no need to expose yourself to enemies to apply a status effect
 - 2 types of CC builds:
 
@@ -1189,6 +1195,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Demolitionist is a must for the multiplicative explosive damage and the Artillery Turret
 - very good damage output
 - good for clearing groups of enemies, spawn closets, flushing targets out of cover and against robotics
+- when NPCs are sitting being cover, it's better to aim for the side of the cover in order to hit them
 - bad against moving targets and tanks
 
 ### Playing rifler
@@ -1419,7 +1426,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ##### Jammer
 - the longer you hold the corresponding skill key, the wider the disrupt radius will be
 - acts as a sphere so you can disrupt mobs above/below you
-- effective to proc Toxic Delivery from the Vile mask
+- effective to proc Tag Team or Toxic Delivery from the Vile mask
 - its damage on robotics is only increased by skill damage
 
 ##### Scanner
@@ -1446,11 +1453,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - automatically targets nearby friendlies that require healing
 
 #### Shield
-- deploying it is a good way to proc In Sync and Feedback Loop from the Hardwired gear set
-- protects your armor from explosions if aimed towards the impact
-- double tapping Escape or the Inventory button allows you to instantly unequip and reequip a shield to proc Vanguard instead of waiting for the 1s cooldown
+- deploying it is a good way to proc Feedback Loop from the Hardwired gear set
+- protects your armor from explosions if it's turned towards the point of impact
+- double tapping Escape or the Inventory button allows you to instantly unequip and reequip it to proc Vanguard instead of waiting for the 1s cooldown
 - incoming damage from elites can be reduced by using Protection from elites
-- gaining extra skill tiers after deploying it only increases its max health (if not at tier 6)
+- gaining extra skill tiers after deploying it only increases its max health (if not at tier 6), not its current health
 
 ##### Bulwark
 - all enemies will target the shield
@@ -1467,11 +1474,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - deflected damage scales with skill damage
 
 #### Sticky Bomb
-- applies the status effect on impact
+- applies the corresponding status effect on impact
 - double tapping the button will quickly shoot it with perfect accuracy (can be done from cover)
 - explodes on impact when hitting drones
-- not detonating a Burn/EMP sticky on a target will automatically reapply the corresponding status effect upon expiration provided that the status effect expires before the sticky duration (subsequent statuses will be about 33% shorter than the previous status, based on the initial status duration)
-- when you're standing or on the move, aiming with your weapon before double tapping it will make it easier to line up your shot
+- not detonating a Burn/EMP sticky on a target will automatically reapply the corresponding status effect upon expiration, provided that the status effect expires before the sticky duration (subsequent statuses will be about 33% shorter than the previous status, based on the initial status duration)
+- not detonating it on a human target will make them dodge roll or shake to get it off them, giving you time to shoot them or relocate
+- detonating it on or near a target will stagger them, interrupting what they were doing and giving you time to shoot them or relocate
+- aiming with your weapon before double tapping it will make it easier to line up your shot, helpful when you're standing or on the move and want to be accurate
+- if your crosshair is on a target, it will go through any obstacle that is directly in front of you (that would have blocked a bullet otherwise)
 - you can proc In Sync by shooting it at a distance further than 100m (like the sky)
 
 ##### Burn
@@ -1565,12 +1575,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - completing objectives early limits the number of additional enemy waves
 - Contagion from the Eclipse Protocol gear set can destroy at least 2 waves of drones if one spawns shortly after the previous one
 - equip the Jammer Pulse for drone rooms
-- every time an enemy dies, expect a spawn to not be caught off guard
+- every time an enemy dies, expect a new wave of enemies to spawn so you're not caught off guard
 - foaming a boss/hunter/rogue stops them from using a medkit
 - going down or dying on an objective keeps capturing it
 - immune reviver drones and warhounds can be destroyed by Hostile Negotiations from the Negotiator's Dilemma gear set even though no icons will be displayed above them (TODO: verify if warhounds can be destroyed)
 - immune reviver drones, turrets and warhounds can be disrupted
 - killing marked targets with Negotiator's Dilemma counts as skill kills (useful for the Cool Skills Challenge)
+- tactical challenges are group-wide, therefore you don't have to be the one completing them to get the reward (they still need to be selected though)
 - try to complete the hardest objective first (ex: destroying a server in the back of a room) as you'll be likely to struggle to complete it later on
 - try to leave 1 or 2 mobs alive so you can complete objectives early (reinforcements don't spawn until clearing most mobs in a wave) or revive downed teammates
 - wait for your teammates before entering a room to allow them to get ready and prevent objectives from triggering early
@@ -1596,16 +1607,17 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Breathe Free (Lady Death): also procs when swapping to it before a warhound explodes
 - Electromagnetic Accelerator (Nemesis): shots are also fired when swapping weapons
 - In Plain Sight (Mantis): the headshot damage boost is always active in PVP
-- Incessant Chatter (Chatterbox): stays procced after dying (as long as you don't switch weapons)
+- Incessant Chatter (Chatterbox): stays procced after dying (as long as you don't switch weapons). also increases the rate of fire of the Chem Launcher
 - Pack Instincts (Coyote's Mask): buffs can be individually procced by 3 players using it and can therefore all be active at the same time
 - Payment In Kind (Backfire): once at max stacks and 1 HP, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
 - Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD and DTA. in PVP, the player who applied the debuff must die for the ticks to stop
 - Quick Draw (Dodge City Gunslinger's Holster): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
 - Regicide (Regulus): also affected by explosive damage and how many Dodge City stacks you have (TODO: verify the bit about explosive damage)
-- Sandman (Sweet Dreams): doesn't work on robotics. meleeing with a non-deployable skill can still proc Sandman
+- Sandman (Sweet Dreams): doesn't work on robotics. meleeing with a shield or chem launcher also procs it
 - Septic Shock (Scorpio): venom stacks are added to each other when applied by different players
 - Tenacity (Eagle Bearer): in PVP, provides an important reload speed bonus
 - Toxic Delivery (Vile): ticks are also affected by Perpetuation, OOCD, DTA and DTH
+- Vicious Cycle (Catharsis): also gains stacks when your shield takes damage
 
 #### Gear set
 
@@ -1638,7 +1650,6 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 - Finisher: procs when destroying enemy skills
 - Future Perfect: being at skill tier 3 is enough to overcharge
-- In Sync: procs when deploying a shield
 - Measured: the second half is total weapon damage unlike the first half
 - Naked: procs when killing armored targets with a single shot or when a shot chips into both armor and health
 - Optimist: boosts Headhunter stacks
@@ -1694,7 +1705,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can let medics revive mobs to farm Headhunter stacks
 - you can read chat more easily by enabling high contrast (Settings > Accessibility > High Contrast UI)
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: Firefly)
-- you can roll off of surfaces shorter than your character (ex: dumpsters, cars, boxes)
+- you can roll off surfaces a bit taller than your character (ex: dumpsters, cars, boxes)
 - you can see additional outlines when using radius-based skills by enabling color blind mode (Settings > Accessibility > Color Blind Mode), making it easier to use such skills
 - you can skip real-time cutscenes by dodge rolling or aiming
 - you can use drones to farm Memento trophies
@@ -1808,6 +1819,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ## Credits
 
 - [adreN](https://www.youtube.com/channel/UCauWzM4ElgQCuwymc3sV42g), [BreezyGamingTV](https://www.youtube.com/channel/UCWtBHE2zTID1XTPQrpf8MyA), [JoshNissan](https://www.youtube.com/channel/UCkFeaDgFURxNOoRoezRl7aQ), [luckySkillFaker](https://www.youtube.com/channel/UCS6fU1w749zdEwIhJCxAc3g), [Lunar](https://www.youtube.com/channel/UC28EeQoLgCVERhAj20R1qLg), [OfficialA2K](https://www.youtube.com/channel/UC_LCy84M7DHHNteE0-OjwEQ), [TheWarOwl](https://www.youtube.com/channel/UCpFcHE36IoySjYj1Rytxyog) and [voo CSGO](https://www.youtube.com/channel/UC2vjGuOTH-KcRCLSm5F3oUA) for the videos about PVP concepts
+- Alpine Brisket[https://www.youtube.com/channel/UCaaMKqL3lnsip34RjsyMsDg] for knowledge sharing
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me The Division 2
 - MMR clan members (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), [Greetallica](https://www.reddit.com/user/0-Ren), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
