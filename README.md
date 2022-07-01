@@ -595,15 +595,19 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - 2B/2R/2Y: number of blue/red/yellow armor cores on a build
 - 2-piece: number of pieces of a specified brand/gear set
 - A&8: Aces and Eights gear set
-- AD: amplified damage
+- AD/AMP: amplified damage
 - alt/toon: another character
 - AOK: armor on kill
+- AR: assault rifle
 - AWD: all weapon damage
+- BiS: best in slot
 - CC: crowd control
 - CD: cooldown
+- CG: Contractor's gloves
 - CHC: critical hit chance
 - CHD: critical hit damage
 - CP4: level 4 control point
+- D&H/DH: Douglas & Harding
 - DH: Dark Hours raid
 - DoT: damage over time
 - DPS: damage per second
@@ -611,16 +615,20 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - DTH: damage to health
 - DTTOOC/OOCD: damage to targets out of cover
 - DZ: dark zone
+- EB: Eagle Bearer
 - EP: Eclipse Protocol gear set
 - EXP: experienced players (only)
 - FB: Foundry Bulwark gear set
 - FI: Future Initiative gear set
+- Fox/FP: Fox's Prayer kneepads
+- GC: Glass Cannon
 - god roll: all max rolls with the right talent
 - green: gear set item
 - GS: gear score
 - GV1: group voice 1 (Discord)
 - HB: Heartbreaker gear set
 - HF: Hunter's Fury gear set
+- HH: Headhunter
 - high-end: yellow item
 - HOK: health on kill
 - HP: health point
@@ -637,6 +645,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - max roll: max value for an attribute (orange background)
 - min-max: make a build completely godrolled
 - mm: matchmake
+- MMR: marksman rifle
 - mule: another character used to store extra items
 - ND: Negotiator's Dilemma gear set
 - OD: Ongoing Directive gear set
@@ -646,6 +655,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - rainbow: item with one attribute of each color
 - recalibrate: overwrite an attribute with another one from your library
 - reconfigure: reroll the attributes of an exotic with random values
+- RK: Richter & Kaiser
 - ROF: rate of fire
 - RV1: raid voice 1 (Discord)
 - SC/SysCor: System Corruption gear set
@@ -658,6 +668,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - TTK: time to kill
 - TU: title update
 - TWD: total weapon damage
+- W&H/WH: Walker, Harris & Co.
 - WD: weapon damage
 - WH: weapon handling
 - wipe: when the entire group dies
@@ -918,9 +929,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - proficiency XP is gained from killing enemies (either yourself or thanks to teammates) and scales based on veterancy
 - holstered weapons gain a passive amount equal to half of the full proficiency XP
 - wearing several of the same item type (ex: 4 gear set items) multiplies how fast you get proficient with it
-- donating a weapon or a named/exotic item counts for half of a proficiency level
-- donating an armor piece counts for 10% of a proficiency level
-- donating materials also increases your proficiency level, therefore allowing you to not let some of them go to waste (it's the only way for most players to level up items they don't have such as named items or exotics)
+- donating a weapon, a named/exotic item or an improvised armor piece counts for half of a proficiency level
+- donating a high-end or a gear set armor piece counts for 10% of a proficiency level
+- donating materials also increases your proficiency level for 10% of a proficiency level per donation, therefore allowing you to not let some of them go to waste (it's the only way for most players to level up items they don't have such as named items or exotics)
 - experience gained towards proficiency levels is the same regardless of the difficulty
 - skill kills give your current weapon the full amount of proficiency XP (including specialization weapons)
 - crafting an armor or a weapon then donating it is about 80% cheaper than directly donating materials
@@ -1604,16 +1615,17 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Exotic
 
 - Binary Trigger (Merciless): affected by weapon damage, OOCD and DTA but not by explosive damage
-- Breathe Free (Lady Death): also procs when swapping to it before a warhound explodes
-- Electromagnetic Accelerator (Nemesis): shots are also fired when swapping weapons
+- Breathe Free (Lady Death): the speed boost also procs when holding it while a target dies from your status effects or a warhound you killed explodes
+- Electromagnetic Accelerator (Nemesis): swapping to another weapon after charging it will automatically make it shoot
 - In Plain Sight (Mantis): the headshot damage boost is always active in PVP
-- Incessant Chatter (Chatterbox): stays procced after dying (as long as you don't switch weapons). also increases the rate of fire of the Chem Launcher
+- Incessant Chatter (Chatterbox): stays procced after dying (as long as you don't switch weapons). also increases the rate of fire of the Chem Launcher the more stacks it has
 - Pack Instincts (Coyote's Mask): buffs can be individually procced by 3 players using it and can therefore all be active at the same time
+- Parkour! (NinjaBike Messenger Kneepads): doesn't consume your ammo reserve, therefore helping you save ammo
 - Payment In Kind (Backfire): once at max stacks and 1 HP, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
 - Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD and DTA. in PVP, the player who applied the debuff must die for the ticks to stop
 - Quick Draw (Dodge City Gunslinger's Holster): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
 - Regicide (Regulus): also affected by explosive damage and how many Dodge City stacks you have (TODO: verify the bit about explosive damage)
-- Sandman (Sweet Dreams): doesn't work on robotics. meleeing with a shield or chem launcher also procs it
+- Sandman (Sweet Dreams): doesn't work on robotics. meleeing with a Shield or Chem Launcher also procs it
 - Septic Shock (Scorpio): venom stacks are added to each other when applied by different players
 - Tenacity (Eagle Bearer): in PVP, provides an important reload speed bonus
 - Toxic Delivery (Vile): ticks are also affected by Perpetuation, OOCD, DTA and DTH
@@ -1650,16 +1662,17 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 - Finisher: procs when destroying enemy skills
 - Future Perfect: being at skill tier 3 is enough to overcharge
-- Measured: the second half is total weapon damage unlike the first half
+- Measured: the first half slightly increases the rate of fire of the Chem Launcher. the second half is total weapon damage unlike the first half
 - Naked: procs when killing armored targets with a single shot or when a shot chips into both armor and health
 - Optimist: boosts Headhunter stacks
 - Preservation: procs on skill kills
-- Pummel: procs when destroying enemy skills
+- Pummel: procs when destroying enemy skills. doesn't consume your ammo reserve, therefore helping you save ammo
 - Ranger: multiplicative damage that doesn't boost Headhunter
+- Steady Handed: doesn't consume your ammo reserve, therefore helping you save ammo
 
 ### Target prioritization
 - when starting an engagement, annoying archetypes (Grenadier, Drone Operator, Medic) and weak points (Stinger Hive bag, support station) should be dealt with first to make the rest of the engagement easier
-- you can also start engagements by targeting weak points that will CC nearby mobs (such as spice bags) in a group
+- you can also start engagements by targeting weak points that will CC nearby mobs (such as spice bags)
 - rushers are your top priority later on as they'll become deadly at close range
 - if you're using Headhunter, you can kickstart it on a sniper/rusher if you don't have enough damage for a kill
 
@@ -1701,14 +1714,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can bounce grenade launcher rounds off walls and ceilings
 - you can donate resources from the Projects tab on your map
 - you can instantly decon all items marked for junk if you hold TAB while moving the mouse or press SHIFT + TAB
+- you can kill drones with weapons to farm Memento trophies
 - you can kill enemies stuck behind doors with the Oxidizer Chem Launcher
-- you can let medics revive mobs to farm Headhunter stacks
+- you can let medics revive mobs to farm Headhunter stacks or Memento trophies
 - you can read chat more easily by enabling high contrast (Settings > Accessibility > High Contrast UI)
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: Firefly)
-- you can roll off surfaces a bit taller than your character (ex: dumpsters, cars, boxes)
+- you can roll off multiple surfaces, providing they're not more than twice taller than your character (ex: dumpsters, cars, boxes)
 - you can see additional outlines when using radius-based skills by enabling color blind mode (Settings > Accessibility > Color Blind Mode), making it easier to use such skills
 - you can skip real-time cutscenes by dodge rolling or aiming
-- you can use drones to farm Memento trophies
 
 ### True Sons
 \- reference: https://thedivision.fandom.com/wiki/True_Sons#Archetypes
@@ -1811,6 +1824,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - [Interactive Map](https://division2map.com)
 - [NPC Health Pools](https://docs.google.com/spreadsheets/d/1OP0r0A81wroX9v9iZ1u-jYNndTjugaB8e1MxS3FWCsk)
 - [Reddit thread](https://www.reddit.com/r/thedivision/comments/rcemoz/update_on_my_comprehensive_guide_to_become_better)
+- [Technical Guide to The Division 2 PVE Combat](https://docs.google.com/document/d/1rECSqmXOQTt56ShF6oqgEM--vG09n8pf)
 - [Weapon Damage 101: Bullet Damage](https://www.reddit.com/r/thedivision/comments/gi0uel/weapon_damage_101_bullet_damage)
 - [Weapon DPS Database](https://onedrive.live.com/view.aspx?resid=FCC78BAD7A71FF1C!258)
 - [Weekly vendor reset](https://rubenalamina.mx/the-division-weekly-vendor-reset)
@@ -1823,7 +1837,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me The Division 2
 - MMR clan members (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), [Greetallica](https://www.reddit.com/user/0-Ren), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/I_N_C_O_M_I_N_G, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/MemoriesMu, u/mikkroniks, u/mrcivster, u/mxswat, u/ObviousKangaroo, u/rubenalamina, u/SarcasmNotImplied, u/sukaihoku, u//Traveller2471, u/Trzebiat, u/Vikeman45, u/TheWaffleBoss and u/XPS1647) for knowledge sharing and feedback
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/D15P4TCH, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/I_N_C_O_M_I_N_G, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/MemoriesMu, u/mikkroniks, u/mrcivster, u/mxswat, u/ObviousKangaroo, u/rubenalamina, u/SarcasmNotImplied, u/sukaihoku, u//Traveller2471, u/Trzebiat, u/Vikeman45, u/TheWaffleBoss and u/XPS1647) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me Warlords of New York
 
