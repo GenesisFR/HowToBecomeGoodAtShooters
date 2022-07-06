@@ -1620,30 +1620,30 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Exotic
 
-- Binary Trigger (Merciless): affected by weapon damage, DTA, DTH and OOCD but not by explosive damage
-- Breathe Free (Lady Death): the speed boost also procs when holding it while a target dies from your status effects or a warhound you killed explodes
-- Electromagnetic Accelerator (Nemesis): swapping to another weapon after charging it will automatically make it shoot
-- In Plain Sight (Mantis): the headshot damage boost is always active in PVP
-- Incessant Chatter (Chatterbox): stays procced after dying (as long as you don't switch weapons). also increases the rate of fire of the Chem Launcher the more stacks it has
-- Pack Instincts (Coyote's Mask): buffs can be individually procced by 3 players using it and can therefore all be active at the same time
-- Parkour! (NinjaBike Messenger Kneepads): doesn't consume your ammo reserve, therefore helping you save ammo
-- Payment In Kind (Backfire): once at max stacks and 1 HP, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
-- Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, DTA, DTH and OOCD. in PVP, the player who applied the debuff must die for the ticks to stop
-- Quick Draw (Dodge City Gunslinger's Holster): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
-- Regicide (Regulus): also affected by explosive damage and how many Dodge City stacks you have (TODO: verify the bit about explosive damage)
-- Sandman (Sweet Dreams): doesn't work on robotics. meleeing with a Shield or Chem Launcher also procs it
-- Septic Shock (Scorpio): venom stacks are added to each other when applied by different players
-- Tenacity (Eagle Bearer): in PVP, provides an important reload speed bonus
-- Toxic Delivery (Vile): ticks are also affected by Perpetuation, OOCD, DTA and DTH
-- Vicious Cycle (Catharsis): also gains stacks when your shield takes damage
+- Backfire (Payment In Kind): once at max stacks and 1 HP, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
+- Catharsis (Vicious Cycle): also gains stacks when your shield takes damage
+- Chatterbox (Incessant Chatter): stays procced after dying (as long as you don't switch weapons). also increases the rate of fire of the Chem Launcher the more stacks it has
+- Coyote's Mask (Pack Instincts): buffs can be individually procced by 3 players using it and can therefore all be active at the same time
+- Dodge City Gunslinger's Holster (Quick Draw): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
+- Eagle Bearer (Tenacity): in PVP, provides an important reload speed bonus
+- Lady Death (Breathe Free): the speed boost also procs when holding it while a target dies from your status effects or a warhound you killed explodes
+- Mantis (In Plain Sight): the headshot damage boost is always active in PVP
+- Merciless (Binary Trigger): affected by weapon damage, DTA, DTH and OOCD but not by explosive damage
+- Nemesis (Electromagnetic Accelerator): swapping to another weapon after charging it will automatically make it shoot
+- NinjaBike Messenger Kneepads (Parkour!): doesn't consume your ammo reserve, therefore helping you save ammo
+- Pestilence (Plague of the Outcasts): ticks are affected by weapon damage, DTA, DTH and OOCD. in PVP, the player who applied the debuff must die for the ticks to stop
+- Regulus (Regicide): also affected by explosive damage and how many Dodge City stacks you have (TODO: verify the bit about explosive damage)
+- Scorpio (Septic Shock): venom stacks are added to each other when applied by different players
+- Sweet Dreams (Sandman): doesn't work on robotics. meleeing with a Shield or Chem Launcher also procs it
+- Vile (Toxic Delivery): ticks are also affected by Perpetuation, OOCD, DTA and DTH
 
 #### Gear set
 
-- Ground Control (Future Initiative): procs when someone is at full armor, not when the FI user is at full armor
-- Heartstopper (Heartbreaker): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster
-- Hostile Negotiations (Negotiator's Dilemma): crits caused by a signature weapon aren't affected by damage reduction when shooting a non-named enemy while a named enemy is marked
-- Makeshift Repairs (Foundry Bulwark): explosive damage doesn't proc it
-- Striker's Gamble (Striker): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster. stacks are multiplicative with each other
+- Foundry Bulwark (Makeshift Repairs): explosive damage doesn't proc it
+- Future Initiative (Ground Control): procs when someone is at full armor, not when the FI user is at full armor
+- Heartbreaker (Heartstopper): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster
+- Negotiator's Dilemma (Hostile Negotiations): crits caused by a signature weapon aren't affected by damage reduction when shooting a non-named enemy while a named enemy is marked
+- Striker (Striker's Gamble): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster. stacks are multiplicative with each other
 
 #### High-end
 
