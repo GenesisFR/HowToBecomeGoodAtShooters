@@ -3,6 +3,7 @@
 <details>
 <summary><b>To-do list</b></summary>
 
+\- check if bullet impacts from silenced weapons can confuse the AI when you're not directly visible (like in HITMAN)  
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if mobs limp when bleeding  
 \- check if rushers from all factions have less HP than snipers  
@@ -10,7 +11,6 @@
 \- test if dodge rolling right before being hit by an explosion skips the staggering animation  
 \- test if Ravenous explosions are affected by OOCD  
 \- test if shooting Warhounds weak points with the TAC-50 can instakill them (from u/XPS1647)  
-\- test if the Stinger Hive scales with explosive damage and DTA  
 \- test if when a target tagged with the Burster Firefly dies, it makes the ones attached to other targets blow up too  
 \- test the Cluster Seeker Mine rigger bag exploit (https://www.reddit.com/r/thedivision/comments/onaytg/trying_to_increase_skill_haste_as_much_as_i_can/h5s5r9v and "Cluster seeker goes on cooldown on FIRST cluster's explosion")  
 \- test using cover to cover to move into enemy lines without getting spotted (https://www.reddit.com/r/Division2/comments/rcendk/update_on_my_comprehensive_guide_to_become_better/hnxh7pt)
@@ -889,7 +889,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - same points as in [PVE](#cover)
 - avoid using low covers unless you're sniping or don't have aggro
 - vertical cover helps minimizing incoming explosions
-- shooting from vertical cover at a 30-75° angle allows you to shoot mobs without them shooting back
+- shooting from vertical cover at a 30-75° forward angle allows you to shoot mobs without them shooting back
 - aiming at more than 45° backward from a low cover doesn't make your character stand up and you can't be hit by mobs in front of that cover (in PVP, your head sticks out and can be shot at)
 - aiming at more than 45° backward from a low cover then aiming to the sides of the same cover doesn't make your character stand up either
 - covers cannot be shared between teammates so you should let DPS players have them whenever possible
@@ -899,7 +899,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Cover to cover
 - reduces the enemy's accuracy on you, thus drastically reducing incoming damage
-- faster than running
+- slightly faster than running
 - allows you to look around without changing the direction of your movement
 - allows you to reload without reducing speed
 - try to end up with a dodge roll to cover if the destination will leave you exposed as the enemy's accuracy will be instantly back to normal as soon as the cover to cover ends
@@ -973,6 +973,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - not considered as named enemies, therefore signature weapons aren't affected by damage reduction
 - stand up when deploying most of their skills, giving you time to land a few shots
 - their damage output and melee damage are way beyond any other mob in the game
+- when low HP, they'll go to the nearest cover to use a medkit
 - when they're about to hack your skills, a lightning icon will be shown above them so you have about 2-3s to destroy or pick up your skill
 - when they're about to disrupt your skills, an EMP icon will be shown above them so you have about 2-3s to deploy a skill if you're on Technician to benefit from the disrupt protection
 
@@ -1123,12 +1124,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - effective against anything that doesn't have an armor bar: red mobs, robotics, summit objectives, tanks and weak points
 - pairs well with the Crusader/Striker Shield
 - focus on weak points and burst enemies down to knock them back
-- Negotiator's Dilemma is the best gear set for it
+- Heartbreaker is the best gear set for it when dealing with single targets, otherwise prefer Negotiator's Dilemma
 
 ### Playing crowd control
 - main attributes: status effects and skill haste
 - prevents the AI from shooting back or using their abilities
-- Creeping Death is good for short radius skills (like Chem Launcher and Sticky Bomb) as it spreads status effects on hit
+- Creeping Death is good for short radius skills (like Sticky Bomb) or non-damaging skills (like Blinder Firefly or Riot Foam) as it spreads status effects on hit
 - Scorpio is a good choice as it's another form of CC, which helps mitigate skill cooldowns because it allows you to still CC while waiting for your skills to come back
 - any weapon with Future Perfect and Perpetuation are also good choices
 - Survivalist is a good choice for the additional damage to status affected targets and the fire grenade as another form of CC, prefer Firewall if you're going to use fire skills
@@ -1168,7 +1169,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - stick with your group, monitor their health status, avoid dying and manage your cooldowns by picking up your hive when not in use
 - if a red/purple mob gets close or you see an opportunity to kill one, melee with Sweet Dreams or use Scorpio to make it easier for your teammates to focus them
 - refresh skill cooldowns between engagements (or after one or more teammates used a Reviver Hive)
-- the Restorer Hive will heal deployed skills after they take damage, you may not want this to happen to prevent your charges from draining too fast, therefore, its placement is important
+- the Restorer Hive will heal deployed skills (especially turrets) after they take damage, you may not want this to happen to prevent your charges from draining too fast, therefore, its placement is important
 - useful to do preemptive healing with the Reinforcer Chem Launcher, especially for Crusader/Striker Shield users (their shield is their main source of survivability)
 - there's often no need to expose yourself to enemies to deploy your hive or heal your teammates
 - 900k Reinforcer Chem Launcher heals are often overkill as most of the player base is sitting around 700k armor
@@ -1176,8 +1177,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Playing Negotiator's Dilemma
 - main attributes: weapon damage and CHC/CHD
-- there are different ways you can set up ND, with/without the bag, with Dodge City/Ravenous for bosses and with skill tiers to make an AFK skill hybrid
+- Focus or Obliterate are good choices
 - Vigilance outperforms the ND bag when marking less than 3 targets and should be preferred in such instances
+- there are different ways you can set up ND, with/without the bag, with Dodge City/Ravenous for bosses and with skill tiers to make an AFK skill hybrid
 - aim for mobs that are close to each other (especially around spawn closets) to minimize how much time it takes to mark them
 - try to tag weak mobs first then focus on a tankier target
 - try to expose yourself just from one target after tagging the others
@@ -1232,7 +1234,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Intimidate and Adrenaline Rush/Memento are recommended
 - the goal is to stay around spawn closets and land as many pellets as you can
 - try to go for the weakest mob to confuse nearby mobs as soon as possible
-- if you're using Scorpio, you can shoot between 2 mobs on purpose to apply status effects to both at the same time
+- if you're using Scorpio, you can shoot between 2 mobs on purpose to have pellets hit both and therefore put both of them under status effects at the same time
 
 #### Headhunter
 - main attributes: weapon damage and HSD (to reach 150HSD, all attributes and mods will likely need to be maxed out)
@@ -1247,6 +1249,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Playing sniper
 - main attributes: weapon damage and headshot damage
+- Headhunter is recommended for bolt-action MMRs, otherwise use Perfect Focus or Perfect Glass Cannon
 - effective against targets that have a head and no helmet
 - for stationary targets, put your crosshair on them, at head level, before peeking
 - for moving targets, put your crosshair on their trajectory and take the shot when they come across it
@@ -1262,7 +1265,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - avoid using a scope, it allows you to see your surroundings when aiming and you often don't need the extra damage or magnification from using one (unless you're fighting targets beyond 50m)
 - avoid shooting the back of a running mob as its head will be leaning forward so you're likely to miss it or hit the body
 - avoid switching to a low base damage weapon or your Headhunter stacks will be weak when switching back to a high base damage weapon
-- Tip of the Spear is the best gear set for it
+- Tip of the Spear is the best gear set for it (Aces is better for Dread Edict)
 
 ### Playing tank
 - main attributes: armor cores and repair skills
@@ -1350,13 +1353,14 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ##### Firestarter
 - double tapping the button will remotely detonate gas clouds
 - you can bounce charges off walls and ceilings
-- initial damage and ticks affected by DTA
+- can be used as an area denial tool by shooting it on the ground (for later detonation) at choke points
+- the initial damage and ticks are affected by DTA/DTH
 
 ##### Oxidizer
 - clouds can stack
 - flushes mobs out of cover
-- lethal when used in its overcharged form on a group of ensnared mobs (like in speedruns)
-- affected by DTA and OOCD
+- lethal when used in its overcharged form on a group of ensnared mobs or around spawn closets (like in speedruns)
+- affected by DTA, DTH and OOCD
 
 ##### Reinforcer
 - much more effective at healing allies than yourself because only allies benefit from the initial burst heal
@@ -1368,6 +1372,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - should be deployed in locations where the hologram is visible to enemies but not its base, such as elevated positions or behind low covers (better if it's in an unreachable location)
 - in groups, avoid placing it near doorways or teammates
 - effective at drawing aggro from suicide drones
+- can be thrown behind mobs to attempt exposing the weak points on their back
 - its duration can be greatly extended with an Artificer Hive
 - its duration is set when deploying it, even if it loses skill tiers afterward
 - mobs shooting it will be pulsed (and therefore proc Spotter) for a short time
@@ -1377,7 +1382,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ##### Bombardier
 - can be auto-deployed in a straight line by holding the corresponding skill key (it will hurt you if you don't take a step back or aren't behind cover)
-- affected by DTA
+- affected by DTA/DTH
 
 ##### Defender
 - its damage reduction isn't additive with protection from elites
@@ -1402,7 +1407,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - has an area of effect and will therefore blind multiple mobs if they're close to each other
 
 ##### Burster
-- affected by DTA
+- affected by DTA/DTH
 
 ##### Hive
 - deploying it is a good way to proc Feedback Loop from the Hardwired gear set
@@ -1419,8 +1424,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - defensive tool meant for area denial and flushing mobs out of cover
 - should be deployed close to you or at strategic locations to prevent mobs from pushing
 - effective against suicide drones due to their low HP
-- counts as explosive damage
-- initial damage and ticks affected by DTA
+- the initial damage counts as explosive damage, yet doesn't scale with explosive damage
+- the initial damage and ticks are affected by DTA/DTH
 
 #### Pulse
 
@@ -1454,11 +1459,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - can be used to flush enemies out of cover or as a soft form of CC since non-robotic enemies (except tanks) will have to dodge them
 - more effective when multiple mobs are close to each other as they may get hit by more than one seeker mine
 - holding a TDI Kard Custom when targeting mobs will grant an extra seeker (if not at tier 6)
-- damage affected by DTA
+- damage affected by DTA/DTH
 
 ##### Explosive
 - automatically locks on the nearest target when thrown near mobs
-- explosive damage and bleed ticks affected by DTA
+- the initial damage and ticks are affected by DTA/DTH
 
 ##### Mender
 - automatically targets nearby friendlies that require healing
@@ -1497,12 +1502,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ##### Burn
 - your target won't burn immediately on impact so you should wait one second before detonating it (in case it kills them) when using Eclipse
+- can be used as an area denial tool by shooting it on the ground (for later detonation) at choke points
 
 ##### EMP
 - its damage on robotics is only increased by skill damage
 
 ##### Explosive
-- damage affected by DTA
+- damage affected by DTA/DTH
 
 #### Trap
 - cooldown starts as soon as deploying them
@@ -1533,7 +1539,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can aim through walls to shoot it
 - can be used to flush enemies out of cover or as a soft form of CC since non-robotic enemies (except tanks) will perform a dodge roll to avoid the explosion
 - the number of rounds can't decrease from losing skill tiers after deploying it
-- explosive damage and bleed ticks affected by DTA
+- the initial damage and ticks are affected by DTA/DTH
 
 ##### Assault
 - always targets the chest
@@ -1545,7 +1551,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - great for spawn closets
 - its duration is reduced every time you burn fuel
 - tap the button when you don't need it to save fuel
-- initial damage and ticks affected by DTA
+- the initial damage and ticks are affected by DTA/DTH
 
 ##### Sniper
 - good for burst damage
@@ -1579,7 +1585,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - raid bosses are immune to some status effects
 - Shock: mobs kneel for the duration of the shock, robotics can still move but are unable to use their abilities
 - status effects cannot be refreshed, you have to wait until one ends before being able to apply the same one again
-- when applying a status effect, everything that was active when it was applied is baked into it (skill tier, skill damage, status effects, Perpetuation)
+- when applying a status effect, everything that was active when it was applied is baked into it (skill tier, skill damage, status effects and related talents like Perpetuation)
 - you're immune for about one second between applications of the same status effect, giving you a short window of time to use your skills
 
 ### Summit
@@ -1614,7 +1620,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Exotic
 
-- Binary Trigger (Merciless): affected by weapon damage, OOCD and DTA but not by explosive damage
+- Binary Trigger (Merciless): affected by weapon damage, DTA, DTH and OOCD but not by explosive damage
 - Breathe Free (Lady Death): the speed boost also procs when holding it while a target dies from your status effects or a warhound you killed explodes
 - Electromagnetic Accelerator (Nemesis): swapping to another weapon after charging it will automatically make it shoot
 - In Plain Sight (Mantis): the headshot damage boost is always active in PVP
@@ -1622,7 +1628,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Pack Instincts (Coyote's Mask): buffs can be individually procced by 3 players using it and can therefore all be active at the same time
 - Parkour! (NinjaBike Messenger Kneepads): doesn't consume your ammo reserve, therefore helping you save ammo
 - Payment In Kind (Backfire): once at max stacks and 1 HP, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
-- Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, OOCD and DTA. in PVP, the player who applied the debuff must die for the ticks to stop
+- Plague of the Outcasts (Pestilence): ticks are affected by weapon damage, DTA, DTH and OOCD. in PVP, the player who applied the debuff must die for the ticks to stop
 - Quick Draw (Dodge City Gunslinger's Holster): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
 - Regicide (Regulus): also affected by explosive damage and how many Dodge City stacks you have (TODO: verify the bit about explosive damage)
 - Sandman (Sweet Dreams): doesn't work on robotics. meleeing with a Shield or Chem Launcher also procs it
@@ -1707,6 +1713,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - the crossbow can destroy Razorback's grates in one shot in the Dark Hours raid
 - the EMP grenade has a fixed ~11s duration, regardless of skill tiers or attributes (TODO: check if status effects can increase its duration)
 - the golden bullet also refreshes all your skill charges
+- the mounted minigun damage is boosted by your gear talents and weapon damage
 - the Survivalist medkit acts as a sphere so you can heal people above/below you
 - the weak points on dead mobs can be destroyed
 - when using a medkit with the No Regen/Hard To Earn/Fragile Armor directives, use Perfectly Efficient to save medkits
@@ -1800,10 +1807,9 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - same as the Black Tusk [variant](#sniper) except she only needs 2s to acquire a target before shooting
 
 #### Tank
-- same as the Black Tusk [variant](#tank) except the support station on his back is replaced with a variant of the Stinger Hive which deals heavy damage to those within 15m and causes them to bleed
+- same as the Black Tusk [variant](#tank) except the support station on his back is replaced with a variant of the Stinger Hive which deals heavy damage to those with a clear line of sight within 20m and causes them to bleed
 - attempts to get close but reverts to staying at range after breaking his backpack
 - his Stinger Hive stops working while he's disrupted (TODO: check if it's the same when shocked)
-- his Stinger Hive has a 20m range
 - his chest/helmet armor plates will turn black once they have less than 50% HP left
 - his backpack can target up to 2 targets per player at the same time, therefore if both of a player's skills are deployed and in range of the hive, the player won't be targeted by it
 
