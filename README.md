@@ -7,10 +7,10 @@
 \- check if Chatterbox and Measured boost the rate of fire of the mounted turret  
 \- check if dying refills your ammo after being (manually) revived by another player  
 \- check if mobs limp when bleeding  
+\- check if mini tanks can shoot grenades after their controller is dead  
 \- check if rushers from all factions have less HP than snipers  
 \- enhance all faction sections with weak point information (https://www.reddit.com/r/thedivision/comments/fjmpxv/now_that_firefly_pathing_is_mostly_fixed_the, https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/basics/factions and https://www.reddit.com/r/thedivision/wiki/thedivision2/guides/endgame/wony_factions)  
 \- test if Dodge City also boosts Chem Launcher direct hits  
-\- test if dodge rolling right before being hit by an explosion skips the staggering animation  
 \- test if Ravenous explosions are affected by OOCD  
 \- test if shooting Warhounds weak points with the TAC-50 can instakill them (from u/XPS1647)  
 \- test if when a target tagged with the Burster Firefly dies, it makes the ones attached to other targets blow up too  
@@ -283,6 +283,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ### Angle isolation
 - definition: using the environment/utility to isolate enemies
+- always try to position yourself in a way so that only a single enemy can see you at any given time
 - creates a series of 1v1s as other enemies won't be able to hit you
 - makes it easier to win engagements
 - reference: https://www.youtube.com/watch?v=z-LyLG5YieY
@@ -529,7 +530,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Flanking
 - definition: attacking the enemy from a side while they're focusing their attention elsewhere
 - make sure your teammates are keeping your opponents distracted
-- callout you're flanking so that your teammates keep fighting your opponents from the same location
+- call out you're flanking so that your teammates keep fighting your opponents from the same location
 
 ### Getting information
 - same points as in [PVE](#getting-information)
@@ -608,18 +609,19 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Abbreviations
 - 2B/2R/2Y: number of blue/red/yellow armor cores on a build
 - 2-piece: number of pieces of a specified brand/gear set
-- A&8: Aces and Eights gear set
+- A&8: Aces and Eights
 - AD/AMP: amplified damage
 - alt/toon: another character
 - AOK: armor on kill
 - AR: assault rifle
-- AWD: all weapon damage
+- AWD: all weapon damage (WD + WTD)
 - BiS: best in slot
 - CC: crowd control
 - CD: cooldown
 - CG: Contractor's gloves
 - CHC: critical hit chance
 - CHD: critical hit damage
+- CLIC: China Light Industries Corporation
 - CP4: level 4 control point
 - D&H/DH: Douglas & Harding
 - DH: Dark Hours raid
@@ -630,24 +632,24 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - DTTOOC/OOCD: damage to targets out of cover
 - DZ: dark zone
 - EB: Eagle Bearer
-- EP: Eclipse Protocol gear set
+- EP: Eclipse Protocol
 - EXP: experienced players (only)
-- FB: Foundry Bulwark gear set
-- FI: Future Initiative gear set
+- FB: Foundry Bulwark
+- FI: Future Initiative
 - Fox/FP: Fox's Prayer kneepads
 - GC: Glass Cannon
 - god roll: all max rolls with the right talent
 - green: gear set item
 - GS: gear score
 - GV1: group voice 1 (Discord)
-- HB: Heartbreaker gear set
-- HF: Hunter's Fury gear set
+- HB: Heartbreaker
+- HF: Hunter's Fury
 - HH: Headhunter
 - high-end: yellow item
 - HOK: health on kill
 - HP: health point
 - HSD: headshot damage
-- HW: Hard Wired gear set
+- HW: Hard Wired
 - HZP: hazard protection
 - IGN: in-game name
 - IH: Iron Horse raid
@@ -661,8 +663,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - mm: matchmake
 - MMR: marksman rifle
 - mule: another character used to store extra items
-- ND: Negotiator's Dilemma gear set
-- OD: Ongoing Directive gear set
+- ND: Negotiator's Dilemma
+- OD: Ongoing Directive
 - optimize: gradually increase the value of an attribute
 - PFE: protection from elites
 - proc: activate a talent (Programmed Random Occurrence)
@@ -672,13 +674,13 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - RK: Richter & Kaiser
 - ROF: rate of fire
 - RV1: raid voice 1 (Discord)
-- SC/SysCor: System Corruption gear set
+- SC/SysCor: System Corruption
 - SD: skill damage
 - SE: status effects
 - SH: skill haste
 - ST: skill tier
-- TOTS: Tip of the Spear gear set
-- TP: True Patriot gear set
+- TOTS: Tip of the Spear
+- TP: True Patriot
 - TTK: time to kill
 - TU: title update
 - TWD: total weapon damage
@@ -688,6 +690,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - WD: weapon damage
 - WH: weapon handling
 - wipe: when the entire group dies
+- WTD: weapon type damage
 
 ### AI animations
 - dodge roll: done to avoid explosions (grenades, Artillery Turret, Seeker Mines), Firestarter/Oxidizer clouds or after getting shot, giving you time to either shoot mobs in the body while they're dodging, relocate or you can just wait until they recover from the animation to get an easy headshot
@@ -729,7 +732,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - destroying her backpack causes an explosion that hurts her and prevents her drones from being deployed
 - destroying the drones (preferably with an AR) causes an explosion that can kill her if she's too close
 - staying close to her will prevent her from deploying drones
-- staying close or deploying a decoy next to her after she's deployed her drones will make them blow up in her face, potentially killing her
+- staying close to her or deploying a decoy next to her after she's deployed her drones will not only make them blow up in her face (potentially killing her) but you also won't get hurt/staggered by the explosion (TODO: verify last part)
 - unable to deploy drones when disrupted
 - players need to be in her line of sight to be targetable by her drones, that's why you can usually see her head sticking out for a few seconds after deploying them (great for riflers/snipers)
 - walking backward is enough to dodge her drones
@@ -785,7 +788,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - resistant to explosives
 - breaking his ammo belt forces him to reload
 - destroying the support station stops his health regeneration
-- destroying any of his weak points, hitting his body with a lot of damage or hitting him with any explosion (including with a Stinger Hive) will cause the ammo belt to reappear (TODO: test if there's a damage threshold with explosions)
+- destroying any of his weak points, hitting his body with a lot of damage, hitting him with any explosion (including with a Stinger Hive) or with shock will cause the ammo belt to reappear
 - foaming him during the reload animation (up until he stands up after reloading) forces him to redo the entire reload animation
 - using the Demolisher Firefly will break the ammo belt, then the support station, then armor plates, depending on which one was previously broken (TODO: verify the bit about armor plates)
 - the Survivalist crossbow completely breaks one of his armor plates
@@ -797,7 +800,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - uses an airburst grenade launcher to hit targets behind cover
 - shoots his grenades based on the last visible location of a player
 - destroying the grenade pouch on his back causes an explosion that hurts him and prevents him from shooting grenades
-- knocking him back or disrupting him while he's about to throw a grenade will cause it to blow up in his face
+- knocking him back, suppressing or disrupting him while he's about to shoot his grenade launcher will cause the grenade to blow up in his face
 - grenades can be destroyed when shot mid-air, causing an explosion
 - elites fire their airburst launcher in volleys of 3 to make dodging harder
 - unable to shoot grenades when disrupted
@@ -893,7 +896,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 #### Thrower
 - throws vapor grenades from cover then shoots the gas that emerges
 - shooting the firestarter grenade satchel on the back of his waist will set him and his surroundings on fire
-- shooting him while he's throwing a grenade will cause him to drop it at his feet
+- knocking him back while he's throwing a grenade will cause him to drop it at his feet
 - elites have a grenade launcher that fires napalm projectiles similar to the engineer's turret
 
 ### Countdown
@@ -902,6 +905,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - upon completing the main objective, the timer always resets to 4 minutes
 - reinforcement waves coming from the chopper at the end are unlimited, you can therefore afford both shooting the flare and extracting at the last moment to maximize the amount of loot dropped
 - you should wait for the others before spawning the final hunters
+- most of the tokens come from collecting Hunter dog tags so make sure you get all of them
 - PFE builds shine as most of the mobs are elites
 
 ### Cover
@@ -921,6 +925,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ### Cover to cover
 - reduces the enemy's accuracy on you, thus drastically reducing incoming damage
 - slightly faster than running
+- allows you to keep aggroing a mob while a teammate focuses them
 - allows you to look around without changing the direction of your movement
 - allows you to reload without reducing speed
 - try to end up with a dodge roll to cover if the destination will leave you exposed as the enemy's accuracy will be instantly back to normal as soon as the cover to cover ends
@@ -928,6 +933,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - doesn't prevent explosions from staggering and hurting you
 - explosions and some status effects (ensnare, shock) will cancel the cover to cover move, sometimes leaving you extremely vulnerable (especially when there's no cover nearby) (TODO: test when catching fire)
 - you can't use skills while performing a cover to cover move, but you can target with already deployed skills, keep charging the Jammer/Banshee Pulse and change the direction of the Banshee Pulse
+- you're not immune to status effects while performing a cover to cover move
 - when getting shot from an unknown direction, it may be beneficial to perform a cover to cover move in a random direction instead of trying to locate the enemy, that will give you time to locate that enemy and may break line of sight with them
 
 ### Dancing
@@ -958,7 +964,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - crafting an armor or a weapon then donating it is an easy way to quickly get proficiency levels (besides, it's about 80% cheaper than directly donating materials)
 - buying items from vendors every week and donating them is another way to get proficiency levels (if you have the resources)
 - using SHD points to get credits, buying mods, deconstructing them for printer filaments then donating them is the least costly in terms of SHD points (and is 33% less costly than using SHD points to get printer filaments) but is more time consuming
-- running a new character and dumping SHD points into printer filaments after beating Keener is the most effective in terms of time spent versus proficiency levels gained (more efficient the higher your SHD level is)
+- running a new character and dumping SHD points into printer filaments after beating Keener is the most efficient in terms of time spent versus proficiency levels gained (it's more efficient the higher your SHD level is)
 - when in a group, when you're on your way to an activity, equip your least used non-proficient weapon while your teammates are killing mobs to fully earn proficiency XP for it
 - Countdown is the best place for it
 
@@ -1138,7 +1144,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Thrower
 - throws Molotov cocktails at enemies
-- shooting him while he's about to throw a Molotov cocktail will cause him to drop it at his feet and put himself on fire
+- knocking him back while he's about to throw a Molotov cocktail will cause him to drop it at his feet and put himself on fire
 - shooting the red pouch on his right thigh will set him and his surroundings on fire
 - Molotovs can be destroyed mid-air, causing the fire to spread to the ground below regardless of altitude
 - elites will throw incendiary grenades that detonate after a short fuse and have a wider radius
@@ -1148,7 +1154,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - effective against anything that doesn't have an armor bar: red mobs, robotics, summit objectives, tanks and weak points
 - pairs well with the Crusader/Striker Shield
 - focus on weak points and burst enemies down to knock them back
-- Striker/Heartbreaker are the best gear sets for it when dealing with single targets, otherwise prefer Negotiator's Dilemma
+- Striker/Heartbreaker are the best gear sets for it when dealing with single or tanky targets, otherwise prefer Negotiator's Dilemma
 
 ### Playing crowd control
 - main attributes: status effects and skill haste
@@ -1157,7 +1163,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Scorpio is a good choice as it's another form of CC, which helps mitigate skill cooldowns because it allows you to still CC while waiting for your skills to come back
 - any weapon with Future Perfect and Perpetuation are also good choices
 - Survivalist is a good choice for the additional damage to status affected targets and the fire grenade as another form of CC, prefer Firewall if you're going to use fire skills
-- CC'ed enemies must be within line of sight of your teammates to be efficient
+- CC'ed enemies must be within line of sight of your teammates to be effective
 - the status selection is going to vary based on content and group composition
 - try to get as close as possible to spawn closets to maximize effectiveness because the more the AI spreads out, the less effective a CC becomes as you'll be putting fewer mobs under status effects at the same time
 - when NPCs are sitting being cover, it's better to aim for the side of the cover to foam or stagger them with a sticky bomb
@@ -1166,7 +1172,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Eclipse
 - good for Heroic content and CP4s, only effective in legendaries if your group focuses status affected targets and has enough damage to kill them quickly
-- can be used as an offensive skill build on Challenging or lower difficulty content, in that case, prefer the Eclipse backpack and Capacitor
+- can be used as an offensive skill build on solo Heroic or lower difficulty content, in that case, prefer the Eclipse backpack and Capacitor
 - spreads status effects on kill, therefore, the Eclipse chest is a must
 - also spreads status effects from Scorpio (TODO: test if TP debuffs are also spread)
 - preferred skills are Riot Foam/Firestarter Chem Launcher, Airburst Seeker Mine and Burn/EMP Sticky Bomb
@@ -1321,6 +1327,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - after self-reviving, you're immune to damage for a few seconds (except in PVP) as long as you don't perform any action other than walking
 - while getting revived, the player who is downed is invulnerable (except in PVP)
 - any explosion will interrupt the revive, therefore you shouldn't stand or deploy a skill too close to the player reviving
+- reaching the next area of a mission or summit floor will, most of the time, revive all downed players
 
 ### Rikers
 \- reference: https://thedivision.fandom.com/wiki/Rikers#Tom_Clancy.27s_The_Division_2
@@ -1400,7 +1407,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - can be thrown behind mobs to attempt exposing the weak points on their back
 - its duration can be greatly extended with an Artificer Hive
 - its duration is set when deploying it, even if it loses skill tiers afterward
-- mobs shooting it will be pulsed (and therefore proc Spotter) for a short time
+- mobs shooting it will be pulsed for a short time
 - useful in PVP to catch a player off guard as it hides your nameplate until it's destroyed
 - holding it without deploying it hides your nameplate in PVP
 
@@ -1416,6 +1423,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ##### Spotter
 - you can aim through walls to change its location
+- periodically pulses targets (therefore proccing Spotter about 33% of the time)
 
 ##### Striker
 - always targets the chest
@@ -1640,7 +1648,6 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - when grouped, try to complete multiple objectives at the same time to shorten the room completion time
 - when no mobs are in a room, don't go too far from the door as it's a drone ambush
 - when stuck between a door and a wall, fast travel to another player
-- you can build Heartbreaker/Pestilence/Scorpio/Strikers stacks on any invincible target (jammers, SHD crates, support stations, warhounds)
 - you can open locked doors by shooting the lock with a Chem Launcher or a silenced weapon, it allows you not to alert enemies (providing you're far enough from enemies when using a silencer)
 - you can see enemies through walls when looking through blinking servers
 
@@ -1648,7 +1655,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - definition: laying down suppressive fire towards a cover a mob is using
 - mobs are unable to move or use their abilities (up to a certain extent) when suppressed (TODO: verify if Black Tusk controllers can still control their mini tank)
 - should be used sparingly, in the following cases: going for a flank, allowing teammates to push or when reviving someone in the open
-- suppressed enemies won't peek and may blind fire on your last known position (with good accuracy on higher difficulties), preventing most of your group from killing them
+- suppressed enemies won't peek and may blind fire at where they were suppressed from (with good accuracy on higher difficulties), therefore you should move a little after doing so
+- suppressing enemies will prevent most of your group from killing them
 
 ### Talents
 
@@ -1656,6 +1664,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 - Backfire (Payment In Kind): once at max stacks and 1 HP, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
 - Catharsis (Vicious Cycle): also gains stacks when your shield takes damage
+- Chameleon (Adaptive Instincts): you can individually build stacks off corpses by shooting their weak points
 - Chatterbox (Incessant Chatter): stays procced after dying (as long as you don't switch weapons). also increases the rate of fire of the Chem Launcher the more stacks it has
 - Coyote's Mask (Pack Instincts): buffs can be individually procced by 3 players using it and can therefore all be active at the same time
 - Dodge City Gunslinger's Holster (Quick Draw): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
@@ -1687,7 +1696,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Eyeless: affects the damage of non-ballistic skills
 - Focus: stays procced when reloading or unscoping for less than a second, which allows you to keep moving. doesn't proc with the Big Horn and Capacitor (these have x4 scopes), or the TAC-50 (it has a variable scope)
 - Glass Cannon: also affects how much damage your shield is taking (TODO: check with other skills)
-- Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage, DTA and the Striker shield. calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of any other weapon. isn't affected by damage drop-off. stacks are kept after dying
+- Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage, DTA, DTH and the Striker shield (but not by amplified damage). calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of any other weapon. isn't affected by damage drop-off. stacks are kept after dying
 - Ignited: affects the damage of non-ballistic skills
 - Intimidate: procced by the bonus armor provided by the "My Home Is My Castle" perk from the Sharpshooter specialization
 - Kinetic Momentum: half of the stacks are lost upon using a Chem Launcher at full charges and it won't start rebuilding these stacks until it's back at full charges
@@ -1725,15 +1734,17 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - breaking weak points off corpses with the Scavenged Skills directive gives you skill parts
 - CHD isn't affected by damage drop-off
 - crossbow bolts apply localized damage, for instance, headshots remove helmets
-- deploying a skill while using Technician protects you and nearby allies from disruption/shock (Faraday field) as long as you're both staying within 5m of it
+- deploying a skill while using Technician protects you and nearby allies from disruption/shock (with the Faraday field perk) as long as you're both staying within 5m of it
 - dodge rolling allows you to dodge bullets, especially from mobs with a slow rate of fire (like Warhounds)
+- dodge rolling removes sticky bombs off you
+- dodge rolling right before being staggered (ex: from an explosion) skips the staggering animation
 - double-clicking on a cache instantly opens it
 - explosions have damage drop-off from the point of impact
-- going out-of-bounds (ex: before the end of Roosevelt Island) resets your skill cooldowns
-- health doesn't regen when disrupted
+- going out-of-bounds will reset your skill cooldowns upon getting teleported
+- health doesn't regen when disrupted by a jammer
 - improvised gear always has a mod slot, opening up possibilities for some builds (ex: PFE, hazard/pulse resistant)
 - incoming repairs and outgoing healing are multiplicative and they're both separate multipliers, therefore they're both multiplicative with repair skills
-- mobs can block shots and take damage from another mob, turning a mob right in front of you like a bullet shield
+- mobs can block shots and take damage from another mob, turning a mob right in front of you as a bullet shield
 - opening an ammo box will automatically reload your current weapon
 - picking up a disrupted skill and redeploying it will cleanse it from disruption
 - Protection From Elites is capped at 80%
@@ -1757,7 +1768,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - when using a medkit with the No Regen/Hard To Earn/Fragile Armor directives, use Perfectly Efficient to save medkits
 - when you're down to 1 HP from full health, there is a one shot protection granting you about 1-2s of invulnerability (not in PVP) to allow you to take cover before going down, it's disabled for about 30s
 - you can bounce grenade launcher rounds off walls and ceilings
-- you can buy items in bulk slightly faster by using SPACE + ENTER
+- you can build Pestilence/Scorpio/Strikers stacks on any invincible target (hologram part of decoys, jammers, SHD crates, support stations, warhounds) that hasn't been captured
+- you can buy items in bulk slightly faster by using SPACE + ENTER or "Buy and Equip" (doesn't work for mods)
 - you can donate resources from the Projects tab on your map
 - you can find 100 food/components/water in DZ safe houses (different resource per DZ)
 - you can instantly deconstruct all items marked for junk by pressing SHIFT + TAB or holding TAB while moving the mouse
@@ -1878,11 +1890,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 ## Credits
 
-- [adreN](https://www.youtube.com/channel/UCauWzM4ElgQCuwymc3sV42g), [BBKDRAGOON](https://www.youtube.com/user/BBKDRAGOON), [BreezyGamingTV](https://www.youtube.com/channel/UCWtBHE2zTID1XTPQrpf8MyA), [JoshNissan](https://www.youtube.com/channel/UCkFeaDgFURxNOoRoezRl7aQ), [luckySkillFaker](https://www.youtube.com/channel/UCS6fU1w749zdEwIhJCxAc3g), [Lunar](https://www.youtube.com/channel/UC28EeQoLgCVERhAj20R1qLg), [OfficialA2K](https://www.youtube.com/channel/UC_LCy84M7DHHNteE0-OjwEQ), [TheWarOwl](https://www.youtube.com/channel/UCpFcHE36IoySjYj1Rytxyog) and [voo CSGO](https://www.youtube.com/channel/UC2vjGuOTH-KcRCLSm5F3oUA) for the videos about PVP concepts
-- Alpine Brisket[https://www.youtube.com/channel/UCaaMKqL3lnsip34RjsyMsDg] for knowledge sharing
+- [adreN](https://www.youtube.com/@adreNTV), [BBKDRAGOON](https://www.youtube.com/@BBKDRAGOON), [BreezyGamingTV](https://www.youtube.com/@BreezyGamingTV), [JoshNissan](https://www.youtube.com/@JoshNissan), [luckySkillFaker](https://www.youtube.com/@luckySkillFaker), [Lunar](https://www.youtube.com/@LunarCS), [OfficialA2K](https://www.youtube.com/@FlashedGaming), [TheWarOwl](https://www.youtube.com/@TheWarOwl) and [voo CSGO](https://www.youtube.com/@vooCSGO) for the videos about PVP concepts
+- Alpine Brisket[https://www.youtube.com/@alpinebrisket2635] for knowledge sharing
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [InvaderJ](u/InvaderJ) for his article about decision making in PVP
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me The Division 2
+- [Merkatz](https://www.youtube.com/@theffk953) for tips and tricks
 - MMR clan members (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), [Greetallica](https://www.reddit.com/user/0-Ren), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
 - [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/D15P4TCH, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/I_N_C_O_M_I_N_G, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/MemoriesMu, u/mikkroniks, u/mrcivster, u/mxswat, u/ObviousKangaroo, u/rubenalamina, u/SarcasmNotImplied, u/sukaihoku, u//Traveller2471, u/Trzebiat, u/Vikeman45, u/TheWaffleBoss and u/XPS1647) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
