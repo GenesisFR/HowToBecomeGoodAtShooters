@@ -277,7 +277,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - predictable
 - different in every game
 - observe what the AI does in certain situations to find patterns (ex: flanking right when going left)
-- knowing those patterns allow you to predict what mobs are going to do
+- knowing those patterns allows you to predict what mobs are going to do
 - can be used for funneling mobs, crowd control or setting up traps
 
 ### AI states
@@ -612,26 +612,31 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 ## The Division 2
 
 ### Abbreviations
-- 2B/2R/2Y: number of blue/red/yellow armor cores on a build
+- 2B/2R/2Y: number of blue/red/yellow cores on a build
 - 2-piece: number of pieces of a specified brand/gear set
 - A&8: Aces and Eights
 - AD/AMP: amplified damage
+- adds: additional enemies during boss fights
 - alt/toon: another character
 - AOK: armor on kill
 - AR: assault rifle
 - AWD: all weapon damage (WD + WTD)
 - BiS: best in slot
+- BLB: Busy Little Bee
+- BOO: base of operations (White House)
 - CC: crowd control
-- CD: cooldown
+- CD: cooldown, Countdown
 - CG: Contractor's gloves
 - CHC: critical hit chance
 - CHD: critical hit damage
+- chunga/chungus: Tank archetype
 - CLIC: China Light Industries Corporation
+- CoCo: Concentrated Company
 - CP4: level 4 control point
 - D&H/DH: Douglas & Harding
 - DH: Dark Hours raid
 - DoT: damage over time
-- DPS: damage per second
+- DPS: damage per second, red build
 - DTA: damage to armor
 - DTH: damage to health
 - DTTOOC/OOCD: damage to targets out of cover
@@ -658,20 +663,26 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - HZP: hazard protection
 - IGN: in-game name
 - IH: Iron Horse raid
-- Leg: legendary
+- KWTD: know what to do
+- leg/lego: legendary
 - LF: looking for
-- LF2M: looking for 2 more
+- LF1M: looking for one more
 - LFG: looking for group
 - LZ: light zone
+- MA: Measured Assembly
 - max roll: max value for an attribute (orange background)
 - min-max: make a build completely godrolled
 - mm: matchmake
 - MMR: marksman rifle
 - mule: another character used to store extra items
+- NBB: Ninja Bike backpack
 - ND: Negotiator's Dilemma
 - OD: Ongoing Directive
+- ODZ: occupied dark zone
 - optimize: gradually increase the value of an attribute
+- Oreo: Ouroboros
 - PFE: protection from elites
+- PGC: Perfect Glass Cannon
 - proc: activate a talent (Programmed Random Occurrence)
 - rainbow: item with one attribute of each color
 - recalibrate: overwrite an attribute with another one from your library
@@ -684,6 +695,8 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - SE: status effects
 - SH: skill haste
 - ST: skill tier
+- T1: tier 1 (escalation)
+- tank: blue build
 - TOTS: Tip of the Spear
 - TP: True Patriot
 - TTK: time to kill
@@ -692,7 +705,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - UG: Uzina Getica
 - UI: Umbra Initiative
 - W&H/WH: Walker, Harris & Co.
-- WD: weapon damage
+- WD: weapon damage, White Death
 - WH: weapon handling
 - wipe: when the entire group dies
 - WTD: weapon type damage
@@ -738,7 +751,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - destroying her backpack causes an explosion that hurts her and prevents her drones from being deployed
 - destroying the drones (preferably with an AR) causes an explosion that can kill her if she's too close
 - staying close to her will prevent her from deploying drones
-- staying close to her or deploying a decoy next to her after she's deployed her drones will not only make them blow up in her face (potentially killing her) but you also won't get hurt/staggered by the explosion (TODO: verify last part)
+- getting close to her or deploying a decoy next to her after she's deployed her drones will not only make them blow up in her face (potentially killing her) but you also won't get hurt/staggered by the explosion (TODO: verify last part)
 - unable to deploy drones when disrupted
 - players need to be in her line of sight to be targetable by her drones, that's why you can usually see her head sticking out for a few seconds after deploying them (great for riflers/snipers)
 - walking backward is enough to dodge her drones
@@ -1008,7 +1021,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - not considered as named enemies, therefore signature weapons aren't affected by damage reduction
 - stand up when deploying most of their skills, giving you time to land a few shots
 - their damage output and melee damage are way beyond any other mob in the game
-- when below 25% HP, they'll go to the nearest cover to use a medkit
+- when below 25% HP, they'll go to the nearest cover to use an armor kit
 - when they're about to hack your skills, a lightning icon will be shown above them so you have about 2-3s to destroy or pick up your skill
 - when they're about to disrupt your skills, an EMP icon will be shown above them so you have about 2-3s to deploy a skill if you're on Technician to benefit from the disrupt protection
 
@@ -1644,7 +1657,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Contagion from the Eclipse Protocol gear set can destroy at least 2 waves of drones if one spawns shortly after the previous one
 - equip the Jammer Pulse for drone rooms
 - every time an enemy dies, expect a new wave of enemies to spawn so you're not caught off guard
-- foaming a boss/hunter/rogue stops them from using a medkit
+- foaming a boss/hunter/rogue stops them from using an armor kit
 - going down or dying on an objective keeps capturing it
 - immune reviver drones and warhounds can be destroyed by Hostile Negotiations from the Negotiator's Dilemma gear set even though no icons will be displayed above them (TODO: verify if warhounds can be destroyed)
 - immune reviver drones, turrets and warhounds can be disrupted
@@ -1709,7 +1722,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Bloodsucker: procs on skill kills. all stacks are refreshed upon killing an enemy
 - Creeping Death: mobs on which it procs remain affected by their natural status resistance
 - Empathic Resolve: refreshed every time you heal a player. also procs with True Patriot's white buff and when healing other group members with the Survivalist armor kit
-- Energize: can be procced with an instant medkit
+- Energize: can be procced with an instant armor kit
 - Eyeless: affects the damage of non-ballistic skills
 - Focus: stays procced when reloading or unscoping for less than a second, which allows you to keep moving. doesn't proc with the Big Horn and Capacitor (these have x4 scopes), or the TAC-50 (it has a variable scope)
 - Glass Cannon: also affects how much damage your shield is taking (TODO: check with other skills)
@@ -1866,7 +1879,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 \- reference: https://thedivision.fandom.com/wiki/White_Tusk#Archetypes
 
 #### Drone Operator
-- same as the Black Tusk [variant](#drone-operator) except the speed and HP of the suicide drones are increased, they're deployed more often and instantly distance themselves away from the operator to prevent collateral damage
+- same as the Black Tusk [variant](#drone-operator) except the speed and HP of the suicide drones are increased, they're deployed more often and instantly move away from the operator to prevent collateral damage
 - drone initial separation speed is based on veterancy
 - doesn't need to have a line of sight to be able to target players with her drones (but will occasionally stand up to shoot after deploying them if a player is visible)
 
