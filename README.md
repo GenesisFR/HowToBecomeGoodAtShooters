@@ -50,10 +50,10 @@
    * [2.26 Playing your class](#playing-your-class)
    * [2.27 Reloading](#reloading)
    * [2.28 Relocation](#relocation)
-   * [2.29 Sounding](#sounding)
-   * [2.30 Starting engagements](#starting-engagements)
-   * [2.31 State of mind](#state-of-mind)
-   * [2.32 Sweeping](#sweeping)
+   * [2.29 Slicing the pie](#slicing-the-pie)
+   * [2.30 Sounding](#sounding)
+   * [2.31 Starting engagements](#starting-engagements)
+   * [2.32 State of mind](#state-of-mind)
    * [2.33 Target prioritization](#target-prioritization)
    * [2.34 Weak points](#weak-points)
    * [2.35 Weapon recoil](#weapon-recoil)
@@ -428,6 +428,12 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - can be used to control where mobs go
 - reference: https://www.youtube.com/watch?v=s1WF22xSEgU
 
+### Slicing the pie
+- definition: clearing an area from one side to the other, one enemy at a time
+- allows you to keep track of which side enemies are at any given time
+- when a new wave of enemies spawns or you spot a new enemy in a previously cleared area, restart the sweep
+- if your current enemy isn't peeking or goes out of your line of sight, skip to the next one
+
 ### Sounding
 - definition: listening to sound cues to get information about the enemy location
 - requires a decent headset
@@ -448,12 +454,6 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you have to be consistent, once you find patterns that work, repeat them
 - while under pressure, try to stay calm as getting angry at yourself or others will lead you/them to make bad decisions and play worse
 - application, not knowledge, is power, it's the drive to apply the concepts you learn here that will make you truly better
-
-### Sweeping
-- definition: clearing an area from one side to the other, one enemy at a time
-- allows you to keep track of which side enemies are at any given time
-- when a new wave of enemies spawns or you spot a new enemy in a previously cleared area, restart the sweep
-- if your current enemy isn't peeking or goes out of your line of sight, skip to the next one
 
 ### Target prioritization
 - closest first: preferred strategy if no dangerous enemies are around
