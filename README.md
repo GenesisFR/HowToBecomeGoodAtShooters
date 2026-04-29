@@ -970,7 +970,6 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - crafting an armor or a weapon then donating it is an easy way to quickly get proficiency levels (besides, it's about 80% cheaper than directly donating materials)
 - buying items from vendors every week and donating them is another way to get proficiency levels (if you have the resources)
 - using SHD points to get credits, buying mods, deconstructing them for printer filaments then donating them is the least costly in terms of SHD points (and is 33% less costly than using SHD points to get printer filaments) but is more time consuming
-- running a new character and dumping SHD points into printer filaments after beating Keener is the most efficient in terms of time spent versus proficiency levels gained (it's more efficient the higher your SHD level is)
 - when in a group, when you're on your way to an activity, equip your least used non-proficient weapon while your teammates are killing mobs to fully earn proficiency XP for it
 - Countdown is the best place for it
 
@@ -1094,7 +1093,6 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - optimization resources can be obtained through completing activities/projects, killing faction bosses, deconstructing items, crafting or spending SHD points
 - the amount of optimization resources necessary to optimize an attribute is based on the distance between its current value and the value of its next threshold
 - as a rule of thumb, try to recalibrate the attribute with the longest distance to its max value as it may save you some optimization resources in the end
-- once you're past SHD 1000, it's a good idea to make new characters and level them up to 40 to have extra SHD points you can spend on optimization
 - avoid optimizing an item that doesn't have the right attributes after recalibration (ex: AR without OOCD)
 - avoid optimizing an item that doesn't have at least 85% rolls overall after recalibration, otherwise you're going to burn too many resources to max it out (unless it's an item hard to find like raid/DZ exclusives)
 - you can't recalibrate an attribute that has been optimized
@@ -1120,6 +1118,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - provides suppressive fire with his LMG
 - similar to True Sons' Heavy Weapons but they lack the armored helmet and ability to go prone
 - destroying his ammo pack will make him flail as it goes off, but if he survives, he will switch to a pistol
+- has more HP than other archetypes
 
 #### Rusher
 - runs at his target with the intent to blow himself up, taking out the enemy in the process
@@ -1349,10 +1348,11 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Heavy Weapons
 - equipped with a SPAS-12 shotgun loaded with slug rounds and a stationary HMG that can be set up and used by other Rikers even if the Heavy Weapons dies
-- has a riot helmet protecting him from headshots, but it can be destroyed with about half a clip of assault rifle ammo
+- his head is heavily armored
 - the HMG on his back can be destroyed, preventing it from being deployed
 - if the player gets too close, or all Rikers in the area die, the HMG detonates
 - elites have an HMG that fires explosive rounds at a slower pace but doesn't inflict bleed damage
+- has more HP than other archetypes
 
 #### Leader
 - gives an overheal to all Rikers in the area (equal to their amount of HP)
@@ -1819,6 +1819,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - prefers to lay down covering fire from behind cover
 - his head is frequently exposed but is also heavily armored
 - destroying the ammo pack on his back will cause an explosion
+- has more HP than other archetypes
 
 #### Immobilizer
 - shoots a close-range sticky foam that stops his target from moving
@@ -1922,6 +1923,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - [adreN](https://www.youtube.com/@adreNTV), [BBKDRAGOON](https://www.youtube.com/@BBKDRAGOON), [BreezyGamingTV](https://www.youtube.com/@BreezyGamingTV), [JoshNissan](https://www.youtube.com/@JoshNissan), [luckySkillFaker](https://www.youtube.com/@luckySkillFaker), [Lunar](https://www.youtube.com/@LunarCS), [OfficialA2K](https://www.youtube.com/@FlashedGaming), [TheWarOwl](https://www.youtube.com/@TheWarOwl) and [voo CSGO](https://www.youtube.com/@vooCSGO) for the videos about PVP concepts
 - Alpine Brisket[https://www.youtube.com/@alpinebrisket2635] for knowledge sharing
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
+- [FogOfWar](https://www.youtube.com/@fogowar2022) for some health values
 - [InvaderJ](u/InvaderJ) for his article about decision making in PVP
 - [ItsAstro](https://www.youtube.com/@itsastro___) for the ND weak point trick
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me The Division 2
