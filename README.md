@@ -1758,6 +1758,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - dodge rolling right before being staggered (ex: from an explosion) skips the staggering animation
 - double-clicking on a cache instantly opens it
 - explosions have damage drop-off from the point of impact
+- explosive resistance is capped at 90%
 - going out-of-bounds will reset your skill cooldowns upon getting teleported
 - health doesn't regen when disrupted by a jammer
 - improvised gear always has a mod slot, opening up possibilities for some builds (ex: PFE, hazard/pulse resistant)
@@ -1765,28 +1766,28 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - mobs can block shots and take damage from another mob, turning a mob right in front of you as a bullet shield
 - opening an ammo box will automatically reload your current weapon
 - picking up a disrupted skill and redeploying it will cleanse it from disruption
+- Protection From Elites also affects your own skills but doesn't work against enemy skills or explosions
 - Protection From Elites is capped at 80%
 - rain reduces ballistic skills targeting abilities and AI sight
 - shooting the foam on an ensnared teammate or hip-firing at your feet while ensnared breaks it
 - signature weapons are automatically reloaded when holstered
 - staggering yourself while interacting with an object instantly completes the interaction
-- swapping any armor piece while out of combat restores all of your armor
 - swapping to a loadout with a different specialization refills grenades
-- swapping to another weapon halfway through a reload will still reload your other weapon
+- swapping to another weapon halfway through a reload will still complete the reload
 - swapping to your pistol, then to your other primary weapon is faster than swapping between primary weapons
-- targeting a specific brand (6 items) is much better than targeting a specific armor piece (32 items)
+- targeting a specific brand (6 items) is much better than targeting a specific armor piece
 - the Cool Skills and Scavenged Skills directives can be bypassed by deconstructing skills while using the Rigger backpack
 - the Cool Skills directive doesn't affect deployed skills
 - the crossbow can destroy Razorback's grates in one shot in the Dark Hours raid
 - the EMP grenade has a fixed ~11s duration, regardless of skill tiers or attributes (TODO: check if status effects can increase its duration)
 - the golden bullet also refreshes all your skill charges
 - the mounted minigun damage is boosted by your gear talents and weapon damage
-- the Survivalist medkit acts as a sphere so you can heal people above/below you
+- the Survivalist armor kit acts as a sphere so you can heal people above/below you
 - the weak points on dead mobs can be destroyed
-- when using a medkit with the No Regen/Hard To Earn/Fragile Armor directives, use Perfectly Efficient to save medkits
+- when using an armor kit with the No Regen/Hard To Earn/Fragile Armor directives, use Perfectly Efficient to save some
 - when you're down to 1 HP from full health, there is a one shot protection granting you about 1-2s of invulnerability (not in PVP) to allow you to take cover before going down, it's disabled for about 30s
 - you can bounce grenade launcher rounds off walls and ceilings
-- you can build Pestilence/Scorpio/Strikers stacks on any invincible target (hologram part of decoys, jammers, SHD crates, support stations, warhounds) that hasn't been captured
+- you can build BLB/Pestilence/Scorpio/Strikers stacks on any invincible target (hologram part of decoys, drones, jammers, SHD crates, support stations, warhounds) that hasn't been captured
 - you can buy items in bulk slightly faster by using SPACE + ENTER or "Buy and Equip" (doesn't work for mods)
 - you can donate resources from the Projects tab on your map
 - you can find 100 food/components/water in DZ safe houses (different resource per DZ)
@@ -1798,6 +1799,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - you can refresh the golden bullet by deconstructing a skill or not targeting any mob with it (ex: Firefly)
 - you can roll off multiple surfaces, providing they're not more than twice taller than your character (ex: dumpsters, cars, boxes)
 - you can see additional outlines when using radius-based skills by enabling color blind mode (Settings > Accessibility > Color Blind Mode), making it easier to use such skills
+- you can revert an optimization by selling an item and buying it back, allowing you to optimize something else
 - you can skip real-time cutscenes by dodge rolling or aiming
 
 ### True Sons
@@ -1925,6 +1927,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me The Division 2
 - [Merkatz](https://www.youtube.com/@theffk953) for tips and tricks
 - MMR clan members (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), [Greetallica](https://www.reddit.com/user/0-Ren), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
+- Octavarium67 (Discord) for tips and tricks
 - [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/D15P4TCH, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/I_N_C_O_M_I_N_G, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/MemoriesMu, u/mikkroniks, u/mrcivster, u/mxswat, u/ObviousKangaroo, u/rubenalamina, u/SarcasmNotImplied, u/ScrublordIIV (Black Tusk dark side), u/Sir-xer21 (AI behavior), u/StripedPantsu_iF (Bluescreen ND), u/sukaihoku, u//Traveller2471, u/Trzebiat, u/Vikeman45, u/TheWaffleBoss, u/XPS1647 and u/Ytonaen (AI behavior)) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me Warlords of New York
