@@ -1671,41 +1671,48 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Exotic
 
-- Backfire (Payment In Kind): once at max stacks and 1 HP, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
+- Backfire (Payment In Kind): once at max stacks, the bleed doesn't trigger anymore until you weapon swap or lose your stacks. the bleed can't kill you if it was the only source of incoming damage during the whole bleed duration. weapon swapping mid-reload and Parkour from the NinjaBike Messenger Kneepads don't trigger the bleed (but you lose your stacks)
+- Bluescreen (Disruptor Rounds): marked targets from Negotiator's Dilemma also add stacks.
+- Busy Little Bee (Busy Little Bee): doesn't get consumed when switching to a skill (ex: Chem Launcher) or holding a grenade. works on corpses' weak points. stacks are kept after dying
 - Catharsis (Vicious Cycle): also gains stacks when your shield takes damage
 - Chameleon (Adaptive Instincts): you can individually build stacks off corpses by shooting their weak points
 - Chatterbox (Incessant Chatter): stays procced after dying (as long as you don't switch weapons). also increases the rate of fire of the Chem Launcher the more stacks it has
 - Coyote's Mask (Pack Instincts): buffs can be individually procced by 3 players using it and can therefore all be active at the same time
-- Dodge City Gunslinger's Holster (Quick Draw): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage
+- Dodge City Gunslinger's Holster (Quick Draw): while at full Headhunter stacks, killing a target with a headshot from a pistol will cause the Dodge City stacks to temporarily boost Headhunter's cap for the next shot, therefore causing an insane amount of damage. stacks build up when switching to a skill (ex: Chem Launcher) or holding a grenade. stacks are kept after dying
 - Eagle Bearer (Tenacity): in PVP, provides an important reload speed bonus
 - Lady Death (Breathe Free): the speed boost also procs when holding it while a target dies from your status effects or a warhound you killed explodes. melee'ing with a shield also benefits from the melee damage
 - Mantis (In Plain Sight): the headshot damage boost is always active in PVP
 - Merciless (Binary Trigger): affected by weapon damage, DTA, DTH and OOCD but not by explosive damage
 - Nemesis (Electromagnetic Accelerator): swapping to another weapon after charging it will automatically make it shoot
 - NinjaBike Messenger Kneepads (Parkour!): doesn't consume your ammo reserve, therefore helping you save ammo
+- Ouroboros (Rule Them All): can be procced off putting yourself under a status effect
 - Pestilence (Plague of the Outcasts): ticks are affected by weapon damage, DTA, DTH and OOCD. in PVP, the player who applied the debuff must die for the ticks to stop
-- Regulus (Regicide): also affected by explosive damage and how many Dodge City stacks you have (TODO: verify the bit about explosive damage)
+- Regulus (Regicide): the damage of the explosion is affected by how many Dodge City stacks you have
 - Scorpio (Septic Shock): venom stacks are added to each other when applied by different players
+- Sleigher (Hidden Rock): also procs when landing a headshot with a Sticky Bomb or Sniper Turret 
+- St. Elmo's Engine (Actum Est): stacks can be built off weak points on corpses
 - Sweet Dreams (Sandman): doesn't work on robotics. meleeing with a Shield or Chem Launcher also procs it
-- Vile (Toxic Delivery): ticks are also affected by Perpetuation, OOCD, DTA and DTH
+- The Ravenous (Geri and Freki): explosions can crit therefore boosted by CHD
+- Vile (Toxic Delivery): ticks are also affected by Perpetuation, DTA, DTH and OOCD
 
 #### Gear set
 
 - Foundry Bulwark (Makeshift Repairs): explosive damage doesn't proc it
 - Future Initiative (Ground Control): procs when someone is at full armor, not when the FI user is at full armor
-- Heartbreaker (Heartstopper): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster
-- Negotiator's Dilemma (Hostile Negotiations): transferred damage isn't affected by damage drop-off. crits caused by a signature weapon aren't affected by damage reduction when shooting a non-named enemy while a named enemy is marked
-- Striker (Striker's Gamble): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster. stacks are kept after dying
+- Heartbreaker (Heartstopper): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster. stacks are kept after dying
+- Negotiator's Dilemma (Hostile Negotiations): transferred damage can't be bigger than the remaining health pool of the target, with the exception being weakpoints, in that case all the damage is transferred to marked enemies (used to one shot health-gated bosses in raids). transferred damage isn't affected by damage drop-off. crits caused by a signature weapon aren't affected by damage reduction when shooting a non-named enemy while a named enemy is marked.
+- Striker (Striker's Gamble): each shotgun pellet counts towards building up one stack so using an ACS-12 allows reaching max stacks faster. stacks can be built off weak points on corpses. stacks are kept after dying
 
 #### High-end
 
 - Bloodsucker: procs on skill kills. all stacks are refreshed upon killing an enemy
 - Creeping Death: mobs on which it procs remain affected by their natural status resistance
-- Empathic Resolve: refreshed every time you heal a player. also procs with True Patriot's white buff and when healing other group members with the Survivalist medkit
+- Empathic Resolve: refreshed every time you heal a player. also procs with True Patriot's white buff and when healing other group members with the Survivalist armor kit
+- Energize: can be procced with an instant medkit
 - Eyeless: affects the damage of non-ballistic skills
 - Focus: stays procced when reloading or unscoping for less than a second, which allows you to keep moving. doesn't proc with the Big Horn and Capacitor (these have x4 scopes), or the TAC-50 (it has a variable scope)
 - Glass Cannon: also affects how much damage your shield is taking (TODO: check with other skills)
-- Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage, DTA, DTH and the Striker shield (but not by amplified damage). calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of any other weapon. isn't affected by damage drop-off. stacks are kept after dying
+- Headhunter: damage cap is boosted by anything that provides weapon damage, total weapon damage, DTA, DTH and the Striker shield (but not by amplified damage). calculated on a per-pellet basis for shotguns, therefore making them reach the damage cap with a single kill of almost any other weapon. isn't affected by damage drop-off. isn't consumed upon going through the first mob when hitting multiple enemies with the same TAC-50 shot. stacks are kept after dying
 - Ignited: affects the damage of non-ballistic skills
 - Intimidate: procced by the bonus armor provided by the "My Home Is My Castle" perk from the Sharpshooter specialization
 - Kinetic Momentum: half of the stacks are lost upon using a Chem Launcher at full charges and it won't start rebuilding these stacks until it's back at full charges
@@ -1720,6 +1727,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 
 #### Weapon
 
+- Determined: procs when a warhound explodes so you can land additional shots between the kill and the explosion
 - Finisher: procs when destroying enemy skills
 - Future Perfect: being at skill tier 3 is enough to overcharge
 - Measured: the first half slightly increases the rate of fire of the Chem Launcher. the second half is total weapon damage unlike the first half
@@ -1912,6 +1920,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - Alpine Brisket[https://www.youtube.com/@alpinebrisket2635] for knowledge sharing
 - D-Y-N-4-M-O#0976 (Discord) for general feedback
 - [InvaderJ](u/InvaderJ) for his article about decision making in PVP
+- [ItsAstro](https://www.youtube.com/@itsastro___) for the ND weak point trick
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me The Division 2
 - [Merkatz](https://www.youtube.com/@theffk953) for tips and tricks
 - MMR clan members (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), [Greetallica](https://www.reddit.com/user/0-Ren), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
