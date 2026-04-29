@@ -705,16 +705,17 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - status effects: see [Status effects](#status-effects)
 
 ### AI behavior
-- dictated by positioning and playstyle
-- being aggressive from afar makes mobs stay back or in cover
+- mostly dictated by positioning, playstyle and your (hidden) threat level
+- being aggressive from afar makes them stay back or in cover
 - being passive makes them go in the open and push
-- they always try to flank
 - they become aggressive when you're low HP or reloading
+- they often try to flank, especially on legendary
+- they tend to target the agent dealing the most damage. however, proximity, line of sight, how much you shoot and their faction can also affect their target prioritization
 - they try to melee you when you're in close range
 - they will exploit any gap in your defense, especially on legendary
-- they will leave their cover as you get close
+- they will leave their cover as you get close or flank
 - walking or performing cover to cover doesn't alert them as much as running
-- when a Black/White Tusk support station has been deployed, mobs will try to get within its range when they're low HP
+- when a support station has been deployed, mobs will try to get within its range when they're low HP
 
 ### Black Tusk
 \- reference: https://thedivision.fandom.com/wiki/Black_Tusk#Archetype
@@ -798,7 +799,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - using the Demolisher Firefly will break the ammo belt, then the support station, then armor plates, depending on which one was previously broken (TODO: verify the bit about armor plates)
 - the Survivalist crossbow completely breaks one of his armor plates
 - has no armor plate behind his support station, it requires you to be behind him though
-- shooting the dark side of his support station (next to his hip) deals damage directly to his health, it requires you to be a bit on his side though
+- shooting the dark side of his support station (the one facing his back) deals damage directly to his health, it requires you to be a bit on his side and very accurate though
 - in the Dark Hours raid, his butt is unarmored, therefore allowing you to deal damage directly to his health
 
 #### Thrower
@@ -1924,7 +1925,7 @@ While it's divided into 3 sections, the one about The Division 2 will be the fir
 - [Magnum](https://steamcommunity.com/id/Magnum227) for gifting me The Division 2
 - [Merkatz](https://www.youtube.com/@theffk953) for tips and tricks
 - MMR clan members (especially [swift4010](https://www.reddit.com/user/swift4010), [Ting](https://www.reddit.com/user/booleanbug), [Greetallica](https://www.reddit.com/user/0-Ren), PriceOfEscape and ishraque1998) for knowledge sharing and feedback
-- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/D15P4TCH, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/I_N_C_O_M_I_N_G, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/MemoriesMu, u/mikkroniks, u/mrcivster, u/mxswat, u/ObviousKangaroo, u/rubenalamina, u/SarcasmNotImplied, u/sukaihoku, u//Traveller2471, u/Trzebiat, u/Vikeman45, u/TheWaffleBoss and u/XPS1647) for knowledge sharing and feedback
+- [r/thedivision](https://www.reddit.com/r/thedivision) members (especially u/AA_BRIAN, u/BestNadeThrower, u/Caynug, u/CoolheadedBrit, u/D3LTAFR0ST, u/D15P4TCH, u/DrawingWeak4034, u/Glimflicker, u/iKia, u/I_N_C_O_M_I_N_G, u/kestononline, u/Lord--Starscream, u/Masenku, u/matta3310, u/MemoriesMu, u/mikkroniks, u/mrcivster, u/mxswat, u/ObviousKangaroo, u/rubenalamina, u/SarcasmNotImplied, u/ScrublordIIV (Black Tusk dark side), u/Sir-xer21 (AI behavior), u/StripedPantsu_iF (Bluescreen ND), u/sukaihoku, u//Traveller2471, u/Trzebiat, u/Vikeman45, u/TheWaffleBoss, u/XPS1647 and u/Ytonaen (AI behavior)) for knowledge sharing and feedback
 - [The Division wiki](https://thedivision.fandom.com) contributors for information about archetypes
 - [whatistruth101](https://www.twitch.tv/whatistruth101) for gifting me Warlords of New York
 
